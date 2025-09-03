@@ -1,0 +1,210 @@
+name: AutoSyncMirrorFork
+on:
+  schedule:
+    - cron: '45 3 * * *'
+  workflow_dispatch:
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+        with:
+            token: ${{secrets.GH_TOKEN}}
+      - name: KeepAlive
+        run: |
+          date "+%Y-%m-%d %H:%M:%S" > timestamp
+          git config user.name ${{github.repository_owner}}
+          git config user.email ${{github.repository_owner}}@users.noreply.github.com
+          git remote set-url origin https://${{secrets.GH_TOKEN}}@github.com/${{github.repository}}.git
+          git add timestamp
+          git commit -m "Update"
+          git push origin ${{github.ref_name}}
+      - name: AutoSync
+        env:
+          GH_TOKEN: ${{secrets.GH_TOKEN}}
+          GH_USER: ${{github.repository_owner}}
+        run: |
+          set -e -o pipefail
+          GLOBAL_SYNC_FAILED=false
+          WHITELIST=$(cat whitelist.json)
+          echo "Fetching forked repositories"
+          gh api --paginate users/$GH_USER/repos --jq ".[] | select(.fork==true and .disabled==false)" | \
+          while read -r repo_json; do
+            fork_repo=$(echo "$repo_json" | jq -r ".full_name")
+            fork_name=$(echo "$repo_json" | jq -r ".name")
+            whitelist_branches=$(echo "$WHITELIST" | jq -r --arg fork_name "$fork_name" ".[\"$fork_name\"]")
+            if [[ "$whitelist_branches" == "[]" ]]; then
+              echo "$fork_repo : Skipped due to whitelist rule (empty list)."
+              continue
+            fi
+            fork_url=$(echo "$repo_json" | jq -r ".html_url")
+            echo "fork_url : $fork_url"
+            fork_branches=$(gh api --paginate "repos/$fork_repo/branches" --jq ".[].name" || echo "FETCH_BRANCHES_FAILED")
+            if [[ "$fork_branches" == "FETCH_BRANCHES_FAILED" ]] || [[ -z "$fork_branches" ]]; then
+              echo "$fork_repo : Could not fetch branches or no branches found."
+              exit 1
+            fi
+            upstream_repo=$(gh api --paginate "repos/$fork_repo" --jq ".parent.full_name")
+            echo "$fork_repo : upstream_repo : $upstream_repo"
+            upstream_url="https://github.com/$upstream_repo"
+            echo "$fork_repo : upstream_url : $upstream_url"
+            upstream_branches=$(gh api --paginate "repos/$upstream_repo/branches" --jq ".[].name" || echo "FETCH_BRANCHES_FAILED")
+            if [[ "$upstream_branches" == "FETCH_BRANCHES_FAILED" ]] || [[ -z "$upstream_branches" ]]; then
+              echo "::error::$fork_repo : Could not fetch branches or no branches found. Skipping API sync."
+              GLOBAL_SYNC_FAILED=true
+              continue
+            fi
+            clone_fork_flag=false
+            if echo "$repo_json" | jq -e ".size < 1024000" > /dev/null; then
+              clone_fork_flag=true
+            else
+              for branch in $upstream_branches; do
+                echo "$fork_repo : branch : $branch"
+                is_whitelisted=$(echo "$whitelist_branches" | jq --arg branch "$branch" "(. // []) | any(.==\"$branch\")")
+                if [[ "$is_whitelisted" == "true" ]]; then
+                  echo "$fork_repo : Skipping branch '$branch' due to whitelist rule."
+                  continue
+                fi
+                if ! gh api --method POST "repos/$fork_repo/merge-upstream" -f branch="$branch" --silent; then
+                  echo "::error::$fork_repo : API sync failed for branch '$branch'. A fallback to Git force push is required."
+                  clone_fork_flag=true
+                  break
+                fi
+              done
+            fi
+            if [ "$clone_fork_flag" = false ]; then
+              fork_default_branch=$(echo "$repo_json" | jq -r ".default_branch" || echo "FETCH_DEFAULT_BRANCH_FAILED")
+              upstream_default_branch=$(gh api --paginate "repos/$upstream_repo" --jq ".default_branch" || echo "FETCH_DEFAULT_BRANCH_FAILED")
+              if [[ "$upstream_default_branch" == "FETCH_DEFAULT_BRANCH_FAILED" ]] || [[ "$fork_default_branch" == "FETCH_DEFAULT_BRANCH_FAILED" ]]; then
+                  echo "::error::$fork_repo : Could not fetch default branch information."
+                  GLOBAL_SYNC_FAILED=true
+              elif [ "$fork_default_branch" != "$upstream_default_branch" ]; then
+                  echo "$fork_repo : Default branch mismatch. Upstream is '$upstream_default_branch', fork is '$fork_default_branch'."
+                  if gh api --method PATCH "repos/$fork_repo" -f default_branch="$upstream_default_branch" --silent; then
+                      echo "$fork_repo : Successfully updated default branch to '$upstream_default_branch'."
+                  else
+                      echo "::error::$fork_repo : Failed to updated default branch to '$upstream_default_branch'."
+                      GLOBAL_SYNC_FAILED=true
+                  fi
+              fi
+              for branch in $fork_branches; do
+                if ! echo "$upstream_branches" | grep -w -q "$branch"; then
+                  echo "$fork_repo : Deleting stale branch '$branch' from fork."
+                  if ! gh api --method DELETE "repos/$fork_repo/git/refs/heads/$branch" --silent; then
+                    echo "::error::$fork_repo : Failed to delete branch '$branch' using API."
+                    GLOBAL_SYNC_FAILED=true
+                  fi
+                fi
+              done
+              echo "$fork_repo : Sync finished"
+            else
+              echo "$fork_repo : Fallback: Performing a full sync using Git force push"
+              repo_dir="$(basename "$fork_repo").git"
+              rm -rf "$repo_dir"
+              (
+                set -e
+                git clone --bare "https://x-access-token:$GH_TOKEN@github.com/$fork_repo.git" "$repo_dir"
+                cd "$repo_dir"
+                git remote add upstream "$upstream_url"
+                git fetch --all --prune --tags --force
+                echo "$fork_repo : Force pushing all upstream branches"
+                git push origin --force --prune "refs/remotes/upstream/*:refs/heads/*"
+                echo "$fork_repo : Force pushing all tags"
+                git push origin --force --tags
+                cd ..
+                rm -rf "$repo_dir"
+              )
+              if [ $? -ne 0 ]; then
+                  echo "::error::$fork_repo : Fallback sync failed."
+                  GLOBAL_SYNC_FAILED=true
+              else
+                  echo "$fork_repo : Fallback sync completed."
+              fi
+              rm -rf "$repo_dir"
+            fi
+            if upstream_release=$(gh api "repos/$upstream_repo/releases/latest" 2>/dev/null); then
+              sync_release_flag=false
+              upstream_tag_name=$(echo "$upstream_release" | jq -r .tag_name)
+              upstream_draft=$(echo "$upstream_release" | jq -r .draft)
+              upstream_prerelease=$(echo "$upstream_release" | jq -r .prerelease)
+              if [[ "$upstream_tag_name" != "null" ]]; then
+                fork_release=$(gh api "repos/$fork_repo/releases/latest" 2>/dev/null || echo "null")
+                fork_tag_name=$(echo "$fork_release" | jq -r .tag_name)
+                if [[ "$fork_release" == "null" ]] || [[ "$upstream_tag_name" != "$fork_tag_name" ]]; then
+                  sync_release_flag=true
+                else
+                  upstream_assets=$(echo "$upstream_release" | jq -r .assets)
+                  fork_assets=$(echo "$fork_release" | jq -r .assets)
+                  while read -r upstream_asset; do
+                    asset_digest=$(echo "$upstream_asset" | jq -r .digest)
+                    if [[ "$asset_digest" != "null" && "$asset_digest" != "" ]]; then
+                      if ! echo "$fork_assets" | jq -e --arg digest "$asset_digest" '.[] | select(.digest == $digest)' > /dev/null; then
+                        sync_release_flag=true
+                        break
+                      fi
+                    else
+                      asset_name=$(echo "$upstream_asset" | jq -r .name)
+                      asset_size=$(echo "$upstream_asset" | jq -r .size)
+                      if ! echo "$fork_assets" | jq -e --arg name "$asset_name" --argjson size "$asset_size" '.[] | select(.name == $name and .size == $size)' > /dev/null; then
+                        sync_release_flag=true
+                        break
+                      fi
+                    fi
+                  done < <(echo "$upstream_release" | jq -c '.assets[]')
+                fi
+                if [ "$sync_release_flag" = true ]; then
+                  echo "$fork_repo : Syncing release '$upstream_tag_name'."
+                  if fork_tag_release=$(gh api "repos/$fork_repo/releases/tags/$upstream_tag_name" 2>/dev/null); then
+                    fork_tag_release_id=$(echo "$fork_tag_release" | jq -r .id)
+                    echo "$fork_repo : Deleteing fork release '$upstream_tag_name'."
+                    gh api --method DELETE "repos/$fork_repo/releases/$fork_tag_release_id" || true
+                  fi
+                  upstream_tag_ref=$(gh api "repos/$upstream_repo/git/ref/tags/$upstream_tag_name")
+                  upstream_tag_object_sha=$(echo "$upstream_tag_ref" | jq -r '.object.sha')
+                  target_commit_sha="$upstream_tag_object_sha"
+                  gh api --method DELETE "repos/$fork_repo/git/refs/tags/$upstream_tag_name" --silent || true
+                  gh api --method POST "repos/$fork_repo/git/refs" -f ref="refs/tags/$upstream_tag_name" -f sha="$target_commit_sha" || true
+                  release_name=$(echo "$upstream_release" | jq -r '.name')
+                  release_body=$(echo "$upstream_release" | jq -r '.body')
+                  gh api --method POST "/repos/$fork_repo/releases" -f tag_name="$upstream_tag_name" -f name="$release_name" -f body="$release_body" 2>&1
+                  echo "$fork_repo : Downloading and uploading assets."
+                  (
+                    set -e
+                    mkdir -p ./tmp
+                    cd ./tmp
+                    while read -r upstream_asset; do
+                      asset_name=$(echo "$upstream_asset" | jq -r '.name')
+                      asset_url=$(echo "$upstream_asset" | jq -r '.browser_download_url')
+                      echo "$fork_repo : Downloading '$asset_name'"
+                      curl -s -L -o "$asset_name" "$asset_url"
+                      echo "$fork_repo : Uploading '$asset_name' to release '$upstream_tag_name'"
+                      gh release upload "$upstream_tag_name" "$asset_name" --repo "$fork_repo" --clobber
+                      rm -f "$asset_name"
+                    done < <(echo "$upstream_release" | jq -c '.assets[]')
+                    cd ..
+                    rm -rf ./tmp
+                  )
+                fi
+              fi
+              if fork_tag_release=$(gh api "repos/$fork_repo/releases/tags/$upstream_tag_name" 2>/dev/null); then
+                fork_tag_release_id=$(echo "$fork_tag_release" | jq -r .id)
+                gh api --method PATCH /repos/$fork_repo/releases/$fork_tag_release_id -F "draft=$upstream_draft" -F "prerelease=$upstream_prerelease"
+              fi
+            fi
+            fork_release_list=$(gh api "repos/$fork_repo/releases" 2>/dev/null || echo "null")
+            if [[ "$fork_release_list" != "null" ]]; then
+              while read -r fork_release; do
+                release_id=$(echo "$fork_release" | jq -r '.id')
+                draft=$(echo "$fork_release" | jq -r '.draft')
+                prerelease=$(echo "$fork_release" | jq -r '.prerelease')
+                if [[ "$draft" == true ]] || [[ "$prerelease" == true ]]; then
+                  gh api --method DELETE "repos/$fork_repo/releases/$release_id" || true
+                fi
+              done < <(echo "$fork_release_list" | jq -c '.[]')
+            fi
+          done
+          if [ "$GLOBAL_SYNC_FAILED" = true ]; then
+            echo "::error::One or more repositories encountered errors during the sync process."
+            exit 1
+          fi
+          echo "All forked repositories sync finished."
