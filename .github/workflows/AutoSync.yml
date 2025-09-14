@@ -80,7 +80,7 @@ jobs:
                   GLOBAL_SYNC_FAILED=true
               elif [ "$fork_default_branch" != "$upstream_default_branch" ]; then
                   echo "$fork_repo : Default branch mismatch. Upstream is '$upstream_default_branch', fork is '$fork_default_branch'."
-                  if gh repo edit "repos/$fork_repo" --default-branch "$upstream_default_branch"; then
+                  if gh api --method PATCH /repos/$fork_repo -f "default_branch=$upstream_default_branch" --silent; then
                       echo "$fork_repo : Successfully updated default branch to '$upstream_default_branch'."
                   else
                       echo "::error::$fork_repo : Failed to updated default branch to '$upstream_default_branch'."
@@ -157,16 +157,16 @@ jobs:
                   if fork_tag_release=$(gh api "repos/$fork_repo/releases/tags/$upstream_tag_name" 2>/dev/null); then
                     fork_tag_release_id=$(echo "$fork_tag_release" | jq -r .id)
                     echo "$fork_repo : Deleteing fork release '$upstream_tag_name'."
-                    gh api --method DELETE "repos/$fork_repo/releases/$fork_tag_release_id" || true
+                    gh api --method DELETE "repos/$fork_repo/releases/$fork_tag_release_id" --silent || true
                   fi
                   upstream_tag_ref=$(gh api "repos/$upstream_repo/git/ref/tags/$upstream_tag_name")
                   upstream_tag_object_sha=$(echo "$upstream_tag_ref" | jq -r '.object.sha')
                   target_commit_sha="$upstream_tag_object_sha"
                   gh api --method DELETE "repos/$fork_repo/git/refs/tags/$upstream_tag_name" --silent || true
-                  gh api --method POST "repos/$fork_repo/git/refs" -f ref="refs/tags/$upstream_tag_name" -f sha="$target_commit_sha" || true
+                  gh api --method POST "repos/$fork_repo/git/refs" -f ref="refs/tags/$upstream_tag_name" -f sha="$target_commit_sha" --silent || true
                   release_name=$(echo "$upstream_release" | jq -r '.name')
                   release_body=$(echo "$upstream_release" | jq -r '.body')
-                  gh api --method POST "/repos/$fork_repo/releases" -f tag_name="$upstream_tag_name" -f name="$release_name" -f body="$release_body" 2>&1
+                  gh api --method POST "/repos/$fork_repo/releases" -f tag_name="$upstream_tag_name" -f name="$release_name" -f body="$release_body" --silent
                   echo "$fork_repo : Downloading and uploading assets."
                   (
                     set -e
@@ -188,10 +188,10 @@ jobs:
               fi
               if fork_tag_release=$(gh api "repos/$fork_repo/releases/tags/$upstream_tag_name" 2>/dev/null); then
                 fork_tag_release_id=$(echo "$fork_tag_release" | jq -r .id)
-                gh api --method PATCH /repos/$fork_repo/releases/$fork_tag_release_id -F "draft=$upstream_draft" -F "prerelease=$upstream_prerelease"
+                gh api --method PATCH /repos/$fork_repo/releases/$fork_tag_release_id -f "draft=$upstream_draft" -f "prerelease=$upstream_prerelease" --silent
               fi
             fi
-            gh api --method PUT /repos/$fork_repo/actions/permissions -F "enabled=false"
+            gh api --method PUT /repos/$fork_repo/actions/permissions -f "enabled=false" --silent
             fork_release_list=$(gh api "repos/$fork_repo/releases" 2>/dev/null || echo "null")
             if [[ "$fork_release_list" != "null" ]]; then
               while read -r fork_release; do
@@ -199,7 +199,7 @@ jobs:
                 draft=$(echo "$fork_release" | jq -r '.draft')
                 prerelease=$(echo "$fork_release" | jq -r '.prerelease')
                 if [[ "$draft" == true ]] || [[ "$prerelease" == true ]]; then
-                  gh api --method DELETE "repos/$fork_repo/releases/$release_id" || true
+                  gh api --method DELETE "repos/$fork_repo/releases/$release_id" --silent || true
                 fi
               done < <(echo "$fork_release_list" | jq -c '.[]')
             fi
