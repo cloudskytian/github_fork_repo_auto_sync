@@ -80,7 +80,7 @@ jobs:
                   GLOBAL_SYNC_FAILED=true
               elif [ "$fork_default_branch" != "$upstream_default_branch" ]; then
                   echo "$fork_repo : Default branch mismatch. Upstream is '$upstream_default_branch', fork is '$fork_default_branch'."
-                  if gh api --method PATCH "repos/$fork_repo" -f default_branch="$upstream_default_branch" --silent; then
+                  if gh repo edit "repos/$fork_repo" --default-branch "$upstream_default_branch"; then
                       echo "$fork_repo : Successfully updated default branch to '$upstream_default_branch'."
                   else
                       echo "::error::$fork_repo : Failed to updated default branch to '$upstream_default_branch'."
