@@ -191,7 +191,7 @@ jobs:
                 gh api --method PATCH /repos/$fork_repo/releases/$fork_tag_release_id -f "draft=$upstream_draft" -f "prerelease=$upstream_prerelease" --silent
               fi
             fi
-            gh api --method PUT /repos/$fork_repo/actions/permissions -f "enabled=false" --silent
+            gh api --method PUT /repos/$fork_repo/actions/permissions -F "enabled=false" --silent
             fork_release_list=$(gh api "repos/$fork_repo/releases" 2>/dev/null || echo "null")
             if [[ "$fork_release_list" != "null" ]]; then
               while read -r fork_release; do
