@@ -1,11 +1,12 @@
 {
     "subconverter":[],
     "OpenArk":[],
-    "rdpwrap":[],
+    "RDPWrapCN":[],
     "digital-life":[],
     "CleanFlashInstaller":[],
     "skip_branch_repo":["skip_branch"]
 }
+
 
 
 
