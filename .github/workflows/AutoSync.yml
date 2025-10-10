@@ -30,8 +30,14 @@ jobs:
           echo "Fetching forked repositories"
           gh api --paginate users/$GH_USER/repos --jq ".[] | select(.fork==true and .disabled==false)" | \
           while read -r repo_json; do
-            fork_repo=$(echo "$repo_json" | jq -r ".full_name")
             fork_name=$(echo "$repo_json" | jq -r ".name")
+            upstream=$(gh api --paginate "repos/$fork_repo" --jq ".parent")
+            upstream_name=$(echo "$upstream" | jq -r ".name")
+            if [[ "$fork_name" != "$upstream_name" ]]; then
+              echo "$fork_repo : fork_name $fork_name != upstream_name $upstream_name , skip."
+              continue
+            fi
+            fork_repo=$(echo "$repo_json" | jq -r ".full_name")
             whitelist_branches=$(echo "$WHITELIST" | jq -r --arg fork_name "$fork_name" ".[\"$fork_name\"]")
             if [[ "$whitelist_branches" == "[]" ]]; then
               echo "$fork_repo : Skipped due to whitelist rule (empty list)."
@@ -44,7 +50,7 @@ jobs:
               echo "$fork_repo : Could not fetch branches or no branches found."
               exit 1
             fi
-            upstream_repo=$(gh api --paginate "repos/$fork_repo" --jq ".parent.full_name")
+            upstream_repo=$(echo "$upstream" | jq -r ".full_name")
             echo "$fork_repo : upstream_repo : $upstream_repo"
             upstream_url="https://github.com/$upstream_repo"
             echo "$fork_repo : upstream_url : $upstream_url"
