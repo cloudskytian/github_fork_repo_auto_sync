@@ -1,8 +1,6 @@
 {
-    "CleanFlashInstaller":[],
     "digital-life":[],
     "OpenArk":[],
-    "RDPWrapCN":[],
-    "subconverter":[],
     "skip_branch_repo":["skip_branch"]
 }
+
