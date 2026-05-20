@@ -1,0 +1,44 @@
+name: AutoSyncMirrorFork
+on:
+  schedule:
+    - cron: '45 3 * * *'
+  workflow_dispatch:
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+        with:
+            token: ${{secrets.GH_TOKEN}}
+      - name: AutoSync
+        env:
+          GH_TOKEN: ${{secrets.GH_TOKEN}}
+          GH_USER: ${{github.repository_owner}}
+        run: |
+          git lfs install
+          python -m pip install -r requirements.txt
+          python -c "import fork_sync;fork_sync.update_fork_config(r'$GH_TOKEN','fork_config.json')"
+          git config user.name ${{github.repository_owner}}
+          git config user.email ${{github.repository_owner}}@users.noreply.github.com
+          git remote set-url origin https://${{secrets.GH_TOKEN}}@github.com/${{github.repository}}.git
+          git add fork_config.json
+          git commit -m "Update" || true
+          git push origin ${{github.ref_name}}
+          python fork_sync.py $GH_TOKEN
+          git add fork_config.json
+          git add fork_sync.py.log
+          git commit -m "Update" || true
+          git push origin ${{github.ref_name}}
+      - name: KeepAlive
+        run: |
+          git config user.name ${{github.repository_owner}}
+          git config user.email ${{github.repository_owner}}@users.noreply.github.com
+          git remote set-url origin https://${{secrets.GH_TOKEN}}@github.com/${{github.repository}}.git
+          date "+%Y-%m-%d %H:%M:%S" > timestamp
+          git add timestamp
+          git commit -m "Update"
+          git push origin ${{github.ref_name}}
+
+          if [ -f "warning_file" ]; then
+            exit 1
+          fi
