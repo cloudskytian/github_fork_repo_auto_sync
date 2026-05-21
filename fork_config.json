@@ -6081,5 +6081,8 @@
         "branchs": {
             "main": "8c3438dabf66b564d2f0e01c678bba2c880cc83f"
         }
+    },
+    "zzz_Duck-Detector-Refactoring": {
+        "parent": "eltavine/Duck-Detector-Refactoring"
     }
 }
