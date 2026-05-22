@@ -7441,5 +7441,8 @@
             "revert-30-master": "3ea0e0b20ad8bf89234929322c8c5cb6e67ebc15",
             "revert-7-feat/auto-versioning": "520c085058131a135e00a1ac60593e0c3f363f60"
         }
+    },
+    "zzz_AnyCheck": {
+        "parent": "xingguangcuican6666/AnyCheck"
     }
 }
