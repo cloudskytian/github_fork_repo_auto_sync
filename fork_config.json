@@ -681,7 +681,7 @@
             "release/1.8.3": "f331ad951c2eec260f8cd8af0c1681cf6c78d8a4",
             "release/1.8.4": "21d36114e1600c1bed06599541de98e70014ed1c",
             "release/1.8.5": "caf7aca4cc00f6ecace0832bd6992d4fb8c28105",
-            "release/1.8.6": "d7059daa32ff2435af08b6f3224a42fe77b9a89f",
+            "release/1.8.6": "2ef431a4719a2db20c9a9dd22a507f6d1aac9988",
             "release/2.0.0": "6f6c3c6465d8a9d488037ca1a267f395ff5709e5"
         }
     },
@@ -1470,7 +1470,7 @@
         "branches": {
             "master": "8d864d3abf6c96d1b75dbc8ae46694b8a7e6b0f5",
             "public": "0bb4e1848a5eb0ff126ab16b366ffce305b476c7",
-            "ranks": "2dd8ab021652e95396f03331d892a178d35d3425"
+            "ranks": "b29cb7cb1d1fa44f3720b15eda297880c0a00eec"
         }
     },
     "zzz_EDR-Freeze": {
@@ -2108,7 +2108,7 @@
             "master": "f7e6b68ce94b8f5ffa633ec927520d91fce580e3"
         },
         "branches": {
-            "master": "cfa823e7b75503f557045c291902eb94915b9185"
+            "master": "cf77f16cfe017a21285157a091d0c2a116132682"
         }
     },
     "zzz_gog-games.to_backup": {
@@ -2774,7 +2774,7 @@
         "branches": {
             "copilot/fix-st-multi-text": "1fdc6e713ca90ecb8c7a8d37763e31760c8f8736",
             "gh-pages": "d8e60d7f82399573a598560eba8cf9217f371ad6",
-            "master": "09f530c3356f12852a0e2cb577eb9713116484a1",
+            "master": "4c2badc17d148e9813d42111d1ccf46fb6c01d85",
             "release-1.2.0": "e38c96cde33813b405d8ee0da5ec9b3ac084b9f3",
             "release-1.3.0": "4ac5bd6b8ea84e107d83221ec1fea7e3209a8bb8"
         }
@@ -3576,6 +3576,7 @@
             "v9.12.1": "2d21c07f85d430c7465c28f3a2cc4db85ab19697",
             "v9.12.2": "7f0e8f906c2ed1b179c3dc111d6c26a7e502c1e6",
             "v9.12.3": "e5eb4c809c6437bb042f4a2d34841a984cc0227b",
+            "v9.13.0": "f3fa3bbe29567bee4ad15c4bc95b8d694ce69779",
             "v9.2.0": "edd400c418034f8d79d586f068d03c961f879f64",
             "v9.3.0": "2e73c62b3af1a6fbb776c555f16caf5c0f912b70",
             "v9.3.1": "f46dff56f9c5f4cf96bdea9f440d01fed3b16725",
@@ -3629,7 +3630,7 @@
             "feature/single-tss-req": "4ba153b9ceaf02fb80cf373a5822ba540d7826ad",
             "feature/wda-run-script": "72d8f0087dd83f6a28d28d9523f22b5857102486",
             "feature/xcuitest-17": "00faa967b2c1b09971674bbd46ae17d4348bbda4",
-            "master": "e5eb4c809c6437bb042f4a2d34841a984cc0227b",
+            "master": "f3fa3bbe29567bee4ad15c4bc95b8d694ce69779",
             "refacotr/typer-developer": "292b2f9b8dbeadf88dea91b4d335669f88bc93f0",
             "refactor-afc-pull-method": "2efab849b5c808aa96986fafd1e42e510c2ab6af",
             "refactor-afc-pull-method2": "4de2c4fc35a8a2e62fe74dc1aa47676435952332",
@@ -4115,7 +4116,7 @@
             "build/update-rollup": "c38bb6135d55e3897ba8fd334bbe5450f2649ac8",
             "build/upgrade-many": "6a1864d90092f4048bc918aa72722f3adf4e2e49",
             "build/upgrade-wxt": "514f2b65f59aea6113f4c81c2c7774a0a0ee42b6",
-            "changeset-release/main": "3806d526396516e69c08fa1fc29b6ca82eb3c865",
+            "changeset-release/main": "b3a5e4c4872f783fbce1f351d5ff430c68b3dc94",
             "chore/local-dev-ex": "d3fec2d0a3da1b0c53d999e10a223cb95d0448ce",
             "chore/sponsor-action": "24ab93ae2b7cb2a24f234196559f420a562802b2",
             "chore/update-hero-heading": "a51a23cd2f3bf8e8f688cf10d8079121af6b68e1",
@@ -4332,7 +4333,7 @@
             "kvnmqpqs": "a2b1a6ab40c8524279b9eb8febdd83df43242ac3",
             "lisongkun/main": "1ca7d4064375b44099b8a9fc9ae94072c62472aa",
             "locales/korean-extension": "00205027e9a87ed7fcc150484ae8f5df30376ab7",
-            "main": "9d10a1f0f82d37cd9f1746748f6d57b70e3676de",
+            "main": "49604b5752114c77e2725ff30cd0cc8ef7b082e4",
             "mengxi-ream-patch-1": "72eb0292f4d4870f86ad6d7a98ae89dac10c9016",
             "my-feature-branch": "f57c96ab0a1107a3b40adf9b452d88abb19b01d3",
             "perf/auth-cookie-change-issue": "3511ceb2a9f7e25c1dbeb6d4a5d65b6dfcb717a6",
@@ -4443,7 +4444,7 @@
             "ios": "a92d2301d9eb55e203fe5a90351d277430be4987",
             "keyboard-shortcuts": "fe93cbe570c022893ed03ab5343af8537647ef40",
             "keyboard-shortcuts-clean": "04faf21c78cfd99b50c4d6bffbeefbf98986c5ea",
-            "master": "546e9f1702572c4d5c9ce0d0f977cea17ba53c8a",
+            "master": "b81ae6c8949a50f64bac175f32217b8897078a2d",
             "sciterjs": "e86d0a0fc14f0bff4cb1ecd94a84eae42818da80",
             "terminal-utf8-and-reconnect": "cdfd986cb9669915fda1487c9416e14a131d202d",
             "webrtc": "c19698fa524894657bc9631933197de436643ffb"
@@ -6467,7 +6468,7 @@
         },
         "branches": {
             "Go-dev": "250f77369164b8ef2eaffaa1cb17e980af563892",
-            "dev": "bbf255e798088274088db6539aa25c7615367c1a",
+            "dev": "88ad3dcfeee4894a6ecee2c218daa19396d14d1f",
             "master": "82a5d654a7bea7d8a3089dbb3bf0bab15cbd34c6"
         }
     },
@@ -6888,7 +6889,7 @@
             "master": "6a4beb41a2544bd75641047af5f18b97c8ee5dbf"
         },
         "branches": {
-            "master": "3e8f6e383876fe0ded0cefc1741f4fb9fb3d321d"
+            "master": "b89146c81c36c214e9b75d26d23c873de3546084"
         }
     },
     "zzz_Virtual-Display-Driver": {
@@ -7322,7 +7323,7 @@
             "master": "342c1a85456e6d55480f7f7ad53e7f0116cbedb1"
         },
         "branches": {
-            "master": "3f03ecff9a51ba5845417fe942e6678d12b48bfa"
+            "master": "61f5a467ce37ca3459ad66814bf7afc8fc94e260"
         }
     },
     "zzz_SARS": {
@@ -7421,7 +7422,7 @@
             "dependabot/npm_and_yarn/tanstack/react-query-5.100.10": "208043710b824894d3082ae70c9f5498f90d28f7",
             "dependabot/npm_and_yarn/types/node-25.8.0": "7096908115b52bcf4457d8089d0eb742465c5aca",
             "dependabot/npm_and_yarn/vitest-4.1.6": "b28f78ce68725d6b16bc6b9ba3348da0e7467091",
-            "master": "3cabb4d37271beaff07fcc6b0a29041fd1b711fd"
+            "master": "43edbee66318bc51fcb20a0a5eac3710b9887dc8"
         }
     },
     "zzz_Identifier-Patcher": {
@@ -7444,7 +7445,7 @@
             "devpts-permission-check": "e001d74e6d2f1748814f36fdda1caa52f27a3f9a",
             "fix/pr-36-scan-metadata": "45ca91b568f80b930895d5d5bb8d9327f8d505c3",
             "hardware-timer-for-kp-sidechannel": "b12e766400f4c86315d3471ee10411330381251b",
-            "master": "b610f8e7a13edbb5cb6bc4abacd0f7ed3c33edaa",
+            "master": "06c034e7e88625b2f9818166bc644c25b031d70c",
             "revert-30-master": "3ea0e0b20ad8bf89234929322c8c5cb6e67ebc15",
             "revert-7-feat/auto-versioning": "520c085058131a135e00a1ac60593e0c3f363f60"
         }
