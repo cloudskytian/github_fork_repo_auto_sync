@@ -681,7 +681,7 @@
             "release/1.8.3": "f331ad951c2eec260f8cd8af0c1681cf6c78d8a4",
             "release/1.8.4": "21d36114e1600c1bed06599541de98e70014ed1c",
             "release/1.8.5": "caf7aca4cc00f6ecace0832bd6992d4fb8c28105",
-            "release/1.8.6": "2ef431a4719a2db20c9a9dd22a507f6d1aac9988",
+            "release/1.8.6": "707fa2eb06412b08dc6902c2635515dce25b7f65",
             "release/2.0.0": "6f6c3c6465d8a9d488037ca1a267f395ff5709e5"
         }
     },
@@ -1470,7 +1470,7 @@
         "branches": {
             "master": "8d864d3abf6c96d1b75dbc8ae46694b8a7e6b0f5",
             "public": "0bb4e1848a5eb0ff126ab16b366ffce305b476c7",
-            "ranks": "b6864d4cf005209e6ba11ba26d8d4c50cde35c3e"
+            "ranks": "adf59a39c57dafdb7655a8b77f3590a1bd029e99"
         }
     },
     "zzz_EDR-Freeze": {
@@ -2775,8 +2775,7 @@
         "branches": {
             "copilot/fix-st-multi-text": "1fdc6e713ca90ecb8c7a8d37763e31760c8f8736",
             "gh-pages": "d8e60d7f82399573a598560eba8cf9217f371ad6",
-            "issue-1246-rev-phrases": "85a42d2d5eb2cc0f6b9de9148f54255c1264bf35",
-            "master": "c2ce81bf9af90f7e667c9da1d32e960dd79f9771",
+            "master": "356dad3f97d6a9b2ea554815c897bff6131205c5",
             "release-1.2.0": "e38c96cde33813b405d8ee0da5ec9b3ac084b9f3",
             "release-1.3.0": "4ac5bd6b8ea84e107d83221ec1fea7e3209a8bb8"
         }
@@ -2834,7 +2833,8 @@
         "branches": {
             "cibuild": "7ba1fa7b2c54ca3e826c738b7dbdddf59a24ea9a",
             "cmd-dataflow": "4c395ab1f64e32b587ac3271db3fe3767ebd04f6",
-            "develop": "09b422fe9bb4b6b8058d9557f6fbe49a9fc1d212",
+            "develop": "9250c836f7c5fccdf6d6c419158c2f7dc921c7a7",
+            "feature/json-xml-commands": "2b1a32279c6e7c3c7862b61da40f35aab29263b9",
             "master": "92f8d996ab986e0e0de17570e2a3cac7fcc308e3",
             "net80": "c06a42f6bf76018c79ef68e46aaea420ce479dd5",
             "non-sharp-notation": "e2dbb3dfb5dfa8915c881896e895bae0ef97ada8"
@@ -3637,7 +3637,7 @@
             "feature/single-tss-req": "4ba153b9ceaf02fb80cf373a5822ba540d7826ad",
             "feature/wda-run-script": "72d8f0087dd83f6a28d28d9523f22b5857102486",
             "feature/xcuitest-17": "00faa967b2c1b09971674bbd46ae17d4348bbda4",
-            "master": "22b4f945fa153888526fb9842b993cb6330f2ec7",
+            "master": "75e37e32f7307e8b5d00d788500971d61f10cad3",
             "refacotr/typer-developer": "292b2f9b8dbeadf88dea91b4d335669f88bc93f0",
             "refactor-afc-pull-method": "2efab849b5c808aa96986fafd1e42e510c2ab6af",
             "refactor-afc-pull-method2": "4de2c4fc35a8a2e62fe74dc1aa47676435952332",
@@ -4206,7 +4206,7 @@
             "feat/session-storage-translation-state": "de51e4080d4dc931bed05a72bfb5d12b6184af1a",
             "feat/side-panel-empty-config": "db618e3f059c24542dcb8e18ffd11fa921f7e6a5",
             "feat/subtitle-source-language": "2960ef94a6fae3e6d415f50dbeb39aa7072a7745",
-            "feat/subtitle-warmup-integration": "9a3184d415ce56026fb1a911ade2fc0a3e6f7ae0",
+            "feat/subtitle-warmup-integration": "870e07161f0d2210241c126c438d80e5e579ee79",
             "feat/subtitles-ai-segmentation-core": "0938aff5d073f23388bef69320e922114a1e8063",
             "feat/subtitles-dual-builders": "55a3e5c242ea91d5b9ea40e152af8aee001f4b1f",
             "feat/subtitles-runtime-loading-scheduler": "b13c99fa3337e2531b6550b82aeeffb4933b0202",
@@ -4451,7 +4451,7 @@
             "ios": "a92d2301d9eb55e203fe5a90351d277430be4987",
             "keyboard-shortcuts": "fe93cbe570c022893ed03ab5343af8537647ef40",
             "keyboard-shortcuts-clean": "04faf21c78cfd99b50c4d6bffbeefbf98986c5ea",
-            "master": "0af6b7ede9010b3cfa8055f6132c77b9c3fe916f",
+            "master": "c19a0ceba2420163affceb454daef4a0bd90fc02",
             "sciterjs": "e86d0a0fc14f0bff4cb1ecd94a84eae42818da80",
             "terminal-utf8-and-reconnect": "cdfd986cb9669915fda1487c9416e14a131d202d",
             "webrtc": "c19698fa524894657bc9631933197de436643ffb"
@@ -4685,7 +4685,7 @@
             "Test": "b91daec2a1ef45913abe00e5ec062535bd9b1b6e",
             "codespell": "1346eee09705f61119329ee1a7c962025cd77366",
             "experimental": "3c16b7826c2fde62b1e839c62a9be12bf96d9b2a",
-            "master": "ecf5bbd6d06dd7073f0f56655f5912139d8a7bb9",
+            "master": "fc1b7e3f6a1b54b52adb5a3faf358819c10aa90f",
             "out-of-date": "abd2d44cd6f305da956ad70c7481cb1256efff24",
             "remote-mgmt": "8194614afef2a01ace718dc58cb3777dbbe0d27b"
         }
@@ -6459,6 +6459,7 @@
             "v1.1.13": "2e8cad87b5c3b92f69b99309322545b289f6613a",
             "v1.1.14": "1e1b5071aad748562c02dde457952bf62a900268",
             "v1.1.15": "cb34e4904077bfb2b4b4665114ac42517d91d706",
+            "v1.1.16": "6a361507ef333783a7446c867a8a285e84baedec",
             "v1.1.2": "ce2a5bbd1a8d84fce447cf82e1d0825217c394ba",
             "v1.1.3": "85aff65a0b374622ef67173f599c39604ab73453",
             "v1.1.4": "f4babfc191889488e6009d90173a189a466f700b",
@@ -6475,8 +6476,8 @@
         },
         "branches": {
             "Go-dev": "250f77369164b8ef2eaffaa1cb17e980af563892",
-            "dev": "88ad3dcfeee4894a6ecee2c218daa19396d14d1f",
-            "master": "82a5d654a7bea7d8a3089dbb3bf0bab15cbd34c6"
+            "dev": "69c4145010dc8fe54d0723dae8db495561f46e1d",
+            "master": "6a361507ef333783a7446c867a8a285e84baedec"
         }
     },
     "zzz_sugoi-player-deprecated": {
@@ -7331,7 +7332,7 @@
             "master": "342c1a85456e6d55480f7f7ad53e7f0116cbedb1"
         },
         "branches": {
-            "master": "11b26a003dee8a680ee2c9546361e43d1451bbff"
+            "master": "07d608ecc8840b2d77c066fe2db98d1906a36ba4"
         }
     },
     "zzz_SARS": {
@@ -7429,7 +7430,7 @@
             "master": "a8cb9397e18135cf6c3310bacb7ed78186c1c3b3"
         },
         "branches": {
-            "master": "1caae6575059f135709754ba5bfec283bcbcc38e"
+            "master": "acb7e63c2900e9af6435354c2902daefeeacb9bb"
         }
     },
     "zzz_Identifier-Patcher": {
@@ -7452,7 +7453,7 @@
             "devpts-permission-check": "e001d74e6d2f1748814f36fdda1caa52f27a3f9a",
             "fix/pr-36-scan-metadata": "45ca91b568f80b930895d5d5bb8d9327f8d505c3",
             "hardware-timer-for-kp-sidechannel": "b12e766400f4c86315d3471ee10411330381251b",
-            "master": "0cf2264c9487afffd3ea476b16d88aa4047028ac",
+            "master": "5ef3f3bfc9dbb2ae47a219be860d4d21c77998f4",
             "revert-7-feat/auto-versioning": "520c085058131a135e00a1ac60593e0c3f363f60"
         }
     },
