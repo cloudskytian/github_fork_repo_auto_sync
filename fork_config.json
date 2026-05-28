@@ -1372,6 +1372,10 @@
             "v0.1.132": "2e9dfec41df2a730fa3be5f319164afd5c083e17",
             "v0.1.133": "b1412b1c9d6b9a924d750502c069373845b54dcf",
             "v0.1.134": "de5a4be23c2a46b872123ea283a1576329b212a3",
+            "v0.1.135": "3074b6153c61028ab3ae33ba4923e97dd0c0fd7c",
+            "v0.1.136": "58055cc6c0620d9897faff2f7d1720e465d5e114",
+            "v0.1.137": "bb369b85d57ef4984fb227624f8a8f9c18d93f51",
+            "v0.1.138": "8618d8fcbd0e609a55a311045e65c16ff208ae66",
             "v0.1.14": "d6302be4aed4f6500220d81ddf89c517eb2a8713",
             "v0.1.15": "d7519801b0904fc6f0ecbf129e32046f5f15d3d2",
             "v0.1.16": "05ec4d75b8cb90b4511c41471678babc1e7220c6",
@@ -1469,9 +1473,9 @@
             "ranks": "87154f142c74fdc10807a92e83e147a28d5fdc55"
         },
         "branches": {
-            "master": "8d864d3abf6c96d1b75dbc8ae46694b8a7e6b0f5",
-            "public": "0bb4e1848a5eb0ff126ab16b366ffce305b476c7",
-            "ranks": "5295fa380a00d75d84b9ba2d6265a419495f082c"
+            "master": "cc357936986ed8d488ce8e67afb2f863a30726b0",
+            "public": "1e83cc320427567ccb87414c28ad6d9791a4a741",
+            "ranks": "396caa9d428ea5de69c4d21b3130369d1f6a9cb2"
         }
     },
     "zzz_EDR-Freeze": {
@@ -1991,13 +1995,14 @@
             "5.3-dev": "1da30836c8cdc5a235e5b4cf72b443d02434be2f",
             "6.0-dev": "f988dcea4ba0988061a4c871c654e3d33c1ca999",
             "6.0-dev-commingsoon": "599139fd12233ff6217f34e6355dbfe977216d57",
-            "6.0.0": "8d7410f81f838cc3097ccaa798d27c09242b5f61"
+            "6.0.0": "8d7410f81f838cc3097ccaa798d27c09242b5f61",
+            "6.0.0.7": "31a1e921af0785808431b97dc20c7b3de10444a9"
         },
         "branchs": {
             "main": "8d7410f81f838cc3097ccaa798d27c09242b5f61"
         },
         "branches": {
-            "main": "888b732f91b7730e2db854d1e21ff18abaa29790"
+            "main": "739ed8549d6b85c1cbd7c8ee96ac299ef3a73b4f"
         }
     },
     "zzz_FlashPatch": {
@@ -2110,7 +2115,7 @@
             "master": "f7e6b68ce94b8f5ffa633ec927520d91fce580e3"
         },
         "branches": {
-            "master": "d164d8e73d40326cfaa7fe66b96c0adbcd340e7c"
+            "master": "18d0c384ea7dd0c0bd9369f1ba46038b0f5e54e9"
         }
     },
     "zzz_gog-games.to_backup": {
@@ -2483,7 +2488,7 @@
             "master": "a9e6864547eb936f6604f965cd03949fd923e0bd"
         },
         "branches": {
-            "master": "a9e6864547eb936f6604f965cd03949fd923e0bd"
+            "master": "97bf46c14612a63f91299f56884f7fe4e6d1e32c"
         }
     },
     "zzz_Learn-Vim_zh_cn": {
@@ -2771,8 +2776,7 @@
         "branches": {
             "copilot/fix-st-multi-text": "1fdc6e713ca90ecb8c7a8d37763e31760c8f8736",
             "gh-pages": "d8e60d7f82399573a598560eba8cf9217f371ad6",
-            "master": "86bdf03809c83cb7313d79e4fb3019ea6f6f5f33",
-            "pr-1249-patch-1": "65516092a8e09c59cbbec0f78d44950cabbb2d1d",
+            "master": "e11131486143f75e001b074fa113b83e7fd4ee45",
             "release-1.2.0": "e38c96cde33813b405d8ee0da5ec9b3ac084b9f3",
             "release-1.3.0": "4ac5bd6b8ea84e107d83221ec1fea7e3209a8bb8"
         }
@@ -3822,6 +3826,7 @@
             "v1.33.0": "37c0ced786e3128146f660267951d145dd020827",
             "v1.33.1": "053aa9090dc07887b2d8edef7a6917663055d073",
             "v1.33.10": "ca7386b374ba157f811c6251d3e278b412b6bf1c",
+            "v1.33.11": "71152daf62a98972302f0a4270fe6354fcf18e27",
             "v1.33.2": "67bc5e1ecd6ea43cc6bb311b3771ca017966c508",
             "v1.33.3": "04001238e4f8059383553b0de1aed0930bdf3173",
             "v1.33.4": "137806eb01ed35574ddcdce57c62a1715d731f98",
@@ -4339,7 +4344,7 @@
             "kvnmqpqs": "a2b1a6ab40c8524279b9eb8febdd83df43242ac3",
             "lisongkun/main": "1ca7d4064375b44099b8a9fc9ae94072c62472aa",
             "locales/korean-extension": "00205027e9a87ed7fcc150484ae8f5df30376ab7",
-            "main": "ca7386b374ba157f811c6251d3e278b412b6bf1c",
+            "main": "71152daf62a98972302f0a4270fe6354fcf18e27",
             "mengxi-ream-patch-1": "72eb0292f4d4870f86ad6d7a98ae89dac10c9016",
             "my-feature-branch": "f57c96ab0a1107a3b40adf9b452d88abb19b01d3",
             "perf/auth-cookie-change-issue": "3511ceb2a9f7e25c1dbeb6d4a5d65b6dfcb717a6",
@@ -4451,7 +4456,7 @@
             "ios": "a92d2301d9eb55e203fe5a90351d277430be4987",
             "keyboard-shortcuts": "fe93cbe570c022893ed03ab5343af8537647ef40",
             "keyboard-shortcuts-clean": "04faf21c78cfd99b50c4d6bffbeefbf98986c5ea",
-            "master": "e5fa40e903c7aa49ceb1e59936b1810c638e9b0f",
+            "master": "d59d543ec1e1559027b4d845cdcdeca6b23930a8",
             "sciterjs": "e86d0a0fc14f0bff4cb1ecd94a84eae42818da80",
             "terminal-utf8-and-reconnect": "cdfd986cb9669915fda1487c9416e14a131d202d",
             "webrtc": "c19698fa524894657bc9631933197de436643ffb"
@@ -6478,8 +6483,8 @@
         },
         "branches": {
             "Go-dev": "250f77369164b8ef2eaffaa1cb17e980af563892",
-            "dev": "8f14512b76af9fc04c30c9a26713124563e5f449",
-            "master": "3cf3e7ee9213fc7e8a81c3028b246639b4e789a3"
+            "dev": "6554bf628817f7c9610a766ed62d90f32f6f96aa",
+            "master": "2a308a722cf9aabd8b6312805fe6b6f52d270e0c"
         }
     },
     "zzz_sugoi-player-deprecated": {
@@ -6616,7 +6621,8 @@
             "v5.0.0-beta.26": "bd5a0bb518bd08d438f138807beb3a2513ce0174",
             "v5.0.0-beta.28": "0a2d5d5c5243282aed8fed401559b94977e80b35",
             "v5.0.0-beta.30": "85f90df5557ae4e8e27b3f20b6ba394ec3c0eeaa",
-            "v5.0.0-beta.31": "064b72118d0d294d523bc419a79168819bb468ee"
+            "v5.0.0-beta.31": "064b72118d0d294d523bc419a79168819bb468ee",
+            "v5.0.1-beta.3": "ec0f7206fe8f93c8c55fd3f1fa14737ced97937f"
         },
         "branchs": {
             "dependabot/npm_and_yarn/axios-1.15.2": "cbde8d524f4a7985862b1489da307c17c21981bb",
@@ -6630,6 +6636,7 @@
         },
         "branches": {
             "develop": "fff3527e2440c1faaf6130a324356f1efe381f2f",
+            "feature/light-mode": "ec0f7206fe8f93c8c55fd3f1fa14737ced97937f",
             "gh-pages": "1a65b9c1c3046c53e21938da6c47644f34b0e5dc",
             "master": "fff3527e2440c1faaf6130a324356f1efe381f2f"
         }
@@ -7334,7 +7341,7 @@
             "master": "342c1a85456e6d55480f7f7ad53e7f0116cbedb1"
         },
         "branches": {
-            "master": "0e1b1f486b1bc263bb7f4b0654db5b71bee6df87"
+            "master": "3e48f4c933677b0ce0ad1e1b40333f11ba97b595"
         }
     },
     "zzz_SARS": {
@@ -7409,6 +7416,7 @@
             "v2.1.2": "2e75debe256b827222a4683e5a1eb99f08f61d96",
             "v2.2.0": "dc8b6f57306dfe03cc440839e2ce495180eeda60",
             "v2.2.1": "d0cc602d4636e0c9a5cde22ac52b0561179a5852",
+            "v2.3.0": "664aa3c2a606dbfaedba430e635689392c02ffb0",
             "v2026.04-alpha.1": "ddc857104b2a68fa0f3b23e361111a437c87ca71",
             "v2026.04-alpha.2": "6700270959cd0c861308797b074af384ff8b18b0",
             "v2026.04-alpha.3": "9962e9f37afeb4f8a952795ea7bcfd4cceef560f",
@@ -7432,7 +7440,7 @@
             "master": "a8cb9397e18135cf6c3310bacb7ed78186c1c3b3"
         },
         "branches": {
-            "master": "054c961446704aa225a683bd871cd6f5a6703a5c"
+            "master": "970848b9b5322173571df6e5226c02b6c1917297"
         }
     },
     "zzz_Identifier-Patcher": {
