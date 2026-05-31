@@ -1243,7 +1243,7 @@
         },
         "branches": {
             "master": "201d1a150a0d7f432eb03c0c061e259b65b22822",
-            "next": "6788a89135e00003273724d2a34e2ef2849388e2",
+            "next": "89120e2c09093b397e6d46060a2630fd6ccc179f",
             "ocr": "21670023af407908e3f4c1d9b0d6213c8919b06e",
             "windows-noactive": "d5d87dd347d87a1ab075b6d0d940da3ae9a0f096"
         }
@@ -1477,7 +1477,7 @@
         "branches": {
             "master": "22956f6ec483b1eb5c8d535e693d9939535c73aa",
             "public": "8fa7fb5def16737feecb54fb739e2981903c6f52",
-            "ranks": "c214332d6c829d1bbc285481d30e959998e6f1bf"
+            "ranks": "9918a2dba1ffe3ed55836e8ed63435353caff7d4"
         }
     },
     "zzz_EDR-Freeze": {
@@ -2488,7 +2488,7 @@
             "master": "a9e6864547eb936f6604f965cd03949fd923e0bd"
         },
         "branches": {
-            "master": "329760f46bc98f83b5869d0e22f455c320afb207"
+            "master": "695faa2d11920e1db44b9347365133f52131dd60"
         }
     },
     "zzz_Learn-Vim_zh_cn": {
@@ -2665,7 +2665,7 @@
         },
         "branches": {
             "frontend-dev": "e6fe6dc31137b2fad7640f63b3379c9c167019f6",
-            "main": "4206e4887cd2c784e07c8586b8888bf701328cc1"
+            "main": "258eaa070820ce724b254bffe84e1095d9603991"
         }
     },
     "zzz_mochi-player": {
@@ -2776,7 +2776,7 @@
         "branches": {
             "copilot/fix-st-multi-text": "1fdc6e713ca90ecb8c7a8d37763e31760c8f8736",
             "gh-pages": "d8e60d7f82399573a598560eba8cf9217f371ad6",
-            "master": "1fd8e2827bfbb370b7db8b3cb1eaf9df87a4fec0",
+            "master": "05bed0deb42c647c6d4f506e418af35a32a98af7",
             "release-1.2.0": "e38c96cde33813b405d8ee0da5ec9b3ac084b9f3",
             "release-1.3.0": "4ac5bd6b8ea84e107d83221ec1fea7e3209a8bb8"
         }
@@ -2835,7 +2835,7 @@
             "Tri-StateCheckboxs": "c42888060b0f65b19076370c26bd30c252801231",
             "cibuild": "7ba1fa7b2c54ca3e826c738b7dbdddf59a24ea9a",
             "cmd-dataflow": "4c395ab1f64e32b587ac3271db3fe3767ebd04f6",
-            "develop": "9250c836f7c5fccdf6d6c419158c2f7dc921c7a7",
+            "develop": "4feafaed3c0c05b6324df1292bbf4fceba0ae652",
             "feature/json-xml-commands": "2b1a32279c6e7c3c7862b61da40f35aab29263b9",
             "master": "92f8d996ab986e0e0de17570e2a3cac7fcc308e3",
             "net80": "c06a42f6bf76018c79ef68e46aaea420ce479dd5",
@@ -2918,8 +2918,8 @@
             "copilot/fix-doubled-rules-issue": "a448a6a3e00af9fdfaa2f3bff15e723b24447e5a",
             "copilot/fix-proxy-curl-exe-issue": "1c2b5cb5e6e39be2eab5fcd25ac0ac5f8764b36d",
             "copilot/fix-rules-window-resizing": "b554c1ef0042f6aca8fa3bfb106d45faae5a9b1a",
-            "dev": "1cde8b3705c4c3c068a3eec999e4d863c815c328",
-            "master": "51d9b17cd9710cda540b41a56a1a9ea453d21c80",
+            "dev": "e1d9edd519ba2bfbccd47afc079f9c84c0ff09db",
+            "master": "4955fdb8faed0710648b53b3235956343f942671",
             "multiproxy": "fc386db30f1afdc525c0c73e32017154cec1296d"
         }
     },
@@ -3589,6 +3589,7 @@
             "v9.14.2": "22b4f945fa153888526fb9842b993cb6330f2ec7",
             "v9.15.0": "ca532887dd169acbeb90238e5714d269e29f0664",
             "v9.15.1": "fb11d63960725ad95a38fd59f8247835258fb88d",
+            "v9.15.2": "b03688da7b061bc45739280404942194651ebb00",
             "v9.2.0": "edd400c418034f8d79d586f068d03c961f879f64",
             "v9.3.0": "2e73c62b3af1a6fbb776c555f16caf5c0f912b70",
             "v9.3.1": "f46dff56f9c5f4cf96bdea9f440d01fed3b16725",
@@ -3642,7 +3643,7 @@
             "feature/single-tss-req": "4ba153b9ceaf02fb80cf373a5822ba540d7826ad",
             "feature/wda-run-script": "72d8f0087dd83f6a28d28d9523f22b5857102486",
             "feature/xcuitest-17": "00faa967b2c1b09971674bbd46ae17d4348bbda4",
-            "master": "fb11d63960725ad95a38fd59f8247835258fb88d",
+            "master": "b03688da7b061bc45739280404942194651ebb00",
             "refacotr/typer-developer": "292b2f9b8dbeadf88dea91b4d335669f88bc93f0",
             "refactor-afc-pull-method": "2efab849b5c808aa96986fafd1e42e510c2ab6af",
             "refactor-afc-pull-method2": "4de2c4fc35a8a2e62fe74dc1aa47676435952332",
@@ -4460,7 +4461,7 @@
             "ios": "a92d2301d9eb55e203fe5a90351d277430be4987",
             "keyboard-shortcuts": "fe93cbe570c022893ed03ab5343af8537647ef40",
             "keyboard-shortcuts-clean": "04faf21c78cfd99b50c4d6bffbeefbf98986c5ea",
-            "master": "7345366ba7c49e4b571bb6eaffd2e5c01393b201",
+            "master": "fa369365a576cc3a86e4643ba7224f65b48bdf9c",
             "sciterjs": "e86d0a0fc14f0bff4cb1ecd94a84eae42818da80",
             "terminal-utf8-and-reconnect": "cdfd986cb9669915fda1487c9416e14a131d202d",
             "webrtc": "c19698fa524894657bc9631933197de436643ffb"
@@ -6487,7 +6488,7 @@
         },
         "branches": {
             "Go-dev": "250f77369164b8ef2eaffaa1cb17e980af563892",
-            "dev": "6554bf628817f7c9610a766ed62d90f32f6f96aa",
+            "dev": "bd792cbdd7eedaf997870e48486cb8ba25dfe583",
             "master": "2a308a722cf9aabd8b6312805fe6b6f52d270e0c"
         }
     },
@@ -7344,7 +7345,7 @@
             "master": "342c1a85456e6d55480f7f7ad53e7f0116cbedb1"
         },
         "branches": {
-            "master": "3754e78c47aa49e02699909c58234c5989e68063"
+            "master": "0376f82e625bdab8d8ce250b90c5c3d4fd9a24dc"
         }
     },
     "zzz_SARS": {
@@ -7444,7 +7445,7 @@
             "master": "a8cb9397e18135cf6c3310bacb7ed78186c1c3b3"
         },
         "branches": {
-            "master": "e5d5af58180a7b8b185b7db61d7c5a2f335aae33"
+            "master": "27890bbed72c114f614d6ce6d0db03e9ee0cc4c7"
         }
     },
     "zzz_Identifier-Patcher": {
