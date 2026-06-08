@@ -1243,7 +1243,7 @@
         },
         "branches": {
             "master": "201d1a150a0d7f432eb03c0c061e259b65b22822",
-            "next": "6b3a3067e8802b8cfc4cd8494dcec015303f122e",
+            "next": "4c3db47bf3a60e543af45f19fe18eefebbf89b58",
             "ocr": "21670023af407908e3f4c1d9b0d6213c8919b06e",
             "test-preview": "2054d0bf6b56c52fad0232f558445ceed9f19a02",
             "windows-noactive": "d5d87dd347d87a1ab075b6d0d940da3ae9a0f096"
@@ -1478,7 +1478,7 @@
         "branches": {
             "master": "22956f6ec483b1eb5c8d535e693d9939535c73aa",
             "public": "8fa7fb5def16737feecb54fb739e2981903c6f52",
-            "ranks": "f66e2d4b8bc16f53cafc59c9a0951ca1176e190a"
+            "ranks": "5792ebcaacdc38e95d33a9b78423cffe342e343c"
         }
     },
     "zzz_EDR-Freeze": {
@@ -2709,7 +2709,7 @@
         "branches": {
             "dependabot/cargo/once_cell-1.21.4": "550c831f79dbc62cdc99a7358ddf09309e6e32d7",
             "dependabot/cargo/quote-1.0.45": "214cfdec2df9fae442d6cb7c238b9f43d8e9ed6e",
-            "master": "d3880af6c28629c93305cf15961c3d1c48a61939"
+            "master": "fcace79b2896d06f95d5f9dc7c71f606b8c23acd"
         }
     },
     "zzz_open-fitter-core": {
@@ -2775,8 +2775,8 @@
         },
         "branches": {
             "copilot/fix-destructor-ub": "ee12ea44a427cdac62bc4d1b17ef32aa52a49793",
-            "gh-pages": "868b1fa2b1061b5a716e1b77ddd0974326c7276b",
-            "master": "ed2de5c9a706789c7b282f2063314e40de568e35",
+            "gh-pages": "ef25a43ab1747b263b241f7e0192c07e5fdecb32",
+            "master": "a4f2f50a2624ea6ddc94394a9c6004c9db3acebc",
             "release-1.2.0": "e38c96cde33813b405d8ee0da5ec9b3ac084b9f3",
             "release-1.3.0": "4ac5bd6b8ea84e107d83221ec1fea7e3209a8bb8"
         }
@@ -2917,10 +2917,11 @@
             "copilot/add-process-based-exclude-support": "121b96e0e14e55728991cebb7f0ba425e7dc80f8",
             "copilot/fix-bsd-issue-proxybridge-windivert": "c36ec8e3486a1c9b23dda3d873c2ba4bfb6325d6",
             "copilot/fix-doubled-rules-issue": "a448a6a3e00af9fdfaa2f3bff15e723b24447e5a",
+            "copilot/fix-github-actions-analyze-swift": "d5894837e8ec20db0801c795ac1d8e3da970b641",
             "copilot/fix-proxy-curl-exe-issue": "1c2b5cb5e6e39be2eab5fcd25ac0ac5f8764b36d",
             "copilot/fix-rules-window-resizing": "b554c1ef0042f6aca8fa3bfb106d45faae5a9b1a",
-            "dev": "7267cf504430520a11a54e388e1738828a9c2d89",
-            "master": "b3701816095b0a3fdb96ae0a6c2040270ced02bd",
+            "dev": "3077ecdfbd77bdd941a8bcf2d7ce821237b7cdeb",
+            "master": "c37c17caa0a8c22a0a790d055939bd17dd23ee0c",
             "multiproxy": "fc386db30f1afdc525c0c73e32017154cec1296d"
         }
     },
@@ -4629,6 +4630,7 @@
             "v1.17.4": "cf2e8a7b63e34e4db8f78ac61090884fe8c19bc3",
             "v1.17.5": "c179b645a9f474f6a1b16e33daa187ba5d601265",
             "v1.17.6": "39921e52bf08e27bde194ef4bd74ab8c44265f8d",
+            "v1.17.7": "a7392a969b227a27e0a808ddf7f63ff92bb15773",
             "v1.2.0": "e697d28d5cf69c88148c854c0e1ec3d95244e23e",
             "v1.2.1": "2046547f88b53d153f50755b72ff7edf6616578a",
             "v1.2.2": "b7ed6213d7fd1b97a2146588645e044c5f434c40",
@@ -4697,7 +4699,7 @@
             "Test": "b91daec2a1ef45913abe00e5ec062535bd9b1b6e",
             "codespell": "1346eee09705f61119329ee1a7c962025cd77366",
             "experimental": "3c16b7826c2fde62b1e839c62a9be12bf96d9b2a",
-            "master": "5f462af851147f45fde57ad4f319c5b02e3735bf",
+            "master": "c61c45e3dc120602b363a34be73abf5df3e4889f",
             "out-of-date": "abd2d44cd6f305da956ad70c7481cb1256efff24",
             "remote-mgmt": "8194614afef2a01ace718dc58cb3777dbbe0d27b"
         }
@@ -6917,7 +6919,7 @@
             "master": "6a4beb41a2544bd75641047af5f18b97c8ee5dbf"
         },
         "branches": {
-            "master": "5bd9abbc52d8dc2a6b6381f1c4e8363ad941ef48"
+            "master": "192d4a0a19373aae643f5752139f30656ce2b7cc"
         }
     },
     "zzz_Virtual-Display-Driver": {
@@ -7351,7 +7353,7 @@
             "master": "342c1a85456e6d55480f7f7ad53e7f0116cbedb1"
         },
         "branches": {
-            "master": "f1135cb94294714db7150e75a5694a4f63d3d9be"
+            "master": "b8b19e4ba4a3f8014ea65e662def8a5702765ec9"
         }
     },
     "zzz_SARS": {
@@ -7452,7 +7454,8 @@
             "master": "a8cb9397e18135cf6c3310bacb7ed78186c1c3b3"
         },
         "branches": {
-            "master": "6f7d65dd0bb32563616f6138f1281179898be65c"
+            "copilot/review-session-history": "e2aa59a037b659b491f7769df74273614f345184",
+            "master": "049b372de173788fdcf199939ecd1fa84b10607d"
         }
     },
     "zzz_Identifier-Patcher": {
@@ -7476,7 +7479,7 @@
             "feat/ksu-app-zygote-seqno": "3757234c337a8fed43274f7ca8e5804ce6d3df4e",
             "fix/pr-36-scan-metadata": "45ca91b568f80b930895d5d5bb8d9327f8d505c3",
             "hardware-timer-for-kp-sidechannel": "b12e766400f4c86315d3471ee10411330381251b",
-            "master": "bd07b88a17eb7e80161449701b7bae27935cd4f1",
+            "master": "64d32c0c49b054df26f6498d4ca981a90a71de15",
             "revert-7-feat/auto-versioning": "520c085058131a135e00a1ac60593e0c3f363f60"
         }
     },
