@@ -1243,7 +1243,7 @@
         },
         "branches": {
             "master": "201d1a150a0d7f432eb03c0c061e259b65b22822",
-            "next": "3737c5433c6e2ee4a696cef00fe12753c9100087",
+            "next": "774cb0746f8cb2ef513514425eb6cf6188ea93aa",
             "ocr": "21670023af407908e3f4c1d9b0d6213c8919b06e",
             "test-preview": "2054d0bf6b56c52fad0232f558445ceed9f19a02",
             "windows-noactive": "d5d87dd347d87a1ab075b6d0d940da3ae9a0f096"
@@ -1478,7 +1478,7 @@
         "branches": {
             "master": "22956f6ec483b1eb5c8d535e693d9939535c73aa",
             "public": "8fa7fb5def16737feecb54fb739e2981903c6f52",
-            "ranks": "41488c15a057f9b3ae6e1d6a13299c28752cb63b"
+            "ranks": "ebd5e352b98fbff2881bb4d28c96cfa609d98c0b"
         }
     },
     "zzz_EDR-Freeze": {
@@ -1901,7 +1901,8 @@
             "26100.4946.69.4_f5eddac": "f5eddacd10a8595789906dbaba6f8afa22b9e124",
             "26100.4946.69.5_206dcf5": "206dcf5d6c66122404ad9bd19c0105819e9acfc5",
             "26100.4946.69.6_7384790": "738479020b4cca11b0dace83cdda344c4e95db3e",
-            "26100.8457.70.1": "c1a4f6bd69eb4be30d03c274fbca60d0e61c25fe"
+            "26100.8457.70.1": "c1a4f6bd69eb4be30d03c274fbca60d0e61c25fe",
+            "26100.8457.70.2": "52a851b6c9b243775d0e48ef6afc3a3caf6386ac"
         },
         "branchs": {
             "Backports_22000_675_45": "5d8a2382da6e0591c1446ec56bae0c44b3b3a2f3",
@@ -1909,7 +1910,7 @@
         },
         "branches": {
             "Backports_22000_675_45": "5d8a2382da6e0591c1446ec56bae0c44b3b3a2f3",
-            "master": "c1a4f6bd69eb4be30d03c274fbca60d0e61c25fe"
+            "master": "52a851b6c9b243775d0e48ef6afc3a3caf6386ac"
         }
     },
     "zzz_EzWindSLIC": {
@@ -1996,15 +1997,13 @@
             "5.1": "39f62d4449699eb24445f75fd89ed909f6ad4808",
             "5.2": "b3c4027f6e6be24950499d9cd2f09d4fcf7c8691",
             "5.3-dev": "1da30836c8cdc5a235e5b4cf72b443d02434be2f",
-            "6.0.0.10": "ab6e3b9531cb994ccec3393bd9321fc23f7400b7",
-            "6.0.0.8": "469bfbcf0b8560a44151dac81f5a9ac2baaeecef",
-            "6.0.0.9": "ffb8623e47bd2c7057a24737cb158aab4779b40a"
+            "6.0.0.11": "757dd40fba4e50c784384ece4aa24c5ec71a7c07"
         },
         "branchs": {
             "main": "8d7410f81f838cc3097ccaa798d27c09242b5f61"
         },
         "branches": {
-            "main": "ab6e3b9531cb994ccec3393bd9321fc23f7400b7"
+            "main": "757dd40fba4e50c784384ece4aa24c5ec71a7c07"
         }
     },
     "zzz_FlashPatch": {
@@ -2776,10 +2775,11 @@
             "release-1.3.0": "4ac5bd6b8ea84e107d83221ec1fea7e3209a8bb8"
         },
         "branches": {
+            "config-json": "af0804e619e1d3f5a3f6da1fda95292ce602f161",
             "copilot/fix-destructor-ub": "ee12ea44a427cdac62bc4d1b17ef32aa52a49793",
             "gh-pages": "ef25a43ab1747b263b241f7e0192c07e5fdecb32",
             "jp-variants-fix": "4b7b9ffff7384bbdaaf2aff35da268465c5f90d9",
-            "master": "3bf661989c6980884bc52c34bda245e55ea3664f",
+            "master": "2de1f389feff35836eb64da632b705df14f42850",
             "release-1.2.0": "e38c96cde33813b405d8ee0da5ec9b3ac084b9f3",
             "release-1.3.0": "4ac5bd6b8ea84e107d83221ec1fea7e3209a8bb8"
         }
@@ -3597,6 +3597,7 @@
             "v9.15.1": "fb11d63960725ad95a38fd59f8247835258fb88d",
             "v9.15.2": "b03688da7b061bc45739280404942194651ebb00",
             "v9.16.0": "4dcefeea0f5d45097d9c46aac4f232f9e4a4c8ef",
+            "v9.17.0": "9c460e348d95e49434c514ba7332ae32af56c92e",
             "v9.2.0": "edd400c418034f8d79d586f068d03c961f879f64",
             "v9.3.0": "2e73c62b3af1a6fbb776c555f16caf5c0f912b70",
             "v9.3.1": "f46dff56f9c5f4cf96bdea9f440d01fed3b16725",
@@ -3644,15 +3645,15 @@
             "bugfix/tunnel-service-bugs": "6b727e31920b23a22fda6a4fa40a67e99b5e4a89",
             "bugfix/update-ddi-version-check": "2f3cf2694ca4d1dc4c3ef98e645566b9066d65a0",
             "feature/btlogger": "1525840291a14aa4fb1778bed59eb3dfaedd1787",
-            "feature/device-hub": "8f6c3273a629ee1defee25fcbb2633daeec9ee2c",
+            "feature/device-hub": "0d920a46aa76dea77e0bfdc86646b8bc7f6c73f2",
+            "feature/device-hub-bak": "3f2137384a5936c137d1c7487808e074940c9dfc",
             "feature/enhance-monitor-processes-cli": "132999ebbc15d2a47af88857c4953885a67fdd5e",
             "feature/pure-python-tun": "edd5069c94c8792b80255bed959b16a4c55e8156",
             "feature/ruff": "ed05f9c0a6b8b141c88c7526f5fa703e47a43dd8",
             "feature/single-tss-req": "4ba153b9ceaf02fb80cf373a5822ba540d7826ad",
-            "feature/update-DDI-27A5194q": "0bc00900596b1ab859ece7dfe0ee09db645e124c",
             "feature/wda-run-script": "72d8f0087dd83f6a28d28d9523f22b5857102486",
             "feature/xcuitest-17": "00faa967b2c1b09971674bbd46ae17d4348bbda4",
-            "master": "57ae3d15efd54f18977fd13390dec4ebd9a1f2ef",
+            "master": "9c460e348d95e49434c514ba7332ae32af56c92e",
             "refacotr/typer-developer": "292b2f9b8dbeadf88dea91b4d335669f88bc93f0",
             "refactor-afc-pull-method": "2efab849b5c808aa96986fafd1e42e510c2ab6af",
             "refactor-afc-pull-method2": "4de2c4fc35a8a2e62fe74dc1aa47676435952332",
@@ -3846,7 +3847,8 @@
             "v1.33.6": "ecc84411310db6fc7c12b9072abf862a1d2b76f6",
             "v1.33.7": "7d7dbc2ad91a23e4539e2b45291040c995d7bc39",
             "v1.33.8": "f111a9b5e284690ae3fb696669e9ce2581f25506",
-            "v1.33.9": "b758ff2940f9ad6feb0a1d63449651803401d230"
+            "v1.33.9": "b758ff2940f9ad6feb0a1d63449651803401d230",
+            "v1.34.0": "ebe54671a3cdf6b0ac6fec53fafd28bab05e7310"
         },
         "branchs": {
             "116-feature-warn-user-that-the-source-language-is-the-same-as-the-target-language": "a9a40bc10bd95f53bde7aaef7efb007e5dfaa016",
@@ -4142,7 +4144,6 @@
             "build/update-rollup": "c38bb6135d55e3897ba8fd334bbe5450f2649ac8",
             "build/upgrade-many": "6a1864d90092f4048bc918aa72722f3adf4e2e49",
             "build/upgrade-wxt": "514f2b65f59aea6113f4c81c2c7774a0a0ee42b6",
-            "changeset-release/main": "1c0df17dcd4dec084dfe25883e10a57989259d1b",
             "chore/local-dev-ex": "d3fec2d0a3da1b0c53d999e10a223cb95d0448ce",
             "chore/sponsor-action": "24ab93ae2b7cb2a24f234196559f420a562802b2",
             "chore/update-hero-heading": "a51a23cd2f3bf8e8f688cf10d8079121af6b68e1",
@@ -4357,7 +4358,7 @@
             "kvnmqpqs": "a2b1a6ab40c8524279b9eb8febdd83df43242ac3",
             "lisongkun/main": "1ca7d4064375b44099b8a9fc9ae94072c62472aa",
             "locales/korean-extension": "00205027e9a87ed7fcc150484ae8f5df30376ab7",
-            "main": "80aeb349d9e2169b11dc1eee6d1589241bdb8da2",
+            "main": "ebe54671a3cdf6b0ac6fec53fafd28bab05e7310",
             "mengxi-ream-patch-1": "72eb0292f4d4870f86ad6d7a98ae89dac10c9016",
             "my-feature-branch": "f57c96ab0a1107a3b40adf9b452d88abb19b01d3",
             "perf/auth-cookie-change-issue": "3511ceb2a9f7e25c1dbeb6d4a5d65b6dfcb717a6",
@@ -6500,7 +6501,7 @@
         },
         "branches": {
             "Go-dev": "250f77369164b8ef2eaffaa1cb17e980af563892",
-            "dev": "fc19fb7f2d815a4337e539cbacb6920beb537cd2",
+            "dev": "8f7339f4adc71015f661d3ccada11a939f813736",
             "master": "f1f875a325e86bcb51c9c6af775d83887e3ef010"
         }
     },
@@ -6642,7 +6643,8 @@
             "v5.0.1-beta.4": "8df29c7aea2417b68540d586c8ddfaf48dc0273f",
             "v5.0.1-beta.6": "29226295b42bc1c5a7e04d559ecbb1caa3a95f53",
             "v5.0.1-beta.7": "104e62b66aff8b9f4c2fa91f66f9c8de4df0495d",
-            "v5.0.1-beta.8": "0a64b9dc914d0885ef02a158dad4ac6bd128aa23"
+            "v5.0.1-beta.8": "0a64b9dc914d0885ef02a158dad4ac6bd128aa23",
+            "v5.0.1-beta.9": "478a6edbbad3e206e127b034ef6f756ca86ffa14"
         },
         "branchs": {
             "dependabot/npm_and_yarn/axios-1.15.2": "cbde8d524f4a7985862b1489da307c17c21981bb",
@@ -6655,7 +6657,7 @@
             "master": "19b273ab24c3272d6cf1a6192a2c9c287ce75e14"
         },
         "branches": {
-            "develop": "0a64b9dc914d0885ef02a158dad4ac6bd128aa23",
+            "develop": "478a6edbbad3e206e127b034ef6f756ca86ffa14",
             "gh-pages": "1a65b9c1c3046c53e21938da6c47644f34b0e5dc",
             "master": "0a2f39a465ddd5e5780a18173b014c16aa5ee192"
         }
@@ -7359,7 +7361,7 @@
             "master": "342c1a85456e6d55480f7f7ad53e7f0116cbedb1"
         },
         "branches": {
-            "master": "599d7bd0c05bf8e8e54c3bb91108271e6cb3ab06"
+            "master": "b2d4694484bcf87f3b74bb3170fbbf3fcf2976cc"
         }
     },
     "zzz_SARS": {
@@ -7439,6 +7441,7 @@
             "v2.4.0": "cb5132dddf5fc3a690b762dfad34ecbecf1fb8f6",
             "v2.5.0": "05c106f3a588c741d7c34fc3fb609a5bd8941add",
             "v2.5.1": "a456c6e7554351a273b15ae41a7187b7e30591b7",
+            "v2.5.2": "3b51cc42ac0813b342d7c94e15601727ab21bd5e",
             "v2026.04-alpha.1": "ddc857104b2a68fa0f3b23e361111a437c87ca71",
             "v2026.04-alpha.2": "6700270959cd0c861308797b074af384ff8b18b0",
             "v2026.04-alpha.3": "9962e9f37afeb4f8a952795ea7bcfd4cceef560f",
@@ -7463,7 +7466,7 @@
         },
         "branches": {
             "copilot/review-session-history": "e2aa59a037b659b491f7769df74273614f345184",
-            "master": "417447a4d88868a28a085a5956b7dfcb66b85698"
+            "master": "3e0aef6e3dca46e03b6992cf9edc0bb56a70cfae"
         }
     },
     "zzz_Identifier-Patcher": {
