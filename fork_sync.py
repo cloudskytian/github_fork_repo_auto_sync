@@ -265,7 +265,7 @@ def fork_sync(gh_token):
                 old_repo.delete()
         except Exception as e:
             if isinstance(e, github.GithubException) or isinstance(e, git.GitCommandError):
-                if e.status in [403, 404, 451]:
+                if e.status in [403, 404, 451] or (e.stderr and"not found" in e.stderr):
                     warning_flag = True
                 elif "warning" in fork_config[repo.name]:
                     warning_flag = fork_config[repo.name]["warning"]
