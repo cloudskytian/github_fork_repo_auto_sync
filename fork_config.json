@@ -369,6 +369,7 @@
             "cpal-android": "48c69e3342bb6cb8373285879acca458d8f21b6b",
             "cpp-refactor": "345e85c225d7ab14d30ea41af00be37f86cd9b5f",
             "disable-reprojection": "5123fc07dfa9caca0e70ab1af44a9571525a0c80",
+            "docker-linux-build": "6ea0a6577cfeb65361e53bb47efb71e2702a6bf4",
             "dynamic-framerate+tracking-phase-sync": "a44e3c759d3fff7cca9c9deb210c2aa597418fcb",
             "encoder-rewrite": "10c5d930deac9c3010d709a14377ea94cda5a3de",
             "euristics": "6dd518982786de786245c4564ac37d491bb7dfc9",
@@ -379,7 +380,7 @@
             "fixup-ci": "ba9c55d7f9d98bba5363e7d01ae1283aeef5c8d3",
             "foveated-encoding-presets": "5173c2dd93153fab60d226ca3462b3f2323f9e65",
             "fun-warpy-bug": "821870646fc6d3f7695ab0bea4085f0b23ad9a8a",
-            "hash-restart-settings": "0f37c5e1337c3f0701751c1b83e18404efce9b38",
+            "hash-restart-settings": "61135c86b8784264fa5f854c770554db998ac917",
             "improve-client-doc": "bc455975da297105e33aaec82e94d71b5a47c240",
             "improved-bitrate-alg": "2121a987534f4f05b078afa11bd80796c4ba1edb",
             "libp2p-socket": "17268debb71dbe0ece2f1b5d0dc885e5012fb969",
@@ -1245,7 +1246,7 @@
         },
         "branches": {
             "master": "201d1a150a0d7f432eb03c0c061e259b65b22822",
-            "next": "6fa5149f4b13910c366817dad84bf212fea03a95",
+            "next": "5c5bcaf70e2eab4f78d4a8135fc21ce6ee3bc958",
             "ocr": "21670023af407908e3f4c1d9b0d6213c8919b06e",
             "pre-refactor-master": "201d1a150a0d7f432eb03c0c061e259b65b22822"
         }
@@ -1479,7 +1480,7 @@
         "branches": {
             "master": "22956f6ec483b1eb5c8d535e693d9939535c73aa",
             "public": "8fa7fb5def16737feecb54fb739e2981903c6f52",
-            "ranks": "979a0befd806572324fe6d64d5fb135f40a00893"
+            "ranks": "7ce8a28c0d53ef85640622d102e7700489dc9de6"
         }
     },
     "zzz_EDR-Freeze": {
@@ -2117,7 +2118,7 @@
             "master": "f7e6b68ce94b8f5ffa633ec927520d91fce580e3"
         },
         "branches": {
-            "master": "a31ab8a7d18639677dbda3504b52afb7f82da58d"
+            "master": "99e5c9aabfd76864148479a35390f6bb6587d7c0"
         }
     },
     "zzz_gog-games.to_backup": {
@@ -2668,7 +2669,7 @@
         },
         "branches": {
             "frontend-dev": "e6fe6dc31137b2fad7640f63b3379c9c167019f6",
-            "main": "ac77a76087ebec983053182a12d847f6dcfcf982"
+            "main": "bb6f2d3d53fe5a12faef1c4f2d4040ce6aed330e"
         }
     },
     "zzz_mochi-player": {
@@ -2781,7 +2782,7 @@
             "fix-su": "d83f1b472d5fea9bed19db0883c393a554d847de",
             "gh-pages": "ef25a43ab1747b263b241f7e0192c07e5fdecb32",
             "jp-variants-fix": "4b7b9ffff7384bbdaaf2aff35da268465c5f90d9",
-            "master": "0e97a8a955dcd82cc3c69b2ac938be96c1cbf7a7",
+            "master": "2736adb0f27d8c2e2747ea58dfaa016c41503cc4",
             "release-1.2.0": "e38c96cde33813b405d8ee0da5ec9b3ac084b9f3",
             "release-1.3.0": "4ac5bd6b8ea84e107d83221ec1fea7e3209a8bb8"
         }
@@ -3003,7 +3004,7 @@
             "copilot/increase-timeout-and-support-folder-decompilation": "46e53c072db0faa3678c01b4db932bc406808650",
             "dev": "8b66924ee25878402c60ea1fcc6ea77cb05b2be3",
             "dev-python-3.14": "fb400cd0e419f919754d1c799a11e50ca6c67706",
-            "main": "75872a27c1cfc2f9a5ed5aba5716be6db3f21d1d",
+            "main": "6a31b227c9f7ccb85e08c9781b33598b312a715e",
             "uv-migration": "5970a0d68d488da7a089d3ace1ff367f81fa4dc2"
         }
     },
@@ -3661,6 +3662,7 @@
             "feature/btlogger": "1525840291a14aa4fb1778bed59eb3dfaedd1787",
             "feature/device-hub-bak": "2b715b20ae811e1d457dd1ab34d907bebde4dde3",
             "feature/enhance-monitor-processes-cli": "132999ebbc15d2a47af88857c4953885a67fdd5e",
+            "feature/prefetch-tickets": "6f3bb119032137690cbb5abbd20fd2fd5bf4f1e6",
             "feature/pure-python-tun": "edd5069c94c8792b80255bed959b16a4c55e8156",
             "feature/ruff": "ed05f9c0a6b8b141c88c7526f5fa703e47a43dd8",
             "feature/single-tss-req": "4ba153b9ceaf02fb80cf373a5822ba540d7826ad",
@@ -4351,6 +4353,7 @@
             "fix/twitter-translation-aria-hidden": "02e324b2eaba2232e2206df77159de8aa1bdb176",
             "fix/url-detect": "accd8dffe7a6a00ff52c66971e20f602c54f2622",
             "fix/version-notification": "cd3cf1dd42421032059f41279f3f91b428ed71a4",
+            "hermes/ai-sdk-model-sync-20260617-035310": "ab240e45987f8d6e659abf9fccf8663d123a2ca4",
             "hermes/issue-1319-20260412-122313": "98db9811e684b1bac15a8f89ab1aa0535bb27189",
             "hermes/issue-1327-20260413-065900": "c88c9dbd7d8a1a364012f2d8b2e6c64466938aa8",
             "hermes/issue-1327-20260413-065920": "93bc9d0b14673b74444edc1e6015c3d9450f47a1",
@@ -4460,7 +4463,7 @@
             "1.4.6": "1abc897c451c8b5bbff3792509a7fef9d12f2ce3",
             "1.4.7": "0c86d4616298f09435f6236599b300964aa61460",
             "fdroid-version": "9827c7651442800f47428087903d52da8cb8c2c8",
-            "nightly": "80a5865db3a49036d4d57b64455e8ff87cc39854"
+            "nightly": "f4a0535289b621dad64192c062aef4774ae3ee9a"
         },
         "branchs": {
             "accept_window_popup_after_windows_sessoin_chosen": "be01eb12e7c7c2ef13257c71f9cb2c1ce628a7ec",
@@ -4478,15 +4481,16 @@
         },
         "branches": {
             "accept_window_popup_after_windows_sessoin_chosen": "be01eb12e7c7c2ef13257c71f9cb2c1ce628a7ec",
-            "autocomplete_online": "32bcbbdb2dec6bf500addd3c7b0ce8bf43fae89a",
+            "autocomplete_online": "9ca99183bfbae03122b2f3ad120a89792bcc0fec",
             "copilot/fix-discussion-14282-issue": "36b4f765fd7ee5ea1644827497866ebaf5e771dd",
             "copilot/fix-h265-image-quality-issue": "de11e95598194a9b3c09f7caf0ba06a70158f744",
             "copilot/fix-issue-14527": "8deee9b2817ddc0ca844862a5a9ffcf43428ca7a",
             "fix-mobile-mouse-hover-issue-8789": "4423e0a1dc9f12e852de6a2d4f942d255edfb028",
+            "fuse-file-umount": "0a0625126e40b1be532084c4f803ced771762475",
             "ios": "a92d2301d9eb55e203fe5a90351d277430be4987",
             "keyboard-shortcuts": "fe93cbe570c022893ed03ab5343af8537647ef40",
             "keyboard-shortcuts-clean": "04faf21c78cfd99b50c4d6bffbeefbf98986c5ea",
-            "master": "93d064a9b0eb58ab94db88ff727a877ef773c0d8",
+            "master": "8a955888bf367d0d283e7cbbd908a5e3d29e9b48",
             "sciterjs": "e86d0a0fc14f0bff4cb1ecd94a84eae42818da80",
             "screenlock-os-password": "f3bd9fa933c03a960ebf3a10c94fa749e8918eca",
             "terminal-utf8-and-reconnect": "cdfd986cb9669915fda1487c9416e14a131d202d",
@@ -6661,6 +6665,7 @@
             "v5.0.0-beta.28": "0a2d5d5c5243282aed8fed401559b94977e80b35",
             "v5.0.0-beta.30": "85f90df5557ae4e8e27b3f20b6ba394ec3c0eeaa",
             "v5.0.0-beta.31": "064b72118d0d294d523bc419a79168819bb468ee",
+            "v5.0.1": "313c38f64095c00a6b4f6dc1168036638316e666",
             "v5.0.1-beta.11": "84d302443f0c22d9956d6e1682ac4b27ce333188",
             "v5.0.1-beta.4": "8df29c7aea2417b68540d586c8ddfaf48dc0273f",
             "v5.0.1-beta.6": "29226295b42bc1c5a7e04d559ecbb1caa3a95f53",
@@ -6679,11 +6684,9 @@
             "master": "19b273ab24c3272d6cf1a6192a2c9c287ce75e14"
         },
         "branches": {
-            "dependabot/npm_and_yarn/react-router-7.15.1": "a42310e22f22513e4456fd1d10a00e5b52779148",
-            "dependabot/npm_and_yarn/vite-8.0.16": "a3447319e4bcc1dd39f7dcb62f5ac8c9c2d7f72b",
-            "develop": "84d302443f0c22d9956d6e1682ac4b27ce333188",
+            "develop": "313c38f64095c00a6b4f6dc1168036638316e666",
             "gh-pages": "1a65b9c1c3046c53e21938da6c47644f34b0e5dc",
-            "master": "0a2f39a465ddd5e5780a18173b014c16aa5ee192"
+            "master": "2486276b628f7d434b984445629a284a5f9e28b9"
         }
     },
     "zzz_TrinityEmulator": {
@@ -7385,7 +7388,7 @@
             "master": "342c1a85456e6d55480f7f7ad53e7f0116cbedb1"
         },
         "branches": {
-            "master": "f202197ab0321cd4ce1a2ef946426e144cc71746"
+            "master": "310f3ea30873a41d8e497208340b6157e8b84ce9"
         }
     },
     "zzz_SARS": {
@@ -7491,8 +7494,8 @@
             "master": "a8cb9397e18135cf6c3310bacb7ed78186c1c3b3"
         },
         "branches": {
-            "badge-data": "781a0bf156d61516adf8a73105381ea6d977db4e",
-            "master": "5f2f529f4b49d7f3eca9f9e38c4bdf14e745556c"
+            "badge-data": "9a8aeff9f5ed0d2f39d5c7a2ab55c7bc34d778cb",
+            "master": "78d1c642de03ffd606d5c6e648f52e5570cb5133"
         }
     },
     "zzz_Identifier-Patcher": {
