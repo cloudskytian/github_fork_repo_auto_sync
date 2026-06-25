@@ -1480,7 +1480,7 @@
         "branches": {
             "master": "8d83f54a9ae9506dbbc3648730e15c237ebb8752",
             "public": "a9083e8fbd7d275767b788db3846c5b28f78d19b",
-            "ranks": "50eafede9793cb43b7e85a7b15c0a636abf6e29f"
+            "ranks": "991000ef85fc7ac17fb4c6affc05f01f92ec015b"
         }
     },
     "zzz_EDR-Freeze": {
@@ -2004,6 +2004,11 @@
             "6.0.10": "834b693a20236eafbf88844d18f0c4370b67d80a",
             "6.0.11": "b39b6c96f638cbcdda6f61619d12a4ebeb5ac67b",
             "6.0.12": "b3851ef3aad2b200f7a898f3e2c6579b41bd049b",
+            "6.0.13": "8b66875a6104edf78a67dd02a00aa2e79380e744",
+            "6.0.15": "bf74ac6095d6b1ab4d05d74c8d0eab3055431050",
+            "6.0.16": "462549b64b6dc1bd79b0e514e251964dad21f935",
+            "6.0.17": "497fe42f08770be2855e1ff14033608bc65c1ac8",
+            "6.0.18": "e6009df41e7685d208bbfba68f0c3abc13cd52ed",
             "6.0.2": "9fbfb7c6e7a8ba739ef9ad2c2172e4cb4625117d",
             "6.0.3": "7ddb4939bcdce26644a863425404d5f7164b6f0f",
             "6.0.5": "d8162d8821575e1ef6ce3c6a415aaf04042a93ef",
@@ -2016,7 +2021,7 @@
             "main": "8d7410f81f838cc3097ccaa798d27c09242b5f61"
         },
         "branches": {
-            "main": "b3851ef3aad2b200f7a898f3e2c6579b41bd049b"
+            "main": "e6009df41e7685d208bbfba68f0c3abc13cd52ed"
         }
     },
     "zzz_FlashPatch": {
@@ -2129,7 +2134,7 @@
             "master": "f7e6b68ce94b8f5ffa633ec927520d91fce580e3"
         },
         "branches": {
-            "master": "6fcbe21c67c5e896d9ba2633c419271a3b22cb17"
+            "master": "068b5052a3d2683da7e2c14beaebbba1d0fadde8"
         }
     },
     "zzz_gog-games.to_backup": {
@@ -3675,12 +3680,12 @@
             "bugfix/mav25": "9212fec14e7f05c75985b0d3f91387f5f5754245",
             "bugfix/tunnel-service-bugs": "6b727e31920b23a22fda6a4fa40a67e99b5e4a89",
             "bugfix/update-ddi-version-check": "2f3cf2694ca4d1dc4c3ef98e645566b9066d65a0",
-            "feature/btlogger": "1525840291a14aa4fb1778bed59eb3dfaedd1787",
+            "feature/btlogger": "352905b22906f0e86f751103c43cee719c55b770",
             "feature/pure-python-tun": "edd5069c94c8792b80255bed959b16a4c55e8156",
             "feature/ruff": "ed05f9c0a6b8b141c88c7526f5fa703e47a43dd8",
             "feature/single-tss-req": "4ba153b9ceaf02fb80cf373a5822ba540d7826ad",
             "feature/wda-run-script": "72d8f0087dd83f6a28d28d9523f22b5857102486",
-            "master": "b5ca33caa2263eae841fd2271301b984e3e178dd",
+            "master": "a310e567366b09bc8a2ca527420f634ed158af18",
             "refacotr/typer-developer": "292b2f9b8dbeadf88dea91b4d335669f88bc93f0",
             "refactor-afc-pull-method": "2efab849b5c808aa96986fafd1e42e510c2ab6af",
             "refactor-afc-pull-method2": "4de2c4fc35a8a2e62fe74dc1aa47676435952332",
@@ -4174,7 +4179,7 @@
             "build/update-rollup": "c38bb6135d55e3897ba8fd334bbe5450f2649ac8",
             "build/upgrade-many": "6a1864d90092f4048bc918aa72722f3adf4e2e49",
             "build/upgrade-wxt": "514f2b65f59aea6113f4c81c2c7774a0a0ee42b6",
-            "changeset-release/main": "a0cb97e18554eb7ea29211b8eed50f96efa3aecd",
+            "changeset-release/main": "4b4a2fe9b5e02d8fcfec256373ae2449b47c06db",
             "chore/local-dev-ex": "d3fec2d0a3da1b0c53d999e10a223cb95d0448ce",
             "chore/sponsor-action": "24ab93ae2b7cb2a24f234196559f420a562802b2",
             "chore/update-hero-heading": "a51a23cd2f3bf8e8f688cf10d8079121af6b68e1",
@@ -4391,7 +4396,7 @@
             "kvnmqpqs": "a2b1a6ab40c8524279b9eb8febdd83df43242ac3",
             "lisongkun/main": "1ca7d4064375b44099b8a9fc9ae94072c62472aa",
             "locales/korean-extension": "00205027e9a87ed7fcc150484ae8f5df30376ab7",
-            "main": "edd846e6ee21239db160a1a9f9c0261cef8ab78e",
+            "main": "1dbcb612dc069ba0a79d9f9b79ae2b30b5ae1620",
             "mengxi-ream-patch-1": "72eb0292f4d4870f86ad6d7a98ae89dac10c9016",
             "my-feature-branch": "f57c96ab0a1107a3b40adf9b452d88abb19b01d3",
             "perf/auth-cookie-change-issue": "3511ceb2a9f7e25c1dbeb6d4a5d65b6dfcb717a6",
@@ -4505,7 +4510,7 @@
             "ios": "a92d2301d9eb55e203fe5a90351d277430be4987",
             "keyboard-shortcuts": "fe93cbe570c022893ed03ab5343af8537647ef40",
             "keyboard-shortcuts-clean": "04faf21c78cfd99b50c4d6bffbeefbf98986c5ea",
-            "master": "a69614d464cd2b13f63e5fb939e80b52c68bcb24",
+            "master": "ff226f6d8013dee2de5a6553abaf67bf32b3e875",
             "revert-15324-claude/epic-einstein-sgezjv": "8c6bb1767fc295a74d0930f1ba3aec1f805ac188",
             "sciterjs": "e86d0a0fc14f0bff4cb1ecd94a84eae42818da80",
             "screenlock-os-password": "f3bd9fa933c03a960ebf3a10c94fa749e8918eca",
@@ -6970,7 +6975,7 @@
             "master": "6a4beb41a2544bd75641047af5f18b97c8ee5dbf"
         },
         "branches": {
-            "master": "c7ab409b3f912cf87c59f05b2bc310cc5f70bfbe"
+            "master": "12d987fbf6e79fa2f41bb24a50cfc4203e818e18"
         }
     },
     "zzz_Virtual-Display-Driver": {
@@ -7359,9 +7364,7 @@
         },
         "branches": {
             "WSA-next": "a6cfa5e4e5972486175481aee1ea3ed1f8e30a3d",
-            "dependabot/github_actions/actions/cache-6": "51c29251402a0bce6ee8e15d56c71d799092f15b",
-            "dependabot/github_actions/actions/checkout-7": "6a63a9cdec2400cdb00d3eecdb871f7c8f3c9be1",
-            "master": "7a148f6c75c9e37ef518924b926e48f9848d7e31",
+            "master": "7e9a4471abc36ac60f2febd3933e1b771adc732b",
             "update": "33481406f5458a3bc11e5479f5aa1965f82d4429"
         }
     },
@@ -7406,7 +7409,7 @@
             "master": "342c1a85456e6d55480f7f7ad53e7f0116cbedb1"
         },
         "branches": {
-            "master": "6baee5a5dbed293bf5a9d3670c53f44d07ce62d5"
+            "master": "498fbc697df1c8315b239895dd38356efa82304d"
         }
     },
     "zzz_SARS": {
@@ -7514,8 +7517,8 @@
             "master": "a8cb9397e18135cf6c3310bacb7ed78186c1c3b3"
         },
         "branches": {
-            "badge-data": "6290f7e39a147a7f5367823b161161a12672aa24",
-            "master": "547a3e502d1ce2383a628ac0d62edc35088a7488"
+            "badge-data": "493196565d4c7c47d37c6693ebd7d665d2be6bd5",
+            "master": "fbfcb5ab8b1aa7fcb9f32545c5dc7ce3c2ed8117"
         }
     },
     "zzz_Identifier-Patcher": {
