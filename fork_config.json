@@ -584,7 +584,7 @@
             "master": "294aef8fde538d169089b1c7dc70b0ddc3b0ef6f"
         },
         "branches": {
-            "master": "294aef8fde538d169089b1c7dc70b0ddc3b0ef6f"
+            "master": "264b4547b30e8e700afd260751b5e13f8bc61275"
         }
     },
     "zzz_c001apk": {
@@ -683,7 +683,7 @@
             "release/1.8.4": "21d36114e1600c1bed06599541de98e70014ed1c",
             "release/1.8.5": "caf7aca4cc00f6ecace0832bd6992d4fb8c28105",
             "release/1.8.6": "cdf8a1ae10e8eea1984b15b8ed45a1aba2ac5153",
-            "release/1.8.7": "3dc6b4040442c51de174d99c82bbc21b856199c4",
+            "release/1.8.7": "a42f41d7b23eca28336a5653d00f96af454647db",
             "release/2.0.0": "6f6c3c6465d8a9d488037ca1a267f395ff5709e5"
         }
     },
@@ -1480,7 +1480,7 @@
         "branches": {
             "master": "8d83f54a9ae9506dbbc3648730e15c237ebb8752",
             "public": "a9083e8fbd7d275767b788db3846c5b28f78d19b",
-            "ranks": "991000ef85fc7ac17fb4c6affc05f01f92ec015b"
+            "ranks": "0915073f463124000d15bc579bd7395e928aabc7"
         }
     },
     "zzz_EDR-Freeze": {
@@ -2009,6 +2009,7 @@
             "6.0.16": "462549b64b6dc1bd79b0e514e251964dad21f935",
             "6.0.17": "497fe42f08770be2855e1ff14033608bc65c1ac8",
             "6.0.18": "e6009df41e7685d208bbfba68f0c3abc13cd52ed",
+            "6.0.19": "a6aeeaf50fbdf285e5c548ebb4770336fdecb97a",
             "6.0.2": "9fbfb7c6e7a8ba739ef9ad2c2172e4cb4625117d",
             "6.0.3": "7ddb4939bcdce26644a863425404d5f7164b6f0f",
             "6.0.5": "d8162d8821575e1ef6ce3c6a415aaf04042a93ef",
@@ -2021,7 +2022,7 @@
             "main": "8d7410f81f838cc3097ccaa798d27c09242b5f61"
         },
         "branches": {
-            "main": "e6009df41e7685d208bbfba68f0c3abc13cd52ed"
+            "main": "a6aeeaf50fbdf285e5c548ebb4770336fdecb97a"
         }
     },
     "zzz_FlashPatch": {
@@ -2134,7 +2135,7 @@
             "master": "f7e6b68ce94b8f5ffa633ec927520d91fce580e3"
         },
         "branches": {
-            "master": "068b5052a3d2683da7e2c14beaebbba1d0fadde8"
+            "master": "98bdc0df0c0f966f0cc62bddf139b07db1989ef6"
         }
     },
     "zzz_gog-games.to_backup": {
@@ -2795,11 +2796,10 @@
         },
         "branches": {
             "codex/issue-941": "54e833320f6f118d26ea1deccbaaa11edf12338d",
-            "copilot/byvoid-opencc-issue-585": "30069761a8e70d6721ea0de2edb78a01590df652",
             "copilot/fix-destructor-ub": "ee12ea44a427cdac62bc4d1b17ef32aa52a49793",
             "gh-pages": "ef25a43ab1747b263b241f7e0192c07e5fdecb32",
             "jp-variants-fix": "4b7b9ffff7384bbdaaf2aff35da268465c5f90d9",
-            "master": "7451dc46f666320821c991f0ca5bef22df9a15b3",
+            "master": "ef362961106dede6d753e834ac99f305055cac43",
             "release-1.2.0": "e38c96cde33813b405d8ee0da5ec9b3ac084b9f3",
             "release-1.3.0": "4ac5bd6b8ea84e107d83221ec1fea7e3209a8bb8"
         }
@@ -2924,7 +2924,8 @@
             "v3.0": "23232d969a62f62b8d4d274df4323ea916ef512a",
             "v3.1.0": "a4115dbc0bbea26e27992fa1ae6a89bdcb420ee7",
             "v3.2.0": "7dd955f8e726cd113146984858ba11bf7202bff9",
-            "v3.2.1": "51d9b17cd9710cda540b41a56a1a9ea453d21c80"
+            "v3.2.1": "51d9b17cd9710cda540b41a56a1a9ea453d21c80",
+            "v4.0.0": "22e53445e44481fad0f63c2a088aa91c0deda3af"
         },
         "branchs": {
             "MacOS": "dc79613ab02c8fa53547c93b168143b1035920d4",
@@ -2938,15 +2939,15 @@
         },
         "branches": {
             "MacOS": "dc79613ab02c8fa53547c93b168143b1035920d4",
-            "UDP-Errors": "4b62e85da2f811d6c77e45600510163bd9d3217a",
+            "UDP-Errors": "1a970b2c91ae822a27ce6a7a5d88d563680fdeec",
             "copilot/add-process-based-exclude-support": "121b96e0e14e55728991cebb7f0ba425e7dc80f8",
             "copilot/fix-bsd-issue-proxybridge-windivert": "c36ec8e3486a1c9b23dda3d873c2ba4bfb6325d6",
             "copilot/fix-doubled-rules-issue": "a448a6a3e00af9fdfaa2f3bff15e723b24447e5a",
             "copilot/fix-github-actions-analyze-swift": "d5894837e8ec20db0801c795ac1d8e3da970b641",
             "copilot/fix-proxy-curl-exe-issue": "1c2b5cb5e6e39be2eab5fcd25ac0ac5f8764b36d",
             "copilot/fix-rules-window-resizing": "b554c1ef0042f6aca8fa3bfb106d45faae5a9b1a",
-            "dev": "ef3fd46210c8cb7a711d47ebadd9a1e2756c4bbd",
-            "master": "2ce3e923034e4ecfa08dc251893a74ee8209cdf4",
+            "dev": "8a0c631494006dd7654922292008d246d47a433c",
+            "master": "22e53445e44481fad0f63c2a088aa91c0deda3af",
             "multiproxy": "fc386db30f1afdc525c0c73e32017154cec1296d"
         }
     },
@@ -4510,7 +4511,7 @@
             "ios": "a92d2301d9eb55e203fe5a90351d277430be4987",
             "keyboard-shortcuts": "fe93cbe570c022893ed03ab5343af8537647ef40",
             "keyboard-shortcuts-clean": "04faf21c78cfd99b50c4d6bffbeefbf98986c5ea",
-            "master": "ff226f6d8013dee2de5a6553abaf67bf32b3e875",
+            "master": "989bf80fe83e1a8f7f18e8da037109d1adfe0385",
             "revert-15324-claude/epic-einstein-sgezjv": "8c6bb1767fc295a74d0930f1ba3aec1f805ac188",
             "sciterjs": "e86d0a0fc14f0bff4cb1ecd94a84eae42818da80",
             "screenlock-os-password": "f3bd9fa933c03a960ebf3a10c94fa749e8918eca",
@@ -4749,7 +4750,7 @@
             "Test": "b91daec2a1ef45913abe00e5ec062535bd9b1b6e",
             "codespell": "1346eee09705f61119329ee1a7c962025cd77366",
             "experimental": "3c16b7826c2fde62b1e839c62a9be12bf96d9b2a",
-            "master": "b52f3cb43cfb63a77134cce8fe9ba22a2b15e97c",
+            "master": "0f2018a0d6e1b425433e0c7e6c4ba8ca28108622",
             "out-of-date": "abd2d44cd6f305da956ad70c7481cb1256efff24",
             "remote-mgmt": "8194614afef2a01ace718dc58cb3777dbbe0d27b"
         }
@@ -7409,7 +7410,7 @@
             "master": "342c1a85456e6d55480f7f7ad53e7f0116cbedb1"
         },
         "branches": {
-            "master": "498fbc697df1c8315b239895dd38356efa82304d"
+            "master": "617e156a64e7e1dcf08455d2eabb395dc3a84e8e"
         }
     },
     "zzz_SARS": {
@@ -7517,8 +7518,8 @@
             "master": "a8cb9397e18135cf6c3310bacb7ed78186c1c3b3"
         },
         "branches": {
-            "badge-data": "493196565d4c7c47d37c6693ebd7d665d2be6bd5",
-            "master": "fbfcb5ab8b1aa7fcb9f32545c5dc7ce3c2ed8117"
+            "badge-data": "c09a41527b022e34e88072a8abdb8530cc4086bc",
+            "master": "367a84c3ef3c19289d19149388d8b1c48b20a3d9"
         }
     },
     "zzz_Identifier-Patcher": {
