@@ -1244,7 +1244,7 @@
             "windows-noactive": "d5d87dd347d87a1ab075b6d0d940da3ae9a0f096"
         },
         "branches": {
-            "master": "7c712253b4bbf3396ec0646ad0f1d58a90d2a7fa",
+            "master": "6f601aa87bcca52e33f351a80c0ff5b6b7058c7a",
             "ocr": "21670023af407908e3f4c1d9b0d6213c8919b06e",
             "pre-refactor-master": "201d1a150a0d7f432eb03c0c061e259b65b22822"
         }
@@ -1480,7 +1480,7 @@
         "branches": {
             "master": "8d83f54a9ae9506dbbc3648730e15c237ebb8752",
             "public": "a9083e8fbd7d275767b788db3846c5b28f78d19b",
-            "ranks": "bd389fb4660d61ec2efe23196060fd2562de8bd9"
+            "ranks": "1bc24b0a9faaaaa174b26bc107ce05068a28a7e7"
         }
     },
     "zzz_EDR-Freeze": {
@@ -2018,6 +2018,7 @@
             "6.0.25": "3341faea575f53f1cfe0456eefa33c0267c94076",
             "6.0.26": "eb65177f5db72dc6059c959c546109f309938559",
             "6.0.27": "af434dd9c30596ab8ae61c72ff188ad57a263065",
+            "6.0.28": "f1a3834fbbcf616d3c9af81a2aa432ff3c77dce8",
             "6.0.3": "7ddb4939bcdce26644a863425404d5f7164b6f0f",
             "6.0.5": "d8162d8821575e1ef6ce3c6a415aaf04042a93ef",
             "6.0.6": "b131d9cb728462077c41e66700de54a94df84e76",
@@ -2029,7 +2030,7 @@
             "main": "8d7410f81f838cc3097ccaa798d27c09242b5f61"
         },
         "branches": {
-            "main": "af434dd9c30596ab8ae61c72ff188ad57a263065"
+            "main": "c2e01f56f3dccbe01bf093ef8a85fb6345873e1f"
         }
     },
     "zzz_FlashPatch": {
@@ -2735,10 +2736,7 @@
             "master": "aa3c4d015e607d9d5d14d333f06dded4cef193b9"
         },
         "branches": {
-            "dependabot/cargo/once_cell-1.21.4": "550c831f79dbc62cdc99a7358ddf09309e6e32d7",
-            "dependabot/cargo/quote-1.0.46": "78af39149fbf805a466c539e0308b69b855dae60",
-            "dependabot/cargo/vercel_runtime-2.4.0": "b14df7ff9ed7f9f927f3be0b880579881763e36d",
-            "master": "2456d133f63a7959a311ce08362f7b34fc25286d"
+            "master": "590b355c1b54381384d981352cf3159a02df86fd"
         }
     },
     "zzz_open-fitter-core": {
@@ -2808,7 +2806,7 @@
             "copilot/fix-destructor-ub": "ee12ea44a427cdac62bc4d1b17ef32aa52a49793",
             "gh-pages": "ef25a43ab1747b263b241f7e0192c07e5fdecb32",
             "jp-variants-fix": "4b7b9ffff7384bbdaaf2aff35da268465c5f90d9",
-            "master": "6f431a2bcf56cef2379c4f0a57e68dc188e2ed64",
+            "master": "c1ab1c28c21644febc68d5a439ce7fa3c3f1576d",
             "release-1.2.0": "e38c96cde33813b405d8ee0da5ec9b3ac084b9f3",
             "release-1.3.0": "4ac5bd6b8ea84e107d83221ec1fea7e3209a8bb8"
         }
@@ -3647,6 +3645,7 @@
             "v9.3.1": "f46dff56f9c5f4cf96bdea9f440d01fed3b16725",
             "v9.30.0": "fdd5bd38a7bbe671d15a35be389de964f79a651d",
             "v9.30.1": "b5ca33caa2263eae841fd2271301b984e3e178dd",
+            "v9.31.0": "81e39a7f445c2f1b99b8e806c60ee91afa21874a",
             "v9.4.0": "6ff5499a5d09c115194aabb6bcafd18139e7cfdf",
             "v9.4.1": "70f7c749a9c4ee18c69c7de7b3678105a6fa43f9",
             "v9.4.2": "798ab4db75e3ce6f721ae40cb1b7736a8c818d65",
@@ -3690,14 +3689,13 @@
             "bugfix/mav25": "9212fec14e7f05c75985b0d3f91387f5f5754245",
             "bugfix/tunnel-service-bugs": "6b727e31920b23a22fda6a4fa40a67e99b5e4a89",
             "bugfix/update-ddi-version-check": "2f3cf2694ca4d1dc4c3ef98e645566b9066d65a0",
-            "docs/fix-userspace-python-version-and-coverage": "ae5f6f187968efad38e980417f39694aa2fcb4f6",
-            "docs/mkdocs-github-pages": "d2b582ad63bff8fd3c96998e6af33778d680bb9c",
+            "docs/mkdocs-github-pages": "b9d8212a1abdb8d0ffa178a57ab9e8c1ba35ca85",
             "feature/btlogger": "76b0ee98ffecd60ed4c446ef6693b343a34af9f6",
             "feature/pure-python-tun": "edd5069c94c8792b80255bed959b16a4c55e8156",
             "feature/ruff": "ed05f9c0a6b8b141c88c7526f5fa703e47a43dd8",
             "feature/single-tss-req": "4ba153b9ceaf02fb80cf373a5822ba540d7826ad",
             "feature/wda-run-script": "72d8f0087dd83f6a28d28d9523f22b5857102486",
-            "master": "67124f954f34293734f4c67a7377d2cc568be627",
+            "master": "6d26244aeca822992b99cb9b984cbe4fb104d766",
             "refacotr/typer-developer": "292b2f9b8dbeadf88dea91b4d335669f88bc93f0",
             "refactor-afc-pull-method": "2efab849b5c808aa96986fafd1e42e510c2ab6af",
             "refactor-afc-pull-method2": "4de2c4fc35a8a2e62fe74dc1aa47676435952332",
@@ -4525,7 +4523,7 @@
             "ios": "a92d2301d9eb55e203fe5a90351d277430be4987",
             "keyboard-shortcuts": "fe93cbe570c022893ed03ab5343af8537647ef40",
             "keyboard-shortcuts-clean": "04faf21c78cfd99b50c4d6bffbeefbf98986c5ea",
-            "master": "049781400460ebdd19577fa705af17e848f9ecef",
+            "master": "b3bd18845d7d9b7af565eabef30104bcb17810ac",
             "revert-15324-claude/epic-einstein-sgezjv": "8c6bb1767fc295a74d0930f1ba3aec1f805ac188",
             "sciterjs": "e86d0a0fc14f0bff4cb1ecd94a84eae42818da80",
             "screenlock-os-password": "f3bd9fa933c03a960ebf3a10c94fa749e8918eca",
@@ -7425,7 +7423,7 @@
             "master": "342c1a85456e6d55480f7f7ad53e7f0116cbedb1"
         },
         "branches": {
-            "master": "caaba4073c75e04a8d89ce355760813041448ebc"
+            "master": "033ccb50d4d2343abbd750eb67af3eca6a95a62c"
         }
     },
     "zzz_SARS": {
@@ -7536,8 +7534,10 @@
             "master": "a8cb9397e18135cf6c3310bacb7ed78186c1c3b3"
         },
         "branches": {
-            "badge-data": "a6be734f48c96141566c5117f805962ba321117a",
-            "master": "5b1f7c9fd3f9e2cfacc448db295e976825ce3ddf"
+            "badge-data": "29226551951efc4b88df406e4d8cb4f98c397995",
+            "dependabot/cargo/rmcp-2.0.0": "b69b35c5651f24b515606431e04654eb5bee9bd7",
+            "dependabot/npm_and_yarn/tauri-apps/cli-2.11.4": "7afd8c27cde7968136712b1280708057f3e8fe8c",
+            "master": "76e7050f5bd943e273c15de2596b91148b2acfcf"
         }
     },
     "zzz_Identifier-Patcher": {
@@ -7561,7 +7561,7 @@
             "feat/ksu-app-zygote-seqno": "3757234c337a8fed43274f7ca8e5804ce6d3df4e",
             "fix/pr-36-scan-metadata": "45ca91b568f80b930895d5d5bb8d9327f8d505c3",
             "hardware-timer-for-kp-sidechannel": "b12e766400f4c86315d3471ee10411330381251b",
-            "master": "981fa8ad2abf75e81c13bf36a9dbe62eb9f75904",
+            "master": "c32e40b65ec233767aa30ed4d00810705a1c5b9c",
             "revert-7-feat/auto-versioning": "520c085058131a135e00a1ac60593e0c3f363f60"
         }
     },
