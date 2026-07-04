@@ -1236,7 +1236,8 @@
             "v0.5.0-rc.1": "935b403004d99e456123cdd45c225a454e7531bd",
             "v0.6.0-beta.1": "dfddc941de9bf39b9a79eeaa3dfbf4eb4e9dc73c",
             "v0.6.0-beta.2": "ec60ceb5cabc3cdf039960e6bbe4ce798d7da946",
-            "v0.6.0-beta.3": "e8cf127ab707171d705a98b2ee55f6f7ee62dfa6"
+            "v0.6.0-beta.3": "e8cf127ab707171d705a98b2ee55f6f7ee62dfa6",
+            "v1.0.0": "159b90aa64f51cbc5a356f3814a2f70f1df6469b"
         },
         "branchs": {
             "master": "201d1a150a0d7f432eb03c0c061e259b65b22822",
@@ -1244,11 +1245,10 @@
             "windows-noactive": "d5d87dd347d87a1ab075b6d0d940da3ae9a0f096"
         },
         "branches": {
-            "chore/manifest-metadata": "4248325b42c8007d282c95424e83bd71bf49775f",
-            "master": "9a2489f6eeddfc898cc6f0f23ad60f509248caea",
+            "feat/lan-sync-foundations": "2e254b5877217ce1fc0438bd09c9d397143f44a2",
+            "master": "185bb2520e8ce90da8246c0c73b1ce87e54403e5",
             "ocr": "21670023af407908e3f4c1d9b0d6213c8919b06e",
-            "pre-refactor-master": "201d1a150a0d7f432eb03c0c061e259b65b22822",
-            "refactor/reuse-preference-onboarding-settings": "e37d6367d41f7b196bc1c748937e5c7037f971a7"
+            "pre-refactor-master": "201d1a150a0d7f432eb03c0c061e259b65b22822"
         }
     },
     "zzz_ecs": {
@@ -1484,7 +1484,7 @@
         "branches": {
             "master": "a39183536883ab89447567df12e035d3ffd1cc56",
             "public": "850bd247d9e34ef9ea7b5ae0ccede9565344fa51",
-            "ranks": "83bd7d726149be877a44c15d4c403c71b1f4c073"
+            "ranks": "e242dd8bee67c96cc8b8c0ba1a5d33aefd8c8196"
         }
     },
     "zzz_EDR-Freeze": {
@@ -2811,7 +2811,7 @@
         },
         "branches": {
             "gh-pages": "acdb8df711bbad6bce7952af1c312938b2333089",
-            "master": "98c2e3f95c869a107cfbff19490cdf9857f4a87e",
+            "master": "dcd4448b60c49f9258d254fa7013498fc866a022",
             "release-1.2.0": "e38c96cde33813b405d8ee0da5ec9b3ac084b9f3",
             "release-1.3.0": "4ac5bd6b8ea84e107d83221ec1fea7e3209a8bb8"
         }
@@ -2951,6 +2951,7 @@
             "multiproxy": "7f06a10d4a3933a9c1b2acf1cb3d47462bc665af"
         },
         "branches": {
+            "183-bug-the-connection-drops-after-the-screen-has-been-locked-for-a-period-of-time": "401f097f002dd3e885f11caa11ee1693ebb6a14a",
             "MacOS": "dc79613ab02c8fa53547c93b168143b1035920d4",
             "UDP-Errors": "1a970b2c91ae822a27ce6a7a5d88d563680fdeec",
             "copilot/add-process-based-exclude-support": "121b96e0e14e55728991cebb7f0ba425e7dc80f8",
@@ -2959,7 +2960,7 @@
             "copilot/fix-github-actions-analyze-swift": "d5894837e8ec20db0801c795ac1d8e3da970b641",
             "copilot/fix-proxy-curl-exe-issue": "1c2b5cb5e6e39be2eab5fcd25ac0ac5f8764b36d",
             "copilot/fix-rules-window-resizing": "b554c1ef0042f6aca8fa3bfb106d45faae5a9b1a",
-            "dev": "70f4fb40a96165272b6d433d0673b50b5172c407",
+            "dev": "f30591448dfe7bedbd790af6253866f4c57d7309",
             "master": "b2ee61bebd1118c79d04bbe99733a11bfbb802f5",
             "multiproxy": "fc386db30f1afdc525c0c73e32017154cec1296d"
         }
@@ -4533,6 +4534,7 @@
             "dependabot/submodules/master/libs/hbb_common-7e1c392": "2bbadbad2168e92b625651fdb2fb3227468cc9ca",
             "fix-mobile-mouse-hover-issue-8789": "4423e0a1dc9f12e852de6a2d4f942d255edfb028",
             "fuse-file-umount": "0a0625126e40b1be532084c4f803ced771762475",
+            "harden_wf_cliprdr": "5cc7355dd295bcf5b1d9a999e3ed94650edc8345",
             "ios": "a92d2301d9eb55e203fe5a90351d277430be4987",
             "keyboard-shortcuts": "fe93cbe570c022893ed03ab5343af8537647ef40",
             "keyboard-shortcuts-clean": "04faf21c78cfd99b50c4d6bffbeefbf98986c5ea",
@@ -6733,7 +6735,8 @@
         "branches": {
             "develop": "961036a7f541d6d715c5a0447ee286e74b73d31c",
             "gh-pages": "1a65b9c1c3046c53e21938da6c47644f34b0e5dc",
-            "master": "ed94fe2aee683e526c919367271dadeb6e6a4501"
+            "master": "d4f44a59b44ee8f63561ff32dd9c5b9400cd6644",
+            "oldj-patch-1": "76b838b543b4fea0f9bea3c93b451b6a948c2c3f"
         }
     },
     "zzz_TrinityEmulator": {
@@ -7391,7 +7394,7 @@
         "branches": {
             "WSA-next": "a6cfa5e4e5972486175481aee1ea3ed1f8e30a3d",
             "dependabot/github_actions/stefanzweifel/git-auto-commit-action-7.2.0": "fb6812efaf25d822d78e93c9cbd41f883058c2ab",
-            "master": "7e9a4471abc36ac60f2febd3933e1b771adc732b",
+            "master": "b624ae38fc006f34bb92ec528a8c795b563ed886",
             "update": "33481406f5458a3bc11e5479f5aa1965f82d4429"
         }
     },
@@ -7436,7 +7439,7 @@
             "master": "342c1a85456e6d55480f7f7ad53e7f0116cbedb1"
         },
         "branches": {
-            "master": "d8902c2b7600ce6ebcd4a40c5931fa109bca7c5d"
+            "master": "383111fe76c0be444f3cd4f29582b4bfd61e2e8f"
         }
     },
     "zzz_SARS": {
@@ -7510,6 +7513,7 @@
             "v2.1.1": "9224a02d7507f918e6b52eef17165a3b5ebf287d",
             "v2.1.2": "2e75debe256b827222a4683e5a1eb99f08f61d96",
             "v2.10.0": "fb32b32877e6d05a0e6b8efc972645aca64e6514",
+            "v2.11.0": "60ba4939fe86704690f201f6f3aea1395cc3255f",
             "v2.2.0": "dc8b6f57306dfe03cc440839e2ce495180eeda60",
             "v2.2.1": "d0cc602d4636e0c9a5cde22ac52b0561179a5852",
             "v2.3.0": "664aa3c2a606dbfaedba430e635689392c02ffb0",
@@ -7548,8 +7552,8 @@
             "master": "a8cb9397e18135cf6c3310bacb7ed78186c1c3b3"
         },
         "branches": {
-            "badge-data": "0e2aa753b21e07b54d8b13b3f997b4d3f73dda19",
-            "master": "5d4b444d5a3706652aa0f8d1f9edde3b1dfc1d96"
+            "badge-data": "b2054b41710c4029e2eca86f4a2603d0e1ac3dc8",
+            "master": "e287421e0aca0cc72ceb399746b77d1161c48f96"
         }
     },
     "zzz_Identifier-Patcher": {
