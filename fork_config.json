@@ -685,7 +685,7 @@
             "release/1.8.4": "21d36114e1600c1bed06599541de98e70014ed1c",
             "release/1.8.5": "caf7aca4cc00f6ecace0832bd6992d4fb8c28105",
             "release/1.8.6": "cdf8a1ae10e8eea1984b15b8ed45a1aba2ac5153",
-            "release/1.8.7": "afaa1bc3deeb3a3c14b7b26c8ac98dd2a984ac80",
+            "release/1.8.7": "dd5f56268638dcdf76937806ced12c8bcca22bd3",
             "release/2.0.0": "6f6c3c6465d8a9d488037ca1a267f395ff5709e5"
         }
     },
@@ -1494,7 +1494,7 @@
         "branches": {
             "master": "9e61251795e935c8f9f64fb51545c5b3b60630e8",
             "public": "9b7ead46fba81cd18e6368d21d09e894a5afb3ca",
-            "ranks": "4fb7d890157a96078ea40405ab1c60b78cba6a41"
+            "ranks": "22d985d4434d4be2ba09c3563d3ca759738717d5"
         }
     },
     "zzz_EDR-Freeze": {
@@ -2170,7 +2170,7 @@
             "master": "f7e6b68ce94b8f5ffa633ec927520d91fce580e3"
         },
         "branches": {
-            "master": "120d87912fdbde16913df34b6646bd869d73aa18"
+            "master": "58b31e9aeb4b2a59932b092f4b1c1aabff72d888"
         }
     },
     "zzz_gog-games.to_backup": {
@@ -2837,7 +2837,7 @@
             "claude/character-conversion-dictionary-vx2wod-2": "1c5e9f612a11bfab3c05c6dff516ac9d3dc0c89f",
             "claude/remove-gyp-dependencies-gn5vlc": "e7081c6096abd4b8095526e42875611b3a58600d",
             "gh-pages": "acdb8df711bbad6bce7952af1c312938b2333089",
-            "master": "e67b9969109b3d62b5447a1427ec5d0e5fba5a35",
+            "master": "845e394ebb88aa36619f224f545eda311f364ff9",
             "release-1.2.0": "e38c96cde33813b405d8ee0da5ec9b3ac084b9f3",
             "release-1.3.0": "4ac5bd6b8ea84e107d83221ec1fea7e3209a8bb8",
             "release-1.4.0": "68a52365c8f2786629d2cca314691818e7280ac9",
@@ -2900,7 +2900,7 @@
             "Tri-StateCheckboxs": "c42888060b0f65b19076370c26bd30c252801231",
             "cibuild": "7ba1fa7b2c54ca3e826c738b7dbdddf59a24ea9a",
             "cmd-dataflow": "4c395ab1f64e32b587ac3271db3fe3767ebd04f6",
-            "develop": "7d3451b7fda9941e8ae5dddd097f92426d4c94ef",
+            "develop": "9f91900cefe0173c7207b3720078d904b12d8e7f",
             "master": "92f8d996ab986e0e0de17570e2a3cac7fcc308e3",
             "net80": "c06a42f6bf76018c79ef68e46aaea420ce479dd5",
             "non-sharp-notation": "e2dbb3dfb5dfa8915c881896e895bae0ef97ada8"
@@ -3963,7 +3963,8 @@
             "v1.40.1": "eaba5ba85b9f5dcded245e4e262d1a661ab6b500",
             "v1.40.2": "d6cb81748a4a75b18a371c470b8ebc7567c6abb8",
             "v1.41.0": "d232f8461c8157b6d788e2b19aa61b138b87894b",
-            "v1.41.1": "58b841bf5d929f7b402527b4716e3f0285db2abd"
+            "v1.41.1": "58b841bf5d929f7b402527b4716e3f0285db2abd",
+            "v1.41.2": "1d6b579ff358c7a5b4e0fcbffb3257659c53a981"
         },
         "branchs": {
             "116-feature-warn-user-that-the-source-language-is-the-same-as-the-target-language": "a9a40bc10bd95f53bde7aaef7efb007e5dfaa016",
@@ -4281,8 +4282,7 @@
             "cubic-fix--claude-agents-library-researcher-md-L3-1757797086": "acc81e0b97685cd17caa8b8127e55b98f66c6a4b",
             "cubic-fix-apps-extension-src-utils-config-__tests__-example-v019-ts-L15-1757797015": "1c2d8751c315970b773109b7afa4759447fd2fcf",
             "cubic-fix-nx-json-L13-1763944712": "c63a4bfb3928c2a1b270492357a2e7431b926c80",
-            "dependabot/npm_and_yarn/development-dependencies-431db3299d": "cac862453a366c3b748dd551d6e7f507a58bb3c7",
-            "dependabot/npm_and_yarn/production-dependencies-f26d33d834": "0fda32e67fce6d019c1a1c42077a248abf6d65c8",
+            "dependabot/npm_and_yarn/production-dependencies-f063e32496": "8e04dedca23f62fafb36f2786700e5acb05808f3",
             "docs/add-readme-back": "4c8e58b0abcdb17a719562308c0aa3c9c161764a",
             "docs/batch-translation-blog": "daa78e234dcbd89060bf482e43ba630429a87b0a",
             "docs/claude-md-setup": "3b6485e4c0e8429295f1c7641fb8edf3e20e49b5",
@@ -4483,7 +4483,7 @@
             "kvnmqpqs": "a2b1a6ab40c8524279b9eb8febdd83df43242ac3",
             "lisongkun/main": "1ca7d4064375b44099b8a9fc9ae94072c62472aa",
             "locales/korean-extension": "00205027e9a87ed7fcc150484ae8f5df30376ab7",
-            "main": "580760eaa02d08653860e04361f612a1e459cae7",
+            "main": "1d6b579ff358c7a5b4e0fcbffb3257659c53a981",
             "mengxi-ream-patch-1": "72eb0292f4d4870f86ad6d7a98ae89dac10c9016",
             "my-feature-branch": "f57c96ab0a1107a3b40adf9b452d88abb19b01d3",
             "perf/auth-cookie-change-issue": "3511ceb2a9f7e25c1dbeb6d4a5d65b6dfcb717a6",
@@ -4601,11 +4601,12 @@
             "ios": "a92d2301d9eb55e203fe5a90351d277430be4987",
             "keyboard-shortcuts": "fe93cbe570c022893ed03ab5343af8537647ef40",
             "keyboard-shortcuts-clean": "04faf21c78cfd99b50c4d6bffbeefbf98986c5ea",
-            "master": "5abf4e9724dc9a8c9b45dfe13e71af11616eb2c8",
+            "master": "96e2a330b86f1b2ffd31a70a9bb9565cace0d68f",
             "revert-15324-claude/epic-einstein-sgezjv": "8c6bb1767fc295a74d0930f1ba3aec1f805ac188",
             "revert-15530-build/ci-fix": "89f94485c6b32493547a7ae0a9bb54a999905f37",
             "sciterjs": "e86d0a0fc14f0bff4cb1ecd94a84eae42818da80",
             "screenlock-os-password": "f3bd9fa933c03a960ebf3a10c94fa749e8918eca",
+            "switch_code_hbbs": "af096f800d570eeadb39a0a04ebabafdd547e301",
             "terminal-utf8-and-reconnect": "cdfd986cb9669915fda1487c9416e14a131d202d",
             "webrtc": "c19698fa524894657bc9631933197de436643ffb"
         }
@@ -6642,8 +6643,8 @@
         },
         "branches": {
             "Go-dev": "250f77369164b8ef2eaffaa1cb17e980af563892",
-            "dev": "f5d6bf5f56c0fda43994fae6969737ef3d2a9cda",
-            "master": "511d71f35e030fd85cf573780a39a5874bc5097d"
+            "dev": "195eae2d34e181c18465de38f2b6ea6152c69955",
+            "master": "181c294a78b8f4175c1a71a91188d3271aae5ce3"
         },
         "warning": true
     },
@@ -7505,7 +7506,7 @@
             "master": "342c1a85456e6d55480f7f7ad53e7f0116cbedb1"
         },
         "branches": {
-            "master": "5480a1016def3c70a891bf05ff713b9e7332e3c4"
+            "master": "e9adf973fa1aa50ab7701d4f095640e8b510af90"
         }
     },
     "zzz_SARS": {
@@ -7622,8 +7623,8 @@
             "master": "a8cb9397e18135cf6c3310bacb7ed78186c1c3b3"
         },
         "branches": {
-            "badge-data": "c89c1eb040ce690a43bab693f22ed75fd596b7aa",
-            "master": "4949d9a3bacc73968cc4d777f244acaf0ba7dc3c"
+            "badge-data": "941534ff632ba30ad77f320871f559bc6da0ea80",
+            "master": "f54acd84d72711849c8fe86ed99a945a851df01b"
         }
     },
     "zzz_Identifier-Patcher": {
