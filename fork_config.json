@@ -685,7 +685,7 @@
             "release/1.8.4": "21d36114e1600c1bed06599541de98e70014ed1c",
             "release/1.8.5": "caf7aca4cc00f6ecace0832bd6992d4fb8c28105",
             "release/1.8.6": "cdf8a1ae10e8eea1984b15b8ed45a1aba2ac5153",
-            "release/1.8.7": "20d2c99d9591a00384cee8832eada7c9b17345bc",
+            "release/1.8.7": "8c13d6179aa91a6aa50ca796b0090c97a121f283",
             "release/2.0.0": "6f6c3c6465d8a9d488037ca1a267f395ff5709e5"
         }
     },
@@ -1494,7 +1494,7 @@
         "branches": {
             "master": "9e61251795e935c8f9f64fb51545c5b3b60630e8",
             "public": "9b7ead46fba81cd18e6368d21d09e894a5afb3ca",
-            "ranks": "4a9fd6cbf3b190a4ea39ff0ea9edf4d80743071d"
+            "ranks": "d7261cc6a7124938d36c37fc556fff34c9cb6cfd"
         }
     },
     "zzz_EDR-Freeze": {
@@ -2767,6 +2767,9 @@
             "master": "aa3c4d015e607d9d5d14d333f06dded4cef193b9"
         },
         "branches": {
+            "dependabot/cargo/proc-macro2-1.0.107": "96d22675a318861c28c9455c5b64ba663ed0a1fc",
+            "dependabot/cargo/quote-1.0.47": "428a2178b902eb70302de8748b66a8a3a9ead158",
+            "dependabot/cargo/tokio-1.53.0": "b55620cc00219700fb42b90fbea7987d35161d0b",
             "master": "590b355c1b54381384d981352cf3159a02df86fd"
         }
     },
@@ -3965,7 +3968,8 @@
             "v1.40.2": "d6cb81748a4a75b18a371c470b8ebc7567c6abb8",
             "v1.41.0": "d232f8461c8157b6d788e2b19aa61b138b87894b",
             "v1.41.1": "58b841bf5d929f7b402527b4716e3f0285db2abd",
-            "v1.41.2": "1d6b579ff358c7a5b4e0fcbffb3257659c53a981"
+            "v1.41.2": "1d6b579ff358c7a5b4e0fcbffb3257659c53a981",
+            "v1.42.0": "1dec63399cca2df7cf0e75b929fb2087211c218c"
         },
         "branchs": {
             "116-feature-warn-user-that-the-source-language-is-the-same-as-the-target-language": "a9a40bc10bd95f53bde7aaef7efb007e5dfaa016",
@@ -4262,7 +4266,7 @@
             "build/upgrade-many": "6a1864d90092f4048bc918aa72722f3adf4e2e49",
             "build/upgrade-packages-2026-06-28": "9ff4bf042ebaf587485971578eed1dba4b143cdd",
             "build/upgrade-wxt": "514f2b65f59aea6113f4c81c2c7774a0a0ee42b6",
-            "changeset-release/main": "d982ed5432d89d1db08efd189f67a420763a01af",
+            "changeset-release/main": "a38e3a369d6e27cade8058b9ea2e42c1162f39dc",
             "chore/local-dev-ex": "d3fec2d0a3da1b0c53d999e10a223cb95d0448ce",
             "chore/sponsor-action": "24ab93ae2b7cb2a24f234196559f420a562802b2",
             "chore/update-hero-heading": "a51a23cd2f3bf8e8f688cf10d8079121af6b68e1",
@@ -4484,7 +4488,7 @@
             "kvnmqpqs": "a2b1a6ab40c8524279b9eb8febdd83df43242ac3",
             "lisongkun/main": "1ca7d4064375b44099b8a9fc9ae94072c62472aa",
             "locales/korean-extension": "00205027e9a87ed7fcc150484ae8f5df30376ab7",
-            "main": "8dfacdac66c742e40c79e078fdfe3f73145f48d2",
+            "main": "e5464f35285168193f1bcafd27896a5557ff2e8b",
             "mengxi-ream-patch-1": "72eb0292f4d4870f86ad6d7a98ae89dac10c9016",
             "my-feature-branch": "f57c96ab0a1107a3b40adf9b452d88abb19b01d3",
             "perf/auth-cookie-change-issue": "3511ceb2a9f7e25c1dbeb6d4a5d65b6dfcb717a6",
@@ -4593,14 +4597,14 @@
             "copilot/fix-discussion-14282-issue": "36b4f765fd7ee5ea1644827497866ebaf5e771dd",
             "copilot/fix-h265-image-quality-issue": "de11e95598194a9b3c09f7caf0ba06a70158f744",
             "copilot/fix-issue-14527": "8deee9b2817ddc0ca844862a5a9ffcf43428ca7a",
-            "dependabot/submodules/master/libs/hbb_common-4bfd067": "901778a57fddc0fcc05652bb3557b9d686c73a63",
+            "dependabot/submodules/master/libs/hbb_common-5438d20": "2d8a0ebe19ea7d7433ff5ee1e9915f21c7a0d212",
             "fix-mobile-mouse-hover-issue-8789": "4423e0a1dc9f12e852de6a2d4f942d255edfb028",
             "fuse-file-umount": "0a0625126e40b1be532084c4f803ced771762475",
             "id-whitelist": "6666bcea964cddf5490ec1ce749926b88b6bd30b",
             "ios": "a92d2301d9eb55e203fe5a90351d277430be4987",
             "keyboard-shortcuts": "fe93cbe570c022893ed03ab5343af8537647ef40",
             "keyboard-shortcuts-clean": "04faf21c78cfd99b50c4d6bffbeefbf98986c5ea",
-            "master": "5f015c9da13cb227a414c6d295a5c81e5360eccb",
+            "master": "7696b0ee51a82133305cbcafec6fb1523f9df415",
             "sciterjs": "e86d0a0fc14f0bff4cb1ecd94a84eae42818da80",
             "screenlock-os-password": "f3bd9fa933c03a960ebf3a10c94fa749e8918eca",
             "switch_code_hbbs": "af096f800d570eeadb39a0a04ebabafdd547e301",
@@ -6640,7 +6644,7 @@
         },
         "branches": {
             "Go-dev": "250f77369164b8ef2eaffaa1cb17e980af563892",
-            "dev": "0df9b2ed56c72c468c739df2dc52c1a3e9621400",
+            "dev": "2642060461463ad38c0bf053b9478100951ec7b3",
             "master": "4152765e60b7347cc0ff64d4149938ec2bf8461c"
         },
         "warning": true
@@ -7459,6 +7463,7 @@
         },
         "branches": {
             "WSA-next": "a6cfa5e4e5972486175481aee1ea3ed1f8e30a3d",
+            "dependabot/github_actions/actions/setup-python-7": "029d56f19b3bfd10c5939863fb4a5ecbe5a5ef12",
             "dependabot/github_actions/stefanzweifel/git-auto-commit-action-7.2.0": "fb6812efaf25d822d78e93c9cbd41f883058c2ab",
             "master": "b624ae38fc006f34bb92ec528a8c795b563ed886",
             "update": "33481406f5458a3bc11e5479f5aa1965f82d4429"
@@ -7621,8 +7626,8 @@
             "master": "a8cb9397e18135cf6c3310bacb7ed78186c1c3b3"
         },
         "branches": {
-            "badge-data": "7d5a3ab073aa261dd24dcdb66d16feb634db5cad",
-            "master": "98e42135bb39bed22632c0f6164a621df2126070"
+            "badge-data": "cbeb86f134b1fc199de8f0e0cbe22cb38c70f671",
+            "master": "9e3eb3cbd5b3b9cea6a3ae8d1f40aa8769d2b50c"
         }
     },
     "zzz_Identifier-Patcher": {
