@@ -685,7 +685,8 @@
             "release/1.8.4": "21d36114e1600c1bed06599541de98e70014ed1c",
             "release/1.8.5": "caf7aca4cc00f6ecace0832bd6992d4fb8c28105",
             "release/1.8.6": "cdf8a1ae10e8eea1984b15b8ed45a1aba2ac5153",
-            "release/1.8.7": "8c13d6179aa91a6aa50ca796b0090c97a121f283",
+            "release/1.8.7": "50c167947b3fbdac559a1cfdd736f4c917242dc1",
+            "release/1.9.0": "3135c480de5111c384a602ddef3d049877515573",
             "release/2.0.0": "6f6c3c6465d8a9d488037ca1a267f395ff5709e5"
         }
     },
@@ -1252,8 +1253,7 @@
         },
         "branches": {
             "feat/lan-sync-foundations": "2e254b5877217ce1fc0438bd09c9d397143f44a2",
-            "fix/windows-autostart-dedup": "e58a4955c28eb39cc144ca483a4ab9710a94b97b",
-            "master": "d710277d087d3858c66a69d5917a90d2633dfa02",
+            "master": "0d87458b70323da27456cfaa16b51dcde9ea220e",
             "ocr": "21670023af407908e3f4c1d9b0d6213c8919b06e",
             "pre-refactor-master": "201d1a150a0d7f432eb03c0c061e259b65b22822"
         }
@@ -1396,7 +1396,16 @@
             "v0.1.144": "225a6e338954078378872ffbd0cb2a4156e152b6",
             "v0.1.145": "e2972a860d7bd4e0bc41e24c41cba33c65567699",
             "v0.1.146": "9831215ac4815e4ca8cba3ce424f71866d1306e8",
+            "v0.1.147": "681d67ffe92b6f4c8962b7658e5bee2025190118",
+            "v0.1.148": "60b6d9dc6411294b220508b28d32943aa7acf271",
+            "v0.1.149": "89364a3cdcaeb888f4bde539cda27d6cc19d8b87",
             "v0.1.15": "d7519801b0904fc6f0ecbf129e32046f5f15d3d2",
+            "v0.1.150": "daaf6bcdd75ceac2cbc2df7322839cd9fd1c0df5",
+            "v0.1.151": "c5b38973960badd5abb3fa018c57f2263b7c4b5b",
+            "v0.1.152": "6f5a6d30c58f2a6c0f2176169c9b236f78d2916f",
+            "v0.1.153": "4d33420e9648c87907a71d85fe71d5cc63a4a5d4",
+            "v0.1.154": "67ed5c06be63f0cf2a5e3fa991613c25f002da63",
+            "v0.1.155": "ca6a530c21627887f497e2ebe393d54478f96ce7",
             "v0.1.16": "05ec4d75b8cb90b4511c41471678babc1e7220c6",
             "v0.1.17": "d5837ed535636691c6b152f0406813af5079da26",
             "v0.1.18": "3bd113668370158f8bf7e67e605a5684218dc836",
@@ -1470,6 +1479,7 @@
             "v0.1.81": "5d2f3c7f960fa82b2b601ddf2243cff930381399",
             "v0.1.82": "825da78bd54b28e8381fd15b267f765c1a733798",
             "v0.1.83": "73b0f30ddc7d8dab6e481323f1651a272700ae10",
+            "v0.1.84": "9bc8a934b1bc07e5811ad44d8f86808f4970aa67",
             "v0.1.85": "04ce926582b6b32d7bf1e62959fb56774efb79d9",
             "v0.1.86": "ee2b55e7eb6e3cdfe60aca74973839df5f6b0719",
             "v0.1.87": "cc1da7ea7c6a62ac4e4cbf55923ad528a9329763",
@@ -1478,6 +1488,7 @@
             "v0.1.9": "2f5feace7b9550b6312993e0162c64da7936d2fe",
             "v0.1.90": "110e6d34f9244edb96068645bd94802bce6a23c3",
             "v0.1.91": "57e87348d48cbf9e39199d4dd9c85183e2e2574f",
+            "v0.1.92": "b403d71115996b2c2f25274b26ee29001ff1791d",
             "v0.1.93": "93fd68bf8298c93cdfe2b94a8cb9ea5f33d92179",
             "v0.1.94": "cb1634cb68df9808a5b9a23a8b438b7908a1c874",
             "v0.1.95": "4503fb55b0bc19f75c2d847844c94b8a55717289",
@@ -1492,9 +1503,9 @@
             "ranks": "87154f142c74fdc10807a92e83e147a28d5fdc55"
         },
         "branches": {
-            "master": "9e61251795e935c8f9f64fb51545c5b3b60630e8",
-            "public": "9b7ead46fba81cd18e6368d21d09e894a5afb3ca",
-            "ranks": "d7261cc6a7124938d36c37fc556fff34c9cb6cfd"
+            "master": "a6bb4207ecdfd74b9fadc1050e110356a0f02c9a",
+            "public": "90aedb32a36ae04f9b431e707d47a748e6a5ec3f",
+            "ranks": "5b9fd966fedb9c8c64a2070c820091b12583ba0c"
         }
     },
     "zzz_EDR-Freeze": {
@@ -2171,7 +2182,7 @@
             "master": "f7e6b68ce94b8f5ffa633ec927520d91fce580e3"
         },
         "branches": {
-            "master": "58b31e9aeb4b2a59932b092f4b1c1aabff72d888"
+            "master": "7bb80f5c9b9bae439ed7aacf808c03e7e811c016"
         }
     },
     "zzz_gog-games.to_backup": {
@@ -3695,6 +3706,9 @@
             "v9.35.0": "4919bf605097b42a6495e7f591856f0c3e5c2399",
             "v9.35.1": "47b98d1585fded9a28051a7a00be2f2fdb523adf",
             "v9.36.0": "6078f0e479104b987ca09e366f43ae48ba8233db",
+            "v9.36.1": "199a6185b16c66d815217841342c713ccc5a1e23",
+            "v9.36.2": "319ef45b7e6d65ebe0f5ad6ffbaf943e7393ef17",
+            "v9.36.3": "d0c292b575f48666a4cf01ed4367a32a53fc0a14",
             "v9.4.0": "6ff5499a5d09c115194aabb6bcafd18139e7cfdf",
             "v9.4.1": "70f7c749a9c4ee18c69c7de7b3678105a6fa43f9",
             "v9.4.2": "798ab4db75e3ce6f721ae40cb1b7736a8c818d65",
@@ -3746,10 +3760,12 @@
             "feature/ruff": "ed05f9c0a6b8b141c88c7526f5fa703e47a43dd8",
             "feature/serve-web-recovery-hardening": "7c2627594cd0631d5c83ce27cc87d77627f4b6a4",
             "feature/single-tss-req": "4ba153b9ceaf02fb80cf373a5822ba540d7826ad",
+            "feature/userspace-default-fallback": "76bb0871e86fcb0693f64ce95e4e7b29cb776fa2",
             "feature/wda-run-script": "72d8f0087dd83f6a28d28d9523f22b5857102486",
             "fix/backup2-purgeable-disk-space": "2186596c68455520d7a6d7d298890cdfb689419c",
             "fix/serve-vnc-rfb-send-starves-rtp": "cd2469203e91bce7446a2d037731d7d107abb2ad",
-            "master": "fa85df172b5e8876ca14f3a027f1f16704a3e0af",
+            "master": "d0c292b575f48666a4cf01ed4367a32a53fc0a14",
+            "perf/userspace-tunnel-latency": "5100e271382badb6e0f94b768465185a89f46b17",
             "refacotr/typer-developer": "292b2f9b8dbeadf88dea91b4d335669f88bc93f0",
             "refactor-afc-pull-method": "2efab849b5c808aa96986fafd1e42e510c2ab6af",
             "refactor-afc-pull-method2": "4de2c4fc35a8a2e62fe74dc1aa47676435952332",
@@ -3969,7 +3985,8 @@
             "v1.41.0": "d232f8461c8157b6d788e2b19aa61b138b87894b",
             "v1.41.1": "58b841bf5d929f7b402527b4716e3f0285db2abd",
             "v1.41.2": "1d6b579ff358c7a5b4e0fcbffb3257659c53a981",
-            "v1.42.0": "1dec63399cca2df7cf0e75b929fb2087211c218c"
+            "v1.42.0": "1dec63399cca2df7cf0e75b929fb2087211c218c",
+            "v1.42.1": "9bb7f9ed7335e499aba3b8300e3739e18ed2e000"
         },
         "branchs": {
             "116-feature-warn-user-that-the-source-language-is-the-same-as-the-target-language": "a9a40bc10bd95f53bde7aaef7efb007e5dfaa016",
@@ -4266,7 +4283,7 @@
             "build/upgrade-many": "6a1864d90092f4048bc918aa72722f3adf4e2e49",
             "build/upgrade-packages-2026-06-28": "9ff4bf042ebaf587485971578eed1dba4b143cdd",
             "build/upgrade-wxt": "514f2b65f59aea6113f4c81c2c7774a0a0ee42b6",
-            "changeset-release/main": "a38e3a369d6e27cade8058b9ea2e42c1162f39dc",
+            "changeset-release/main": "191cc972d2e019ef32de4d13cb54c55db780641c",
             "chore/local-dev-ex": "d3fec2d0a3da1b0c53d999e10a223cb95d0448ce",
             "chore/sponsor-action": "24ab93ae2b7cb2a24f234196559f420a562802b2",
             "chore/update-hero-heading": "a51a23cd2f3bf8e8f688cf10d8079121af6b68e1",
@@ -4488,7 +4505,7 @@
             "kvnmqpqs": "a2b1a6ab40c8524279b9eb8febdd83df43242ac3",
             "lisongkun/main": "1ca7d4064375b44099b8a9fc9ae94072c62472aa",
             "locales/korean-extension": "00205027e9a87ed7fcc150484ae8f5df30376ab7",
-            "main": "e5464f35285168193f1bcafd27896a5557ff2e8b",
+            "main": "98607883b432931ddd39d33705cff42351ebe1a2",
             "mengxi-ream-patch-1": "72eb0292f4d4870f86ad6d7a98ae89dac10c9016",
             "my-feature-branch": "f57c96ab0a1107a3b40adf9b452d88abb19b01d3",
             "perf/auth-cookie-change-issue": "3511ceb2a9f7e25c1dbeb6d4a5d65b6dfcb717a6",
@@ -4604,7 +4621,7 @@
             "ios": "a92d2301d9eb55e203fe5a90351d277430be4987",
             "keyboard-shortcuts": "fe93cbe570c022893ed03ab5343af8537647ef40",
             "keyboard-shortcuts-clean": "04faf21c78cfd99b50c4d6bffbeefbf98986c5ea",
-            "master": "7696b0ee51a82133305cbcafec6fb1523f9df415",
+            "master": "5b4d6baf47283068fbe03f2eacd2ec34d0c20c2c",
             "sciterjs": "e86d0a0fc14f0bff4cb1ecd94a84eae42818da80",
             "screenlock-os-password": "f3bd9fa933c03a960ebf3a10c94fa749e8918eca",
             "switch_code_hbbs": "af096f800d570eeadb39a0a04ebabafdd547e301",
@@ -4844,7 +4861,7 @@
             "Test": "b91daec2a1ef45913abe00e5ec062535bd9b1b6e",
             "codespell": "1346eee09705f61119329ee1a7c962025cd77366",
             "experimental": "3c16b7826c2fde62b1e839c62a9be12bf96d9b2a",
-            "master": "8ab562a29fc90d74d86e4c6cf3498512c27ad1dd",
+            "master": "365e896af04d7a19c0f3e7ff0a37eb159a6a403f",
             "out-of-date": "abd2d44cd6f305da956ad70c7481cb1256efff24",
             "remote-mgmt": "8194614afef2a01ace718dc58cb3777dbbe0d27b"
         }
@@ -7074,7 +7091,7 @@
             "master": "6a4beb41a2544bd75641047af5f18b97c8ee5dbf"
         },
         "branches": {
-            "master": "cd3cbb3e5b3b0f9eed31c69d038228d80f050af2"
+            "master": "109e47f5cfbe34ad46774326ba8001e794f4faff"
         }
     },
     "zzz_Virtual-Display-Driver": {
@@ -7508,7 +7525,7 @@
             "master": "342c1a85456e6d55480f7f7ad53e7f0116cbedb1"
         },
         "branches": {
-            "master": "d7682819398f339b228a12fe326013ab992f4ed7"
+            "master": "2f892a88a95e7b627756f3f7be8c71b23913ba03"
         }
     },
     "zzz_SARS": {
@@ -7588,6 +7605,7 @@
             "v2.13.0": "25db8afbcb81ce599834b6e9343bac578daf2f0a",
             "v2.14.0": "081bab8184b4d028abe75289b9f488b8f5f527ce",
             "v2.15.0": "e119fb9e4df8a3f081eee2e02133a00af443da7d",
+            "v2.16.0": "0580e4721a73aeebc03ef67c4f64a451f713e2ac",
             "v2.2.0": "dc8b6f57306dfe03cc440839e2ce495180eeda60",
             "v2.2.1": "d0cc602d4636e0c9a5cde22ac52b0561179a5852",
             "v2.3.0": "664aa3c2a606dbfaedba430e635689392c02ffb0",
@@ -7626,8 +7644,8 @@
             "master": "a8cb9397e18135cf6c3310bacb7ed78186c1c3b3"
         },
         "branches": {
-            "badge-data": "cbeb86f134b1fc199de8f0e0cbe22cb38c70f671",
-            "master": "9e3eb3cbd5b3b9cea6a3ae8d1f40aa8769d2b50c"
+            "badge-data": "74e47b0bf1cb438c22233c0806db662cb4468a59",
+            "master": "a2becbbef6545154836689d3b3e91e0d10b7a593"
         }
     },
     "zzz_Identifier-Patcher": {
