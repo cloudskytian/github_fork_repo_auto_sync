@@ -1247,7 +1247,8 @@
             "v1.0.1-nightly.20260710.1": "d710277d087d3858c66a69d5917a90d2633dfa02",
             "v1.0.1-nightly.20260722.1": "3486950f0cd306328b8e1c781e10d7d8edf11b7c",
             "v1.1.0": "175126926ea89a2165cc85def0309cd5d27e744d",
-            "v1.1.1-nightly.20260723.1": "5afb1a68b2379170ff988088e38b7776dc7756be"
+            "v1.1.1-nightly.20260723.1": "5afb1a68b2379170ff988088e38b7776dc7756be",
+            "v1.1.1-nightly.20260724.1": "6dbbf4f1b50eae24b1ae2c4a46adce3424d9c597"
         },
         "branchs": {
             "master": "201d1a150a0d7f432eb03c0c061e259b65b22822",
@@ -1255,7 +1256,7 @@
             "windows-noactive": "d5d87dd347d87a1ab075b6d0d940da3ae9a0f096"
         },
         "branches": {
-            "master": "5afb1a68b2379170ff988088e38b7776dc7756be",
+            "master": "6dbbf4f1b50eae24b1ae2c4a46adce3424d9c597",
             "ocr": "21670023af407908e3f4c1d9b0d6213c8919b06e",
             "pre-refactor-master": "201d1a150a0d7f432eb03c0c061e259b65b22822"
         }
@@ -1425,6 +1426,7 @@
             "v0.1.169": "5aee3fb91f8e0cab7ae18223d95325c181dea6e5",
             "v0.1.17": "d5837ed535636691c6b152f0406813af5079da26",
             "v0.1.170": "98e0a15e5be0b0b0af4d7bb433485eb6bce7572a",
+            "v0.1.171": "e221552bd952c2d47cec5ac03f0e4daf9cd50835",
             "v0.1.18": "3bd113668370158f8bf7e67e605a5684218dc836",
             "v0.1.19": "c3aa62753bb14383493f00983c69854b1044d719",
             "v0.1.20": "c0472209b4ea37524f22973766f3be38400f08cd",
@@ -1520,9 +1522,9 @@
             "ranks": "87154f142c74fdc10807a92e83e147a28d5fdc55"
         },
         "branches": {
-            "master": "36b4c82caeb7a10176db9bce42f997916ab4865c",
-            "public": "299ea10e4f0aaed4590bb8c85d16922f570a4b66",
-            "ranks": "1cad6b382f875453ebf5bcaa84e5f0a8a331cfc8"
+            "master": "e221552bd952c2d47cec5ac03f0e4daf9cd50835",
+            "public": "d8dd05c7196ac9db9913cdeb3b2b10aab0ac3670",
+            "ranks": "eb32401162bfca51943b740cfee96882df5f4a64"
         }
     },
     "zzz_EDR-Freeze": {
@@ -2077,6 +2079,7 @@
             "6.1.12": "013233f2641d0f86418a7ff1a225f46747b516e9",
             "6.1.13": "f000f23ed7dbc1a44918319deb0d98811913bbd0",
             "6.1.15": "e6a7a76f1e75e66ba5eea73494605ef00b429d8e",
+            "6.1.16": "5a70804134324fc0d377d3531082ba917feec9d6",
             "6.1.2": "0eaf09cbeb9ca2b251b65d5c925851b5fb6cc9d5",
             "6.1.5": "e2f75af4c4a494327780f908611c2e1767e47eda",
             "6.1.6": "0112be55e4d00dbaae54aadb2c2f471dc4055232",
@@ -2086,7 +2089,7 @@
             "main": "8d7410f81f838cc3097ccaa798d27c09242b5f61"
         },
         "branches": {
-            "main": "e6a7a76f1e75e66ba5eea73494605ef00b429d8e"
+            "main": "5a70804134324fc0d377d3531082ba917feec9d6"
         }
     },
     "zzz_FlashPatch": {
@@ -2199,7 +2202,7 @@
             "master": "f7e6b68ce94b8f5ffa633ec927520d91fce580e3"
         },
         "branches": {
-            "master": "aa9b33ed2bb5c31e53b0e61149bc690a0d008f38"
+            "master": "860d2c31a45eb2b6e3661bfa146514e8df538cfe"
         }
     },
     "zzz_gog-games.to_backup": {
@@ -3089,7 +3092,7 @@
             "uv-migration": "5970a0d68d488da7a089d3ace1ff367f81fa4dc2"
         },
         "branches": {
-            "dev": "9914e527adcb4bfc5a0b751c812fe0cd87872756",
+            "dev": "31cff1d54dac3234f4b66e1b78287f1ec617f7f2",
             "dev-python-3.14": "fb400cd0e419f919754d1c799a11e50ca6c67706",
             "main": "6a31b227c9f7ccb85e08c9781b33598b312a715e",
             "uv-migration": "5970a0d68d488da7a089d3ace1ff367f81fa4dc2"
@@ -3259,6 +3262,8 @@
             "v10.0.1": "7174f72345fee9b61c93dfe77cb2f0e7919bcc78",
             "v10.0.2": "accbe85fb598aa032dc0ed3139782a33835fb35c",
             "v10.0.3": "b51f66a865073c96258171293bb9fe5eefe7ad6d",
+            "v10.0.4": "6c784c39e32a3aea7ad4ffb6fd00793a2bd58427",
+            "v10.1.0": "dd219a60fffb972e29b8be4e6a560b8cf525016d",
             "v2.0.0": "fb6a27bc8f8be44b9d8c31e2373794f1e7e6cc16",
             "v2.0.1": "0436298409e646ae153fe92131a3c79910a8a469",
             "v2.0.2": "31704b710d9b4863ee6c2d75f13521fe58a9aac0",
@@ -3777,7 +3782,7 @@
             "feature/ruff": "ed05f9c0a6b8b141c88c7526f5fa703e47a43dd8",
             "feature/single-tss-req": "4ba153b9ceaf02fb80cf373a5822ba540d7826ad",
             "feature/wda-run-script": "72d8f0087dd83f6a28d28d9523f22b5857102486",
-            "master": "25ae80b20664a446995396467e7cf6de2b2dd787",
+            "master": "dd219a60fffb972e29b8be4e6a560b8cf525016d",
             "refacotr/typer-developer": "292b2f9b8dbeadf88dea91b4d335669f88bc93f0",
             "refactor-afc-pull-method": "2efab849b5c808aa96986fafd1e42e510c2ab6af",
             "refactor-afc-pull-method2": "4de2c4fc35a8a2e62fe74dc1aa47676435952332",
@@ -3999,7 +4004,8 @@
             "v1.42.0": "1dec63399cca2df7cf0e75b929fb2087211c218c",
             "v1.42.1": "9bb7f9ed7335e499aba3b8300e3739e18ed2e000",
             "v1.42.2": "f5c6f88533c049a25bab072d6d0afd8e5713b9b0",
-            "v1.42.3": "98e7a2b10865d2b6f9b4a1ab7ea7a4f9c1cef262"
+            "v1.42.3": "98e7a2b10865d2b6f9b4a1ab7ea7a4f9c1cef262",
+            "v1.43.0": "02ba747bf18c1d67af3b53bf388bd5648dfb329e"
         },
         "branchs": {
             "116-feature-warn-user-that-the-source-language-is-the-same-as-the-target-language": "a9a40bc10bd95f53bde7aaef7efb007e5dfaa016",
@@ -4296,7 +4302,6 @@
             "build/upgrade-many": "6a1864d90092f4048bc918aa72722f3adf4e2e49",
             "build/upgrade-packages-2026-06-28": "9ff4bf042ebaf587485971578eed1dba4b143cdd",
             "build/upgrade-wxt": "514f2b65f59aea6113f4c81c2c7774a0a0ee42b6",
-            "changeset-release/main": "6097b6ddb5fd120ac43672b42e9d73e412c3156a",
             "chore/local-dev-ex": "d3fec2d0a3da1b0c53d999e10a223cb95d0448ce",
             "chore/sponsor-action": "24ab93ae2b7cb2a24f234196559f420a562802b2",
             "chore/update-hero-heading": "a51a23cd2f3bf8e8f688cf10d8079121af6b68e1",
@@ -4318,6 +4323,8 @@
             "cubic-fix--claude-agents-library-researcher-md-L3-1757797086": "acc81e0b97685cd17caa8b8127e55b98f66c6a4b",
             "cubic-fix-apps-extension-src-utils-config-__tests__-example-v019-ts-L15-1757797015": "1c2d8751c315970b773109b7afa4759447fd2fcf",
             "cubic-fix-nx-json-L13-1763944712": "c63a4bfb3928c2a1b270492357a2e7431b926c80",
+            "dependabot/npm_and_yarn/development-dependencies-c9e8a0f73a": "b1ea1e4ea9d6634927b3a89ec6e8714b94224eba",
+            "dependabot/npm_and_yarn/production-dependencies-06c8f47d76": "1ba434f0f04e65577b755ff372dae8d810bb2b6d",
             "docs/add-readme-back": "4c8e58b0abcdb17a719562308c0aa3c9c161764a",
             "docs/batch-translation-blog": "daa78e234dcbd89060bf482e43ba630429a87b0a",
             "docs/claude-md-setup": "3b6485e4c0e8429295f1c7641fb8edf3e20e49b5",
@@ -4448,6 +4455,7 @@
             "fix/issue-1248-hover-hit-area": "62b56351d6b09deb526a5bbb499932f4a12851a5",
             "fix/issue-1250-normalize-url-patterns": "5850c27c39b39cc12a8889530ced6a8fe107eba0",
             "fix/issue-1254-stable-page-title-cache": "63235c2d069dd6228780cd2a01939c567fb72520",
+            "fix/issue-1951-giant-inline-paragraphs": "faf3dc0b9c5a8bf4bb935169f61e8fe2e5bed762",
             "fix/lang-detect-with-schema": "d4991f1f92e0bfe1398a1b0f57823b7cc74c7c95",
             "fix/language-detect": "4ccc278d1447d00a5110e2e27cd2545da209d05b",
             "fix/language-detection": "ed77095a492dd994ba13346c967ce3fe30685e25",
@@ -4517,7 +4525,7 @@
             "kvnmqpqs": "a2b1a6ab40c8524279b9eb8febdd83df43242ac3",
             "lisongkun/main": "1ca7d4064375b44099b8a9fc9ae94072c62472aa",
             "locales/korean-extension": "00205027e9a87ed7fcc150484ae8f5df30376ab7",
-            "main": "fccbd1770d32a17d54aafa0860ccd758fd2902db",
+            "main": "02ba747bf18c1d67af3b53bf388bd5648dfb329e",
             "mengxi-ream-patch-1": "72eb0292f4d4870f86ad6d7a98ae89dac10c9016",
             "my-feature-branch": "f57c96ab0a1107a3b40adf9b452d88abb19b01d3",
             "perf/auth-cookie-change-issue": "3511ceb2a9f7e25c1dbeb6d4a5d65b6dfcb717a6",
@@ -4633,10 +4641,10 @@
             "ios": "a92d2301d9eb55e203fe5a90351d277430be4987",
             "keyboard-shortcuts": "fe93cbe570c022893ed03ab5343af8537647ef40",
             "keyboard-shortcuts-clean": "04faf21c78cfd99b50c4d6bffbeefbf98986c5ea",
-            "master": "929e989f17ba92e1a8291c0616f705208b67e3ea",
+            "master": "beaa754299feff6d89a89e2e9f71d838788e333a",
             "sciterjs": "e86d0a0fc14f0bff4cb1ecd94a84eae42818da80",
             "screenlock-os-password": "f3bd9fa933c03a960ebf3a10c94fa749e8918eca",
-            "svt-av1": "1ac684db0df37b21bf0bfaa1d330d7ddfe77a0c3",
+            "svt-av1": "8eda19247c54b5af597ee659c529a8d796b1fc80",
             "switch_code_hbbs": "af096f800d570eeadb39a0a04ebabafdd547e301",
             "terminal-utf8-and-reconnect": "cdfd986cb9669915fda1487c9416e14a131d202d",
             "webrtc": "f08257c923618615010750225986a8791df53643"
@@ -6660,6 +6668,8 @@
             "v1.1.24": "4e2d0e3c86e0e9b8ca221c191880ea8d57d07c0d",
             "v1.1.25": "3dc43c00679c7285b07e12998fd31a92dbd5c2eb",
             "v1.1.26": "a0166504aa61bb6ea69bf53fa4bb469d441881f4",
+            "v1.1.27": "8bfaabcabe00f15376aea77ec2ac4dbeb0b563dd",
+            "v1.1.28": "4b0f5c859adc7333d5cc1c36db8d3d54b32a9f69",
             "v1.1.3": "85aff65a0b374622ef67173f599c39604ab73453",
             "v1.1.4": "f4babfc191889488e6009d90173a189a466f700b",
             "v1.1.5": "2555d437058512e4e558755629338dc353432b60",
@@ -6675,8 +6685,8 @@
         },
         "branches": {
             "Go-dev": "250f77369164b8ef2eaffaa1cb17e980af563892",
-            "dev": "368f9a9e0d3949214e4431e58ad59bd11967bef1",
-            "master": "a0166504aa61bb6ea69bf53fa4bb469d441881f4"
+            "dev": "a714d5f65b45997d204cd94b4ece7d4f8b640107",
+            "master": "4b0f5c859adc7333d5cc1c36db8d3d54b32a9f69"
         },
         "warning": true
     },
@@ -6834,6 +6844,7 @@
             "master": "19b273ab24c3272d6cf1a6192a2c9c287ce75e14"
         },
         "branches": {
+            "dependabot/npm_and_yarn/immutable-5.1.9": "f5523fd7cb74e1f84c61f5482db40e52fabb5130",
             "develop": "961036a7f541d6d715c5a0447ee286e74b73d31c",
             "gh-pages": "1a65b9c1c3046c53e21938da6c47644f34b0e5dc",
             "master": "c921df49cb1597a4443ec1a7c46de8b2f6575c27",
@@ -7539,7 +7550,7 @@
             "master": "342c1a85456e6d55480f7f7ad53e7f0116cbedb1"
         },
         "branches": {
-            "master": "c37cd54c6a8e8d989999cd885cd2bcf12d1529c8"
+            "master": "ac02d7c9ce84de9ecf6fd686fed05ad7df48caac"
         }
     },
     "zzz_SARS": {
@@ -7658,8 +7669,8 @@
             "master": "a8cb9397e18135cf6c3310bacb7ed78186c1c3b3"
         },
         "branches": {
-            "badge-data": "2b5885e22539d3a4edbb49ccab0e5928ca89aa4a",
-            "master": "42e8dedf8adaa786cdee9fd94fea6f19ab5ca8da"
+            "badge-data": "dc5830a6d70dd47b655f9b46c02d77eea95faafa",
+            "master": "e6a3e99319d1b339722157b5023f5d01ce236da7"
         }
     },
     "zzz_Identifier-Patcher": {
