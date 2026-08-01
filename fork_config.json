@@ -515,7 +515,7 @@
             "master": "f0016b50fa3ccb92d473e3e2a812752a85086280"
         },
         "branches": {
-            "master": "f0016b50fa3ccb92d473e3e2a812752a85086280"
+            "master": "1e40a3cb7ccae0c6f3d416a66f13f843d7e55124"
         }
     },
     "zzz_Borderless-Gaming": {
@@ -687,7 +687,7 @@
             "release/1.8.5": "caf7aca4cc00f6ecace0832bd6992d4fb8c28105",
             "release/1.8.6": "cdf8a1ae10e8eea1984b15b8ed45a1aba2ac5153",
             "release/1.8.7": "50c167947b3fbdac559a1cfdd736f4c917242dc1",
-            "release/1.9.0": "29b922d658eaa09a86c4d4a9beaec4d55720e6d6",
+            "release/1.9.0": "7e74c3f9c7e0137fbac32a8469a2fe0052e00acb",
             "release/2.0.0": "6f6c3c6465d8a9d488037ca1a267f395ff5709e5"
         }
     },
@@ -1528,7 +1528,7 @@
         "branches": {
             "master": "12871e5023845827cc23d25ffed2613066268139",
             "public": "7ad94381163af6cf9951f9b131652988fb4eabec",
-            "ranks": "30e11a7cf5c2c0af04a48a8b51d54b30656e3992"
+            "ranks": "e6285ad04f3fa2e74ae7c6dc0fa39851d0d3b377"
         }
     },
     "zzz_EDR-Freeze": {
@@ -2212,7 +2212,7 @@
             "master": "f7e6b68ce94b8f5ffa633ec927520d91fce580e3"
         },
         "branches": {
-            "master": "eb5ed60cd2cd5d14eb95bfbb2b3f551328c23c60"
+            "master": "bc6f0e5df3d69081e6e1f699bdc3b44047a16995"
         }
     },
     "zzz_gog-games.to_backup": {
@@ -2882,7 +2882,7 @@
             "claude/character-conversion-dictionary-vx2wod-2": "1c5e9f612a11bfab3c05c6dff516ac9d3dc0c89f",
             "claude/remove-gyp-dependencies-gn5vlc": "e7081c6096abd4b8095526e42875611b3a58600d",
             "gh-pages": "acdb8df711bbad6bce7952af1c312938b2333089",
-            "master": "2904aa4dd06df17c538fbeae9f1efa14e25bb4a5",
+            "master": "6b1538b5a1ad15c9025be0306a17b95ac897fa5e",
             "release-1.2.0": "e38c96cde33813b405d8ee0da5ec9b3ac084b9f3",
             "release-1.3.0": "4ac5bd6b8ea84e107d83221ec1fea7e3209a8bb8",
             "release-1.4.0": "68a52365c8f2786629d2cca314691818e7280ac9",
@@ -3021,6 +3021,7 @@
         },
         "branches": {
             "183-bug-the-connection-drops-after-the-screen-has-been-locked-for-a-period-of-time": "401f097f002dd3e885f11caa11ee1693ebb6a14a",
+            "Driver": "ea115fa676bac95710c8db847b5fb1e77ace15a3",
             "MacOS": "dc79613ab02c8fa53547c93b168143b1035920d4",
             "UDP-Errors": "1a970b2c91ae822a27ce6a7a5d88d563680fdeec",
             "copilot/add-process-based-exclude-support": "121b96e0e14e55728991cebb7f0ba425e7dc80f8",
@@ -3102,7 +3103,7 @@
             "uv-migration": "5970a0d68d488da7a089d3ace1ff367f81fa4dc2"
         },
         "branches": {
-            "dev": "31cff1d54dac3234f4b66e1b78287f1ec617f7f2",
+            "dev": "b20a20e92602bb07ce3c45f5341bee085f900587",
             "dev-python-3.14": "fb400cd0e419f919754d1c799a11e50ca6c67706",
             "main": "6a31b227c9f7ccb85e08c9781b33598b312a715e",
             "uv-migration": "5970a0d68d488da7a089d3ace1ff367f81fa4dc2"
@@ -3796,6 +3797,7 @@
             "bugfix/audit-empty-and-tunnel-reuse": "6e6514e942baf99aef22c162d1b9ca1acc6529b3",
             "bugfix/auto-mount-already-mounted": "f4d6011c74b50aee3e8fb2757fd5ad658fca88e4",
             "bugfix/mav25": "9212fec14e7f05c75985b0d3f91387f5f5754245",
+            "bugfix/nonzero-exit-on-handled-errors": "5bc5030b6f1afeca6c9369ff79b3f24fd5db7cbd",
             "bugfix/windows-proactor-strip-ssl": "dfdc95726297f3f26debf0562753c9154539603c",
             "feat/coredevice-streaming": "33de44a205af40a50879df10470ee4e7c1db07ba",
             "feature/cdp-browser-endpoint": "97e5d203f011e7b611be4c1271be1302a4de4906",
@@ -4033,7 +4035,9 @@
             "v1.43.3": "2f452fc17b658758d137bf53e65fa7046b3e8490",
             "v1.43.4": "dabb3dc0b5a048ef45bdeaa5a9c10aedb8a99d4c",
             "v1.43.5": "b6ff2d83656cc9c232edaf35e1f8aca83d4bba11",
-            "v1.43.6": "53b54d68697b3e5180dabf325f941bbfc6d44b38"
+            "v1.43.6": "53b54d68697b3e5180dabf325f941bbfc6d44b38",
+            "v1.44.0": "01c8bfa1cff860eb474b88d7124b16ae0c9cf953",
+            "v1.44.1": "13c2389f14c095e7e4c21e53942709e635cf94ad"
         },
         "branchs": {
             "116-feature-warn-user-that-the-source-language-is-the-same-as-the-target-language": "a9a40bc10bd95f53bde7aaef7efb007e5dfaa016",
@@ -4330,7 +4334,7 @@
             "build/upgrade-many": "6a1864d90092f4048bc918aa72722f3adf4e2e49",
             "build/upgrade-packages-2026-06-28": "9ff4bf042ebaf587485971578eed1dba4b143cdd",
             "build/upgrade-wxt": "514f2b65f59aea6113f4c81c2c7774a0a0ee42b6",
-            "changeset-release/main": "afbd029bd9fb2d35206d9201a3f642acd42a284b",
+            "changeset-release/main": "41f6d35c831639982a96a88d87f64144a7ffa8b0",
             "chore/local-dev-ex": "d3fec2d0a3da1b0c53d999e10a223cb95d0448ce",
             "chore/sponsor-action": "24ab93ae2b7cb2a24f234196559f420a562802b2",
             "chore/update-hero-heading": "a51a23cd2f3bf8e8f688cf10d8079121af6b68e1",
@@ -4351,9 +4355,6 @@
             "cubic-fix--claude-agents-library-researcher-md-L3-1757797086": "acc81e0b97685cd17caa8b8127e55b98f66c6a4b",
             "cubic-fix-apps-extension-src-utils-config-__tests__-example-v019-ts-L15-1757797015": "1c2d8751c315970b773109b7afa4759447fd2fcf",
             "cubic-fix-nx-json-L13-1763944712": "c63a4bfb3928c2a1b270492357a2e7431b926c80",
-            "dependabot/npm_and_yarn/ai-sdk-e856b715a0": "ca85daf4bad84b06da683576fcf87c087d190c7b",
-            "dependabot/npm_and_yarn/development-dependencies-31bca16066": "d792f1bd29943b5de1004e0a591d87c401e73d42",
-            "dependabot/npm_and_yarn/production-dependencies-9227f46f6b": "9bf3cacd585f44e4d3a3058db7dc290b98d6cafd",
             "docs/add-readme-back": "4c8e58b0abcdb17a719562308c0aa3c9c161764a",
             "docs/batch-translation-blog": "daa78e234dcbd89060bf482e43ba630429a87b0a",
             "docs/claude-md-setup": "3b6485e4c0e8429295f1c7641fb8edf3e20e49b5",
@@ -4485,7 +4486,6 @@
             "fix/issue-1250-normalize-url-patterns": "5850c27c39b39cc12a8889530ced6a8fe107eba0",
             "fix/issue-1254-stable-page-title-cache": "63235c2d069dd6228780cd2a01939c567fb72520",
             "fix/issue-1951-giant-inline-paragraphs": "faf3dc0b9c5a8bf4bb935169f61e8fe2e5bed762",
-            "fix/issue-1991-simpread-page-translation": "52e801fc0f9cd7637808c9098fb82174cc07ad5b",
             "fix/lang-detect-with-schema": "d4991f1f92e0bfe1398a1b0f57823b7cc74c7c95",
             "fix/language-detect": "4ccc278d1447d00a5110e2e27cd2545da209d05b",
             "fix/language-detection": "ed77095a492dd994ba13346c967ce3fe30685e25",
@@ -4556,7 +4556,7 @@
             "kvnmqpqs": "a2b1a6ab40c8524279b9eb8febdd83df43242ac3",
             "lisongkun/main": "1ca7d4064375b44099b8a9fc9ae94072c62472aa",
             "locales/korean-extension": "00205027e9a87ed7fcc150484ae8f5df30376ab7",
-            "main": "afe83886a5d52353ed5ab0cd9278299ea69effb8",
+            "main": "5defc32865bea19f769fb2551886f760e372c89c",
             "mengxi-ream-patch-1": "72eb0292f4d4870f86ad6d7a98ae89dac10c9016",
             "my-feature-branch": "f57c96ab0a1107a3b40adf9b452d88abb19b01d3",
             "perf/auth-cookie-change-issue": "3511ceb2a9f7e25c1dbeb6d4a5d65b6dfcb717a6",
@@ -6726,7 +6726,7 @@
         },
         "branches": {
             "Go-dev": "250f77369164b8ef2eaffaa1cb17e980af563892",
-            "dev": "ce2495d64f2c9491f1b29fd62325dbdab8cd83cc",
+            "dev": "c73ac3562a57d1f745fc6cf2b7c7892b4c540563",
             "master": "4db6a63f078f27da2cfb6cc90d47eb2dbd80c1cd"
         },
         "warning": true
@@ -7590,7 +7590,7 @@
             "master": "342c1a85456e6d55480f7f7ad53e7f0116cbedb1"
         },
         "branches": {
-            "master": "a168803a596213de02d8af2c8eb085651b871166"
+            "master": "fced5d53393d01eddff2feaaf6f5229e58a8958b"
         }
     },
     "zzz_SARS": {
@@ -7714,8 +7714,8 @@
             "master": "a8cb9397e18135cf6c3310bacb7ed78186c1c3b3"
         },
         "branches": {
-            "badge-data": "ecdc6434923e73a770c546940d00fa33f1189f5e",
-            "master": "c95bfcbb40617ab4abf13829c25688bfb213033a"
+            "badge-data": "de2bbbb5552b8b3f3a3ebde4482a60d4c64551f4",
+            "master": "24f4ca2bce5deb11773099f8a788085bc02c9e3a"
         }
     },
     "zzz_Identifier-Patcher": {
@@ -7739,7 +7739,7 @@
             "feat/ksu-app-zygote-seqno": "3757234c337a8fed43274f7ca8e5804ce6d3df4e",
             "fix/pr-36-scan-metadata": "45ca91b568f80b930895d5d5bb8d9327f8d505c3",
             "hardware-timer-for-kp-sidechannel": "b12e766400f4c86315d3471ee10411330381251b",
-            "master": "d1e9257cab46c7b34304f700c5fee109bdde594d",
+            "master": "490cfbce5b6acdf49ecd21cf1ad9c5747a111346",
             "revert-7-feat/auto-versioning": "520c085058131a135e00a1ac60593e0c3f363f60"
         }
     },
