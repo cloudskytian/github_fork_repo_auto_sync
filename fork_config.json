@@ -687,7 +687,7 @@
             "release/1.8.5": "caf7aca4cc00f6ecace0832bd6992d4fb8c28105",
             "release/1.8.6": "cdf8a1ae10e8eea1984b15b8ed45a1aba2ac5153",
             "release/1.8.7": "50c167947b3fbdac559a1cfdd736f4c917242dc1",
-            "release/1.9.0": "7e74c3f9c7e0137fbac32a8469a2fe0052e00acb",
+            "release/1.9.0": "aab39bb33ce913f8c77f7129b39d532663f4df83",
             "release/2.0.0": "6f6c3c6465d8a9d488037ca1a267f395ff5709e5"
         }
     },
@@ -1528,7 +1528,7 @@
         "branches": {
             "master": "12871e5023845827cc23d25ffed2613066268139",
             "public": "7ad94381163af6cf9951f9b131652988fb4eabec",
-            "ranks": "e6285ad04f3fa2e74ae7c6dc0fa39851d0d3b377"
+            "ranks": "0b869ab26a254b204a2fa973346eefc5f867cd5c"
         }
     },
     "zzz_EDR-Freeze": {
@@ -2212,7 +2212,7 @@
             "master": "f7e6b68ce94b8f5ffa633ec927520d91fce580e3"
         },
         "branches": {
-            "master": "bc6f0e5df3d69081e6e1f699bdc3b44047a16995"
+            "master": "ccd74511099d801dfeade191180957753dc1815f"
         }
     },
     "zzz_gog-games.to_backup": {
@@ -4037,7 +4037,8 @@
             "v1.43.5": "b6ff2d83656cc9c232edaf35e1f8aca83d4bba11",
             "v1.43.6": "53b54d68697b3e5180dabf325f941bbfc6d44b38",
             "v1.44.0": "01c8bfa1cff860eb474b88d7124b16ae0c9cf953",
-            "v1.44.1": "13c2389f14c095e7e4c21e53942709e635cf94ad"
+            "v1.44.1": "13c2389f14c095e7e4c21e53942709e635cf94ad",
+            "v1.45.0": "17e94bcdf6691ccc8bfbfa569cbd29a7cd41f007"
         },
         "branchs": {
             "116-feature-warn-user-that-the-source-language-is-the-same-as-the-target-language": "a9a40bc10bd95f53bde7aaef7efb007e5dfaa016",
@@ -4334,7 +4335,7 @@
             "build/upgrade-many": "6a1864d90092f4048bc918aa72722f3adf4e2e49",
             "build/upgrade-packages-2026-06-28": "9ff4bf042ebaf587485971578eed1dba4b143cdd",
             "build/upgrade-wxt": "514f2b65f59aea6113f4c81c2c7774a0a0ee42b6",
-            "changeset-release/main": "41f6d35c831639982a96a88d87f64144a7ffa8b0",
+            "changeset-release/main": "a044d2d96c2d36a78c86a7ed198622b31a580f93",
             "chore/local-dev-ex": "d3fec2d0a3da1b0c53d999e10a223cb95d0448ce",
             "chore/sponsor-action": "24ab93ae2b7cb2a24f234196559f420a562802b2",
             "chore/update-hero-heading": "a51a23cd2f3bf8e8f688cf10d8079121af6b68e1",
@@ -4556,7 +4557,7 @@
             "kvnmqpqs": "a2b1a6ab40c8524279b9eb8febdd83df43242ac3",
             "lisongkun/main": "1ca7d4064375b44099b8a9fc9ae94072c62472aa",
             "locales/korean-extension": "00205027e9a87ed7fcc150484ae8f5df30376ab7",
-            "main": "5defc32865bea19f769fb2551886f760e372c89c",
+            "main": "028fc9940537f0167b2b24df4b3872d7538c8d7f",
             "mengxi-ream-patch-1": "72eb0292f4d4870f86ad6d7a98ae89dac10c9016",
             "my-feature-branch": "f57c96ab0a1107a3b40adf9b452d88abb19b01d3",
             "perf/auth-cookie-change-issue": "3511ceb2a9f7e25c1dbeb6d4a5d65b6dfcb717a6",
@@ -4684,7 +4685,7 @@
             "svt-av1": "8eda19247c54b5af597ee659c529a8d796b1fc80",
             "switch_code_hbbs": "93662b3da1e3203ee46f374664cc472b80cfc439",
             "terminal-utf8-and-reconnect": "cdfd986cb9669915fda1487c9416e14a131d202d",
-            "web-3.44-webcodecs-offline": "9f006e68a03f0df0440a4d9f0d2a547b0e8f4611",
+            "web-3.44-webcodecs-offline": "85f19dc9d145272f427fd7b626c91b639c850ea9",
             "webrtc": "daa5d55a4ce72b17bb520f6ffd22d8c6122cc05e"
         }
     },
@@ -6726,7 +6727,7 @@
         },
         "branches": {
             "Go-dev": "250f77369164b8ef2eaffaa1cb17e980af563892",
-            "dev": "c73ac3562a57d1f745fc6cf2b7c7892b4c540563",
+            "dev": "366245ea00874bca790b021420a5f684db67b7cc",
             "master": "4db6a63f078f27da2cfb6cc90d47eb2dbd80c1cd"
         },
         "warning": true
@@ -7590,7 +7591,7 @@
             "master": "342c1a85456e6d55480f7f7ad53e7f0116cbedb1"
         },
         "branches": {
-            "master": "fced5d53393d01eddff2feaaf6f5229e58a8958b"
+            "master": "3c449d05744354112454a6d415a3b03a8db6b901"
         }
     },
     "zzz_SARS": {
@@ -7714,8 +7715,8 @@
             "master": "a8cb9397e18135cf6c3310bacb7ed78186c1c3b3"
         },
         "branches": {
-            "badge-data": "de2bbbb5552b8b3f3a3ebde4482a60d4c64551f4",
-            "master": "24f4ca2bce5deb11773099f8a788085bc02c9e3a"
+            "badge-data": "464660b04407dea2cd0cc185e7dd66f8fa79d04b",
+            "master": "605b31e80af245e2ea05d703a594ca71c471876b"
         }
     },
     "zzz_Identifier-Patcher": {
@@ -7739,7 +7740,7 @@
             "feat/ksu-app-zygote-seqno": "3757234c337a8fed43274f7ca8e5804ce6d3df4e",
             "fix/pr-36-scan-metadata": "45ca91b568f80b930895d5d5bb8d9327f8d505c3",
             "hardware-timer-for-kp-sidechannel": "b12e766400f4c86315d3471ee10411330381251b",
-            "master": "490cfbce5b6acdf49ecd21cf1ad9c5747a111346",
+            "master": "f94e7d9fb3193b198fd98f2c511283fc2f7aefe4",
             "revert-7-feat/auto-versioning": "520c085058131a135e00a1ac60593e0c3f363f60"
         }
     },
