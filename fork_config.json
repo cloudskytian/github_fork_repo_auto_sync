@@ -687,7 +687,7 @@
             "release/1.8.5": "caf7aca4cc00f6ecace0832bd6992d4fb8c28105",
             "release/1.8.6": "cdf8a1ae10e8eea1984b15b8ed45a1aba2ac5153",
             "release/1.8.7": "50c167947b3fbdac559a1cfdd736f4c917242dc1",
-            "release/1.9.0": "515560285f73a673ed0f835be4fec923288e1e58",
+            "release/1.9.0": "d4114c7ee2457d37c745f9a321e6de0f564f0d2e",
             "release/2.0.0": "6f6c3c6465d8a9d488037ca1a267f395ff5709e5"
         }
     },
@@ -1528,7 +1528,7 @@
         "branches": {
             "master": "12871e5023845827cc23d25ffed2613066268139",
             "public": "7ad94381163af6cf9951f9b131652988fb4eabec",
-            "ranks": "6fc4917fafed8c36fa0b0fbffb6977fbd2ea7a06"
+            "ranks": "7eda8a3c4df3049d4c6c547bbacbd65b6c9917fa"
         }
     },
     "zzz_EDR-Freeze": {
@@ -3103,7 +3103,7 @@
             "uv-migration": "5970a0d68d488da7a089d3ace1ff367f81fa4dc2"
         },
         "branches": {
-            "dev": "b20a20e92602bb07ce3c45f5341bee085f900587",
+            "dev": "5426f8f6fa53ad904665f367c45c21dcc23252f3",
             "dev-python-3.14": "fb400cd0e419f919754d1c799a11e50ca6c67706",
             "main": "6a31b227c9f7ccb85e08c9781b33598b312a715e",
             "uv-migration": "5970a0d68d488da7a089d3ace1ff367f81fa4dc2"
@@ -3280,6 +3280,7 @@
             "v10.2.2": "e1ebae157fa0a34e78ba85af46ff2e416ccc549e",
             "v10.2.3": "df1f545204a720c90c3699080182c8f8a3443b9f",
             "v10.3.0": "bc9dd9eebf7e4a340217192d82bd936649b328d3",
+            "v10.3.1": "d8074aaf39fbda8ae9172dc0c718bbad201e7dcf",
             "v2.0.0": "fb6a27bc8f8be44b9d8c31e2373794f1e7e6cc16",
             "v2.0.1": "0436298409e646ae153fe92131a3c79910a8a469",
             "v2.0.2": "31704b710d9b4863ee6c2d75f13521fe58a9aac0",
@@ -3804,7 +3805,7 @@
             "feature/ruff": "ed05f9c0a6b8b141c88c7526f5fa703e47a43dd8",
             "feature/single-tss-req": "4ba153b9ceaf02fb80cf373a5822ba540d7826ad",
             "feature/wda-run-script": "72d8f0087dd83f6a28d28d9523f22b5857102486",
-            "master": "bc9dd9eebf7e4a340217192d82bd936649b328d3",
+            "master": "d8074aaf39fbda8ae9172dc0c718bbad201e7dcf",
             "refacotr/typer-developer": "292b2f9b8dbeadf88dea91b4d335669f88bc93f0",
             "refactor-afc-pull-method": "2efab849b5c808aa96986fafd1e42e510c2ab6af",
             "refactor-afc-pull-method2": "4de2c4fc35a8a2e62fe74dc1aa47676435952332",
@@ -4664,6 +4665,7 @@
         },
         "branches": {
             "accept_window_popup_after_windows_sessoin_chosen": "be01eb12e7c7c2ef13257c71f9cb2c1ce628a7ec",
+            "android-close-sessions-on-task-removed": "bcb5b03af10ef02079db912c81180e5cd6f0a699",
             "audit_retry_nonce": "5b50c6105632c81a0c0fe150459c2194d694bfac",
             "bump/window-manager": "72e7603ed43bc9782f5217c261102308ee4f7c62",
             "copilot/fix-discussion-14282-issue": "36b4f765fd7ee5ea1644827497866ebaf5e771dd",
@@ -4679,14 +4681,15 @@
             "ios": "a92d2301d9eb55e203fe5a90351d277430be4987",
             "keyboard-shortcuts": "fe93cbe570c022893ed03ab5343af8537647ef40",
             "keyboard-shortcuts-clean": "04faf21c78cfd99b50c4d6bffbeefbf98986c5ea",
-            "login-options-error-feedback": "2dcc3cfbd10d539963f0e82a255a2a92ad97e710",
-            "master": "807e05ea9a7e298ed2deb438195faaafce19cdd2",
+            "login-options-error-feedback": "338e066d17f3357f5bc4fae5fdbca08d70a2b382",
+            "master": "3cf32e70666006e0273938bf64c6e6e67d3bb82f",
+            "remove-dead-firebase-plist": "a318adbec9f1e6d008386f5dbb36c901cce567a0",
             "sciterjs": "e86d0a0fc14f0bff4cb1ecd94a84eae42818da80",
             "screenlock-os-password": "f3bd9fa933c03a960ebf3a10c94fa749e8918eca",
             "svt-av1": "8eda19247c54b5af597ee659c529a8d796b1fc80",
-            "switch_code_hbbs": "93662b3da1e3203ee46f374664cc472b80cfc439",
+            "switch_code_hbbs": "8c432e72aa0d0db42aaa015d862e1ec390d046e1",
             "terminal-utf8-and-reconnect": "cdfd986cb9669915fda1487c9416e14a131d202d",
-            "web-3.44-webcodecs-offline": "b23a4ab3da20cb1b837b66e270581a618942403e",
+            "web-3.44-webcodecs-offline": "f023ea80b7608ec7aac9da97b189ade68022789b",
             "webrtc": "daa5d55a4ce72b17bb520f6ffd22d8c6122cc05e"
         }
     },
@@ -6719,7 +6722,8 @@
             "v1.1.7": "cc9a81df6c2024b7ab66d774f1b2f8b7d76f894a",
             "v1.1.8": "078455dfe68881ad652fbee9650ad100cf1d9f69",
             "v1.1.9": "7b6e971f7ebeb651749c0087df55d80dd2eca9cd",
-            "v1.2.0": "4db6a63f078f27da2cfb6cc90d47eb2dbd80c1cd"
+            "v1.2.0": "4db6a63f078f27da2cfb6cc90d47eb2dbd80c1cd",
+            "v1.2.1": "ac8e8cb5782f1b7f92282223e4757fb827731c23"
         },
         "branchs": {
             "Go-dev": "250f77369164b8ef2eaffaa1cb17e980af563892",
@@ -6728,8 +6732,8 @@
         },
         "branches": {
             "Go-dev": "250f77369164b8ef2eaffaa1cb17e980af563892",
-            "dev": "9f57e8b8a975ba836934ec77435c2ac42180974d",
-            "master": "4db6a63f078f27da2cfb6cc90d47eb2dbd80c1cd"
+            "dev": "c06e10f78a7a275d901345fd570c3dd4ce5a75ef",
+            "master": "ac8e8cb5782f1b7f92282223e4757fb827731c23"
         },
         "warning": true
     },
@@ -7592,7 +7596,7 @@
             "master": "342c1a85456e6d55480f7f7ad53e7f0116cbedb1"
         },
         "branches": {
-            "master": "3ff6f9142f7f42450b9259fc0b9a1b6914111d3b"
+            "master": "739d35b8223d2e2967c257df9d873ee6f06e4bbc"
         }
     },
     "zzz_SARS": {
@@ -7717,8 +7721,8 @@
             "master": "a8cb9397e18135cf6c3310bacb7ed78186c1c3b3"
         },
         "branches": {
-            "badge-data": "626cc4d96d113867b5376ce869708f919e513b9b",
-            "master": "2d117a8601fff0c2ecd37538eed8092b1365493e"
+            "badge-data": "b5ca580b44bc317c766faa558a6cfe65551e156e",
+            "master": "c275cf28ceb26103044c181c4412d10b6ba5497c"
         }
     },
     "zzz_Identifier-Patcher": {
