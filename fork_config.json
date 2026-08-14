@@ -1535,7 +1535,7 @@
         "branches": {
             "master": "f89c6281e83affd381ff722ec525b79d64728faa",
             "public": "568b3991b3dd2c965e54cb2f3d20d4ecaa32f900",
-            "ranks": "f340eafa0762c69471afec035fc0d65170a1fcbe"
+            "ranks": "0253d93a3ae606db79492cfdc8c1d6dd2137f79f"
         }
     },
     "zzz_EDR-Freeze": {
@@ -2101,6 +2101,8 @@
             "6.1.25": "e389f050215d61e5babf384c5d5d5907cf013b3a",
             "6.1.26": "b8a9eef17ca94dab376efd80be7e854a105c4d34",
             "6.1.27": "f16613b7a147497fdd61a0f3acca1154bf9fe47a",
+            "6.1.28": "a57010b12badb8dede0632fb7dafdf700d217fb8",
+            "6.1.29": "5cadb98c10e0c4f4560fab5ca252d469b54b774d",
             "6.1.5": "e2f75af4c4a494327780f908611c2e1767e47eda",
             "6.1.6": "0112be55e4d00dbaae54aadb2c2f471dc4055232",
             "6.1.8": "602e3d2e8449703aa2bca59850759edf8b9d1dba"
@@ -2109,7 +2111,7 @@
             "main": "8d7410f81f838cc3097ccaa798d27c09242b5f61"
         },
         "branches": {
-            "main": "0b7f6095ccb7acf02c6a3b686115f641fd96d160"
+            "main": "5cadb98c10e0c4f4560fab5ca252d469b54b774d"
         }
     },
     "zzz_FlashPatch": {
@@ -2893,7 +2895,7 @@
             "claude/character-conversion-dictionary-vx2wod-2": "1c5e9f612a11bfab3c05c6dff516ac9d3dc0c89f",
             "claude/remove-gyp-dependencies-gn5vlc": "e7081c6096abd4b8095526e42875611b3a58600d",
             "gh-pages": "acdb8df711bbad6bce7952af1c312938b2333089",
-            "master": "5249273a3e5606852f088c9a8b23522145d94f78",
+            "master": "b50b26a04f3bb97a6e52a240108a239444ea871f",
             "release-1.2.0": "e38c96cde33813b405d8ee0da5ec9b3ac084b9f3",
             "release-1.3.0": "4ac5bd6b8ea84e107d83221ec1fea7e3209a8bb8",
             "release-1.4.0": "68a52365c8f2786629d2cca314691818e7280ac9",
@@ -3041,8 +3043,8 @@
             "copilot/fix-github-actions-analyze-swift": "d5894837e8ec20db0801c795ac1d8e3da970b641",
             "copilot/fix-proxy-curl-exe-issue": "1c2b5cb5e6e39be2eab5fcd25ac0ac5f8764b36d",
             "copilot/fix-rules-window-resizing": "b554c1ef0042f6aca8fa3bfb106d45faae5a9b1a",
-            "dev": "9c9dd1d42cfd19c6e36193009d18de90001b2251",
-            "master": "2929120c66f5f37c2f2abe48770a5e1a8a494b83",
+            "dev": "922175e05db1809c2595a31da5af3ac84c8fb882",
+            "master": "02703a0672a8b94011a4698368a392f7734c10dc",
             "multiproxy": "fc386db30f1afdc525c0c73e32017154cec1296d"
         }
     },
@@ -3301,6 +3303,7 @@
             "v10.7.1": "6965e0d3fc24ea058f6da3bfb3fdc05eacb7ba6c",
             "v10.7.2": "e37182828b55c62ed3b7f1c48609b85b1e3af085",
             "v10.7.3": "408a6f62693f6069ec1b0306b51d0b3edebf77c7",
+            "v10.7.4": "f24499a70e44d68d3dbf0ca8a87e9e2d9b31d9a2",
             "v2.0.0": "fb6a27bc8f8be44b9d8c31e2373794f1e7e6cc16",
             "v2.0.1": "0436298409e646ae153fe92131a3c79910a8a469",
             "v2.0.2": "31704b710d9b4863ee6c2d75f13521fe58a9aac0",
@@ -3821,6 +3824,7 @@
             "bugfix/nonzero-exit-on-handled-errors": "5bc5030b6f1afeca6c9369ff79b3f24fd5db7cbd",
             "bugfix/side-effect-asserts": "d29611d8a3a3e1a3410b3bcb37b655e88ee9a342",
             "bugfix/userspace-relay-abandoned-leak": "453347f52c2e4942ba9321580a25895febf8385a",
+            "build/pmd-pytcp-0.3.7-floor": "aa921d56f813a306027f119e39eb999534d91139",
             "feature/backup2-encryption-state-query": "910515fec4486e13c7edecb3189c88b09159b915",
             "feature/ci-device-free-tests": "d1f5f509e970ef253787a70cd9a946dfd5379d5f",
             "feature/js-shell-repl-improvements": "e475d7c54dfc84b22ef3a93290f916ea9fc351da",
@@ -3831,7 +3835,7 @@
             "feature/wda-run-script": "72d8f0087dd83f6a28d28d9523f22b5857102486",
             "feature/webinspector-runtime-context-event": "866a30b487891d6d8325141e5d13e45f3df48542",
             "hotfix/docs-syslog-label-help": "47e5c5ae66d44a1a3d85e9c364db192cc29a220f",
-            "master": "10c7dba9e0acc07a5ad3ec2e102f45eaafb4005a",
+            "master": "f24499a70e44d68d3dbf0ca8a87e9e2d9b31d9a2",
             "research/videoprocessing-re-roadmap": "6157f672544305bc61046efb35d8733585898524"
         }
     },
@@ -4376,11 +4380,15 @@
             "codex/fail-fast-request-queue": "75fb5c973b77b817fd96be377edbc6f97c2fceb1",
             "codex/fix-dia-options-page": "f51039851a084c709edff05d38647441d6250f7a",
             "codex/fix-issue-with-read-frog": "ae0ce49cc01f6cc78472530e85aefbf9e9cbf294",
+            "codex/fix-youtube-hover-title": "4b65aa7f8f08e0d843a0d5847014befd86d9b07b",
             "codex/issue-1854-experimental-dom-reuse": "e63eb77e1806530ffa4ffb3fb26780f3b284c358",
             "codex/read-frog-1763-open-options-page": "792d318afcad47c00fa5c0cdf5992926f4ba97d5",
             "cubic-fix--claude-agents-library-researcher-md-L3-1757797086": "acc81e0b97685cd17caa8b8127e55b98f66c6a4b",
             "cubic-fix-apps-extension-src-utils-config-__tests__-example-v019-ts-L15-1757797015": "1c2d8751c315970b773109b7afa4759447fd2fcf",
             "cubic-fix-nx-json-L13-1763944712": "c63a4bfb3928c2a1b270492357a2e7431b926c80",
+            "dependabot/npm_and_yarn/ai-sdk-5be290e44d": "eee8ec09fb56f2bf27771382e0dbd3a6267344f8",
+            "dependabot/npm_and_yarn/development-dependencies-fd440f7f08": "8c45d181a1447e8828955f378f3cd32e8377cb53",
+            "dependabot/npm_and_yarn/production-dependencies-2921997b28": "f5aaf5521058cdde7fa056b372d39fb34113e4b9",
             "docs/add-readme-back": "4c8e58b0abcdb17a719562308c0aa3c9c161764a",
             "docs/batch-translation-blog": "daa78e234dcbd89060bf482e43ba630429a87b0a",
             "docs/claude-md-setup": "3b6485e4c0e8429295f1c7641fb8edf3e20e49b5",
@@ -4409,6 +4417,7 @@
             "feat/aggressive-subtitles-segmentation": "34bd2d36a081d49594f8cb86effdb429dd7cf813",
             "feat/ai-button": "0510c17ab020fd8d5b473d82ac2875269e5b61a2",
             "feat/ai-content-aware": "1622d2e8433fe19ceef8903176247265f1e95f2c",
+            "feat/ai-subtitles-quota-launch": "0ded4df29c30f901b8fb604d22be9ed7eb957c6a",
             "feat/arbitrary-provider": "a2d27fb56922ed046ef03302da7be56ecf7103a5",
             "feat/backup-config": "c9f0837e854613ad245075a1f5c58f799146adc8",
             "feat/blog-system": "43e3bfd5f14dabf35e2c1c56699d61c3920dcca8",
@@ -4689,12 +4698,12 @@
         },
         "branches": {
             "accept_window_popup_after_windows_sessoin_chosen": "be01eb12e7c7c2ef13257c71f9cb2c1ce628a7ec",
-            "custom-client-no-rebuild": "9dae15e523dce67f6f835ad85e6400947636111f",
+            "custom-client-no-rebuild": "2315887619b33ae59c1ab03e34ab4bb93d0fd898",
             "fix-mobile-mouse-hover-issue-8789": "4423e0a1dc9f12e852de6a2d4f942d255edfb028",
             "fix-texture-lifetime": "24a16d9a300e0e0384a4d4de27d36ede9b9a1f87",
             "ios": "a92d2301d9eb55e203fe5a90351d277430be4987",
             "keyboard-shortcuts": "fe93cbe570c022893ed03ab5343af8537647ef40",
-            "master": "c4fd7d692dc657e3bc87e1f75f3308e9cd426987",
+            "master": "d829d1410a49123fcf4209496a4788f4cc02eec5",
             "rdp-tunnel-window-title": "47b228c8ad723359ec127f543c72febdf7878da2",
             "sciterjs": "e86d0a0fc14f0bff4cb1ecd94a84eae42818da80",
             "svt-av1": "e17efa947477f9eaf0fcb9d1cb013732fb38811a",
@@ -4934,7 +4943,7 @@
             "Test": "b91daec2a1ef45913abe00e5ec062535bd9b1b6e",
             "codespell": "1346eee09705f61119329ee1a7c962025cd77366",
             "experimental": "3c16b7826c2fde62b1e839c62a9be12bf96d9b2a",
-            "master": "78cd59700c6e785b129a033d584746abeb4cb21d",
+            "master": "6e6d03736b95bbab898a15094e0e390dfedf0ff0",
             "out-of-date": "abd2d44cd6f305da956ad70c7481cb1256efff24",
             "remote-mgmt": "8194614afef2a01ace718dc58cb3777dbbe0d27b"
         }
@@ -6081,6 +6090,7 @@
             "fix/20260810_context_menu": "967b2633bbbacf73ef76fa9d3967071aa1eed982",
             "fix/20260810_pin_window": "ea3b532c20211c83575d7f66fc468561d9255c7c",
             "fix/20260810_screen_record": "d50108565d81708366cb9004bc940e0a65d0d21c",
+            "fix/20260810_scrolling_screenshot": "3f22af9ca821858e496fad9ec1b3825940855f57",
             "main": "8be6758dfaf3ddbb897c7864b799392adf459f0b",
             "perf/20250515_opt_canvas": "a9828b55b2b4564d453985e55f6c6acf64032058",
             "perf/20250521_scroll_screenshot": "f997e5eb75dfbb9148cc5fb4ab4a60fc12b6c3a7",
@@ -6760,7 +6770,7 @@
         },
         "branches": {
             "Go-dev": "250f77369164b8ef2eaffaa1cb17e980af563892",
-            "dev": "dc802f1168679a118f0d1dc036eebf6b78357ff5",
+            "dev": "4ddb734e87b47ac24f257dd883c5ff998928580c",
             "master": "716e5af578e84b4fe523448ec0b67672eb808f00"
         },
         "warning": true
@@ -7557,7 +7567,7 @@
             "master": "342c1a85456e6d55480f7f7ad53e7f0116cbedb1"
         },
         "branches": {
-            "master": "744427f63a18c299e5a7ae3a5fc5df352c9ab22c"
+            "master": "b27a47068a78f910d7d9471a0ff73ab696a7a8a1"
         }
     },
     "zzz_SARS": {
@@ -7649,6 +7659,8 @@
             "v2.21.1": "ab5283f72583d175f40224779cc91eda53f63eb5",
             "v2.22.0": "f4474a8e998d85b4778c00999480d302f14e540b",
             "v2.23.0": "834176d2cabf82e1223ada910571a90c20dbf084",
+            "v2.24.0": "6860a9a7046dd84dc6f858628a531f950509f970",
+            "v2.24.1": "f0a8105cc4f96ce3096b20bad5213a8919a10268",
             "v2.3.0": "664aa3c2a606dbfaedba430e635689392c02ffb0",
             "v2.3.1": "e5d5af58180a7b8b185b7db61d7c5a2f335aae33",
             "v2.4.0": "cb5132dddf5fc3a690b762dfad34ecbecf1fb8f6",
@@ -7686,8 +7698,8 @@
             "master": "a8cb9397e18135cf6c3310bacb7ed78186c1c3b3"
         },
         "branches": {
-            "badge-data": "c946803b3fdfe3637807ffb9384e6abffcdada9b",
-            "master": "b7b047597c5969da535115cd8e6f9e2b906e089d"
+            "badge-data": "a5a193f53f1609c7ad00c7897d7f4661d308d5b0",
+            "master": "f0a8105cc4f96ce3096b20bad5213a8919a10268"
         }
     },
     "zzz_Identifier-Patcher": {
@@ -7703,7 +7715,7 @@
     "zzz_Duck-Detector-Refactoring": {
         "parent": "eltavine/Duck-Detector-Refactoring",
         "tags": {
-            "nightly": "3ca03d3c628b5159ce74a01acd40bcfba4874ed7"
+            "nightly": "fc94d5d30ebeef4cd0b90c80d1741012566232b1"
         },
         "branches": {
             "codex/custom-kernel-detection-enhancement": "c286d0ae3bfebc70f6260353165659098f2dfecb",
@@ -7711,7 +7723,7 @@
             "feat/ksu-app-zygote-seqno": "3757234c337a8fed43274f7ca8e5804ce6d3df4e",
             "fix/pr-36-scan-metadata": "45ca91b568f80b930895d5d5bb8d9327f8d505c3",
             "hardware-timer-for-kp-sidechannel": "b12e766400f4c86315d3471ee10411330381251b",
-            "master": "3ca03d3c628b5159ce74a01acd40bcfba4874ed7",
+            "master": "fc94d5d30ebeef4cd0b90c80d1741012566232b1",
             "revert-7-feat/auto-versioning": "520c085058131a135e00a1ac60593e0c3f363f60"
         }
     },
