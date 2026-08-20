@@ -689,7 +689,7 @@
             "release/1.8.5": "caf7aca4cc00f6ecace0832bd6992d4fb8c28105",
             "release/1.8.6": "cdf8a1ae10e8eea1984b15b8ed45a1aba2ac5153",
             "release/1.8.7": "50c167947b3fbdac559a1cfdd736f4c917242dc1",
-            "release/1.9.0": "0b04e29133020c49aef81a71b00255c7d47196b9",
+            "release/1.9.0": "59c066f5789759c92033b69e6a944edb1c9d1f24",
             "release/2.0.0": "6f6c3c6465d8a9d488037ca1a267f395ff5709e5"
         }
     },
@@ -1535,7 +1535,7 @@
         "branches": {
             "master": "f89c6281e83affd381ff722ec525b79d64728faa",
             "public": "568b3991b3dd2c965e54cb2f3d20d4ecaa32f900",
-            "ranks": "dea977c281691c03d9c6a2e57d1814525c3bf274"
+            "ranks": "1a8b87deafea259d09598857e013bbaa790c6843"
         }
     },
     "zzz_EDR-Freeze": {
@@ -2108,6 +2108,8 @@
             "6.1.32": "81ea93d051b45583b1fcead8ee68935eeb668cdb",
             "6.1.33": "51789199a6b73b97279e02e5889d3aa139ee766f",
             "6.1.35": "fda679b8adf0a963f6dc556bf853ddf2e7597cc9",
+            "6.1.36": "2df21c452776d702c01a525841335bc0352b2244",
+            "6.1.38": "3c0c835814cf0a8b3604e9e4d6baee8464b6ea64",
             "6.1.5": "e2f75af4c4a494327780f908611c2e1767e47eda",
             "6.1.6": "0112be55e4d00dbaae54aadb2c2f471dc4055232",
             "6.1.8": "602e3d2e8449703aa2bca59850759edf8b9d1dba"
@@ -2116,7 +2118,7 @@
             "main": "8d7410f81f838cc3097ccaa798d27c09242b5f61"
         },
         "branches": {
-            "main": "fda679b8adf0a963f6dc556bf853ddf2e7597cc9"
+            "main": "3c0c835814cf0a8b3604e9e4d6baee8464b6ea64"
         }
     },
     "zzz_FlashPatch": {
@@ -3845,7 +3847,7 @@
             "feature/wda-run-script": "72d8f0087dd83f6a28d28d9523f22b5857102486",
             "feature/webinspector-runtime-context-event": "866a30b487891d6d8325141e5d13e45f3df48542",
             "hotfix/docs-syslog-label-help": "47e5c5ae66d44a1a3d85e9c364db192cc29a220f",
-            "master": "5ab6e805e681df98422048068d770e9755eb123f",
+            "master": "d99e364ad748647979ee1e172161f9cdc6ad958f",
             "research/videoprocessing-re-roadmap": "6157f672544305bc61046efb35d8733585898524"
         }
     },
@@ -4465,6 +4467,7 @@
             "feat/side-panel-empty-config": "db618e3f059c24542dcb8e18ffd11fa921f7e6a5",
             "feat/subtitle-source-language": "2960ef94a6fae3e6d415f50dbeb39aa7072a7745",
             "feat/subtitle-warmup-integration": "870e07161f0d2210241c126c438d80e5e579ee79",
+            "feat/subtitles-ai-icon-tooltip": "f4ba59d32928176b7cf2c60d32675c01d80ef45f",
             "feat/subtitles-ai-segmentation-core": "0938aff5d073f23388bef69320e922114a1e8063",
             "feat/subtitles-dual-builders": "55a3e5c242ea91d5b9ea40e152af8aee001f4b1f",
             "feat/subtitles-runtime-loading-scheduler": "b13c99fa3337e2531b6550b82aeeffb4933b0202",
@@ -4710,9 +4713,10 @@
             "fix-mobile-mouse-hover-issue-8789": "4423e0a1dc9f12e852de6a2d4f942d255edfb028",
             "fix-texture-lifetime": "24a16d9a300e0e0384a4d4de27d36ede9b9a1f87",
             "fix/wayland-failed-lookup-backoff": "889cfeb1ccf86170147a8c4f67501316cb1edefa",
+            "fix_rdp_window_title": "4b32010560ca941110c74a6c07138b7f061bbf63",
             "hide-printer-tab-when-settings-disabled": "e275052df4997b6d405d53ea41767e6c8ee9bce3",
             "keyboard-shortcuts": "fe93cbe570c022893ed03ab5343af8537647ef40",
-            "master": "19846787855aaf5031d34e54e0495f20b26083aa",
+            "master": "56796705060a9f3297b542988928e4f15f125271",
             "rustdesk-patch-1": "6a6de17b2e3f418c319f91b7603962d01f8e7ec7",
             "sciterjs": "e86d0a0fc14f0bff4cb1ecd94a84eae42818da80",
             "svt-av1": "e17efa947477f9eaf0fcb9d1cb013732fb38811a",
@@ -5757,7 +5761,7 @@
             "feat/20251107_offline_version": "a97a5f2e512185fcdff99fd79b559ef7284cc8d7",
             "feat/20260808_ocr": "63025f3f8ede89541ae45280e07e8d8a8564cfc9",
             "feat/20260808_translate": "60e9182c572e1a0f9ef3fe5f21206db17e27f965",
-            "feat/20260815_snow_shot": "df67b54c90caef0f9c12486caef162c70276029e",
+            "feat/20260815_snow_shot": "f3190b8558ba3601771384d6f18951235360b901",
             "feats/20250226_basic_ui": "88903a81a6ceb3f9dc36ebb241300ff93e64eef6",
             "feats/20250226_screenshot": "a7aaf40dae7fae5011780b429bed603128a4c5a7",
             "feats/20250303_select_winodw": "2e8677ceb54038ed91403be691c7e129a16de0e5",
@@ -6775,7 +6779,8 @@
             "v1.4.2": "a2413799c78d276380a0d8ccaa563039b4a61e97",
             "v1.5.0": "708079ee86906b7ef3d8b6024742778172acd38d",
             "v1.5.1": "8a8e816a6d799dece2ff9c6a6f1c58e0bd1e49f6",
-            "v1.5.2": "274b499e16097cedbf083b6b2b08f56734b13be2"
+            "v1.5.2": "274b499e16097cedbf083b6b2b08f56734b13be2",
+            "v1.6.1": "ff0619844d91ec9f75c32c87936e161c07855123"
         },
         "branchs": {
             "Go-dev": "250f77369164b8ef2eaffaa1cb17e980af563892",
@@ -6784,8 +6789,8 @@
         },
         "branches": {
             "Go-dev": "250f77369164b8ef2eaffaa1cb17e980af563892",
-            "dev": "aac4a0ae35c52c554d193a2b326de8ef46fa256b",
-            "master": "c17a897bc188fcd9281e5475f3a0b13b4a076ad2"
+            "dev": "5dedffc93603a7dcf48486227424d4436a08a254",
+            "master": "ff0619844d91ec9f75c32c87936e161c07855123"
         },
         "warning": true
     },
@@ -7581,7 +7586,7 @@
             "master": "342c1a85456e6d55480f7f7ad53e7f0116cbedb1"
         },
         "branches": {
-            "master": "69a8fceebcca80412e36ce89b78f23c328e332b2"
+            "master": "0f0dcc40633499284a1b1a603943253333030bbc"
         }
     },
     "zzz_SARS": {
@@ -7713,8 +7718,8 @@
             "master": "a8cb9397e18135cf6c3310bacb7ed78186c1c3b3"
         },
         "branches": {
-            "badge-data": "e462fbc6d6e1c5a24542bda7510c28f90cccbdf7",
-            "master": "0d9cb82c125c7c08f57ef8d6a0821fd4097c2926"
+            "badge-data": "ebc8db60189b04641b009a71111baa1378eb8c17",
+            "master": "3bdef14f4f93201a505473119c3cd295ff557e0f"
         }
     },
     "zzz_Identifier-Patcher": {
@@ -7730,7 +7735,7 @@
     "zzz_Duck-Detector-Refactoring": {
         "parent": "eltavine/Duck-Detector-Refactoring",
         "tags": {
-            "nightly": "75e575d7ae6b7968a0a3ecc34343c462bea814d9"
+            "nightly": "c1dd12c631cea269cfe2a52753dd1aa11696bba0"
         },
         "branches": {
             "WidevineProbe": "2220d3545e1e9bbf65e26c513f8c82926184166a",
@@ -7740,7 +7745,7 @@
             "feat/ksu-app-zygote-seqno": "3757234c337a8fed43274f7ca8e5804ce6d3df4e",
             "fix/pr-36-scan-metadata": "45ca91b568f80b930895d5d5bb8d9327f8d505c3",
             "hardware-timer-for-kp-sidechannel": "b12e766400f4c86315d3471ee10411330381251b",
-            "master": "75e575d7ae6b7968a0a3ecc34343c462bea814d9",
+            "master": "c1dd12c631cea269cfe2a52753dd1aa11696bba0",
             "revert-7-feat/auto-versioning": "520c085058131a135e00a1ac60593e0c3f363f60"
         }
     },
