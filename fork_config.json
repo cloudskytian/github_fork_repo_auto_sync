@@ -683,7 +683,7 @@
             "release/1.8.5": "caf7aca4cc00f6ecace0832bd6992d4fb8c28105",
             "release/1.8.6": "cdf8a1ae10e8eea1984b15b8ed45a1aba2ac5153",
             "release/1.8.7": "50c167947b3fbdac559a1cfdd736f4c917242dc1",
-            "release/1.9.0": "492b0908c80e60f08dcb0372c4847087cb90767a",
+            "release/1.9.0": "d96d3667d69435faa448c53dcdd11d74f281bf6f",
             "release/2.0.0": "6f6c3c6465d8a9d488037ca1a267f395ff5709e5"
         }
     },
@@ -1529,7 +1529,7 @@
         "branches": {
             "master": "f89c6281e83affd381ff722ec525b79d64728faa",
             "public": "568b3991b3dd2c965e54cb2f3d20d4ecaa32f900",
-            "ranks": "652149e6ba803c86532504a6ef49436c13b988b9"
+            "ranks": "6ef307867d517efc9f9e398bd2cc3e4310f76206"
         }
     },
     "zzz_EDR-Freeze": {
@@ -2229,7 +2229,7 @@
             "master": "f7e6b68ce94b8f5ffa633ec927520d91fce580e3"
         },
         "branches": {
-            "master": "6588e436d51a55b76da9a4ee96542c5dc23d3c1e"
+            "master": "0a0d6dd158329d697282f7012c991ee81b4ef601"
         }
     },
     "zzz_gog-games.to_backup": {
@@ -2885,7 +2885,8 @@
             "ver.1.3.1": "2f569603954f1cddfdef7b648e71e1aa0d1f47a3",
             "ver.1.3.2": "1a7c529dfa8b570984323b699c15ee7f64e6d6dd",
             "ver.1.4.0": "664674f3565f75180c11c8ed2c8ee621952c310f",
-            "ver.1.4.1": "81223ed87ae53283ef518e2deac34b7971f8a39e"
+            "ver.1.4.1": "81223ed87ae53283ef518e2deac34b7971f8a39e",
+            "ver.1.4.2": "025f371dc76b598d77384fbdab90c937471844d8"
         },
         "branchs": {
             "copilot/fix-st-multi-text": "1fdc6e713ca90ecb8c7a8d37763e31760c8f8736",
@@ -2898,7 +2899,7 @@
             "claude/character-conversion-dictionary-vx2wod-2": "1c5e9f612a11bfab3c05c6dff516ac9d3dc0c89f",
             "claude/remove-gyp-dependencies-gn5vlc": "e7081c6096abd4b8095526e42875611b3a58600d",
             "gh-pages": "acdb8df711bbad6bce7952af1c312938b2333089",
-            "master": "4f90418b9ed73a91023897095c762e5fdaadc016",
+            "master": "025f371dc76b598d77384fbdab90c937471844d8",
             "release-1.2.0": "e38c96cde33813b405d8ee0da5ec9b3ac084b9f3",
             "release-1.3.0": "4ac5bd6b8ea84e107d83221ec1fea7e3209a8bb8",
             "release-1.4.0": "68a52365c8f2786629d2cca314691818e7280ac9",
@@ -4379,6 +4380,7 @@
             "build/upgrade-many": "6a1864d90092f4048bc918aa72722f3adf4e2e49",
             "build/upgrade-packages-2026-06-28": "9ff4bf042ebaf587485971578eed1dba4b143cdd",
             "build/upgrade-wxt": "514f2b65f59aea6113f4c81c2c7774a0a0ee42b6",
+            "changeset-release/main": "2e0b7e4691441c9d951912ad5144f96eb86cf627",
             "chore/local-dev-ex": "d3fec2d0a3da1b0c53d999e10a223cb95d0448ce",
             "chore/sponsor-action": "24ab93ae2b7cb2a24f234196559f420a562802b2",
             "chore/update-hero-heading": "a51a23cd2f3bf8e8f688cf10d8079121af6b68e1",
@@ -4388,7 +4390,6 @@
             "ci/turbo-cache": "51948b746692d202b7bbb7ba81571f86b5c49df0",
             "ci/vercel-build": "e29b956f62f3de1ae0a96e9f8ed5017cc9a15f0c",
             "claude/add-sidebar-user-component-7sjdu": "d9b8183f311c2b44d8f72c6a5a3f5c450b77bbc5",
-            "claude/migration-provider-description-blank-55b0a7": "a7647583a1a0baba44ee3f33b9c1f9bb85763106",
             "claude/plan-badge-hover-animation-fd0adb": "86067e71b9aecebc74519143c0ac554f460d85b5",
             "claude/short-text-expansion-spacing-9db762": "70e1c759f833f64c8afc427e502584c32999c125",
             "coderabbitai/docstrings/b6ce04e": "b67af1a2b4b88e01f91b937e58307109ca14a6ee",
@@ -4471,6 +4472,7 @@
             "feat/subtitles-ai-segmentation-core": "0938aff5d073f23388bef69320e922114a1e8063",
             "feat/subtitles-dual-builders": "55a3e5c242ea91d5b9ea40e152af8aee001f4b1f",
             "feat/subtitles-runtime-loading-scheduler": "b13c99fa3337e2531b6550b82aeeffb4933b0202",
+            "feat/subtitles-sidebar-shell": "e6d5d986556183b38a64a374a8058624f36aca76",
             "feat/subtitles-source-code": "79546b952978cb43057cce232611aae1a778cb45",
             "feat/subtitles-ui-loading-display": "64119b2cfc8381cfcb5541645bfc8c8614fa204c",
             "feat/system-prompt": "4813ca025f8a6cd6cbeda749d3326f3078767d74",
@@ -4480,6 +4482,7 @@
             "feat/translation-only-walking": "e96aabf206d26570b7f89a595b25a6b304aedfbe",
             "feat/ui-improvements-and-ai302-button": "e82388b3b5927e69e03db75a08df5f06d3207d8c",
             "feat/update-gemini-models": "ae5635d7e3abf7f8ad3ce0aee14bcd91b565d13e",
+            "feat/xcom-subtitles-fetcher": "ee84cc90c568027210f4b26d4279f4f23f85742a",
             "feature/emphasize-free-302ai": "4c54096ab2e78f688b559fee903957ba8a9e1d52",
             "feature/ollama-docs": "7f33bf5ba45df3febfdaf08fb8963601950d25eb",
             "feature/openai-compatible": "1d69eb7c1f4d3344a38abb40484e2b6d7483a116",
@@ -4604,7 +4607,7 @@
             "kvnmqpqs": "a2b1a6ab40c8524279b9eb8febdd83df43242ac3",
             "lisongkun/main": "1ca7d4064375b44099b8a9fc9ae94072c62472aa",
             "locales/korean-extension": "00205027e9a87ed7fcc150484ae8f5df30376ab7",
-            "main": "3f733930709646cf658c2a8a2d0e8338a9c71d2a",
+            "main": "68ec81c2e3083979acc7623c58c4802c67e91b55",
             "mengxi-ream-patch-1": "72eb0292f4d4870f86ad6d7a98ae89dac10c9016",
             "my-feature-branch": "f57c96ab0a1107a3b40adf9b452d88abb19b01d3",
             "perf/auth-cookie-change-issue": "3511ceb2a9f7e25c1dbeb6d4a5d65b6dfcb717a6",
@@ -4717,12 +4720,14 @@
             "fix_rdp_window_title": "4b32010560ca941110c74a6c07138b7f061bbf63",
             "hide-printer-tab-when-settings-disabled": "e275052df4997b6d405d53ea41767e6c8ee9bce3",
             "keyboard-shortcuts": "fe93cbe570c022893ed03ab5343af8537647ef40",
-            "master": "d5a7f67999ed5936f4553a64c0b3f638c9ff75b9",
+            "master": "7423dced37845c48093b6f71bd82e4a16cc8c79d",
             "rustdesk-patch-1": "6a6de17b2e3f418c319f91b7603962d01f8e7ec7",
             "rustdesk-patch-2": "98035b3a0e11e3b8c18367da847e4b59d5d02f5f",
+            "rustdesk-patch-3": "bd45211b6c8f69eb3fce3c3dde196848767f480a",
             "sciterjs": "e86d0a0fc14f0bff4cb1ecd94a84eae42818da80",
             "svt-av1": "e17efa947477f9eaf0fcb9d1cb013732fb38811a",
-            "webrtc": "eaf3defbe67be45af943341412989791f7608a4f"
+            "tcp-punch-simultaneous-open": "09e4fe9da9cc21a14acb60b8d0afd42d6202fd52",
+            "webrtc": "3db7f44cfab3117e53cee1152e6cd8845ee15229"
         }
     },
     "zzz_Sandboxie": {
@@ -5763,7 +5768,8 @@
             "feat/20251107_offline_version": "a97a5f2e512185fcdff99fd79b559ef7284cc8d7",
             "feat/20260808_ocr": "63025f3f8ede89541ae45280e07e8d8a8564cfc9",
             "feat/20260808_translate": "60e9182c572e1a0f9ef3fe5f21206db17e27f965",
-            "feat/20260815_snow_shot": "723fd369467e79c798497d3efa6ca73db198b401",
+            "feat/20260815_snow_shot": "68a08439aebd303130feb554ef4f9f6ee8a73a95",
+            "feat/20260826_snow_shot": "7787c5ec000ce8435a5626705efe92578658ee35",
             "feats/20250226_basic_ui": "88903a81a6ceb3f9dc36ebb241300ff93e64eef6",
             "feats/20250226_screenshot": "a7aaf40dae7fae5011780b429bed603128a4c5a7",
             "feats/20250303_select_winodw": "2e8677ceb54038ed91403be691c7e129a16de0e5",
@@ -6782,7 +6788,8 @@
             "v1.5.0": "708079ee86906b7ef3d8b6024742778172acd38d",
             "v1.5.1": "8a8e816a6d799dece2ff9c6a6f1c58e0bd1e49f6",
             "v1.5.2": "274b499e16097cedbf083b6b2b08f56734b13be2",
-            "v1.6.1": "ff0619844d91ec9f75c32c87936e161c07855123"
+            "v1.6.1": "ff0619844d91ec9f75c32c87936e161c07855123",
+            "v1.7.0": "b92885559b6fe5f7281addb57a414e0a44c39fdb"
         },
         "branchs": {
             "Go-dev": "250f77369164b8ef2eaffaa1cb17e980af563892",
@@ -6791,8 +6798,8 @@
         },
         "branches": {
             "Go-dev": "250f77369164b8ef2eaffaa1cb17e980af563892",
-            "dev": "b867e56dea493af5bc8400aad3d38fcaad520dd6",
-            "master": "e76dfb37ec0a808e9403e1a45d17aed26873d37e"
+            "dev": "5e69282a7119bc07c8f4e4f4ec34bae3b887baa8",
+            "master": "b92885559b6fe5f7281addb57a414e0a44c39fdb"
         },
         "warning": true
     },
@@ -6953,7 +6960,7 @@
         "branches": {
             "develop": "c3b623a829f4264abcaccfe41faaea3770521870",
             "gh-pages": "1a65b9c1c3046c53e21938da6c47644f34b0e5dc",
-            "master": "6ecea88d9291e0b127cfe745921738a66829a1ba",
+            "master": "3235e817c34d6ad3c33bc1e86e556ebcd92c0096",
             "oldj-patch-1": "76b838b543b4fea0f9bea3c93b451b6a948c2c3f"
         }
     },
@@ -7222,7 +7229,7 @@
             "master": "6a4beb41a2544bd75641047af5f18b97c8ee5dbf"
         },
         "branches": {
-            "master": "166e5680f4f9c632ead0ef965cb4962c92d47bb2"
+            "master": "a371491c18ffa34cb9abb9f35e4bb30c1fbc2c2b"
         }
     },
     "zzz_virtual-display-rs": {
@@ -7588,7 +7595,7 @@
             "master": "342c1a85456e6d55480f7f7ad53e7f0116cbedb1"
         },
         "branches": {
-            "master": "0194669f810eb46bf072c47db744c4c70f4379e8"
+            "master": "2d849b23d26b6c2e13eb2b6255b320ba9267ae37"
         }
     },
     "zzz_SARS": {
@@ -7684,6 +7691,7 @@
             "v2.24.1": "f0a8105cc4f96ce3096b20bad5213a8919a10268",
             "v2.24.2": "b227ade84fae8ac7f244b651417064a8af9ea7f8",
             "v2.24.3": "28e821cc03fa2da39db8f942509a6e27beb7e287",
+            "v2.24.4": "4f60929ff22e525a132bbcc2da9d3d96463a4ffc",
             "v2.3.0": "664aa3c2a606dbfaedba430e635689392c02ffb0",
             "v2.3.1": "e5d5af58180a7b8b185b7db61d7c5a2f335aae33",
             "v2.4.0": "cb5132dddf5fc3a690b762dfad34ecbecf1fb8f6",
@@ -7721,8 +7729,8 @@
             "master": "a8cb9397e18135cf6c3310bacb7ed78186c1c3b3"
         },
         "branches": {
-            "badge-data": "a8593e432b1cfe942de7af16749d0119a4347df0",
-            "master": "b0d8f129bb0c42e44a16a4dd61efcccf8617e63c"
+            "badge-data": "853c53be6538c8c3552ff0848cf0d78cc8da0160",
+            "master": "4f60929ff22e525a132bbcc2da9d3d96463a4ffc"
         }
     },
     "zzz_Identifier-Patcher": {
