@@ -389,7 +389,7 @@
             "linux-direct-mode": "945d3cc9be65f5db86d36508d9e4044f13dbd1ef",
             "linux-direct-mode-upstream": "ebf667ec76f29bdeee5491b1123f6f16a8af261d",
             "make-current-c-api": "938ccba1186e957142a06687b2275b7c15ed9d9a",
-            "master": "6b75f2f118b3ce71c55d1b0c863414a24322e28a",
+            "master": "d350c7c26e944af5e74b7f1ca65ae940ed3f4869",
             "mock-server": "da7cf11e32cf4e3facd3b1730a9f4d3b1ffef265",
             "monado": "5d45a6dcd9a5ae3df7c60c6a1282fb52140346da",
             "multi-client": "042af30bf030d04375d7175c98f808bc9a2ea209",
@@ -684,7 +684,7 @@
             "release/1.8.5": "caf7aca4cc00f6ecace0832bd6992d4fb8c28105",
             "release/1.8.6": "cdf8a1ae10e8eea1984b15b8ed45a1aba2ac5153",
             "release/1.8.7": "50c167947b3fbdac559a1cfdd736f4c917242dc1",
-            "release/1.9.0": "cff7546ca1404410894deadf4ad1bfce4955a9d3",
+            "release/1.9.0": "e0e7f399bb7529217ba98efeb5d88a896ea82d51",
             "release/2.0.0": "af7446ea7049862bdd6bbe12d44627cbce5bdf8d"
         }
     },
@@ -1437,6 +1437,10 @@
             "v0.1.18": "3bd113668370158f8bf7e67e605a5684218dc836",
             "v0.1.180": "00cdf96a8f90922424580b6454667b63ffffbee1",
             "v0.1.181": "6fb18ab6da12cbf1f8cc80bbc4a07b40fc8f9830",
+            "v0.1.182": "212ca4eabb76234086a40b3208d3b6179fac51d4",
+            "v0.1.183": "3e219da987934e92e39bc467b9291616a888a692",
+            "v0.1.184": "991c95dc91c5dbe7a690f47ddefb10ec1fea7d64",
+            "v0.1.185": "28b7e084b8facb38bf91a3ed999edd75134bfdb6",
             "v0.1.19": "c3aa62753bb14383493f00983c69854b1044d719",
             "v0.1.20": "c0472209b4ea37524f22973766f3be38400f08cd",
             "v0.1.21": "4f7e37f37ce95137bcc7ddcfe351680074d9bbbf",
@@ -1531,9 +1535,9 @@
             "ranks": "87154f142c74fdc10807a92e83e147a28d5fdc55"
         },
         "branches": {
-            "master": "6fb18ab6da12cbf1f8cc80bbc4a07b40fc8f9830",
-            "public": "fd18f9a437a4e5b770b150fdd68dabee81d01cb1",
-            "ranks": "ff7116a3097d169b3f0472e0d4233d6df7b8c44d"
+            "master": "28b7e084b8facb38bf91a3ed999edd75134bfdb6",
+            "public": "d3f14210a90e91fd066c4487847a24204027c5f1",
+            "ranks": "700b6aee8b34f2aba7d967c075e5c839c932c480"
         }
     },
     "zzz_EDR-Freeze": {
@@ -2903,7 +2907,7 @@
             "claude/character-conversion-dictionary-vx2wod-2": "1c5e9f612a11bfab3c05c6dff516ac9d3dc0c89f",
             "claude/remove-gyp-dependencies-gn5vlc": "e7081c6096abd4b8095526e42875611b3a58600d",
             "gh-pages": "acdb8df711bbad6bce7952af1c312938b2333089",
-            "master": "fa130de5740318ed9c7375e0db2ca25c1c33ca38",
+            "master": "a8fed6625f1ab6409896916ee48050b3c3a745f7",
             "release-1.2.0": "e38c96cde33813b405d8ee0da5ec9b3ac084b9f3",
             "release-1.3.0": "4ac5bd6b8ea84e107d83221ec1fea7e3209a8bb8",
             "release-1.4.0": "68a52365c8f2786629d2cca314691818e7280ac9",
@@ -3306,6 +3310,7 @@
             "v10.11.2": "2f7a181d991629e5f0466d1158870cc05c260acd",
             "v10.11.3": "53cb5ee5487e23306ee9c997c7260f929c554d02",
             "v10.11.4": "f666d84035219e15189f9777616c4a61d26850da",
+            "v10.11.5": "233346520fe4166eb5d9569634cfa78801982e80",
             "v10.2.0": "79685080a6acb2fc5292d05acddb384340945098",
             "v10.2.1": "520b744e4f0ed3a2d076dab66bd188eebb9efeb6",
             "v10.2.2": "e1ebae157fa0a34e78ba85af46ff2e416ccc549e",
@@ -3325,6 +3330,7 @@
             "v10.8.0": "74faf40c0ae2cc8494bea6f007941cf0d82d4ce0",
             "v10.8.1": "e83c65bed8e63a17431350b3cf1e64d4c03a217d",
             "v10.9.0": "5ab6e805e681df98422048068d770e9755eb123f",
+            "v11.0.0": "b0a7a01a3dc7e4d7046abc5abc4a15c4b47254cf",
             "v2.0.0": "fb6a27bc8f8be44b9d8c31e2373794f1e7e6cc16",
             "v2.0.1": "0436298409e646ae153fe92131a3c79910a8a469",
             "v2.0.2": "31704b710d9b4863ee6c2d75f13521fe58a9aac0",
@@ -3857,7 +3863,7 @@
             "feature/wda-run-script": "72d8f0087dd83f6a28d28d9523f22b5857102486",
             "feature/webinspector-runtime-context-event": "866a30b487891d6d8325141e5d13e45f3df48542",
             "hotfix/docs-syslog-label-help": "47e5c5ae66d44a1a3d85e9c364db192cc29a220f",
-            "master": "f666d84035219e15189f9777616c4a61d26850da",
+            "master": "b0a7a01a3dc7e4d7046abc5abc4a15c4b47254cf",
             "research/videoprocessing-re-roadmap": "6157f672544305bc61046efb35d8733585898524"
         }
     },
@@ -4093,7 +4099,8 @@
             "v1.46.1": "258d869fdbe42fe06b9293998e60a07f490d7483",
             "v1.46.2": "20fed2fba2c07a3d5db981845ad8049502e47273",
             "v1.46.3": "61b3e76c3664006fd4cd2a265b3dab4fd025889d",
-            "v1.46.4": "3f733930709646cf658c2a8a2d0e8338a9c71d2a"
+            "v1.46.4": "3f733930709646cf658c2a8a2d0e8338a9c71d2a",
+            "v1.46.5": "3cad09bbf2ec2ef0c87534ee40248253c8c99cf9"
         },
         "branchs": {
             "116-feature-warn-user-that-the-source-language-is-the-same-as-the-target-language": "a9a40bc10bd95f53bde7aaef7efb007e5dfaa016",
@@ -4390,7 +4397,6 @@
             "build/upgrade-many": "6a1864d90092f4048bc918aa72722f3adf4e2e49",
             "build/upgrade-packages-2026-06-28": "9ff4bf042ebaf587485971578eed1dba4b143cdd",
             "build/upgrade-wxt": "514f2b65f59aea6113f4c81c2c7774a0a0ee42b6",
-            "changeset-release/main": "b9e8060496b618d3cd8ff8aa8f8103003566448b",
             "chore/local-dev-ex": "d3fec2d0a3da1b0c53d999e10a223cb95d0448ce",
             "chore/sponsor-action": "24ab93ae2b7cb2a24f234196559f420a562802b2",
             "chore/update-hero-heading": "a51a23cd2f3bf8e8f688cf10d8079121af6b68e1",
@@ -4480,12 +4486,12 @@
             "feat/subtitle-source-language": "2960ef94a6fae3e6d415f50dbeb39aa7072a7745",
             "feat/subtitle-warmup-integration": "870e07161f0d2210241c126c438d80e5e579ee79",
             "feat/subtitles-ai-segmentation-core": "0938aff5d073f23388bef69320e922114a1e8063",
-            "feat/subtitles-ai-summary": "b7b7817d6f524828e0976397b861a0486ef4eea5",
+            "feat/subtitles-ai-summary": "df320e7bafc98bb5e5a36b67d11a0a5b2bc175b7",
             "feat/subtitles-dual-builders": "55a3e5c242ea91d5b9ea40e152af8aee001f4b1f",
             "feat/subtitles-runtime-loading-scheduler": "b13c99fa3337e2531b6550b82aeeffb4933b0202",
-            "feat/subtitles-sidebar-shell": "e6d5d986556183b38a64a374a8058624f36aca76",
+            "feat/subtitles-sidebar-shell": "93202f9c9368f23f6393380dcc2092615d4cc00f",
             "feat/subtitles-source-code": "79546b952978cb43057cce232611aae1a778cb45",
-            "feat/subtitles-transcript": "48a654d1a6fc4767ff34112dc407162c27c18687",
+            "feat/subtitles-transcript": "5b243ac24ea2886ea66f80676c44a7d6c1e27c7e",
             "feat/subtitles-ui-loading-display": "64119b2cfc8381cfcb5541645bfc8c8614fa204c",
             "feat/system-prompt": "4813ca025f8a6cd6cbeda749d3326f3078767d74",
             "feat/translate-popup-ui": "a295ee9b55fee3d176ff5c340d9dd6d7aae20503",
@@ -4618,7 +4624,7 @@
             "kvnmqpqs": "a2b1a6ab40c8524279b9eb8febdd83df43242ac3",
             "lisongkun/main": "1ca7d4064375b44099b8a9fc9ae94072c62472aa",
             "locales/korean-extension": "00205027e9a87ed7fcc150484ae8f5df30376ab7",
-            "main": "fe2957c84c485f9e2336742d49f0c38a84593138",
+            "main": "3cad09bbf2ec2ef0c87534ee40248253c8c99cf9",
             "mengxi-ream-patch-1": "72eb0292f4d4870f86ad6d7a98ae89dac10c9016",
             "my-feature-branch": "f57c96ab0a1107a3b40adf9b452d88abb19b01d3",
             "perf/auth-cookie-change-issue": "3511ceb2a9f7e25c1dbeb6d4a5d65b6dfcb717a6",
@@ -4733,12 +4739,12 @@
             "fix_rdp_window_title": "4b32010560ca941110c74a6c07138b7f061bbf63",
             "keyboard-shortcuts": "fe93cbe570c022893ed03ab5343af8537647ef40",
             "linux-drop-shell-from-service-loop": "72350e346ee0d6622cd94e55351c2b2fdc20be96",
-            "master": "893dc277983a66f815e2937073ac9ef1396885bf",
+            "master": "cec4085238ee723b75095e94014e8595f374688b",
             "rustdesk-patch-3": "bd45211b6c8f69eb3fce3c3dde196848767f480a",
             "sciterjs": "e86d0a0fc14f0bff4cb1ecd94a84eae42818da80",
             "svt-av1": "e17efa947477f9eaf0fcb9d1cb013732fb38811a",
             "tcp-punch-simultaneous-open": "09e4fe9da9cc21a14acb60b8d0afd42d6202fd52",
-            "webrtc": "a713aee4a035521b9cdd168245435d3c97b17901"
+            "webrtc": "7c53ecaa698e1734054c25e3683f16b27375c3dd"
         }
     },
     "zzz_Sandboxie": {
@@ -7617,7 +7623,7 @@
             "master": "342c1a85456e6d55480f7f7ad53e7f0116cbedb1"
         },
         "branches": {
-            "master": "af7c05dac3f31dd2f20b9f4d5446d6ab82c0cfec"
+            "master": "99193a28dda3c407a7bbb230b72105390701da26"
         }
     },
     "zzz_SARS": {
@@ -7752,8 +7758,8 @@
             "master": "a8cb9397e18135cf6c3310bacb7ed78186c1c3b3"
         },
         "branches": {
-            "badge-data": "16adba445076d5620c848efa60145ac5cc29902c",
-            "master": "49413a4a7e463ba3711036862d1cd2502be64a10"
+            "badge-data": "0d2248021e712d758773f0d589211b0fe05f9b3e",
+            "master": "f231532b9222319916b67a629e8206f966723445"
         }
     },
     "zzz_Identifier-Patcher": {
