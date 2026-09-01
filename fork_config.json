@@ -684,7 +684,7 @@
             "release/1.8.5": "caf7aca4cc00f6ecace0832bd6992d4fb8c28105",
             "release/1.8.6": "cdf8a1ae10e8eea1984b15b8ed45a1aba2ac5153",
             "release/1.8.7": "50c167947b3fbdac559a1cfdd736f4c917242dc1",
-            "release/1.9.0": "7b67f52e952950a4c194bbb0dd34cfcb2568b31c",
+            "release/1.9.0": "b4fd513c7180d9e0e70b3d54a5ebf17ad088cb79",
             "release/2.0.0": "af7446ea7049862bdd6bbe12d44627cbce5bdf8d"
         }
     },
@@ -2127,13 +2127,16 @@
             "6.1.5": "e2f75af4c4a494327780f908611c2e1767e47eda",
             "6.1.6": "0112be55e4d00dbaae54aadb2c2f471dc4055232",
             "6.1.8": "602e3d2e8449703aa2bca59850759edf8b9d1dba",
-            "6.2.0": "9e02c4aefebc5a930b1004ff5c4052476d1ae3de"
+            "6.2.0": "9e02c4aefebc5a930b1004ff5c4052476d1ae3de",
+            "6.2.1": "86f15842bcc7a98a9ea42c05fca65f9ab7121b1f",
+            "6.2.2": "cae127ac0552bbfe5e50f27419103a78e881374b",
+            "6.2.3": "37751d55d822b32a2bc0d1bdd116017c073ad293"
         },
         "branchs": {
             "main": "8d7410f81f838cc3097ccaa798d27c09242b5f61"
         },
         "branches": {
-            "main": "9e02c4aefebc5a930b1004ff5c4052476d1ae3de"
+            "main": "37751d55d822b32a2bc0d1bdd116017c073ad293"
         }
     },
     "zzz_FlashPatch": {
@@ -4423,7 +4426,7 @@
             "build/upgrade-many": "6a1864d90092f4048bc918aa72722f3adf4e2e49",
             "build/upgrade-packages-2026-06-28": "9ff4bf042ebaf587485971578eed1dba4b143cdd",
             "build/upgrade-wxt": "514f2b65f59aea6113f4c81c2c7774a0a0ee42b6",
-            "changeset-release/main": "1139bdd0d71e02997574f127dec8c8824d333a8c",
+            "changeset-release/main": "0c3e948ccd7572b18c2c2fbdd811953b20c6113c",
             "chore/local-dev-ex": "d3fec2d0a3da1b0c53d999e10a223cb95d0448ce",
             "chore/sponsor-action": "24ab93ae2b7cb2a24f234196559f420a562802b2",
             "chore/update-hero-heading": "a51a23cd2f3bf8e8f688cf10d8079121af6b68e1",
@@ -4446,6 +4449,7 @@
             "cubic-fix--claude-agents-library-researcher-md-L3-1757797086": "acc81e0b97685cd17caa8b8127e55b98f66c6a4b",
             "cubic-fix-apps-extension-src-utils-config-__tests__-example-v019-ts-L15-1757797015": "1c2d8751c315970b773109b7afa4759447fd2fcf",
             "cubic-fix-nx-json-L13-1763944712": "c63a4bfb3928c2a1b270492357a2e7431b926c80",
+            "dependabot/github_actions/changesets/action-2.1.1": "d38ffefd376107067314b1a61664192b39b60c26",
             "dependabot/npm_and_yarn/ai-sdk-686d223ce4": "70f9c25e134974fd5fc33cbc4d1f07f2be6381f3",
             "dependabot/npm_and_yarn/development-dependencies-9a51d0b6f1": "ae3ba3c17431f53feb837d95bad0548d9d078e52",
             "dependabot/npm_and_yarn/production-dependencies-3e9ec8f7ca": "31e1b96878c980034a0734e3c6d480a4e1e694c3",
@@ -4654,7 +4658,7 @@
             "kvnmqpqs": "a2b1a6ab40c8524279b9eb8febdd83df43242ac3",
             "lisongkun/main": "1ca7d4064375b44099b8a9fc9ae94072c62472aa",
             "locales/korean-extension": "00205027e9a87ed7fcc150484ae8f5df30376ab7",
-            "main": "8fe6cec12be4efb6bdb83137b1aafa6e30194ce2",
+            "main": "02ad422c1e1260960e141e4012a20d93e85082aa",
             "mengxi-ream-patch-1": "72eb0292f4d4870f86ad6d7a98ae89dac10c9016",
             "my-feature-branch": "f57c96ab0a1107a3b40adf9b452d88abb19b01d3",
             "perf/auth-cookie-change-issue": "3511ceb2a9f7e25c1dbeb6d4a5d65b6dfcb717a6",
@@ -4769,7 +4773,7 @@
             "fix_rdp_window_title": "4b32010560ca941110c74a6c07138b7f061bbf63",
             "keyboard-shortcuts": "fe93cbe570c022893ed03ab5343af8537647ef40",
             "linux-drop-shell-from-service-loop": "27652ad4cff363d4035e93a3a27343024e526978",
-            "master": "66ab0b87f696182b9fce5403fe48bdcab00d3ba1",
+            "master": "f28ac38ccfa662fd06639a062e0d06249860b142",
             "rustdesk-patch-3": "bd45211b6c8f69eb3fce3c3dde196848767f480a",
             "sciterjs": "e86d0a0fc14f0bff4cb1ecd94a84eae42818da80",
             "svt-av1": "e17efa947477f9eaf0fcb9d1cb013732fb38811a",
@@ -5818,12 +5822,14 @@
             "feat/20260808_translate": "60e9182c572e1a0f9ef3fe5f21206db17e27f965",
             "feat/20260815_snow_shot": "68a08439aebd303130feb554ef4f9f6ee8a73a95",
             "feat/20260826_snow_shot": "59b9b65ffe7bc5ca914c861985d56324a693eb8b",
-            "feat/20260830_main": "265d91047b1f692193574d6f05d7ed7e5741bdc3",
+            "feat/20260830_main": "322863a7feb752e6e7242f1c120c48318226cc96",
             "feat/20260830_main_02": "f8084ce2c7fa709693242b77190ccfe021791282",
             "feat/20260830_main_03": "0a67f139f95514c36289f19b053834d3a8f9977b",
             "feat/20260830_main_04": "db3cd3fba03c0430ef1d5a53851067fb5db3ab29",
             "feat/20260830_main_10": "7a7cbd76e7c48b529cbef146591f9c8629d63d61",
             "feat/20260830_main_11": "a90fa8acc1a757674451c658dba4da446c3d8be4",
+            "feat/20260831_main_01": "8902e4baeee7d8601e3a44305d5db45343698986",
+            "feat/20260831_main_02": "bff39d215be6452b8b8c5f36fc9bdae2463e5109",
             "feats/20250226_basic_ui": "88903a81a6ceb3f9dc36ebb241300ff93e64eef6",
             "feats/20250226_screenshot": "a7aaf40dae7fae5011780b429bed603128a4c5a7",
             "feats/20250303_select_winodw": "2e8677ceb54038ed91403be691c7e129a16de0e5",
@@ -7802,7 +7808,14 @@
             "master": "a8cb9397e18135cf6c3310bacb7ed78186c1c3b3"
         },
         "branches": {
-            "badge-data": "581b470fee259d0bed5f7a0302814324aeebfaa7",
+            "badge-data": "fb8523569c822d911d0d58a650cd54bde979fadf",
+            "dependabot/cargo/quick-xml-0.42.0": "b7c14622b5dfba1f4fc098596203002f986a74a7",
+            "dependabot/cargo/zip-8.6.0": "882a0ceb85da4c24f51869ce8da00742a734d9cd",
+            "dependabot/npm_and_yarn/lint-staged-17.4.1": "f2c4e92e781f2f111e02538ffeb3e3267b1b1d89",
+            "dependabot/npm_and_yarn/lucide-react-1.37.0": "5c19ac60bcb51eab2360e8404bdb4a3e98848898",
+            "dependabot/npm_and_yarn/tanstack/react-query-5.102.8": "e8f386e43216a9e3cefc9336830d780647bfbcc2",
+            "dependabot/npm_and_yarn/tanstack/react-table-9.2.4": "3b2e4ee60ecec6f57b51fa0662b2e730074ae41c",
+            "dependabot/npm_and_yarn/vitejs/plugin-react-6.1.1": "50da65b6ca238343e802d46f18077e56664c92a9",
             "fix": "460e826f40c775367c34c186eb46d0c38a1ec922",
             "master": "329c693d0fee6efd73e786006e964fbaed785db0"
         }
