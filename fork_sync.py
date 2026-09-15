@@ -68,11 +68,11 @@ def download_file(url, file_path, headers=None):
                 for chunk in r.iter_content(chunk_size=1024 * 1024):
                     if chunk:
                         f.write(chunk)
-    except:
+    except Exception:
         if os.path.exists(file_path):
             try:
                 os.remove(file_path)
-            except:
+            except Exception:
                 pass
         raise
 
@@ -96,7 +96,6 @@ def fork_sync(gh_token):
     user = g.get_user()
     for repo in user.get_repos():
         warning_flag = False
-        downloaded_fork_assets = []
         try:
             old_repo = None
             logger.info(f"{repo.name} | {repo.clone_url}")
@@ -116,6 +115,10 @@ def fork_sync(gh_token):
                 old_repo = repo
                 logger.info(f"{repo.name} | create new repo")
                 repo = user.create_repo(name=repo_name, private=True, auto_init=False)
+            elif repo.name not in fork_config:
+                logger.error(f"{repo.name} not in fork_config")
+                error_flag = True
+                continue
             fork_url = f"https://{gh_token}@github.com/{repo.full_name}.git"
             fork_tags, fork_branches = get_remote_refs(fork_url)
             upstream_url = f'https://github.com/{fork_config[repo.name]["parent"]}.git'
@@ -132,7 +135,7 @@ def fork_sync(gh_token):
                             logger.info(f"{repo.name} | fork_tags != upstream_tags, del tag {tag} {fork_tags[tag]}")
                             repo.get_git_ref(f"tags/{tag}").delete()
                             fork_tags.pop(tag)
-                        except:
+                        except Exception:
                             pass
             if fork_tags != upstream_tags:
                 logger.info(f"{repo.name} | fork_tags != upstream_tags, resync")
@@ -147,7 +150,7 @@ def fork_sync(gh_token):
                 logger.info(f"{repo.name} | clone from {upstream_url}")
                 repo_path = "fork_tmp" + repo.name
                 if os.path.exists(repo_path):
-                    shutil.rmtree(repo_path)
+                    shutil.rmtree(repo_path, ignore_errors=True)
                 repo_clone = git.Repo.clone_from(upstream_url, repo_path, bare=True)
                 repo_clone.git.lfs("fetch", "--all")
                 repo_clone.create_remote("fork", fork_url)
@@ -156,7 +159,7 @@ def fork_sync(gh_token):
                 repo_clone.git.push("fork", "--all", "--force", "--prune")
                 repo_clone.git.push("fork", "--tags", "--force")
                 if os.path.exists(repo_path):
-                    shutil.rmtree(repo_path)
+                    shutil.rmtree(repo_path, ignore_errors=True)
             if repo.default_branch != upstream_repo.default_branch:
                 logger.info(f"{repo.name} | set default branch {upstream_repo.default_branch}")
                 repo.edit(default_branch=upstream_repo.default_branch)
@@ -167,18 +170,18 @@ def fork_sync(gh_token):
                         repo.edit(description=upstream_repo.description[:346] + "...")
                     else:
                         repo.edit(description=upstream_repo.description)
-                except:
+                except Exception:
                     logger.warning(f"{repo.name} | warning", exc_info=True)
             if not repo.private:
                 logger.info(f"{repo.name} | set to private")
                 repo.edit(private=True)
             try:
                 fork_latest_release = repo.get_latest_release()
-            except:
+            except Exception:
                 fork_latest_release = None
             try:
                 upstream_latest_release = upstream_repo.get_latest_release()
-            except:
+            except Exception:
                 upstream_latest_release = None
             resync_latest_release = False
             if not upstream_latest_release:
@@ -249,7 +252,7 @@ def fork_sync(gh_token):
                         downloaded_fork_assets.append(asset.name)
                 try:
                     tag_release = repo.get_release(upstream_latest_release.tag_name)
-                except:
+                except Exception:
                     tag_release = None
                 if tag_release:
                     logger.info(f"{repo.name} | release {tag_release} exist, del")
@@ -263,7 +266,7 @@ def fork_sync(gh_token):
                     )
                     try:
                         repo.get_git_ref(f"tags/{upstream_latest_release.tag_name}").delete()
-                    except:
+                    except Exception:
                         pass
                     repo.create_git_ref(f"refs/tags/{upstream_latest_release.tag_name}", upstream_tags[upstream_latest_release.tag_name])
                 logger.info(f"{repo.name} | create release")
@@ -293,6 +296,15 @@ def fork_sync(gh_token):
                         for asset in assets:
                             logger.info(f"{repo.name} | downloading {asset.name}")
                             download_file(asset.browser_download_url, asset.name)
+                            try:
+                                logger.info(f"{repo.name} | uploading {asset.name}")
+                                release.upload_asset(
+                                    label=asset.name,
+                                    path=asset.name,
+                                )
+                            finally:
+                                if os.path.exists(asset.name):
+                                    os.remove(asset.name)
                 logger.info(f"{repo.name} | resync_latest_release finish")
             if old_repo:
                 logger.info(f"{old_repo.name} | del old")
@@ -307,15 +319,8 @@ def fork_sync(gh_token):
             if isinstance(e, github.GithubException) or isinstance(e, git.GitCommandError):
                 if getattr(e, "status", None) in [403, 404, 451] or (getattr(e, "stderr", None) and "not found" in e.stderr):
                     warning_flag = True
-                elif repo.name in fork_config:
-                    if "warning" in fork_config[repo.name]:
-                        warning_flag = fork_config[repo.name]["warning"]
-                    else:
-                        logger.error(f"{repo.name} | error", exc_info=True)
-                        error_flag = True
-                else:
-                    logger.error(f"{repo.name} | error", exc_info=True)
-                    error_flag = True
+                elif "warning" in fork_config[repo.name]:
+                    warning_flag = fork_config[repo.name]["warning"]
             if warning_flag:
                 if "warning" not in fork_config[repo.name]:
                     logger.warning(f"{repo.name} | warning", exc_info=True)
