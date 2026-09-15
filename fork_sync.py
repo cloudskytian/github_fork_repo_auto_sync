@@ -223,7 +223,7 @@ def fork_sync(gh_token):
                 downloaded_fork_assets = []
                 if fork_latest_release and len(fork_latest_release.assets) and len(upstream_latest_release.assets) == 0:
                     logger.info(f"{repo.name} | len(fork.assets)>0 and len(upstream.assets)==0, downloading assets from fork_latest_release")
-                    api_headers = {"Authorization": f"token {gh_token}"}
+                    api_headers = {"Authorization": f"token {gh_token}", "Accept": "application/octet-stream"}
                     for asset in fork_latest_release.assets:
                         logger.info(f"{repo.name} | downloading fork asset {asset.name}")
                         try:
