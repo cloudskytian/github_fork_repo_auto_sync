@@ -79,6 +79,7 @@ def fork_sync(gh_token):
     user = g.get_user()
     for repo in user.get_repos():
         warning_flag = False
+        downloaded_fork_assets = []
         try:
             old_repo = None
             logger.info(f"{repo.name} | {repo.clone_url}")
@@ -180,8 +181,11 @@ def fork_sync(gh_token):
                     logger.info(f"{repo.name} | latest_release.body != upstream_latest_release.body, resync_latest_release")
                     resync_latest_release = True
                 elif len(fork_latest_release.assets) != len(upstream_latest_release.assets):
-                    logger.info(f"{repo.name} | len(latest_release.assets) != len(upstream_latest_release.assets), resync_latest_release")
-                    resync_latest_release = True
+                    if len(upstream_latest_release.assets) == 0:
+                        logger.info(f"{repo.name} | upstream has 0 assets but fork has assets, keep fork assets, skip resync")
+                    else:
+                        logger.info(f"{repo.name} | len(latest_release.assets) != len(upstream_latest_release.assets), resync_latest_release")
+                        resync_latest_release = True
                 elif upstream_latest_release:
                     upstream_assets = dict()
                     fork_assets = dict()
@@ -212,10 +216,27 @@ def fork_sync(gh_token):
                                 resync_latest_release = True
                                 break
                         elif fork_assets[asset]["size"] != upstream_assets[asset]["size"]:
-                                logger.info(f'{repo.name} | assets.digest {fork_assets[asset]["size"]} not equal upstream {upstream_assets[asset]["size"]}, resync_latest_release')
-                                resync_latest_release = True
-                                break
+                            logger.info(f'{repo.name} | assets.digest {fork_assets[asset]["size"]} not equal upstream {upstream_assets[asset]["size"]}, resync_latest_release')
+                            resync_latest_release = True
+                            break
             if resync_latest_release:
+                downloaded_fork_assets = []
+                if fork_latest_release and len(fork_latest_release.assets) and len(upstream_latest_release.assets) == 0:
+                    logger.info(f"{repo.name} | len(fork.assets)>0 and len(upstream.assets)==0, downloading assets from fork_latest_release")
+                    api_headers = {"Authorization": f"token {gh_token}"}
+                    for asset in fork_latest_release.assets:
+                        logger.info(f"{repo.name} | downloading fork asset {asset.name}")
+                        try:
+                            with requests.get(asset.url, headers=api_headers, stream=True) as r:
+                                r.raise_for_status()
+                                with open(asset.name, 'wb') as f:
+                                    shutil.copyfileobj(r.raw, f)
+                        except Exception:
+                            with requests.get(asset.browser_download_url, stream=True) as r:
+                                r.raise_for_status()
+                                with open(asset.name, 'wb') as f:
+                                    shutil.copyfileobj(r.raw, f)
+                        downloaded_fork_assets.append(asset.name)
                 try:
                     tag_release = repo.get_release(upstream_latest_release.tag_name)
                 except:
@@ -245,27 +266,48 @@ def fork_sync(gh_token):
                                                   message=message,
                                                   prerelease=upstream_latest_release.prerelease,
                                                   tag=upstream_latest_release.tag_name)
-                assets = upstream_latest_release.assets
-                if assets:
-                    for asset in assets:
-                        logger.info(f"{repo.name} | downloading {asset.name}")
-                        with requests.get(asset.browser_download_url, stream=True) as r:
-                            r.raise_for_status()
-                            with open(asset.name, 'wb') as f:
-                                shutil.copyfileobj(r.raw, f)
-                        logger.info(f"{repo.name} | uploading {asset.name}")
-                        release.upload_asset(
-                            label=asset.name,
-                            path=asset.name,
-                        )
-                        os.remove(asset.name)
+                if downloaded_fork_assets:
+                    for asset_name in downloaded_fork_assets:
+                        try:
+                            logger.info(f"{repo.name} | uploading fork asset {asset_name}")
+                            release.upload_asset(
+                                label=asset_name,
+                                path=asset_name,
+                            )
+                        finally:
+                            if os.path.exists(asset_name):
+                                os.remove(asset_name)
+                else:
+                    assets = upstream_latest_release.assets
+                    if assets:
+                        for asset in assets:
+                            logger.info(f"{repo.name} | downloading {asset.name}")
+                            with requests.get(asset.browser_download_url, stream=True) as r:
+                                r.raise_for_status()
+                                with open(asset.name, 'wb') as f:
+                                    shutil.copyfileobj(r.raw, f)
+                            try:
+                                logger.info(f"{repo.name} | uploading {asset.name}")
+                                release.upload_asset(
+                                    label=asset.name,
+                                    path=asset.name,
+                                )
+                            finally:
+                                if os.path.exists(asset.name):
+                                    os.remove(asset.name)
                 logger.info(f"{repo.name} | resync_latest_release finish")
             if old_repo:
                 logger.info(f"{old_repo.name} | del old")
                 old_repo.delete()
         except Exception as e:
+            for asset_name in downloaded_fork_assets:
+                if os.path.exists(asset_name):
+                    try:
+                        os.remove(asset_name)
+                    except Exception:
+                        pass
             if isinstance(e, github.GithubException) or isinstance(e, git.GitCommandError):
-                if e.status in [403, 404, 451] or (e.stderr and"not found" in e.stderr):
+                if getattr(e, "status", None) in [403, 404, 451] or (getattr(e, "stderr", None) and "not found" in e.stderr):
                     warning_flag = True
                 elif "warning" in fork_config[repo.name]:
                     warning_flag = fork_config[repo.name]["warning"]
