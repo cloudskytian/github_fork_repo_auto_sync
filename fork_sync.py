@@ -96,6 +96,7 @@ def fork_sync(gh_token):
     user = g.get_user()
     for repo in user.get_repos():
         warning_flag = False
+        downloaded_fork_assets = []
         try:
             old_repo = None
             logger.info(f"{repo.name} | {repo.clone_url}")
@@ -239,7 +240,6 @@ def fork_sync(gh_token):
                             resync_latest_release = True
                             break
             if resync_latest_release:
-                downloaded_fork_assets = []
                 if fork_latest_release and len(fork_latest_release.assets) and len(upstream_latest_release.assets) == 0:
                     logger.info(f"{repo.name} | len(fork.assets)>0 and len(upstream.assets)==0, downloading assets from fork_latest_release")
                     api_headers = {"Authorization": f"token {gh_token}", "Accept": "application/octet-stream"}
