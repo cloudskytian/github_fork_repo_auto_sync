@@ -60,6 +60,23 @@ def update_fork_config(gh_token, fork_config_path):
         json.dump(fork_config, f, ensure_ascii=False, indent=4)
 
 
+def download_file(url, file_path, headers=None):
+    try:
+        with requests.get(url, headers=headers, stream=True, timeout=60) as r:
+            r.raise_for_status()
+            with open(file_path, 'wb') as f:
+                for chunk in r.iter_content(chunk_size=1024 * 1024):
+                    if chunk:
+                        f.write(chunk)
+    except:
+        if os.path.exists(file_path):
+            try:
+                os.remove(file_path)
+            except:
+                pass
+        raise
+
+
 def fork_sync(gh_token):
     error_flag = False
     warning_list = []
@@ -133,7 +150,6 @@ def fork_sync(gh_token):
                     shutil.rmtree(repo_path)
                 repo_clone = git.Repo.clone_from(upstream_url, repo_path, bare=True)
                 repo_clone.git.lfs("fetch", "--all")
-                repo_clone.git.lfs("checkout")
                 repo_clone.create_remote("fork", fork_url)
                 logger.info(f"{repo.name} | push to fork")
                 repo_clone.git.lfs("push", "fork", "--all")
@@ -193,7 +209,7 @@ def fork_sync(gh_token):
                         asset_name = upstream_latest_release.assets[i].name
                         upstream_assets[asset_name] = dict()
                         upstream_assets[asset_name]["size"] = upstream_latest_release.assets[i].size
-                        if upstream_latest_release.assets[i].digest:
+                        if getattr(upstream_latest_release.assets[i], "digest", None):
                             upstream_assets[asset_name]["hash"] = str(upstream_latest_release.assets[i].digest)
                         else:
                             upstream_assets[asset_name]["hash"] = ""
@@ -201,7 +217,7 @@ def fork_sync(gh_token):
                         asset_name = fork_latest_release.assets[i].name
                         fork_assets[asset_name] = dict()
                         fork_assets[asset_name]["size"] = fork_latest_release.assets[i].size
-                        if fork_latest_release.assets[i].digest:
+                        if getattr(fork_latest_release.assets[i], "digest", None):
                             fork_assets[asset_name]["hash"] = str(fork_latest_release.assets[i].digest)
                         else:
                             fork_assets[asset_name]["hash"] = ""
@@ -216,7 +232,7 @@ def fork_sync(gh_token):
                                 resync_latest_release = True
                                 break
                         elif fork_assets[asset]["size"] != upstream_assets[asset]["size"]:
-                            logger.info(f'{repo.name} | assets.digest {fork_assets[asset]["size"]} not equal upstream {upstream_assets[asset]["size"]}, resync_latest_release')
+                            logger.info(f'{repo.name} | assets.size {fork_assets[asset]["size"]} not equal upstream {upstream_assets[asset]["size"]}, resync_latest_release')
                             resync_latest_release = True
                             break
             if resync_latest_release:
@@ -227,15 +243,9 @@ def fork_sync(gh_token):
                     for asset in fork_latest_release.assets:
                         logger.info(f"{repo.name} | downloading fork asset {asset.name}")
                         try:
-                            with requests.get(asset.url, headers=api_headers, stream=True) as r:
-                                r.raise_for_status()
-                                with open(asset.name, 'wb') as f:
-                                    shutil.copyfileobj(r.raw, f)
+                            download_file(asset.url, asset.name, headers=api_headers)
                         except Exception:
-                            with requests.get(asset.browser_download_url, stream=True) as r:
-                                r.raise_for_status()
-                                with open(asset.name, 'wb') as f:
-                                    shutil.copyfileobj(r.raw, f)
+                            download_file(asset.browser_download_url, asset.name)
                         downloaded_fork_assets.append(asset.name)
                 try:
                     tag_release = repo.get_release(upstream_latest_release.tag_name)
@@ -282,19 +292,7 @@ def fork_sync(gh_token):
                     if assets:
                         for asset in assets:
                             logger.info(f"{repo.name} | downloading {asset.name}")
-                            with requests.get(asset.browser_download_url, stream=True) as r:
-                                r.raise_for_status()
-                                with open(asset.name, 'wb') as f:
-                                    shutil.copyfileobj(r.raw, f)
-                            try:
-                                logger.info(f"{repo.name} | uploading {asset.name}")
-                                release.upload_asset(
-                                    label=asset.name,
-                                    path=asset.name,
-                                )
-                            finally:
-                                if os.path.exists(asset.name):
-                                    os.remove(asset.name)
+                            download_file(asset.browser_download_url, asset.name)
                 logger.info(f"{repo.name} | resync_latest_release finish")
             if old_repo:
                 logger.info(f"{old_repo.name} | del old")
@@ -309,8 +307,15 @@ def fork_sync(gh_token):
             if isinstance(e, github.GithubException) or isinstance(e, git.GitCommandError):
                 if getattr(e, "status", None) in [403, 404, 451] or (getattr(e, "stderr", None) and "not found" in e.stderr):
                     warning_flag = True
-                elif "warning" in fork_config[repo.name]:
-                    warning_flag = fork_config[repo.name]["warning"]
+                elif repo.name in fork_config:
+                    if "warning" in fork_config[repo.name]:
+                        warning_flag = fork_config[repo.name]["warning"]
+                    else:
+                        logger.error(f"{repo.name} | error", exc_info=True)
+                        error_flag = True
+                else:
+                    logger.error(f"{repo.name} | error", exc_info=True)
+                    error_flag = True
             if warning_flag:
                 if "warning" not in fork_config[repo.name]:
                     logger.warning(f"{repo.name} | warning", exc_info=True)
