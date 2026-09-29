@@ -693,7 +693,7 @@
             "release/1.8.7": "50c167947b3fbdac559a1cfdd736f4c917242dc1",
             "release/1.9.0": "749d85e15d21c28322ac8b8ad308719639e5b80d",
             "release/1.9.1": "deb42c41dad3e9c811cb87d856b2fc601cead876",
-            "release/1.9.2": "fa4434d22ed9a4389097c82464094a98e0b3a709",
+            "release/1.9.2": "a918a73f0e6cc37ff442987461521e4850b7b4a6",
             "release/2.0.0": "622d3da739e292fa535722ccbb4fd4e643e1af8f"
         }
     },
@@ -2864,7 +2864,7 @@
         },
         "branches": {
             "frontend-dev": "e6fe6dc31137b2fad7640f63b3379c9c167019f6",
-            "main": "2071751937d84f34c18fecf6f88d145aba69866f"
+            "main": "471edee8ee14e1d8a15c58972c27800e247055ca"
         }
     },
     "zzz_mochi-player": {
@@ -4546,7 +4546,7 @@
             "build/upgrade-many": "6a1864d90092f4048bc918aa72722f3adf4e2e49",
             "build/upgrade-packages-2026-06-28": "9ff4bf042ebaf587485971578eed1dba4b143cdd",
             "build/upgrade-wxt": "514f2b65f59aea6113f4c81c2c7774a0a0ee42b6",
-            "changeset-release/main": "a167e5847d4b14d1e56377f3eb1eafda213bd3e2",
+            "changeset-release/main": "7b22ecd69a088740dc602831d12d421406b7a7c9",
             "chore/local-dev-ex": "d3fec2d0a3da1b0c53d999e10a223cb95d0448ce",
             "chore/sponsor-action": "24ab93ae2b7cb2a24f234196559f420a562802b2",
             "chore/update-hero-heading": "a51a23cd2f3bf8e8f688cf10d8079121af6b68e1",
@@ -4772,7 +4772,7 @@
             "kvnmqpqs": "a2b1a6ab40c8524279b9eb8febdd83df43242ac3",
             "lisongkun/main": "1ca7d4064375b44099b8a9fc9ae94072c62472aa",
             "locales/korean-extension": "00205027e9a87ed7fcc150484ae8f5df30376ab7",
-            "main": "d28ccd57083a57bb1de3dea49572488cfb4ac850",
+            "main": "6c0996fc0075e483edc2552a1477e5f78815992e",
             "mengxi-ream-patch-1": "72eb0292f4d4870f86ad6d7a98ae89dac10c9016",
             "my-feature-branch": "f57c96ab0a1107a3b40adf9b452d88abb19b01d3",
             "perf/auth-cookie-change-issue": "3511ceb2a9f7e25c1dbeb6d4a5d65b6dfcb717a6",
@@ -4892,9 +4892,9 @@
             "fix/16073-ipc-exe-check-eacces": "9dd427d49fb903c7a664ad412267d8cb495cd939",
             "hdr-tonemap": "e877da587234089455bf47489cf08c493a9429f2",
             "ice-ipv6-per-prefix": "e001878f06abcad0f31e9eca15d0e3a340ca2d05",
-            "keyboard-shortcuts": "e6a21d9719df27e5d7d4d0cee26f06b3d33dbb5e",
+            "keyboard-shortcuts": "b88209b88a6877957844ecfd67976bab450f3b77",
             "kx-v1": "ddd99f90f7c87de121fdc30057fc1d9af5665944",
-            "master": "4812a9815bd3c6a93f3ad903f29504168c4930a1",
+            "master": "a7f2260203befb7e9c70b585219f0f0b5ca57703",
             "sciterjs": "e86d0a0fc14f0bff4cb1ecd94a84eae42818da80",
             "svt-av1": "e17efa947477f9eaf0fcb9d1cb013732fb38811a",
             "temporary-password-rotates-at-authorization": "40da387b16e18272b8168faa03445c632c7ad3cd",
@@ -6612,7 +6612,7 @@
             "master": "342c1a85456e6d55480f7f7ad53e7f0116cbedb1"
         },
         "branches": {
-            "master": "c3a276aee56a792638b21b37e50c52e74ac8bc78"
+            "master": "c4ac9532a89ba7b017f5080a3fcc77f3f80f426c"
         }
     },
     "zzz_SARS": {
@@ -6771,10 +6771,9 @@
             "master": "a8cb9397e18135cf6c3310bacb7ed78186c1c3b3"
         },
         "branches": {
-            "321": "0173e5a8b2ccc74fcea7b63e6e1fd604d7c97f02",
-            "badge-data": "6aec877eb3e638a76c2066bf4784b1ad65ed7134",
+            "badge-data": "f9d8f000842c667c46807087d2d7ae4eb43227ed",
             "fix": "80c6ab8a80487b49e7995fa9c8fff151c41a923a",
-            "master": "4ca9bd1fd6ca7e251d24d890690a7dbc46f965bb"
+            "master": "574c12c8dcce6b3ae0e8aae24c995d52485dedf0"
         }
     },
     "zzz_Identifier-Patcher": {
@@ -6790,7 +6789,7 @@
     "zzz_Duck-Detector-Refactoring": {
         "parent": "eltavine/Duck-Detector-Refactoring",
         "tags": {
-            "nightly": "387f09d49cc5e7d7ba939a588eddfc8a7e6d4cdc"
+            "nightly": "47862f6864e025271fb9bf7f0f89d130eaf433a5"
         },
         "branches": {
             "WidevineProbe": "2220d3545e1e9bbf65e26c513f8c82926184166a",
@@ -6800,10 +6799,13 @@
             "feat/ksu-app-zygote-seqno": "3757234c337a8fed43274f7ca8e5804ce6d3df4e",
             "fix/pr-36-scan-metadata": "45ca91b568f80b930895d5d5bb8d9327f8d505c3",
             "hardware-timer-for-kp-sidechannel": "b12e766400f4c86315d3471ee10411330381251b",
-            "main": "387f09d49cc5e7d7ba939a588eddfc8a7e6d4cdc",
+            "main": "47862f6864e025271fb9bf7f0f89d130eaf433a5",
             "pr-123": "788eeb206ceb50644145cde45057793663194425",
             "refactor/evidence-integrity-hardening": "2ce3296f4542d1bab057be46373f47474af3b27e",
-            "revert-7-feat/auto-versioning": "520c085058131a135e00a1ac60593e0c3f363f60"
+            "revert-147-ui-refactor": "6a0492cab556706eb0a5ee18463e45c1556f91f7",
+            "revert-148-revert-147-ui-refactor": "7fb92040b94409c4cdf8ea15208a4eb66cd095c4",
+            "revert-7-feat/auto-versioning": "520c085058131a135e00a1ac60593e0c3f363f60",
+            "ui-refactor": "4f80e32716bd4757d0dfd33601d3dd4506bc331a"
         }
     },
     "zzz_AnyCheck": {
