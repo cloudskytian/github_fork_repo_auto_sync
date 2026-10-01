@@ -371,6 +371,7 @@
             "client-bridge": "835db664b79caef0bbbb4439adf16ce657989477",
             "cpal-android": "48c69e3342bb6cb8373285879acca458d8f21b6b",
             "cpp-refactor": "345e85c225d7ab14d30ea41af00be37f86cd9b5f",
+            "dependabot/cargo/dirs-7.0.0": "a2951956e020fd70d87dbedc06f02ec571304b1b",
             "disable-reprojection": "5123fc07dfa9caca0e70ab1af44a9571525a0c80",
             "dynamic-framerate+tracking-phase-sync": "a44e3c759d3fff7cca9c9deb210c2aa597418fcb",
             "encoder-rewrite": "10c5d930deac9c3010d709a14377ea94cda5a3de",
@@ -692,7 +693,7 @@
             "release/1.8.7": "50c167947b3fbdac559a1cfdd736f4c917242dc1",
             "release/1.9.0": "749d85e15d21c28322ac8b8ad308719639e5b80d",
             "release/1.9.1": "deb42c41dad3e9c811cb87d856b2fc601cead876",
-            "release/1.9.2": "a918a73f0e6cc37ff442987461521e4850b7b4a6",
+            "release/1.9.2": "c46a0c7af2eb715d6ba5e3d958ee71dfe40242b3",
             "release/2.0.0": "622d3da739e292fa535722ccbb4fd4e643e1af8f"
         }
     },
@@ -1043,7 +1044,7 @@
             "3.25.113.0": "81a667c790f5a6c9b6b63f187eb75e79bf159670",
             "3.25.73.0": "facfbccd83bdfbf1db88dd20008d2125eb9ea2ed",
             "3.25.76.0": "93f5d44af719e05a7323509d94037cdee598beae",
-            "build-number-142": "cea4b2402fdeccd8f4a9d260851772fae3d2adf8",
+            "build-number-146": "a80fd3536bc407cac8cce43b5682022282ace983",
             "nightly": "42ae59be4e7ce91b733cf79566e66dcd48083d6c"
         },
         "branchs": {
@@ -1078,7 +1079,7 @@
             "export-web-search": "a9f8dade2b79e98420bbe33eaf47e31dcb67069b",
             "gh-pages": "e5beac9ffa396eb61033c2b204e4fd664b413052",
             "local-qrcode": "c3721d5c47b222033ecf7896e9c1d2b3f1f2afdb",
-            "master": "cea4b2402fdeccd8f4a9d260851772fae3d2adf8",
+            "master": "a80fd3536bc407cac8cce43b5682022282ace983",
             "moved-files": "5430d4e3c38c3c7d4f6635bdbee8f85e53ef608b",
             "plain-text-position": "031910ef60f4c574d3711662e38f2d8cd3824623",
             "properties-data-size": "d2f73553d51bdc87516375ea64878920a41c0928",
@@ -2307,7 +2308,7 @@
             "master": "f7e6b68ce94b8f5ffa633ec927520d91fce580e3"
         },
         "branches": {
-            "master": "3e23962592b28d64fdd7cc76505bc22af6ac75c8"
+            "master": "b878bbad55dac86e2fe6e43202d211c6d5cadeb4"
         }
     },
     "zzz_gog-games.to_backup": {
@@ -2684,7 +2685,7 @@
             "master": "a9e6864547eb936f6604f965cd03949fd923e0bd"
         },
         "branches": {
-            "master": "d65a9fdf836db58d5f8884c9da87cb3480fdb98a"
+            "master": "e43b0109f6fab6dcebe52a595223eebf590eb475"
         }
     },
     "zzz_Learn-Vim_zh_cn": {
@@ -2864,7 +2865,7 @@
         },
         "branches": {
             "frontend-dev": "e6fe6dc31137b2fad7640f63b3379c9c167019f6",
-            "main": "471edee8ee14e1d8a15c58972c27800e247055ca"
+            "main": "0124fe7ea9c3a050c158204bb209fe772b0f8080"
         }
     },
     "zzz_mochi-player": {
@@ -3452,6 +3453,8 @@
             "v11.2.3": "cac4d5f28b7d843c62b745d701ecabd415510da1",
             "v11.2.4": "a568e337f1ae3d51fd4b9c2ddbb6041251867271",
             "v11.20.0": "7f2e767142892b62d39d4ee35d25f87a8e2245b8",
+            "v11.20.1": "0d34a7dab731afc3f44d721c4f26590f87b45c0b",
+            "v11.20.2": "cd895d17ce8a97d883c10f87b26c7356d5e0ccb1",
             "v11.3.0": "ec4ac06a850a6a884ca778350621f354faf347c6",
             "v11.3.1": "e0dc322f4a0fa293353f8c13765516fbf15b1caa",
             "v11.4.0": "86aa6ea4ead9e35edd84ae96f00dd9461df9840d",
@@ -4000,7 +4003,7 @@
             "fix/cdp-listing-waits-for-replies": "4b59e72da475e2a11001f1f7bd4ba12147951817",
             "fix/coredevice-error-mic-camera-in-use": "5b52eb1c204fcfe4c995dea9a5cc3a2ad5cd5346",
             "hotfix/docs-syslog-label-help": "47e5c5ae66d44a1a3d85e9c364db192cc29a220f",
-            "master": "7f2e767142892b62d39d4ee35d25f87a8e2245b8",
+            "master": "cd895d17ce8a97d883c10f87b26c7356d5e0ccb1",
             "research/videoprocessing-re-roadmap": "6157f672544305bc61046efb35d8733585898524"
         }
     },
@@ -4252,7 +4255,8 @@
             "v1.48.1": "1a50b3bf04eb00c9683a5cccb9cab78d0470681c",
             "v1.49.0": "d28ccd57083a57bb1de3dea49572488cfb4ac850",
             "v1.49.1": "f7872d1111a0385b1856ae9f9da8a690ca45b1ab",
-            "v1.49.2": "b91af9bc5632c1df788c6bcf470ac08753050300"
+            "v1.49.2": "b91af9bc5632c1df788c6bcf470ac08753050300",
+            "v1.49.3": "e5a79f00b6096dc9b2886c8405a3e9c4ed84c69d"
         },
         "branchs": {
             "116-feature-warn-user-that-the-source-language-is-the-same-as-the-target-language": "a9a40bc10bd95f53bde7aaef7efb007e5dfaa016",
@@ -4540,6 +4544,7 @@
             "345-feature-add-doc-about-chrome-extension-debug": "c9bfb1d8cd15948f6f2b72b32f9f6745bd68c584",
             "add-claude-github-actions-1755029008239": "d0e44485b436c3fecf31ef79841d41933784165a",
             "add-claude-github-actions-1756358947485": "1a9be09132fcb56608340a25488f8da09a6971df",
+            "assets/pr-2243": "2443f4889c8e931ec4f4b577a3f0787c22301d9a",
             "bug/base-ui": "57aed4b4a01867993cda56173fe6f0228918fbce",
             "build/changeset": "a852c2c97ea76546d1e70082895036d90fb5c6eb",
             "build/fix-volnerability": "a3cba30636816c64338568eb1b89b86ba4b02007",
@@ -4572,6 +4577,7 @@
             "cubic-fix--claude-agents-library-researcher-md-L3-1757797086": "acc81e0b97685cd17caa8b8127e55b98f66c6a4b",
             "cubic-fix-apps-extension-src-utils-config-__tests__-example-v019-ts-L15-1757797015": "1c2d8751c315970b773109b7afa4759447fd2fcf",
             "cubic-fix-nx-json-L13-1763944712": "c63a4bfb3928c2a1b270492357a2e7431b926c80",
+            "dependabot/npm_and_yarn/production-dependencies-480be5b6a6": "c347d7edf79098851d994601f6f956ca06faca1b",
             "docs/add-readme-back": "4c8e58b0abcdb17a719562308c0aa3c9c161764a",
             "docs/batch-translation-blog": "daa78e234dcbd89060bf482e43ba630429a87b0a",
             "docs/claude-md-setup": "3b6485e4c0e8429295f1c7641fb8edf3e20e49b5",
@@ -4625,7 +4631,7 @@
             "feat/login": "90cd2fa4298c2a495a3e2f137e3706072d81ab7b",
             "feat/microsoft-batch-translate": "f6e16db60dc53d90ff8a003f74c7c1b8ea39d1f8",
             "feat/multiple-provider-ui": "2c1604a2e2cb67d3e403388f1ebdd4b2b70d023c",
-            "feat/netflix-subtitles": "8a0b02127e18e6c8673a2b8ce534c0a73e37af6c",
+            "feat/netflix-subtitles": "14ccc3a62a550654bd94d6c0e59e41d429594287",
             "feat/node-translation-shortcut-option-page": "1f6fd4d023ce77f016c49de815e83f9fd1c9638c",
             "feat/only-translate": "52ca574e23f78b433377bb5d7c890fedea99571c",
             "feat/questionaire": "549b97f24e41a5f775a607dcae59bb6feadc881f",
@@ -4751,6 +4757,7 @@
             "fix/twitter-translation-aria-hidden": "02e324b2eaba2232e2206df77159de8aa1bdb176",
             "fix/url-detect": "accd8dffe7a6a00ff52c66971e20f602c54f2622",
             "fix/version-notification": "cd3cf1dd42421032059f41279f3f91b428ed71a4",
+            "fix/xcom-hide-toggle-without-controls": "fe0c7f384b16826b91d5f87e2f565aede640fd4b",
             "hermes/ai-sdk-model-sync-20260617-035310": "274447c3c08da37ddd02cec2f4c2dacd59fafc83",
             "hermes/issue-1319-20260412-122313": "98db9811e684b1bac15a8f89ab1aa0535bb27189",
             "hermes/issue-1327-20260413-065900": "c88c9dbd7d8a1a364012f2d8b2e6c64466938aa8",
@@ -4775,7 +4782,7 @@
             "kvnmqpqs": "a2b1a6ab40c8524279b9eb8febdd83df43242ac3",
             "lisongkun/main": "1ca7d4064375b44099b8a9fc9ae94072c62472aa",
             "locales/korean-extension": "00205027e9a87ed7fcc150484ae8f5df30376ab7",
-            "main": "678a4d0b72499307acf49faa4e06689cbb1ba578",
+            "main": "e5a79f00b6096dc9b2886c8405a3e9c4ed84c69d",
             "mengxi-ream-patch-1": "72eb0292f4d4870f86ad6d7a98ae89dac10c9016",
             "my-feature-branch": "f57c96ab0a1107a3b40adf9b452d88abb19b01d3",
             "perf/auth-cookie-change-issue": "3511ceb2a9f7e25c1dbeb6d4a5d65b6dfcb717a6",
@@ -4793,7 +4800,7 @@
             "refactor/move-auto-translate-shortcut-to-page-config": "6128811bd057a421048146d36fd7cf94cd63557d",
             "refactor/remove-iconify": "48c7b7b728fce1ff16d0a1a3abf89d06c6f85b72",
             "refactor/replace-some-repo": "b9bc1aa23b6a968fe84899774c01ac6d02854dcd",
-            "refactor/shared-custom-action-panel": "4e672918d0ec1a69a8f25b538d78bb82b6b22106",
+            "refactor/shared-custom-action-panel": "b8572e995f24db8ebdf88156d14319069875e321",
             "refactor/tanstack-start": "1985ae784584d455594496034e083938d7293f3f",
             "refactor/translate-utils": "67f327fe4d889dc54b94dc806c729e1ec5f2795e",
             "refactor/trpc-react-website": "3ef39afe9c3ec4df8e66d2600dcad16528e0345e",
@@ -4864,7 +4871,7 @@
             "1.4.7": "0c86d4616298f09435f6236599b300964aa61460",
             "1.4.8": "3c574a41821170f89f38141a493e127145dbf82d",
             "1.4.9": "6c578292e8ebbbec708b76986ba8c4bc7c509747",
-            "1.5.0": "e9ddbd8f460dac1b30b9815ba324a5dadc8d97b0",
+            "1.5.0": "fada664df7a294d1d1a9ca3e7cd3637069122f17",
             "fdroid-version": "9827c7651442800f47428087903d52da8cb8c2c8",
             "nightly": "12b5cc7f725ad5510ccfaa8f28f15aece35c0d5a"
         },
@@ -4895,9 +4902,9 @@
             "fix/16073-ipc-exe-check-eacces": "9dd427d49fb903c7a664ad412267d8cb495cd939",
             "hdr-tonemap": "e877da587234089455bf47489cf08c493a9429f2",
             "ice-ipv6-per-prefix": "e001878f06abcad0f31e9eca15d0e3a340ca2d05",
-            "keyboard-shortcuts": "b88209b88a6877957844ecfd67976bab450f3b77",
+            "keyboard-shortcuts": "3a5b45a2fa5824c91b9a06882da745dbdb46cd7c",
             "kx-v1": "ddd99f90f7c87de121fdc30057fc1d9af5665944",
-            "master": "a7f2260203befb7e9c70b585219f0f0b5ca57703",
+            "master": "fada664df7a294d1d1a9ca3e7cd3637069122f17",
             "sciterjs": "e86d0a0fc14f0bff4cb1ecd94a84eae42818da80",
             "svt-av1": "e17efa947477f9eaf0fcb9d1cb013732fb38811a",
             "temporary-password-rotates-at-authorization": "40da387b16e18272b8168faa03445c632c7ad3cd",
@@ -5976,9 +5983,12 @@
             "master": "19b273ab24c3272d6cf1a6192a2c9c287ce75e14"
         },
         "branches": {
-            "develop": "fad9e67bbc835b5c1b484d504299f7a63c6f3e4b",
+            "dependabot/npm_and_yarn/babel/core-7.29.7": "2a15c8807961d7e4aab9f6c6efb8b63e2937d756",
+            "dependabot/npm_and_yarn/brace-expansion-5.0.12": "e8255a32dd00a4524358f8dd6a836f4dce943bf6",
+            "dependabot/npm_and_yarn/undici-7.30.0": "0d969b19d73b175e255392a7b00abd270633dcb0",
+            "develop": "31f41fef88e1525618f4bffb6c5ab6f1d8881034",
             "gh-pages": "1a65b9c1c3046c53e21938da6c47644f34b0e5dc",
-            "master": "159edcfaf6618066513b2fb0105fef603eb61ac4",
+            "master": "d5499529b506b02da10e2c6b7c7ca4c2d3243fa2",
             "oldj-patch-1": "76b838b543b4fea0f9bea3c93b451b6a948c2c3f"
         }
     },
@@ -6616,7 +6626,7 @@
             "master": "342c1a85456e6d55480f7f7ad53e7f0116cbedb1"
         },
         "branches": {
-            "master": "c793cbd0d10ad9bcd2a47171d66eff60c1893709"
+            "master": "5407cad19ab340d5154661b4b3dfaa898c803bfe"
         }
     },
     "zzz_SARS": {
@@ -6741,6 +6751,7 @@
             "v2.31.0-beta.3": "79bbc3dc34466b9a568c84cc18b8309f4ab8f674",
             "v2.31.0-beta.4": "0173e5a8b2ccc74fcea7b63e6e1fd604d7c97f02",
             "v2.31.0-beta.5": "997db8ff0909e98d15fa8a4dba7e15032a376fab",
+            "v2.31.0-beta.6": "6e1f19762f09d205ab2faf1ad2568775c9aa5a4b",
             "v2.4.0": "cb5132dddf5fc3a690b762dfad34ecbecf1fb8f6",
             "v2.5.0": "05c106f3a588c741d7c34fc3fb609a5bd8941add",
             "v2.5.1": "a456c6e7554351a273b15ae41a7187b7e30591b7",
@@ -6776,10 +6787,11 @@
             "master": "a8cb9397e18135cf6c3310bacb7ed78186c1c3b3"
         },
         "branches": {
-            "badge-data": "4bb6a1a230b62c162524529b858c349e632c648f",
+            "badge-data": "94ec5bd970166e552a7d0383e0ad1316ddbe397b",
             "beta": "997db8ff0909e98d15fa8a4dba7e15032a376fab",
+            "beta1": "6e1f19762f09d205ab2faf1ad2568775c9aa5a4b",
             "fix": "80c6ab8a80487b49e7995fa9c8fff151c41a923a",
-            "master": "dedd6823b4275445f62ba66940945b2b208c85ae"
+            "master": "e5b82769c96074dcb8beb756d32f7690fc12bf1f"
         }
     },
     "zzz_Identifier-Patcher": {
@@ -6795,7 +6807,7 @@
     "zzz_Duck-Detector-Refactoring": {
         "parent": "eltavine/Duck-Detector-Refactoring",
         "tags": {
-            "nightly": "47862f6864e025271fb9bf7f0f89d130eaf433a5"
+            "nightly": "9e2ccccd7d39d76573b726722cb7ce0d6af251c0"
         },
         "branches": {
             "WidevineProbe": "2220d3545e1e9bbf65e26c513f8c82926184166a",
@@ -6805,11 +6817,12 @@
             "feat/ksu-app-zygote-seqno": "3757234c337a8fed43274f7ca8e5804ce6d3df4e",
             "fix/pr-36-scan-metadata": "45ca91b568f80b930895d5d5bb8d9327f8d505c3",
             "hardware-timer-for-kp-sidechannel": "b12e766400f4c86315d3471ee10411330381251b",
-            "main": "47862f6864e025271fb9bf7f0f89d130eaf433a5",
+            "main": "40815361cac97a345566e21a17dab6831df60a30",
             "pr-123": "788eeb206ceb50644145cde45057793663194425",
             "refactor/evidence-integrity-hardening": "2ce3296f4542d1bab057be46373f47474af3b27e",
             "revert-147-ui-refactor": "6a0492cab556706eb0a5ee18463e45c1556f91f7",
             "revert-148-revert-147-ui-refactor": "7fb92040b94409c4cdf8ea15208a4eb66cd095c4",
+            "revert-152-main": "9f7733907594cf7f780f99097a578c048bc34f1b",
             "revert-7-feat/auto-versioning": "520c085058131a135e00a1ac60593e0c3f363f60",
             "tmp/version-change": "6ac4ec41464bcdddb369b624186f1867c0877ed1",
             "ui-refactor": "4f80e32716bd4757d0dfd33601d3dd4506bc331a"
