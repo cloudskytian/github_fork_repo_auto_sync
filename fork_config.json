@@ -517,7 +517,7 @@
             "master": "f0016b50fa3ccb92d473e3e2a812752a85086280"
         },
         "branches": {
-            "master": "829c14ca1f43ff159c9e8f80872eb3f56aca89ff"
+            "master": "517fb51cc0e43c6c826219213a9e9cb6e5098c8f"
         }
     },
     "zzz_Borderless-Gaming": {
@@ -693,7 +693,7 @@
             "release/1.8.7": "50c167947b3fbdac559a1cfdd736f4c917242dc1",
             "release/1.9.0": "749d85e15d21c28322ac8b8ad308719639e5b80d",
             "release/1.9.1": "deb42c41dad3e9c811cb87d856b2fc601cead876",
-            "release/1.9.2": "c46a0c7af2eb715d6ba5e3d958ee71dfe40242b3",
+            "release/1.9.2": "8df201ec8f2db47deaed94b2ed3c7d50eba99bf5",
             "release/2.0.0": "622d3da739e292fa535722ccbb4fd4e643e1af8f"
         }
     },
@@ -2182,6 +2182,7 @@
             "6.2.31": "30e74067040bdccb2fbc3eaca699858fdbb6d852",
             "6.2.32": "d868c8d7da9bdd41e11deeb9982f25a0610155ce",
             "6.2.33": "e291bd61b711f5524c950e324a309276d9d54e3d",
+            "6.2.35": "4fca8831837e39b9483fb4888585e58182345ce8",
             "6.2.5": "defd24cc3d452c945757ffcf1ad7dc5021eec2aa",
             "6.2.6": "dbd6532e4360b2416077153d48c2f3dd0418c213",
             "6.2.7": "5e28435c0058221f294e76ccdbd6926183f301f4",
@@ -2192,7 +2193,7 @@
             "main": "8d7410f81f838cc3097ccaa798d27c09242b5f61"
         },
         "branches": {
-            "main": "e291bd61b711f5524c950e324a309276d9d54e3d"
+            "main": "4fca8831837e39b9483fb4888585e58182345ce8"
         }
     },
     "zzz_FlashPatch": {
@@ -2980,7 +2981,7 @@
             "claude/character-conversion-dictionary-vx2wod-2": "1c5e9f612a11bfab3c05c6dff516ac9d3dc0c89f",
             "claude/remove-gyp-dependencies-gn5vlc": "e7081c6096abd4b8095526e42875611b3a58600d",
             "gh-pages": "acdb8df711bbad6bce7952af1c312938b2333089",
-            "master": "2939943bd6f4d459b46d7fdcf07a885ab3f01761",
+            "master": "3ac34aa439a9908dd49fa92b5174b46314787ac2",
             "release-1.2.0": "e38c96cde33813b405d8ee0da5ec9b3ac084b9f3",
             "release-1.3.0": "4ac5bd6b8ea84e107d83221ec1fea7e3209a8bb8",
             "release-1.4.0": "68a52365c8f2786629d2cca314691818e7280ac9",
@@ -4554,6 +4555,7 @@
             "build/upgrade-many": "6a1864d90092f4048bc918aa72722f3adf4e2e49",
             "build/upgrade-packages-2026-06-28": "9ff4bf042ebaf587485971578eed1dba4b143cdd",
             "build/upgrade-wxt": "514f2b65f59aea6113f4c81c2c7774a0a0ee42b6",
+            "changeset-release/main": "ef95a763b887526c158d5f0224fbbece79b120a5",
             "chore/local-dev-ex": "d3fec2d0a3da1b0c53d999e10a223cb95d0448ce",
             "chore/sponsor-action": "24ab93ae2b7cb2a24f234196559f420a562802b2",
             "chore/update-hero-heading": "a51a23cd2f3bf8e8f688cf10d8079121af6b68e1",
@@ -4631,7 +4633,6 @@
             "feat/login": "90cd2fa4298c2a495a3e2f137e3706072d81ab7b",
             "feat/microsoft-batch-translate": "f6e16db60dc53d90ff8a003f74c7c1b8ea39d1f8",
             "feat/multiple-provider-ui": "2c1604a2e2cb67d3e403388f1ebdd4b2b70d023c",
-            "feat/netflix-subtitles": "14ccc3a62a550654bd94d6c0e59e41d429594287",
             "feat/node-translation-shortcut-option-page": "1f6fd4d023ce77f016c49de815e83f9fd1c9638c",
             "feat/only-translate": "52ca574e23f78b433377bb5d7c890fedea99571c",
             "feat/questionaire": "549b97f24e41a5f775a607dcae59bb6feadc881f",
@@ -4757,7 +4758,6 @@
             "fix/twitter-translation-aria-hidden": "02e324b2eaba2232e2206df77159de8aa1bdb176",
             "fix/url-detect": "accd8dffe7a6a00ff52c66971e20f602c54f2622",
             "fix/version-notification": "cd3cf1dd42421032059f41279f3f91b428ed71a4",
-            "fix/xcom-hide-toggle-without-controls": "fe0c7f384b16826b91d5f87e2f565aede640fd4b",
             "hermes/ai-sdk-model-sync-20260617-035310": "274447c3c08da37ddd02cec2f4c2dacd59fafc83",
             "hermes/issue-1319-20260412-122313": "98db9811e684b1bac15a8f89ab1aa0535bb27189",
             "hermes/issue-1327-20260413-065900": "c88c9dbd7d8a1a364012f2d8b2e6c64466938aa8",
@@ -4782,7 +4782,7 @@
             "kvnmqpqs": "a2b1a6ab40c8524279b9eb8febdd83df43242ac3",
             "lisongkun/main": "1ca7d4064375b44099b8a9fc9ae94072c62472aa",
             "locales/korean-extension": "00205027e9a87ed7fcc150484ae8f5df30376ab7",
-            "main": "e5a79f00b6096dc9b2886c8405a3e9c4ed84c69d",
+            "main": "308a08d73091300c14fe2bf184d59895478174ef",
             "mengxi-ream-patch-1": "72eb0292f4d4870f86ad6d7a98ae89dac10c9016",
             "my-feature-branch": "f57c96ab0a1107a3b40adf9b452d88abb19b01d3",
             "perf/auth-cookie-change-issue": "3511ceb2a9f7e25c1dbeb6d4a5d65b6dfcb717a6",
@@ -4800,7 +4800,6 @@
             "refactor/move-auto-translate-shortcut-to-page-config": "6128811bd057a421048146d36fd7cf94cd63557d",
             "refactor/remove-iconify": "48c7b7b728fce1ff16d0a1a3abf89d06c6f85b72",
             "refactor/replace-some-repo": "b9bc1aa23b6a968fe84899774c01ac6d02854dcd",
-            "refactor/shared-custom-action-panel": "b8572e995f24db8ebdf88156d14319069875e321",
             "refactor/tanstack-start": "1985ae784584d455594496034e083938d7293f3f",
             "refactor/translate-utils": "67f327fe4d889dc54b94dc806c729e1ec5f2795e",
             "refactor/trpc-react-website": "3ef39afe9c3ec4df8e66d2600dcad16528e0345e",
@@ -4902,7 +4901,7 @@
             "fix/16073-ipc-exe-check-eacces": "9dd427d49fb903c7a664ad412267d8cb495cd939",
             "hdr-tonemap": "e877da587234089455bf47489cf08c493a9429f2",
             "ice-ipv6-per-prefix": "e001878f06abcad0f31e9eca15d0e3a340ca2d05",
-            "keyboard-shortcuts": "3a5b45a2fa5824c91b9a06882da745dbdb46cd7c",
+            "keyboard-shortcuts": "36621a3c4497779fda1367abdf5f3670e819a3e8",
             "kx-v1": "ddd99f90f7c87de121fdc30057fc1d9af5665944",
             "master": "fada664df7a294d1d1a9ca3e7cd3637069122f17",
             "sciterjs": "e86d0a0fc14f0bff4cb1ecd94a84eae42818da80",
@@ -5149,7 +5148,7 @@
             "Test": "b91daec2a1ef45913abe00e5ec062535bd9b1b6e",
             "codespell": "1346eee09705f61119329ee1a7c962025cd77366",
             "experimental": "3c16b7826c2fde62b1e839c62a9be12bf96d9b2a",
-            "master": "fe6ed442e54a8447bee215433a2876ed72ca899b",
+            "master": "c1b6a2d555df8ce6492ca773082a83762fbfc893",
             "out-of-date": "abd2d44cd6f305da956ad70c7481cb1256efff24",
             "remote-mgmt": "8194614afef2a01ace718dc58cb3777dbbe0d27b"
         }
@@ -5806,6 +5805,7 @@
             "v1.8.6": "7065ec839fe246f9e9fb670f272a8f4c9250c6df",
             "v1.9.0": "b6c70aa6367747cf4c925a806237fe548476e785",
             "v1.9.1": "702ba4920bb84686b3ab0dbfa48a9d93cbf20f07",
+            "v1.9.10": "270f405175b4f1e58f3901e24bb5907c86b8dfb7",
             "v1.9.2": "483a9e76ce23ca341b27f718e4bcee1af4a8a83d",
             "v1.9.3": "a81c5dbb3504824c78668d4c3edf81df5da14abb",
             "v1.9.4": "2a0fde45858e8503a2ec629781185ab9ebe7adbe",
@@ -5822,8 +5822,8 @@
         },
         "branches": {
             "Go-dev": "250f77369164b8ef2eaffaa1cb17e980af563892",
-            "dev": "e9158f85353437e8b3ea6a9358c860d6f2ca1a45",
-            "master": "ffe459e70348d75e664c7a2ac22333a256b7a893"
+            "dev": "7a2acd153e6fef9dc7570d942e366163d7d86ec2",
+            "master": "270f405175b4f1e58f3901e24bb5907c86b8dfb7"
         },
         "warning": true
     },
@@ -5970,7 +5970,8 @@
             "v5.0.1-beta.8": "0a64b9dc914d0885ef02a158dad4ac6bd128aa23",
             "v5.0.1-beta.9": "478a6edbbad3e206e127b034ef6f756ca86ffa14",
             "v5.0.2": "9fbba11e86e36aeed3af4988eae8bb95651a146e",
-            "v5.0.3-beta.1": "756e486d2796fd8d632a30017b7138b358f7de2f"
+            "v5.0.3-beta.1": "756e486d2796fd8d632a30017b7138b358f7de2f",
+            "v5.0.3-beta.2": "da9dbe0741c3b0dce1170644eae95ab00ed2f31c"
         },
         "branchs": {
             "dependabot/npm_and_yarn/axios-1.15.2": "cbde8d524f4a7985862b1489da307c17c21981bb",
@@ -5983,12 +5984,9 @@
             "master": "19b273ab24c3272d6cf1a6192a2c9c287ce75e14"
         },
         "branches": {
-            "dependabot/npm_and_yarn/babel/core-7.29.7": "2a15c8807961d7e4aab9f6c6efb8b63e2937d756",
-            "dependabot/npm_and_yarn/brace-expansion-5.0.12": "e8255a32dd00a4524358f8dd6a836f4dce943bf6",
-            "dependabot/npm_and_yarn/undici-7.30.0": "0d969b19d73b175e255392a7b00abd270633dcb0",
-            "develop": "31f41fef88e1525618f4bffb6c5ab6f1d8881034",
+            "develop": "da9dbe0741c3b0dce1170644eae95ab00ed2f31c",
             "gh-pages": "1a65b9c1c3046c53e21938da6c47644f34b0e5dc",
-            "master": "d5499529b506b02da10e2c6b7c7ca4c2d3243fa2",
+            "master": "09adfa4808d825bc6b4cad709f376180195bfaf5",
             "oldj-patch-1": "76b838b543b4fea0f9bea3c93b451b6a948c2c3f"
         }
     },
@@ -6626,7 +6624,7 @@
             "master": "342c1a85456e6d55480f7f7ad53e7f0116cbedb1"
         },
         "branches": {
-            "master": "5407cad19ab340d5154661b4b3dfaa898c803bfe"
+            "master": "310b48aa7ccd4fbf3208b209ecf3a405bc321949"
         }
     },
     "zzz_SARS": {
@@ -6787,11 +6785,11 @@
             "master": "a8cb9397e18135cf6c3310bacb7ed78186c1c3b3"
         },
         "branches": {
-            "badge-data": "94ec5bd970166e552a7d0383e0ad1316ddbe397b",
+            "badge-data": "429f55c301cb0394e2fe5a65b4b2aaa5fc568e9d",
             "beta": "997db8ff0909e98d15fa8a4dba7e15032a376fab",
             "beta1": "6e1f19762f09d205ab2faf1ad2568775c9aa5a4b",
             "fix": "80c6ab8a80487b49e7995fa9c8fff151c41a923a",
-            "master": "e5b82769c96074dcb8beb756d32f7690fc12bf1f"
+            "master": "94476cf112535972b6301a2ca1b53c6ee299a5e4"
         }
     },
     "zzz_Identifier-Patcher": {
@@ -6807,7 +6805,7 @@
     "zzz_Duck-Detector-Refactoring": {
         "parent": "eltavine/Duck-Detector-Refactoring",
         "tags": {
-            "nightly": "9e2ccccd7d39d76573b726722cb7ce0d6af251c0"
+            "nightly": "a48f91da6a85b0404f301045f83ac674fea301fd"
         },
         "branches": {
             "WidevineProbe": "2220d3545e1e9bbf65e26c513f8c82926184166a",
@@ -6815,9 +6813,10 @@
             "devpts-permission-check": "e001d74e6d2f1748814f36fdda1caa52f27a3f9a",
             "docs/add-agent-engineering-guidelines": "20d845ec042c749c4e4bb4d0f1053ebb35acc1db",
             "feat/ksu-app-zygote-seqno": "3757234c337a8fed43274f7ca8e5804ce6d3df4e",
+            "fix/app-zygote-start-gate": "5f1d3b4045d31469423c451e35933180a828bef9",
             "fix/pr-36-scan-metadata": "45ca91b568f80b930895d5d5bb8d9327f8d505c3",
             "hardware-timer-for-kp-sidechannel": "b12e766400f4c86315d3471ee10411330381251b",
-            "main": "40815361cac97a345566e21a17dab6831df60a30",
+            "main": "a48f91da6a85b0404f301045f83ac674fea301fd",
             "pr-123": "788eeb206ceb50644145cde45057793663194425",
             "refactor/evidence-integrity-hardening": "2ce3296f4542d1bab057be46373f47474af3b27e",
             "revert-147-ui-refactor": "6a0492cab556706eb0a5ee18463e45c1556f91f7",
