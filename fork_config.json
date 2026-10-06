@@ -400,6 +400,7 @@
             "port-nal-parsing": "4735311eb2dce2660e112e12aab244113ecfa5bd",
             "protocol-cleanup-8": "9aacaa863b87d5217b88a1ced166052623d61a57",
             "quic-support": "d14a8d62fa253da3eae4d0e6a7551fecf2e1ea91",
+            "resource-cleanup-fixes": "2d1d9f28d4e363218ef80202f3d9736e8484a430",
             "settings-refactor": "a3b0efcbb16551c9ff95383e4b8276cef044a076",
             "sockets-rewrite": "46e38407a2e20eb1a2b74f625244588b1c049347",
             "steam-release": "d41746e602f663067fb28d207c961ee246401058",
@@ -2311,7 +2312,7 @@
             "master": "f7e6b68ce94b8f5ffa633ec927520d91fce580e3"
         },
         "branches": {
-            "master": "39e9bcede210515011621dae37b20c16b6d16ed8"
+            "master": "819fb3b0df5531c512b2fed2cf6e73d7fad01d25"
         }
     },
     "zzz_gog-games.to_backup": {
@@ -4563,6 +4564,7 @@
             "build/upgrade-many": "6a1864d90092f4048bc918aa72722f3adf4e2e49",
             "build/upgrade-packages-2026-06-28": "9ff4bf042ebaf587485971578eed1dba4b143cdd",
             "build/upgrade-wxt": "514f2b65f59aea6113f4c81c2c7774a0a0ee42b6",
+            "changeset-release/main": "80af5b350c2e415762c4b14370cb9ccbfd33bb9d",
             "chore/local-dev-ex": "d3fec2d0a3da1b0c53d999e10a223cb95d0448ce",
             "chore/sponsor-action": "24ab93ae2b7cb2a24f234196559f420a562802b2",
             "chore/update-hero-heading": "a51a23cd2f3bf8e8f688cf10d8079121af6b68e1",
@@ -4572,8 +4574,12 @@
             "ci/turbo-cache": "51948b746692d202b7bbb7ba81571f86b5c49df0",
             "ci/vercel-build": "e29b956f62f3de1ae0a96e9f8ed5017cc9a15f0c",
             "claude/add-sidebar-user-component-7sjdu": "d9b8183f311c2b44d8f72c6a5a3f5c450b77bbc5",
+            "claude/exciting-shaw-c5ca84": "7d355248182c0a2adea782dc2d2d59b9cf46406a",
+            "claude/jolly-bose-c31226": "6a283e890b236ca9841f62b86420d4179fd7c49a",
+            "claude/netflix-track-poll-errors": "7e657c66ac89aaceb0e971cc5af91ae082de5443",
             "claude/plan-badge-hover-animation-fd0adb": "86067e71b9aecebc74519143c0ac554f460d85b5",
             "claude/short-text-expansion-spacing-9db762": "70e1c759f833f64c8afc427e502584c32999c125",
+            "claude/upbeat-colden-f0df77": "f2ef7442b0e3c68fc87f186f278b45029efc5aa2",
             "coderabbitai/docstrings/b6ce04e": "b67af1a2b4b88e01f91b937e58307109ca14a6ee",
             "coderabbitai/utg/b6ce04e": "4584f2fc35906bda2850704fd55c2b58d6d3ff64",
             "codex/default-page-translation-main": "23568657a0689b0d08839c2183fcfab73b57177c",
@@ -4788,7 +4794,7 @@
             "kvnmqpqs": "a2b1a6ab40c8524279b9eb8febdd83df43242ac3",
             "lisongkun/main": "1ca7d4064375b44099b8a9fc9ae94072c62472aa",
             "locales/korean-extension": "00205027e9a87ed7fcc150484ae8f5df30376ab7",
-            "main": "73696252dc67f2a17ed4f171e8f54ad6504828a9",
+            "main": "001e0b2984fbdb267e7dd68dd1b1b32e170d7310",
             "mengxi-ream-patch-1": "72eb0292f4d4870f86ad6d7a98ae89dac10c9016",
             "my-feature-branch": "f57c96ab0a1107a3b40adf9b452d88abb19b01d3",
             "perf/auth-cookie-change-issue": "3511ceb2a9f7e25c1dbeb6d4a5d65b6dfcb717a6",
@@ -4907,9 +4913,9 @@
             "fix/16073-ipc-exe-check-eacces": "9dd427d49fb903c7a664ad412267d8cb495cd939",
             "hdr-tonemap": "e877da587234089455bf47489cf08c493a9429f2",
             "ice-ipv6-per-prefix": "e001878f06abcad0f31e9eca15d0e3a340ca2d05",
-            "keyboard-shortcuts": "65dffcbd4cc2e52924d46083b9c4f9b659623676",
+            "keyboard-shortcuts": "f69591d18b9796b4aae1eb07fa5434cd578c1b4f",
             "kx-v1": "ddd99f90f7c87de121fdc30057fc1d9af5665944",
-            "master": "e5bc204fe4dacc4db9c3cdb1f1338813986c89e7",
+            "master": "9f9585ce155a6558f0625eaf8fabfe8827c9a552",
             "sciterjs": "e86d0a0fc14f0bff4cb1ecd94a84eae42818da80",
             "svt-av1": "e17efa947477f9eaf0fcb9d1cb013732fb38811a",
             "temporary-password-rotates-at-authorization": "40da387b16e18272b8168faa03445c632c7ad3cd",
@@ -6633,7 +6639,7 @@
             "master": "342c1a85456e6d55480f7f7ad53e7f0116cbedb1"
         },
         "branches": {
-            "master": "7a85cdbbcb5a0c50f28cbdace95f49fa44fcb6c9"
+            "master": "ee615902d2fd63a931dbb40d9930f51a33ef2c12"
         }
     },
     "zzz_SARS": {
@@ -6762,6 +6768,7 @@
             "v2.31.0-beta.6": "6e1f19762f09d205ab2faf1ad2568775c9aa5a4b",
             "v2.31.0-beta.7": "7f46493b1e07703b16583a8ed10022fb998e242b",
             "v2.32.0-beta.1": "82b500da6b49ecb149c0ba79d6b92f50bcc366ed",
+            "v2.32.0-beta.2": "3683d056266f6f5454eb35eef3bd8766d7667438",
             "v2.4.0": "cb5132dddf5fc3a690b762dfad34ecbecf1fb8f6",
             "v2.5.0": "05c106f3a588c741d7c34fc3fb609a5bd8941add",
             "v2.5.1": "a456c6e7554351a273b15ae41a7187b7e30591b7",
@@ -6797,10 +6804,10 @@
             "master": "a8cb9397e18135cf6c3310bacb7ed78186c1c3b3"
         },
         "branches": {
-            "badge-data": "ae897807dc9213850baeb44d9a8919a83ed05620",
-            "beta": "82b500da6b49ecb149c0ba79d6b92f50bcc366ed",
+            "badge-data": "fe2eda99b1f4f74d8b11f8da3bc604f6c4254f03",
+            "beta": "3683d056266f6f5454eb35eef3bd8766d7667438",
             "fix": "80c6ab8a80487b49e7995fa9c8fff151c41a923a",
-            "master": "48188e1490bb92b6522aa9f368088af07fd473c1"
+            "master": "028fbd3f404f6fc7176150c5fd3db25e4f82576d"
         }
     },
     "zzz_Identifier-Patcher": {
@@ -6816,7 +6823,7 @@
     "zzz_Duck-Detector-Refactoring": {
         "parent": "eltavine/Duck-Detector-Refactoring",
         "tags": {
-            "nightly": "48299993fc22b3a15d62a7b4e1b4c7f979c981fa"
+            "nightly": "82566ffa96bbf464aacab05486c042b1cd87eb3c"
         },
         "branches": {
             "WidevineProbe": "2220d3545e1e9bbf65e26c513f8c82926184166a",
@@ -6828,14 +6835,14 @@
             "fix/app-zygote-start-gate": "5f1d3b4045d31469423c451e35933180a828bef9",
             "fix/pr-36-scan-metadata": "45ca91b568f80b930895d5d5bb8d9327f8d505c3",
             "hardware-timer-for-kp-sidechannel": "b12e766400f4c86315d3471ee10411330381251b",
-            "main": "48299993fc22b3a15d62a7b4e1b4c7f979c981fa",
+            "main": "82566ffa96bbf464aacab05486c042b1cd87eb3c",
             "pr-123": "788eeb206ceb50644145cde45057793663194425",
             "refactor/evidence-integrity-hardening": "2ce3296f4542d1bab057be46373f47474af3b27e",
             "revert-147-ui-refactor": "6a0492cab556706eb0a5ee18463e45c1556f91f7",
             "revert-148-revert-147-ui-refactor": "7fb92040b94409c4cdf8ea15208a4eb66cd095c4",
             "revert-152-main": "9f7733907594cf7f780f99097a578c048bc34f1b",
             "revert-7-feat/auto-versioning": "520c085058131a135e00a1ac60593e0c3f363f60",
-            "tmp/version-change": "01b810926dbb55d1bf1387cd003db697be91c938",
+            "tmp/version-change": "b4c07470ff81ca5ec24d22dd9a0e44f23fbad6c3",
             "ui-refactor": "4f80e32716bd4757d0dfd33601d3dd4506bc331a"
         }
     },
