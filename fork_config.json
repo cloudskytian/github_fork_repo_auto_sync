@@ -695,7 +695,7 @@
             "release/1.8.7": "50c167947b3fbdac559a1cfdd736f4c917242dc1",
             "release/1.9.0": "749d85e15d21c28322ac8b8ad308719639e5b80d",
             "release/1.9.1": "deb42c41dad3e9c811cb87d856b2fc601cead876",
-            "release/1.9.2": "3f1e4dd6dd54ad4507d0d2304b7276565b231bb8",
+            "release/1.9.2": "1075afc412a3ad3a4da80c99588562d589cefcd9",
             "release/2.0.0": "622d3da739e292fa535722ccbb4fd4e643e1af8f"
         }
     },
@@ -2911,8 +2911,7 @@
             "master": "aa3c4d015e607d9d5d14d333f06dded4cef193b9"
         },
         "branches": {
-            "dependabot/cargo/vercel_runtime-2.4.1": "e3a09aed316998168345d47e58e39a25ecd47a06",
-            "master": "f9e7af2c20761220647a6fa2a5758303f09e3c65"
+            "master": "a4ebb84cf32c14dff6ebd5ff814b859df8fe9e50"
         }
     },
     "zzz_open-fitter-core": {
@@ -3207,7 +3206,7 @@
             "uv-migration": "5970a0d68d488da7a089d3ace1ff367f81fa4dc2"
         },
         "branches": {
-            "dev": "f98f65e0523dd177e8b8c03832df752a1bb1f77d",
+            "dev": "74f8818a96bcd0cd1f986f5a6b61e086348d9a38",
             "dev-python-3.14": "fb400cd0e419f919754d1c799a11e50ca6c67706",
             "main": "29aa2d2b53009e989961cafa9f040c0654b34867",
             "uv-migration": "5970a0d68d488da7a089d3ace1ff367f81fa4dc2"
@@ -3463,6 +3462,7 @@
             "v11.22.0": "2c4f64a47c6e0cc92f07575ca957d9c426e5dea2",
             "v11.22.1": "acaeb1e31b9505bf03f2713719604584e24e50ce",
             "v11.23.0": "114671735f19ae4310c2aec6fb0d954f5295c04a",
+            "v11.23.1": "90b8d44c83999db6c57e5fbcd5b796be5567de3f",
             "v11.3.0": "ec4ac06a850a6a884ca778350621f354faf347c6",
             "v11.3.1": "e0dc322f4a0fa293353f8c13765516fbf15b1caa",
             "v11.4.0": "86aa6ea4ead9e35edd84ae96f00dd9461df9840d",
@@ -4011,7 +4011,7 @@
             "fix/cdp-listing-waits-for-replies": "4b59e72da475e2a11001f1f7bd4ba12147951817",
             "fix/coredevice-error-mic-camera-in-use": "5b52eb1c204fcfe4c995dea9a5cc3a2ad5cd5346",
             "hotfix/docs-syslog-label-help": "47e5c5ae66d44a1a3d85e9c364db192cc29a220f",
-            "master": "114671735f19ae4310c2aec6fb0d954f5295c04a",
+            "master": "90b8d44c83999db6c57e5fbcd5b796be5567de3f",
             "research/videoprocessing-re-roadmap": "6157f672544305bc61046efb35d8733585898524"
         }
     },
@@ -4266,7 +4266,8 @@
             "v1.49.2": "b91af9bc5632c1df788c6bcf470ac08753050300",
             "v1.49.3": "e5a79f00b6096dc9b2886c8405a3e9c4ed84c69d",
             "v1.50.0": "f03635dbc97f5371f5f1bbefe77678df6023c8ae",
-            "v1.50.1": "73696252dc67f2a17ed4f171e8f54ad6504828a9"
+            "v1.50.1": "73696252dc67f2a17ed4f171e8f54ad6504828a9",
+            "v1.50.2": "8a29c0458dc7741826a5624459193517c82d62ff"
         },
         "branchs": {
             "116-feature-warn-user-that-the-source-language-is-the-same-as-the-target-language": "a9a40bc10bd95f53bde7aaef7efb007e5dfaa016",
@@ -4564,7 +4565,6 @@
             "build/upgrade-many": "6a1864d90092f4048bc918aa72722f3adf4e2e49",
             "build/upgrade-packages-2026-06-28": "9ff4bf042ebaf587485971578eed1dba4b143cdd",
             "build/upgrade-wxt": "514f2b65f59aea6113f4c81c2c7774a0a0ee42b6",
-            "changeset-release/main": "80af5b350c2e415762c4b14370cb9ccbfd33bb9d",
             "chore/local-dev-ex": "d3fec2d0a3da1b0c53d999e10a223cb95d0448ce",
             "chore/sponsor-action": "24ab93ae2b7cb2a24f234196559f420a562802b2",
             "chore/update-hero-heading": "a51a23cd2f3bf8e8f688cf10d8079121af6b68e1",
@@ -4794,7 +4794,7 @@
             "kvnmqpqs": "a2b1a6ab40c8524279b9eb8febdd83df43242ac3",
             "lisongkun/main": "1ca7d4064375b44099b8a9fc9ae94072c62472aa",
             "locales/korean-extension": "00205027e9a87ed7fcc150484ae8f5df30376ab7",
-            "main": "001e0b2984fbdb267e7dd68dd1b1b32e170d7310",
+            "main": "8a29c0458dc7741826a5624459193517c82d62ff",
             "mengxi-ream-patch-1": "72eb0292f4d4870f86ad6d7a98ae89dac10c9016",
             "my-feature-branch": "f57c96ab0a1107a3b40adf9b452d88abb19b01d3",
             "perf/auth-cookie-change-issue": "3511ceb2a9f7e25c1dbeb6d4a5d65b6dfcb717a6",
@@ -4913,7 +4913,7 @@
             "fix/16073-ipc-exe-check-eacces": "9dd427d49fb903c7a664ad412267d8cb495cd939",
             "hdr-tonemap": "e877da587234089455bf47489cf08c493a9429f2",
             "ice-ipv6-per-prefix": "e001878f06abcad0f31e9eca15d0e3a340ca2d05",
-            "keyboard-shortcuts": "f69591d18b9796b4aae1eb07fa5434cd578c1b4f",
+            "keyboard-shortcuts": "61c9041f92e40b9671bea79672b5a38bec2c065b",
             "kx-v1": "ddd99f90f7c87de121fdc30057fc1d9af5665944",
             "master": "9f9585ce155a6558f0625eaf8fabfe8827c9a552",
             "sciterjs": "e86d0a0fc14f0bff4cb1ecd94a84eae42818da80",
@@ -5160,7 +5160,7 @@
             "Test": "b91daec2a1ef45913abe00e5ec062535bd9b1b6e",
             "codespell": "1346eee09705f61119329ee1a7c962025cd77366",
             "experimental": "3c16b7826c2fde62b1e839c62a9be12bf96d9b2a",
-            "master": "e5a2e1b451b79d644bc81bf2412c2c1eb27af40b",
+            "master": "05becaf9a58116dbb427476f5e3120ae77e65e78",
             "out-of-date": "abd2d44cd6f305da956ad70c7481cb1256efff24",
             "remote-mgmt": "8194614afef2a01ace718dc58cb3777dbbe0d27b"
         }
@@ -6002,7 +6002,7 @@
         "branches": {
             "develop": "8244348cd601e63585116d38488c92340879e311",
             "gh-pages": "1a65b9c1c3046c53e21938da6c47644f34b0e5dc",
-            "master": "09adfa4808d825bc6b4cad709f376180195bfaf5"
+            "master": "46b3bca79d07e755b07316cad03132172d52f581"
         }
     },
     "zzz_TrinityEmulator": {
@@ -6125,7 +6125,7 @@
             "dependabot/pip/pillow-10.0.1": "e2b72ee24f7029eeffc6be1138227254139f0616",
             "dependabot/pip/scipy-1.10.0": "6b1d0ce529144ad6106c7fae2abb1e6cd3a91045",
             "dependabot/pip/urllib3-1.26.18": "4658cf32d82a8e3fa565c4fa2f19053fe29eb5d8",
-            "master": "5517e0cf0d1acd16a1618eeedec596957523f9e1",
+            "master": "a5f88453bfb2b38b05a965bcf67727243e0cbf19",
             "v5-beta-cml": "3dcf220150532f38eb5708b0d7a64ab1af51af19",
             "v5.2.0": "3f68ce813365f28fc28048a346f91f399867b82b",
             "v5.6": "4e2f28e02f0c2d69d926facd0186a379bb7799ac",
@@ -6639,7 +6639,7 @@
             "master": "342c1a85456e6d55480f7f7ad53e7f0116cbedb1"
         },
         "branches": {
-            "master": "ee615902d2fd63a931dbb40d9930f51a33ef2c12"
+            "master": "6fa4ea9416a00e99f4187f024d8d9833c9d53116"
         }
     },
     "zzz_SARS": {
@@ -6804,10 +6804,10 @@
             "master": "a8cb9397e18135cf6c3310bacb7ed78186c1c3b3"
         },
         "branches": {
-            "badge-data": "fe2eda99b1f4f74d8b11f8da3bc604f6c4254f03",
+            "badge-data": "e8781125230408e9038b92b6a3fb390a3d5bfea9",
             "beta": "3683d056266f6f5454eb35eef3bd8766d7667438",
             "fix": "80c6ab8a80487b49e7995fa9c8fff151c41a923a",
-            "master": "028fbd3f404f6fc7176150c5fd3db25e4f82576d"
+            "master": "6457254cc345adb17012f6765a48d35a1ce63990"
         }
     },
     "zzz_Identifier-Patcher": {
@@ -6823,7 +6823,7 @@
     "zzz_Duck-Detector-Refactoring": {
         "parent": "eltavine/Duck-Detector-Refactoring",
         "tags": {
-            "nightly": "82566ffa96bbf464aacab05486c042b1cd87eb3c"
+            "nightly": "598b76283fa51025e799ba446fb0fb660a3ca494"
         },
         "branches": {
             "WidevineProbe": "2220d3545e1e9bbf65e26c513f8c82926184166a",
@@ -6835,7 +6835,7 @@
             "fix/app-zygote-start-gate": "5f1d3b4045d31469423c451e35933180a828bef9",
             "fix/pr-36-scan-metadata": "45ca91b568f80b930895d5d5bb8d9327f8d505c3",
             "hardware-timer-for-kp-sidechannel": "b12e766400f4c86315d3471ee10411330381251b",
-            "main": "82566ffa96bbf464aacab05486c042b1cd87eb3c",
+            "main": "598b76283fa51025e799ba446fb0fb660a3ca494",
             "pr-123": "788eeb206ceb50644145cde45057793663194425",
             "refactor/evidence-integrity-hardening": "2ce3296f4542d1bab057be46373f47474af3b27e",
             "revert-147-ui-refactor": "6a0492cab556706eb0a5ee18463e45c1556f91f7",
