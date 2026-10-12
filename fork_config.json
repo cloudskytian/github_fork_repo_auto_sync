@@ -6903,5 +6903,8 @@
     },
     "zzz_IonStackQuest3": {
         "parent": "Z1xus/ihateborders"
+    },
+    "zzz_more-picohaxx-tool": {
+        "parent": "chaixshot/more-picohaxx-tool"
     }
 }
