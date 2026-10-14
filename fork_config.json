@@ -696,7 +696,7 @@
             "release/1.8.7": "50c167947b3fbdac559a1cfdd736f4c917242dc1",
             "release/1.9.0": "749d85e15d21c28322ac8b8ad308719639e5b80d",
             "release/1.9.1": "deb42c41dad3e9c811cb87d856b2fc601cead876",
-            "release/1.9.2": "7015c900b08bb8898add5bf199cfe8467c05803c",
+            "release/1.9.2": "d4197117d0bddb9e50bffdda90eb65d9af24981b",
             "release/2.0.0": "622d3da739e292fa535722ccbb4fd4e643e1af8f"
         }
     },
@@ -1275,6 +1275,8 @@
     "zzz_ecs": {
         "parent": "oneclickvirt/ecs",
         "tags": {
+            "public-v0.2.14": "376e6e591c3a396e5c871e773fa4cb01a8476d23",
+            "public-v0.2.15": "270d9ab1866d61b36810b19b6dc469f5d1c63ba0",
             "v0.0.1": "d3941bf7cd9e3416f2c9727012626d6f5477aa50",
             "v0.0.10": "3c800b519356ad6dc2edb07a1b34abe69c334ff7",
             "v0.0.11": "ecd61fd51bf486f6865e1bfdc8d029221e854805",
@@ -1564,6 +1566,7 @@
             "v0.2.12": "929806d8bc304d70a6700c13582d3e922aec99f3",
             "v0.2.13": "89c75f2e4287718a394b60323d60e58e8e882452",
             "v0.2.14": "8b4adfc767e9da443be88041623bd65ae289af0d",
+            "v0.2.15": "6515e43cf8981e4fa957c984e00cbfdd06accf80",
             "v0.2.2": "6d9832d9f5d7bfd87e5016d054cc69207db60883",
             "v0.2.3": "6657803c281c8aae0311a8260c6f33b759d45e6e",
             "v0.2.4": "0365920cf6ab673aa5e2bb45a9f777d122cc56f1",
@@ -1579,8 +1582,8 @@
             "ranks": "87154f142c74fdc10807a92e83e147a28d5fdc55"
         },
         "branches": {
-            "master": "f6aa29a6d9d32542800804809faaabd6d07f316d",
-            "public": "06ff8764cca78ca2860f3ecc58859b42df012a67",
+            "master": "fef257dbe4d02b65f73aaa70bd9c183d474208af",
+            "public": "270d9ab1866d61b36810b19b6dc469f5d1c63ba0",
             "ranks": "72e94a3dafa94d05369d9deb01c8b4c346f3c211"
         }
     },
@@ -2190,6 +2193,7 @@
             "6.2.35": "4fca8831837e39b9483fb4888585e58182345ce8",
             "6.2.36": "65aec1ff4dcd62a54c4361fe1719520378750c36",
             "6.2.37": "fb09e441ff7b89fcdf640a2bf7a3b0a98a383b7a",
+            "6.2.38": "457b4c6e0265592be4fefd56a9f8a5c4e3c41dda",
             "6.2.5": "defd24cc3d452c945757ffcf1ad7dc5021eec2aa",
             "6.2.6": "dbd6532e4360b2416077153d48c2f3dd0418c213",
             "6.2.7": "5e28435c0058221f294e76ccdbd6926183f301f4",
@@ -2200,7 +2204,7 @@
             "main": "8d7410f81f838cc3097ccaa798d27c09242b5f61"
         },
         "branches": {
-            "main": "fb09e441ff7b89fcdf640a2bf7a3b0a98a383b7a"
+            "main": "457b4c6e0265592be4fefd56a9f8a5c4e3c41dda"
         }
     },
     "zzz_FlashPatch": {
@@ -3049,7 +3053,7 @@
             "RegConverter": "7171fbc3caa28924be8fbd0341023c7d22d0af75",
             "cibuild": "7ba1fa7b2c54ca3e826c738b7dbdddf59a24ea9a",
             "cmd-dataflow": "4c395ab1f64e32b587ac3271db3fe3767ebd04f6",
-            "develop": "3f521e4347f556f46a06cd6206cf5e8d5aba7e9e",
+            "develop": "db326b1be801f75f4441e0d2b50841c529f34ca5",
             "master": "92f8d996ab986e0e0de17570e2a3cac7fcc308e3",
             "net80": "c06a42f6bf76018c79ef68e46aaea420ce479dd5",
             "non-sharp-notation": "e2dbb3dfb5dfa8915c881896e895bae0ef97ada8"
@@ -3130,6 +3134,7 @@
         "branches": {
             "183-bug-the-connection-drops-after-the-screen-has-been-locked-for-a-period-of-time": "401f097f002dd3e885f11caa11ee1693ebb6a14a",
             "Driver": "63be0ebf9bec92bfba95ef3d6729c375aa9af84e",
+            "Linux-ebpf": "dfa5d4ea54f232f73fc0d791ba1b47d01584a1b4",
             "MacOS": "dc79613ab02c8fa53547c93b168143b1035920d4",
             "UDP-Errors": "1a970b2c91ae822a27ce6a7a5d88d563680fdeec",
             "copilot/add-process-based-exclude-support": "121b96e0e14e55728991cebb7f0ba425e7dc80f8",
@@ -3214,6 +3219,7 @@
         },
         "branches": {
             "dev": "ae6ce272dff14d1cae8d4a824ccffc39838229f4",
+            "experimental-templates": "149abcbce3210a539aabd459a80a5fb1acffd523",
             "main": "509ea92e560b2c2c99b0c9901bd33e404fbfb4b8"
         }
     },
@@ -3479,6 +3485,7 @@
             "v11.28.1": "b1bc825558a4ea2c1d29731391c68357ef5184af",
             "v11.28.2": "9c3384257bd618fabc7889f1dead162a1e99abee",
             "v11.29.0": "6e7c92f5584c8bd3338967ccffbdf4ae4c5a0072",
+            "v11.29.1": "4a0dd96913b6d95add4e1f95e5d4de3838483c9e",
             "v11.3.0": "ec4ac06a850a6a884ca778350621f354faf347c6",
             "v11.3.1": "e0dc322f4a0fa293353f8c13765516fbf15b1caa",
             "v11.4.0": "86aa6ea4ead9e35edd84ae96f00dd9461df9840d",
@@ -4027,7 +4034,7 @@
             "fix/cdp-listing-waits-for-replies": "4b59e72da475e2a11001f1f7bd4ba12147951817",
             "fix/coredevice-error-mic-camera-in-use": "5b52eb1c204fcfe4c995dea9a5cc3a2ad5cd5346",
             "hotfix/docs-syslog-label-help": "47e5c5ae66d44a1a3d85e9c364db192cc29a220f",
-            "master": "6e7c92f5584c8bd3338967ccffbdf4ae4c5a0072",
+            "master": "4a0dd96913b6d95add4e1f95e5d4de3838483c9e",
             "research/videoprocessing-re-roadmap": "6157f672544305bc61046efb35d8733585898524"
         }
     },
@@ -4583,7 +4590,7 @@
             "build/upgrade-many": "6a1864d90092f4048bc918aa72722f3adf4e2e49",
             "build/upgrade-packages-2026-06-28": "9ff4bf042ebaf587485971578eed1dba4b143cdd",
             "build/upgrade-wxt": "514f2b65f59aea6113f4c81c2c7774a0a0ee42b6",
-            "changeset-release/main": "dc0388465cc6d7bd3bd0527bf6a6eec44a083e62",
+            "changeset-release/main": "c005b95a5de7b84d0538f5a6a4c7d59705ed27e8",
             "chore/local-dev-ex": "d3fec2d0a3da1b0c53d999e10a223cb95d0448ce",
             "chore/sponsor-action": "24ab93ae2b7cb2a24f234196559f420a562802b2",
             "chore/update-hero-heading": "a51a23cd2f3bf8e8f688cf10d8079121af6b68e1",
@@ -4678,8 +4685,8 @@
             "feat/subtitles-runtime-loading-scheduler": "b13c99fa3337e2531b6550b82aeeffb4933b0202",
             "feat/subtitles-source-code": "79546b952978cb43057cce232611aae1a778cb45",
             "feat/subtitles-ui-loading-display": "64119b2cfc8381cfcb5541645bfc8c8614fa204c",
-            "feat/subtitles-word-lookup": "d478350a65d2b74e450c030cdaa5cc320deaf069",
-            "feat/subtitles-word-lookup-drag-and-settings": "d0d67a2264f29f39dce6a5cd855f080f5592132f",
+            "feat/subtitles-word-lookup": "0b764faad9c2441d946103c788014b98227300aa",
+            "feat/subtitles-word-lookup-drag-and-settings": "e4cf04f96675452a8c50ffa3e097e60b1d75debc",
             "feat/system-prompt": "4813ca025f8a6cd6cbeda749d3326f3078767d74",
             "feat/translate-popup-ui": "a295ee9b55fee3d176ff5c340d9dd6d7aae20503",
             "feat/translation-mode-selector": "8d50afab566129a7620c9950e0c100f33b43a82d",
@@ -4811,7 +4818,7 @@
             "kvnmqpqs": "a2b1a6ab40c8524279b9eb8febdd83df43242ac3",
             "lisongkun/main": "1ca7d4064375b44099b8a9fc9ae94072c62472aa",
             "locales/korean-extension": "00205027e9a87ed7fcc150484ae8f5df30376ab7",
-            "main": "1308e8d1be455d08ec4e907eb2c8966998abca0b",
+            "main": "f3f1806b4255b31863dc1246b808bf6c416dc709",
             "mengxi-ream-patch-1": "72eb0292f4d4870f86ad6d7a98ae89dac10c9016",
             "my-feature-branch": "f57c96ab0a1107a3b40adf9b452d88abb19b01d3",
             "perf/auth-cookie-change-issue": "3511ceb2a9f7e25c1dbeb6d4a5d65b6dfcb717a6",
@@ -4919,8 +4926,7 @@
         },
         "branches": {
             "auto-login-logon-screen": "372c255293ad3161dda55b73ecab5a871171c554",
-            "ci-run-all-dart-tests": "71faf601dcf7821bf31a525a4c4c5e95fd3202a6",
-            "cleanup-meaningless-tests": "8fcc506926884c2000890d6bbf07aed1fc8dc04f",
+            "cleanup-meaningless-tests": "0ba172278daf3c0f7dc3aa3d36e7cbeae6330d0a",
             "clipboard-file-size": "aba7020834a417d01a0b0f1b65acabd2fbba0955",
             "dxgi-reuse-staging-texture": "9343affe0bf90110a494134a8076c4060d41bbd5",
             "fix-16297-sigpipe": "3970601f71d20c836406b8e767e0fa781b81db09",
@@ -4935,7 +4941,7 @@
             "ice-ipv6-per-prefix": "e001878f06abcad0f31e9eca15d0e3a340ca2d05",
             "keyboard-shortcuts": "8fa28e0201123e016ef70be01aa4532f99e63fe0",
             "kx-v1": "ddd99f90f7c87de121fdc30057fc1d9af5665944",
-            "master": "13e1278b4c46eadede9546d3ada1ff9d94b593dd",
+            "master": "256dc9bc12c717dea84f6a41371c67acc47edb62",
             "sciterjs": "e86d0a0fc14f0bff4cb1ecd94a84eae42818da80",
             "svt-av1": "e17efa947477f9eaf0fcb9d1cb013732fb38811a",
             "temporary-password-rotates-at-authorization": "40da387b16e18272b8168faa03445c632c7ad3cd",
@@ -6663,7 +6669,7 @@
             "master": "342c1a85456e6d55480f7f7ad53e7f0116cbedb1"
         },
         "branches": {
-            "master": "3302ec169ba235a8802c8e1140eca6504fb60c40"
+            "master": "c9b4aee7c872115ac3abc84daef643465634945b"
         }
     },
     "zzz_SARS": {
@@ -6830,9 +6836,9 @@
             "master": "a8cb9397e18135cf6c3310bacb7ed78186c1c3b3"
         },
         "branches": {
-            "badge-data": "885f24f887eb96ad4d25b365de421e7ab33c9a72",
+            "badge-data": "8c6904ce5f730de2c0a6c740e33ef335a8c47036",
             "fix": "80c6ab8a80487b49e7995fa9c8fff151c41a923a",
-            "master": "9e6e56804fc120ac73acadcadc1c6596dca83eb7"
+            "master": "7b8a19eeb640274e605d5336a46e665b61435d71"
         }
     },
     "zzz_Identifier-Patcher": {
@@ -6848,7 +6854,7 @@
     "zzz_Duck-Detector-Refactoring": {
         "parent": "eltavine/Duck-Detector-Refactoring",
         "tags": {
-            "nightly": "40c8a9a3dbb807b82415c4b2bc2ee67ddb29a50a"
+            "nightly": "11d6a4ac4c1d22e134df38179873d00dd0201905"
         },
         "branches": {
             "WidevineProbe": "2220d3545e1e9bbf65e26c513f8c82926184166a",
@@ -6856,7 +6862,6 @@
             "chore/dependency-update-bot": "10172af0eab98dccb4cfe7b75df008b15cc35597",
             "codex/custom-kernel-detection-enhancement": "c286d0ae3bfebc70f6260353165659098f2dfecb",
             "codex/issue-363-nice-name-research": "2b9a2817bcaa4db4d3a0a4f19ce17f26a4d2e850",
-            "dependabot/gradle/androidx.compose.material3-material3-1.5.0-beta01": "57f0a459c3bfe8c9d996229db80d46cf8a98a2ec",
             "devpts-permission-check": "e001d74e6d2f1748814f36fdda1caa52f27a3f9a",
             "docs/add-agent-engineering-guidelines": "20d845ec042c749c4e4bb4d0f1053ebb35acc1db",
             "feat/fsnotify-srcu-timing": "8d093bf10f66af4178a9efc0958b05ee79ba67f0",
@@ -6870,14 +6875,14 @@
             "fix/pr-36-scan-metadata": "45ca91b568f80b930895d5d5bb8d9327f8d505c3",
             "fix/selinux-proc-attr-evidence": "5c1f79cab7d8eb65918d48b317833f28a40c3380",
             "hardware-timer-for-kp-sidechannel": "b12e766400f4c86315d3471ee10411330381251b",
-            "main": "40c8a9a3dbb807b82415c4b2bc2ee67ddb29a50a",
+            "main": "11d6a4ac4c1d22e134df38179873d00dd0201905",
             "pr-123": "788eeb206ceb50644145cde45057793663194425",
             "refactor/evidence-integrity-hardening": "2ce3296f4542d1bab057be46373f47474af3b27e",
             "revert-147-ui-refactor": "6a0492cab556706eb0a5ee18463e45c1556f91f7",
             "revert-148-revert-147-ui-refactor": "7fb92040b94409c4cdf8ea15208a4eb66cd095c4",
             "revert-152-main": "9f7733907594cf7f780f99097a578c048bc34f1b",
             "revert-7-feat/auto-versioning": "520c085058131a135e00a1ac60593e0c3f363f60",
-            "tmp/version-change": "b4c07470ff81ca5ec24d22dd9a0e44f23fbad6c3",
+            "tmp/version-change": "044df3cf398d7196b9b469cb847ace2b54fd7adc",
             "ui-refactor": "4f80e32716bd4757d0dfd33601d3dd4506bc331a"
         }
     },
