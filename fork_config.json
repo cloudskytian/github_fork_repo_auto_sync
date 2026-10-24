@@ -688,7 +688,6 @@
             "release/1.8.6": "3bc6acae92a84db7f50542665226e1df3c6451d7"
         },
         "branches": {
-            "claude/happy-franklin-25ure1": "95498e41a2869fcc0d65e7bf32ca1a3169ada857",
             "develop/radeon_monitor": "04c2bcfd9afbcd5dc4e3481e4bb068483b465459",
             "master": "1b5f53da907f0a1de6fde2b75ff8267c79b08b2b",
             "release/1.8.5": "caf7aca4cc00f6ecace0832bd6992d4fb8c28105",
@@ -696,7 +695,7 @@
             "release/1.8.7": "50c167947b3fbdac559a1cfdd736f4c917242dc1",
             "release/1.9.0": "749d85e15d21c28322ac8b8ad308719639e5b80d",
             "release/1.9.1": "deb42c41dad3e9c811cb87d856b2fc601cead876",
-            "release/1.9.2": "a7ba55e795f82ca1ed4dcc7c68aec904471f3156",
+            "release/1.9.2": "19354d9bb1d6ea5477dfdc6955180c23aea9477a",
             "release/2.0.0": "622d3da739e292fa535722ccbb4fd4e643e1af8f"
         }
     },
@@ -2323,7 +2322,7 @@
             "master": "f7e6b68ce94b8f5ffa633ec927520d91fce580e3"
         },
         "branches": {
-            "master": "4238995aba9dddd7d9f3e6821cd43bad9b87523d"
+            "master": "8b765c742ae7b57ef3dde1e41b49b294c182c922"
         }
     },
     "zzz_gog-games.to_backup": {
@@ -4641,6 +4640,7 @@
             "build/upgrade-many": "6a1864d90092f4048bc918aa72722f3adf4e2e49",
             "build/upgrade-packages-2026-06-28": "9ff4bf042ebaf587485971578eed1dba4b143cdd",
             "build/upgrade-wxt": "514f2b65f59aea6113f4c81c2c7774a0a0ee42b6",
+            "changeset-release/main": "6d8ef0f22e5fa8633e62becedee4d0fb6c9e38cf",
             "chore/local-dev-ex": "d3fec2d0a3da1b0c53d999e10a223cb95d0448ce",
             "chore/sponsor-action": "24ab93ae2b7cb2a24f234196559f420a562802b2",
             "chore/update-hero-heading": "a51a23cd2f3bf8e8f688cf10d8079121af6b68e1",
@@ -4650,7 +4650,6 @@
             "ci/turbo-cache": "51948b746692d202b7bbb7ba81571f86b5c49df0",
             "ci/vercel-build": "e29b956f62f3de1ae0a96e9f8ed5017cc9a15f0c",
             "claude/add-sidebar-user-component-7sjdu": "d9b8183f311c2b44d8f72c6a5a3f5c450b77bbc5",
-            "claude/notebase-mapping-fixes": "5203e429243cfc2e5ee117949b1aad15abc7fd58",
             "claude/plan-badge-hover-animation-fd0adb": "86067e71b9aecebc74519143c0ac554f460d85b5",
             "claude/short-text-expansion-spacing-9db762": "70e1c759f833f64c8afc427e502584c32999c125",
             "claude/youtube-translation-display-issue-595ac1": "dadcaeda85453953eea7a5157f970b8f69c2ac1b",
@@ -4873,7 +4872,7 @@
             "kvnmqpqs": "a2b1a6ab40c8524279b9eb8febdd83df43242ac3",
             "lisongkun/main": "1ca7d4064375b44099b8a9fc9ae94072c62472aa",
             "locales/korean-extension": "00205027e9a87ed7fcc150484ae8f5df30376ab7",
-            "main": "8548cc7bcc8c2cb4a9b62ee191c04532d143e744",
+            "main": "23523841690ff640cd55be973495f4deec17bac6",
             "mengxi-ream-patch-1": "72eb0292f4d4870f86ad6d7a98ae89dac10c9016",
             "my-feature-branch": "f57c96ab0a1107a3b40adf9b452d88abb19b01d3",
             "perf/auth-cookie-change-issue": "3511ceb2a9f7e25c1dbeb6d4a5d65b6dfcb717a6",
@@ -4884,7 +4883,7 @@
             "perf/reddit-page-translation": "0900f175ab718aea651a4ea99b0a0f2f84d0df4f",
             "perf/refactor-smash-logic": "bdb17bf27368d45b3fbeee21b9ea703b7b6af72a",
             "production": "bb6afcb01b55f3721cfa04af05bd752b14d60841",
-            "refactor/content-runtime-dirs": "0714e905a1d28890f12e496c0dd8dbed9692ab66",
+            "refactor/content-runtime-dirs": "fe2837822bad84721dd27303d6f8c99b2f5f3740",
             "refactor/extract-shadcn-ui": "384a0c3212f73bdfdd1c64b943ea2046e7203dc5",
             "refactor/include-type": "ea3376b482e7ea7950b92bb72174bf0a96806de2",
             "refactor/inner-ui-packages": "64bfdc211549ab7dfb96179909e50f640a919ebf",
@@ -5003,7 +5002,7 @@
             "ice-ipv6-per-prefix": "e001878f06abcad0f31e9eca15d0e3a340ca2d05",
             "keyboard-shortcuts": "8fa28e0201123e016ef70be01aa4532f99e63fe0",
             "kx-v1": "ddd99f90f7c87de121fdc30057fc1d9af5665944",
-            "master": "106f700be4a9a924a60e29783520cd43a7811239",
+            "master": "8814503e06a63431ea6d16b1c24ec40ee1a84a21",
             "sciterjs": "e86d0a0fc14f0bff4cb1ecd94a84eae42818da80",
             "svt-av1": "e17efa947477f9eaf0fcb9d1cb013732fb38811a",
             "temporary-password-rotates-at-authorization": "40da387b16e18272b8168faa03445c632c7ad3cd",
@@ -5183,6 +5182,7 @@
             "v1.18.6": "cdba7096240b93d79c5373aa81a75a1c5c71b883",
             "v1.18.7": "4a99cc99e6812d15d1af5ee47a95414ceedc89bc",
             "v1.18.8": "bde0890108a563f5d72eb8e57085be2b37177218",
+            "v1.19.0": "0205b1da83027f69244fd2a76fe826557350efc8",
             "v1.2.0": "e697d28d5cf69c88148c854c0e1ec3d95244e23e",
             "v1.2.1": "2046547f88b53d153f50755b72ff7edf6616578a",
             "v1.2.2": "b7ed6213d7fd1b97a2146588645e044c5f434c40",
@@ -5251,7 +5251,7 @@
             "Test": "b91daec2a1ef45913abe00e5ec062535bd9b1b6e",
             "codespell": "1346eee09705f61119329ee1a7c962025cd77366",
             "experimental": "3c16b7826c2fde62b1e839c62a9be12bf96d9b2a",
-            "master": "77ce6d3ff0b0a7a3c6d86af236f413a7d3dbc6e1",
+            "master": "0205b1da83027f69244fd2a76fe826557350efc8",
             "out-of-date": "abd2d44cd6f305da956ad70c7481cb1256efff24",
             "remote-mgmt": "8194614afef2a01ace718dc58cb3777dbbe0d27b"
         }
@@ -5936,8 +5936,8 @@
         },
         "branches": {
             "Go-dev": "250f77369164b8ef2eaffaa1cb17e980af563892",
-            "dev": "e72730381a4d8f3f423190ea496fd383cbe07423",
-            "master": "25c5ab7ca7824342c561c10381c7bd582489df87"
+            "dev": "95c281091d1ac2f69947031e3dd82c0484e52df1",
+            "master": "babcac062cfacb57c17a75b25bf272781e93ea4c"
         },
         "warning": true
     },
@@ -6742,7 +6742,7 @@
             "master": "342c1a85456e6d55480f7f7ad53e7f0116cbedb1"
         },
         "branches": {
-            "master": "fce29178fbde3be0486b1b50c6b3aa2b90129693"
+            "master": "f07e3080d1e81b95a1d936c14e2e78267d98af8a"
         }
     },
     "zzz_SARS": {
@@ -6948,8 +6948,13 @@
             "nightly-2026-10-21-f8d7067d": "f8d7067d8cdc70a2daea51059362668b63208ef4",
             "nightly-2026-10-22-089b452f": "089b452fdc689e57a32e41d4a89b4cbb00b85fab",
             "nightly-2026-10-22-68b576fd": "68b576fdd37c0941cb2df6269a675d2819ea7f58",
+            "nightly-2026-10-23-2a890b97": "2a890b973693844bb39334e1a9a90f37303f68c3",
             "nightly-2026-10-23-36f6b558": "36f6b558cee4a03981e0d45ce424ac0c52a3de8e",
+            "nightly-2026-10-23-6a8d84a0": "6a8d84a0322cf5d63b61c1c13ab15900ef81f64c",
+            "nightly-2026-10-23-a5b72479": "a5b724793ebca29b364871a2fc9b448d4cc28e0d",
             "nightly-2026-10-23-a7afa02a": "a7afa02a62392f563ea97d5f698bbabfe98db675",
+            "nightly-2026-10-23-e0a57418": "e0a574184439cba7b7c39026883fd8a520c78924",
+            "nightly-2026-10-23-e7f8fe5b": "e7f8fe5b980a9318a052c845ced1890b6295b435",
             "update": "4a4967188b8088b73f8b171af0df490da2d5d652"
         },
         "branches": {
@@ -6960,6 +6965,7 @@
             "codex/issue-363-nice-name-research": "2b9a2817bcaa4db4d3a0a4f19ce17f26a4d2e850",
             "devpts-permission-check": "e001d74e6d2f1748814f36fdda1caa52f27a3f9a",
             "docs/add-agent-engineering-guidelines": "20d845ec042c749c4e4bb4d0f1053ebb35acc1db",
+            "docs/why-duck-detector-bilingual-20261023": "221c21bb1dc8b4da30d93c838aba7c195060fc9d",
             "feat/fsnotify-srcu-timing": "8d093bf10f66af4178a9efc0958b05ee79ba67f0",
             "feat/heapresidue-version-audit": "dfa9809d995b7a5b71b0bdc2648106d86501aeba",
             "feat/heapresidue-version-audit-reland": "2b849032c8205bb0296e61d8203d4d8886fb2b47",
@@ -6978,9 +6984,12 @@
             "fix/app-zygote-timing": "4947e384cc88708f302d00aae795a8353dbd5217",
             "fix/mount-id-evidence": "290515fa6dd9fc33fc57835d42158929485f45b5",
             "fix/pr-36-scan-metadata": "45ca91b568f80b930895d5d5bb8d9327f8d505c3",
+            "fix/pr-417-adbruntime-followup": "77c0855cde14e9b4a5c8a3d256ce8f864661642b",
             "fix/selinux-proc-attr-evidence": "5c1f79cab7d8eb65918d48b317833f28a40c3380",
+            "fix/systemproperties-oem-unlock-info-20261023": "58a94b667386c9e79d8f3508d303767ff529af3c",
+            "fix/update-install-browser-clipboard-fallback-20261023": "4002bb816cd9cf539d260157cd78c0ece74c420f",
             "hardware-timer-for-kp-sidechannel": "b12e766400f4c86315d3471ee10411330381251b",
-            "main": "36f6b558cee4a03981e0d45ce424ac0c52a3de8e",
+            "main": "a5b724793ebca29b364871a2fc9b448d4cc28e0d",
             "pr-123": "788eeb206ceb50644145cde45057793663194425",
             "refactor/evidence-integrity-hardening": "2ce3296f4542d1bab057be46373f47474af3b27e",
             "revert-147-ui-refactor": "6a0492cab556706eb0a5ee18463e45c1556f91f7",
@@ -7061,7 +7070,7 @@
             "1.3.9": "680b22880e2ecc6ef2d99a4f606acd061d9c4584"
         },
         "branches": {
-            "main": "813534f936bd96d4ed1b492bb078b6b30a5acfb8"
+            "main": "4b988a2961cd83ebfc04a68bec37a838d2a7548b"
         }
     }
 }
