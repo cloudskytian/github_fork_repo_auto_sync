@@ -695,7 +695,7 @@
             "release/1.8.7": "50c167947b3fbdac559a1cfdd736f4c917242dc1",
             "release/1.9.0": "749d85e15d21c28322ac8b8ad308719639e5b80d",
             "release/1.9.1": "deb42c41dad3e9c811cb87d856b2fc601cead876",
-            "release/1.9.2": "bd273dfc304bfd3618a53c3f8d21da8743329d47",
+            "release/1.9.2": "5865e35560d2dbcc024806933192fc3df374cd57",
             "release/2.0.0": "622d3da739e292fa535722ccbb4fd4e643e1af8f"
         }
     },
@@ -1277,6 +1277,7 @@
             "public-v0.2.14": "376e6e591c3a396e5c871e773fa4cb01a8476d23",
             "public-v0.2.15": "270d9ab1866d61b36810b19b6dc469f5d1c63ba0",
             "public-v0.2.16": "5973ad4c3061242fe0fe1fce30eae8f7e38d6c22",
+            "public-v0.2.17": "a3d16d31822bb93e7d4b25813a103f2d7ad62375",
             "v0.0.1": "d3941bf7cd9e3416f2c9727012626d6f5477aa50",
             "v0.0.10": "3c800b519356ad6dc2edb07a1b34abe69c334ff7",
             "v0.0.11": "ecd61fd51bf486f6865e1bfdc8d029221e854805",
@@ -1568,6 +1569,7 @@
             "v0.2.14": "8b4adfc767e9da443be88041623bd65ae289af0d",
             "v0.2.15": "6515e43cf8981e4fa957c984e00cbfdd06accf80",
             "v0.2.16": "d6fad55374c2a6e8de11f03c6cd6f8881bf8dc31",
+            "v0.2.17": "01a8003f840292396d1364a1dfef82a9a8f8b597",
             "v0.2.2": "6d9832d9f5d7bfd87e5016d054cc69207db60883",
             "v0.2.3": "6657803c281c8aae0311a8260c6f33b759d45e6e",
             "v0.2.4": "0365920cf6ab673aa5e2bb45a9f777d122cc56f1",
@@ -1583,8 +1585,8 @@
             "ranks": "87154f142c74fdc10807a92e83e147a28d5fdc55"
         },
         "branches": {
-            "master": "b7eb68ff5b37fef3bde1e382aae44265e5669e53",
-            "public": "31d39525baf3da7c0a761e9677eb4caeefcb0d5e",
+            "master": "01a8003f840292396d1364a1dfef82a9a8f8b597",
+            "public": "a3d16d31822bb93e7d4b25813a103f2d7ad62375",
             "ranks": "72e94a3dafa94d05369d9deb01c8b4c346f3c211"
         }
     },
@@ -2196,6 +2198,7 @@
             "6.2.37": "fb09e441ff7b89fcdf640a2bf7a3b0a98a383b7a",
             "6.2.38": "457b4c6e0265592be4fefd56a9f8a5c4e3c41dda",
             "6.2.39": "2fe0919ea5813f6aa351a66f59632a549dccda66",
+            "6.2.40": "becda5bb15334e4acf5ae992a9f5bee375001e80",
             "6.2.5": "defd24cc3d452c945757ffcf1ad7dc5021eec2aa",
             "6.2.6": "dbd6532e4360b2416077153d48c2f3dd0418c213",
             "6.2.7": "5e28435c0058221f294e76ccdbd6926183f301f4",
@@ -2206,7 +2209,7 @@
             "main": "8d7410f81f838cc3097ccaa798d27c09242b5f61"
         },
         "branches": {
-            "main": "2fe0919ea5813f6aa351a66f59632a549dccda66"
+            "main": "becda5bb15334e4acf5ae992a9f5bee375001e80"
         }
     },
     "zzz_FlashPatch": {
@@ -2470,6 +2473,7 @@
             "5.0.6": "c99a526a204b52decd816f0d2e18a7ecfa07b7fb",
             "5.1.0": "a2d856e06bab71793eb902c77c1907d198cf25c0",
             "5.1.1": "3ebbbafeb2e9a8f8d114db8f48455e36a82e0ca4",
+            "5.1.2": "b0ecb84e56e2c58c7d6a2a0d867888eb77fdfc74",
             "v1": "fd19f180e7e34bd1766853dce7f9b43745ff8bff",
             "v1.1": "673d5f86005b59f5630ce0e9fa49f4625da9a855",
             "v1.2": "6f601f21c8973382c0897684e5aa7a2410cdb6b5",
@@ -2515,7 +2519,7 @@
             "dev": "789e495c7dcee68ccfe9141a7243c00091b4827e",
             "evdev": "dabc65f0cdf6d1ae75a5491615cc3352f6dc21a8",
             "legacy": "94019421573978924d247e7b4a4a98c04441cd25",
-            "master": "3ebbbafeb2e9a8f8d114db8f48455e36a82e0ca4",
+            "master": "f0924cc506c1df6b3858d9159439a5fabf6eeb18",
             "update-ci": "dadc6683eb2b35a403bc932cd5843532f3d2b1a9",
             "update-uiokooh": "a847fb55d3950bbe8b1615111db60ac40532cc22"
         }
@@ -2925,6 +2929,7 @@
         },
         "branches": {
             "dependabot/cargo/tokio-1.53.3": "0c7596f8928c9c138c1a063162343d5b41e979cf",
+            "dependabot/cargo/tokio-1.54.1": "53605df9cd1e4c860a8e6d97bb9e40fd049471f7",
             "master": "020dd6e376d4e7aad6f3826d293a6f62b81f88e6"
         }
     },
@@ -2997,7 +3002,7 @@
             "claude/character-conversion-dictionary-vx2wod-2": "1c5e9f612a11bfab3c05c6dff516ac9d3dc0c89f",
             "claude/remove-gyp-dependencies-gn5vlc": "e7081c6096abd4b8095526e42875611b3a58600d",
             "gh-pages": "acdb8df711bbad6bce7952af1c312938b2333089",
-            "master": "9b16591a0d065f5e1121620733721436e83c206f",
+            "master": "a806b775d038f9fa7c061f50d270115e7ad7da5b",
             "release-1.2.0": "e38c96cde33813b405d8ee0da5ec9b3ac084b9f3",
             "release-1.3.0": "4ac5bd6b8ea84e107d83221ec1fea7e3209a8bb8",
             "release-1.4.0": "68a52365c8f2786629d2cca314691818e7280ac9",
@@ -4084,7 +4089,7 @@
             "fix/cdp-listing-waits-for-replies": "4b59e72da475e2a11001f1f7bd4ba12147951817",
             "fix/coredevice-error-mic-camera-in-use": "5b52eb1c204fcfe4c995dea9a5cc3a2ad5cd5346",
             "hotfix/docs-syslog-label-help": "47e5c5ae66d44a1a3d85e9c364db192cc29a220f",
-            "master": "cae019164ce7684647138dc2c4b8f73f54c0aac4",
+            "master": "e59349a17df4f72449a9a8d380119e370cbf5013",
             "research/videoprocessing-re-roadmap": "6157f672544305bc61046efb35d8733585898524",
             "userspace-unix-connect-probe": "500cbf07904877a8541810b9285b4039a03cd4a1"
         }
@@ -4645,6 +4650,7 @@
             "build/upgrade-many": "6a1864d90092f4048bc918aa72722f3adf4e2e49",
             "build/upgrade-packages-2026-06-28": "9ff4bf042ebaf587485971578eed1dba4b143cdd",
             "build/upgrade-wxt": "514f2b65f59aea6113f4c81c2c7774a0a0ee42b6",
+            "changeset-release/main": "7ae271ffad51c41fdb5160c304b095002388052f",
             "chore/local-dev-ex": "d3fec2d0a3da1b0c53d999e10a223cb95d0448ce",
             "chore/sponsor-action": "24ab93ae2b7cb2a24f234196559f420a562802b2",
             "chore/update-hero-heading": "a51a23cd2f3bf8e8f688cf10d8079121af6b68e1",
@@ -4707,7 +4713,7 @@
             "feat/churn-feedback": "7b6ad9a50efb9757b39a33b926a488cb862e4901",
             "feat/claude-superpowers-marketplace": "03b8356a68d1b4019d575745841c1efeebde83bf",
             "feat/config-models": "471eaaecde382514d9fe79168d16b247d8666b5c",
-            "feat/custom-action-surface": "0bf527e0c542fbb290731e6715c217d5965af489",
+            "feat/custom-action-surface": "d75e0328c4e870d9e158e12a0dc3c01a0701cb77",
             "feat/custom-dont-walk-class-base": "8b0789c7140067b90f27d56585e78ae18f680ef3",
             "feat/custom-force-block-translation": "26362d6abe39a2067c2c864001ee9ee73fa9a66e",
             "feat/customize-shortcut-key": "00a96ba69abdfad0cff91ab16c584518f3ec5aec",
@@ -4748,8 +4754,8 @@
             "feat/subtitles-word-lookup-actions": "fa60a8cb1347b3e501443eb144b624ce9e670fa9",
             "feat/subtitles-word-lookup-drag-and-settings": "601eb5629e675f74731168a794310a79582dd82f",
             "feat/subtitles-word-lookup-keys": "147f04f138c3ce3207226a8f096c3aab55da0341",
-            "feat/subtitles-word-lookup-settings": "0b907a8fc6eab10b5b9d89366e173e4f789d9a94",
-            "feat/subtitles-word-lookup-v2": "735d417f157fb5ad50afe18468b3acdd1d43b761",
+            "feat/subtitles-word-lookup-settings": "8921311d370a571717f587bb6c1e65c33696e20c",
+            "feat/subtitles-word-lookup-v2": "0d6d0ad12189cc73faab3fae1dbdfe1e097837c6",
             "feat/system-prompt": "4813ca025f8a6cd6cbeda749d3326f3078767d74",
             "feat/translate-popup-ui": "a295ee9b55fee3d176ff5c340d9dd6d7aae20503",
             "feat/translation-mode-selector": "8d50afab566129a7620c9950e0c100f33b43a82d",
@@ -4882,7 +4888,7 @@
             "kvnmqpqs": "a2b1a6ab40c8524279b9eb8febdd83df43242ac3",
             "lisongkun/main": "1ca7d4064375b44099b8a9fc9ae94072c62472aa",
             "locales/korean-extension": "00205027e9a87ed7fcc150484ae8f5df30376ab7",
-            "main": "b06db74f220e96200dc8600f426a2f34c1cf8bbd",
+            "main": "543683a70adc5af7d77861d98e4ad0ef618ea3fa",
             "mengxi-ream-patch-1": "72eb0292f4d4870f86ad6d7a98ae89dac10c9016",
             "my-feature-branch": "f57c96ab0a1107a3b40adf9b452d88abb19b01d3",
             "perf/auth-cookie-change-issue": "3511ceb2a9f7e25c1dbeb6d4a5d65b6dfcb717a6",
@@ -4893,7 +4899,7 @@
             "perf/reddit-page-translation": "0900f175ab718aea651a4ea99b0a0f2f84d0df4f",
             "perf/refactor-smash-logic": "bdb17bf27368d45b3fbeee21b9ea703b7b6af72a",
             "production": "bb6afcb01b55f3721cfa04af05bd752b14d60841",
-            "refactor/custom-action-panel": "b17286e1ce066774e73551440b75500df48abb53",
+            "refactor/custom-action-panel": "e07b554866005baa9b6c68539b7fc8078604212f",
             "refactor/extract-shadcn-ui": "384a0c3212f73bdfdd1c64b943ea2046e7203dc5",
             "refactor/include-type": "ea3376b482e7ea7950b92bb72174bf0a96806de2",
             "refactor/inner-ui-packages": "64bfdc211549ab7dfb96179909e50f640a919ebf",
@@ -4991,6 +4997,7 @@
         },
         "branches": {
             "auto-login-logon-screen": "372c255293ad3161dda55b73ecab5a871171c554",
+            "auto-update-webpki-roots": "0f9d6c67eee96a978f14883831163ade758d52cf",
             "cleanup-meaningless-tests": "0ba172278daf3c0f7dc3aa3d36e7cbeae6330d0a",
             "clipboard-file-size": "aba7020834a417d01a0b0f1b65acabd2fbba0955",
             "custom-websocket-port": "ccdd537f6a5eb435cd7ab0834978aa98a3232b44",
@@ -5012,7 +5019,7 @@
             "ice-ipv6-per-prefix": "e001878f06abcad0f31e9eca15d0e3a340ca2d05",
             "keyboard-shortcuts": "8fa28e0201123e016ef70be01aa4532f99e63fe0",
             "kx-v1": "ddd99f90f7c87de121fdc30057fc1d9af5665944",
-            "master": "1297da6d186e58d9096be24072ae3998cdbbf8fe",
+            "master": "59f2953c94b8373f124dc38d4fd0635098f7c5cd",
             "sciterjs": "e86d0a0fc14f0bff4cb1ecd94a84eae42818da80",
             "svt-av1": "e17efa947477f9eaf0fcb9d1cb013732fb38811a",
             "temporary-password-rotates-at-authorization": "40da387b16e18272b8168faa03445c632c7ad3cd",
@@ -5261,7 +5268,7 @@
             "Test": "b91daec2a1ef45913abe00e5ec062535bd9b1b6e",
             "codespell": "1346eee09705f61119329ee1a7c962025cd77366",
             "experimental": "3c16b7826c2fde62b1e839c62a9be12bf96d9b2a",
-            "master": "999f7c594865a8e3b4df2ddb81f8a175930381fe",
+            "master": "aeeb43809ab190a21cfd08bac8798014a97eb3d0",
             "out-of-date": "abd2d44cd6f305da956ad70c7481cb1256efff24",
             "remote-mgmt": "8194614afef2a01ace718dc58cb3777dbbe0d27b"
         }
@@ -5946,8 +5953,9 @@
         },
         "branches": {
             "Go-dev": "250f77369164b8ef2eaffaa1cb17e980af563892",
-            "dev": "7b4b34a6b2620d872d55bf3b95a872cf265dbce9",
-            "master": "babcac062cfacb57c17a75b25bf272781e93ea4c"
+            "codex/codeql-build-coverage": "7f1ba6a348669d9ef7c11e79e21a7b5437448d91",
+            "dev": "06f32e752daafcbb51da85f29fa70af39a68bcdb",
+            "master": "9c95d23d9898ea66572a114826b27374a524ffdc"
         },
         "warning": true
     },
@@ -6383,7 +6391,7 @@
             "atrac9": "ff837cbf533693022db20a8ffb2cf15bb6b9ef81",
             "libs": "72f38b87018442ae70a5ae9651a4c6a463d68882",
             "libs2": "f77c21da64ca0bdd2179f0ae81b5894273a8da0f",
-            "master": "f7f764155b227f683adbab25402fe8f2be0b2ec2"
+            "master": "d9875b1fff307e4759dfb85e49e3d5e6fb196f7c"
         }
     },
     "zzz_virtual-display-rs": {
@@ -6752,7 +6760,7 @@
             "master": "342c1a85456e6d55480f7f7ad53e7f0116cbedb1"
         },
         "branches": {
-            "master": "e2f2bf51e822656cb725165805fc75b6979f74ad"
+            "master": "f3bd6b33b6db917a1d95375a6ef2945cfb8b1bef"
         }
     },
     "zzz_SARS": {
@@ -6926,8 +6934,7 @@
         },
         "branches": {
             "badge-data": "b146c4567e0ff76ca4a48a3600cbe0bada347f76",
-            "beta": "96fba4998b5d2b196ee13476ba942b9fc43fef18",
-            "master": "0386fa6f192ee5613e11f30c1d3deee074f94a20"
+            "master": "421d84d86fada534f7e1e508844dbe46a7f58dee"
         }
     },
     "zzz_Identifier-Patcher": {
@@ -6969,8 +6976,11 @@
             "nightly-2026-10-24-23d053f8": "23d053f8b2f8291bf88d1a556a04cc8c19f64765",
             "nightly-2026-10-24-90a3bc94": "90a3bc94e6dc0098cdd2fcd80858c4d42f5b560f",
             "nightly-2026-10-24-b5305070": "b5305070468a497842f54fbe998521fbc9d87ddc",
+            "nightly-2026-10-25-4c2e29e2": "4c2e29e223c390179a722b7a0141dda0661bfcaa",
             "nightly-2026-10-25-79f12f21": "79f12f21f574812e718bfe957b84e7c6aa55835c",
             "nightly-2026-10-25-7af7b017": "7af7b01762e4c4796becc293657491b5eca57580",
+            "nightly-2026-10-25-93badb0c": "93badb0c60f5c3c8ab7e7e60691cbcba50c3b319",
+            "nightly-2026-10-25-ab26503e": "ab26503e3ee26dd628e4ce4f23ec685e90710a28",
             "nightly-2026-10-25-b4083aee": "b4083aeeba3260dfe4382db48e4ca18d9916d981",
             "nightly-2026-10-25-bb78c17a": "bb78c17ad57320d22e23b92af37810f48e59617c",
             "update": "4a4967188b8088b73f8b171af0df490da2d5d652"
@@ -7009,7 +7019,7 @@
             "fix/systemproperties-oem-unlock-info-20261023": "58a94b667386c9e79d8f3508d303767ff529af3c",
             "fix/update-install-browser-clipboard-fallback-20261023": "4002bb816cd9cf539d260157cd78c0ece74c420f",
             "hardware-timer-for-kp-sidechannel": "b12e766400f4c86315d3471ee10411330381251b",
-            "main": "b4083aeeba3260dfe4382db48e4ca18d9916d981",
+            "main": "4c2e29e223c390179a722b7a0141dda0661bfcaa",
             "pr-123": "788eeb206ceb50644145cde45057793663194425",
             "pr-398": "986371a8fa15d4845ba817237e5b9e32338e87f7",
             "refactor/evidence-integrity-hardening": "2ce3296f4542d1bab057be46373f47474af3b27e",
