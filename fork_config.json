@@ -7118,5 +7118,8 @@
         "branches": {
             "main": "427f34004dfdd890a74c5098e2acab056ee4c3d8"
         }
+    },
+    "zzz_FramePicoTracker": {
+        "parent": "Rulez777/FramePicoTracker"
     }
 }
