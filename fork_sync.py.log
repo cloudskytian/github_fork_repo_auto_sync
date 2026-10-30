@@ -1,354 +1,371 @@
-2026-10-29 10:26:03,212 | fork_sync.py:88 | INFO | loading fork_config.json
-2026-10-29 10:26:03,593 | fork_sync.py:102 | INFO | ABK | https://github.com/cloudskytian/ABK.git
-2026-10-29 10:26:03,593 | fork_sync.py:104 | INFO | ABK | not starts with zzz_ , skip
-2026-10-29 10:26:03,593 | fork_sync.py:102 | INFO | acl4ssr2autoproxy | https://github.com/cloudskytian/acl4ssr2autoproxy.git
-2026-10-29 10:26:03,593 | fork_sync.py:104 | INFO | acl4ssr2autoproxy | not starts with zzz_ , skip
-2026-10-29 10:26:03,593 | fork_sync.py:102 | INFO | ad-wars | https://github.com/cloudskytian/ad-wars.git
-2026-10-29 10:26:03,593 | fork_sync.py:104 | INFO | ad-wars | not starts with zzz_ , skip
-2026-10-29 10:26:03,593 | fork_sync.py:102 | INFO | AvatarTextureOptimizer | https://github.com/cloudskytian/AvatarTextureOptimizer.git
-2026-10-29 10:26:03,593 | fork_sync.py:104 | INFO | AvatarTextureOptimizer | not starts with zzz_ , skip
-2026-10-29 10:26:03,593 | fork_sync.py:102 | INFO | BiliGuard | https://github.com/cloudskytian/BiliGuard.git
-2026-10-29 10:26:03,593 | fork_sync.py:104 | INFO | BiliGuard | not starts with zzz_ , skip
-2026-10-29 10:26:03,593 | fork_sync.py:102 | INFO | BiliRoaming | https://github.com/cloudskytian/BiliRoaming.git
-2026-10-29 10:26:03,594 | fork_sync.py:104 | INFO | BiliRoaming | not starts with zzz_ , skip
-2026-10-29 10:26:03,594 | fork_sync.py:102 | INFO | Borderless-Gaming | https://github.com/cloudskytian/Borderless-Gaming.git
-2026-10-29 10:26:03,594 | fork_sync.py:104 | INFO | Borderless-Gaming | not starts with zzz_ , skip
-2026-10-29 10:26:03,594 | fork_sync.py:102 | INFO | Borderless-GamingPrivate | https://github.com/cloudskytian/Borderless-GamingPrivate.git
-2026-10-29 10:26:03,594 | fork_sync.py:104 | INFO | Borderless-GamingPrivate | not starts with zzz_ , skip
-2026-10-29 10:26:03,594 | fork_sync.py:102 | INFO | CleanFlashInstaller | https://github.com/cloudskytian/CleanFlashInstaller.git
-2026-10-29 10:26:03,594 | fork_sync.py:104 | INFO | CleanFlashInstaller | not starts with zzz_ , skip
-2026-10-29 10:26:03,594 | fork_sync.py:102 | INFO | Clunbes_VRC | https://github.com/cloudskytian/Clunbes_VRC.git
-2026-10-29 10:26:03,594 | fork_sync.py:104 | INFO | Clunbes_VRC | not starts with zzz_ , skip
-2026-10-29 10:26:03,594 | fork_sync.py:102 | INFO | CustomPinyinDictionaryForMSPinyinAndRime | https://github.com/cloudskytian/CustomPinyinDictionaryForMSPinyinAndRime.git
-2026-10-29 10:26:03,594 | fork_sync.py:104 | INFO | CustomPinyinDictionaryForMSPinyinAndRime | not starts with zzz_ , skip
-2026-10-29 10:26:03,594 | fork_sync.py:102 | INFO | digital-life | https://github.com/cloudskytian/digital-life.git
-2026-10-29 10:26:03,594 | fork_sync.py:104 | INFO | digital-life | not starts with zzz_ , skip
-2026-10-29 10:26:03,594 | fork_sync.py:102 | INFO | ExtensionsDownloader | https://github.com/cloudskytian/ExtensionsDownloader.git
-2026-10-29 10:26:03,594 | fork_sync.py:104 | INFO | ExtensionsDownloader | not starts with zzz_ , skip
-2026-10-29 10:26:03,594 | fork_sync.py:102 | INFO | GenP-Source-Code | https://github.com/cloudskytian/GenP-Source-Code.git
-2026-10-29 10:26:03,594 | fork_sync.py:104 | INFO | GenP-Source-Code | not starts with zzz_ , skip
-2026-10-29 10:26:03,594 | fork_sync.py:102 | INFO | GenshinDailyHelper | https://github.com/cloudskytian/GenshinDailyHelper.git
-2026-10-29 10:26:03,594 | fork_sync.py:104 | INFO | GenshinDailyHelper | not starts with zzz_ , skip
-2026-10-29 10:26:03,594 | fork_sync.py:102 | INFO | GenshinDirectDownloadLink | https://github.com/cloudskytian/GenshinDirectDownloadLink.git
-2026-10-29 10:26:03,595 | fork_sync.py:104 | INFO | GenshinDirectDownloadLink | not starts with zzz_ , skip
-2026-10-29 10:26:03,595 | fork_sync.py:102 | INFO | github_fork_repo_auto_sync | https://github.com/cloudskytian/github_fork_repo_auto_sync.git
-2026-10-29 10:26:03,595 | fork_sync.py:104 | INFO | github_fork_repo_auto_sync | not starts with zzz_ , skip
-2026-10-29 10:26:03,595 | fork_sync.py:102 | INFO | gog_games | https://github.com/cloudskytian/gog_games.git
-2026-10-29 10:26:03,595 | fork_sync.py:104 | INFO | gog_games | not starts with zzz_ , skip
-2026-10-29 10:26:03,595 | fork_sync.py:102 | INFO | Hotspot | https://github.com/cloudskytian/Hotspot.git
-2026-10-29 10:26:03,595 | fork_sync.py:104 | INFO | Hotspot | not starts with zzz_ , skip
-2026-10-29 10:26:03,595 | fork_sync.py:102 | INFO | IddSample | https://github.com/cloudskytian/IddSample.git
-2026-10-29 10:26:03,595 | fork_sync.py:104 | INFO | IddSample | not starts with zzz_ , skip
-2026-10-29 10:26:03,595 | fork_sync.py:102 | INFO | ImageCollage | https://github.com/cloudskytian/ImageCollage.git
-2026-10-29 10:26:03,595 | fork_sync.py:104 | INFO | ImageCollage | not starts with zzz_ , skip
-2026-10-29 10:26:03,595 | fork_sync.py:102 | INFO | lilAvatarUtils | https://github.com/cloudskytian/lilAvatarUtils.git
-2026-10-29 10:26:03,595 | fork_sync.py:104 | INFO | lilAvatarUtils | not starts with zzz_ , skip
-2026-10-29 10:26:03,595 | fork_sync.py:102 | INFO | MD5-for-GOG.com | https://github.com/cloudskytian/MD5-for-GOG.com.git
-2026-10-29 10:26:03,595 | fork_sync.py:104 | INFO | MD5-for-GOG.com | not starts with zzz_ , skip
-2026-10-29 10:26:03,595 | fork_sync.py:102 | INFO | MyAdGuardHomeFilter | https://github.com/cloudskytian/MyAdGuardHomeFilter.git
-2026-10-29 10:26:03,595 | fork_sync.py:104 | INFO | MyAdGuardHomeFilter | not starts with zzz_ , skip
-2026-10-29 10:26:03,595 | fork_sync.py:102 | INFO | MyResources | https://github.com/cloudskytian/MyResources.git
-2026-10-29 10:26:03,595 | fork_sync.py:104 | INFO | MyResources | not starts with zzz_ , skip
-2026-10-29 10:26:03,595 | fork_sync.py:102 | INFO | no-defender | https://github.com/cloudskytian/no-defender.git
-2026-10-29 10:26:03,596 | fork_sync.py:104 | INFO | no-defender | not starts with zzz_ , skip
-2026-10-29 10:26:03,596 | fork_sync.py:102 | INFO | OpenArk | https://github.com/cloudskytian/OpenArk.git
-2026-10-29 10:26:03,596 | fork_sync.py:104 | INFO | OpenArk | not starts with zzz_ , skip
-2026-10-29 10:26:03,596 | fork_sync.py:102 | INFO | OpenHashTab | https://github.com/cloudskytian/OpenHashTab.git
-2026-10-29 10:26:03,596 | fork_sync.py:104 | INFO | OpenHashTab | not starts with zzz_ , skip
-2026-10-29 10:26:03,596 | fork_sync.py:102 | INFO | RDPWrapCN | https://github.com/cloudskytian/RDPWrapCN.git
-2026-10-29 10:26:03,596 | fork_sync.py:104 | INFO | RDPWrapCN | not starts with zzz_ , skip
-2026-10-29 10:26:03,596 | fork_sync.py:102 | INFO | reqable-magisk-module | https://github.com/cloudskytian/reqable-magisk-module.git
-2026-10-29 10:26:03,596 | fork_sync.py:104 | INFO | reqable-magisk-module | not starts with zzz_ , skip
-2026-10-29 10:26:04,132 | fork_sync.py:102 | INFO | subconverterX | https://github.com/cloudskytian/subconverterX.git
-2026-10-29 10:26:04,132 | fork_sync.py:104 | INFO | subconverterX | not starts with zzz_ , skip
-2026-10-29 10:26:04,132 | fork_sync.py:102 | INFO | test | https://github.com/cloudskytian/test.git
-2026-10-29 10:26:04,132 | fork_sync.py:104 | INFO | test | not starts with zzz_ , skip
-2026-10-29 10:26:04,132 | fork_sync.py:102 | INFO | TWEditorEnhancedCN | https://github.com/cloudskytian/TWEditorEnhancedCN.git
-2026-10-29 10:26:04,132 | fork_sync.py:104 | INFO | TWEditorEnhancedCN | not starts with zzz_ , skip
-2026-10-29 10:26:04,132 | fork_sync.py:102 | INFO | Uni-HubHacker | https://github.com/cloudskytian/Uni-HubHacker.git
-2026-10-29 10:26:04,132 | fork_sync.py:104 | INFO | Uni-HubHacker | not starts with zzz_ , skip
-2026-10-29 10:26:04,132 | fork_sync.py:102 | INFO | VBSKiller | https://github.com/cloudskytian/VBSKiller.git
-2026-10-29 10:26:04,132 | fork_sync.py:104 | INFO | VBSKiller | not starts with zzz_ , skip
-2026-10-29 10:26:04,132 | fork_sync.py:102 | INFO | VRCFury | https://github.com/cloudskytian/VRCFury.git
-2026-10-29 10:26:04,132 | fork_sync.py:104 | INFO | VRCFury | not starts with zzz_ , skip
-2026-10-29 10:26:04,132 | fork_sync.py:102 | INFO | Win10-Power-Plan-Settings | https://github.com/cloudskytian/Win10-Power-Plan-Settings.git
-2026-10-29 10:26:04,132 | fork_sync.py:104 | INFO | Win10-Power-Plan-Settings | not starts with zzz_ , skip
-2026-10-29 10:26:04,132 | fork_sync.py:102 | INFO | WinEU | https://github.com/cloudskytian/WinEU.git
-2026-10-29 10:26:04,133 | fork_sync.py:104 | INFO | WinEU | not starts with zzz_ , skip
-2026-10-29 10:26:04,133 | fork_sync.py:102 | INFO | WMPKeysEasy | https://github.com/cloudskytian/WMPKeysEasy.git
-2026-10-29 10:26:04,133 | fork_sync.py:104 | INFO | WMPKeysEasy | not starts with zzz_ , skip
-2026-10-29 10:26:04,133 | fork_sync.py:102 | INFO | zzz_AdGuardHomeForRoot | https://github.com/cloudskytian/zzz_AdGuardHomeForRoot.git
-2026-10-29 10:26:04,820 | fork_sync.py:128 | INFO | zzz_AdGuardHomeForRoot | https://github.com/twoone-3/AdGuardHomeForRoot.git
-2026-10-29 10:26:05,665 | fork_sync.py:102 | INFO | zzz_adobe-packager-windows | https://github.com/cloudskytian/zzz_adobe-packager-windows.git
-2026-10-29 10:26:06,353 | fork_sync.py:128 | INFO | zzz_adobe-packager-windows | https://github.com/ckamte/adobe-packager-windows.git
-2026-10-29 10:26:07,314 | fork_sync.py:102 | INFO | zzz_ALVR | https://github.com/cloudskytian/zzz_ALVR.git
-2026-10-29 10:26:08,131 | fork_sync.py:128 | INFO | zzz_ALVR | https://github.com/alvr-org/ALVR.git
-2026-10-29 10:26:08,963 | fork_sync.py:102 | INFO | zzz_AnyCheck | https://github.com/cloudskytian/zzz_AnyCheck.git
-2026-10-29 10:26:09,618 | fork_sync.py:128 | INFO | zzz_AnyCheck | https://github.com/xingguangcuican6666/AnyCheck.git
-2026-10-29 10:26:10,367 | fork_sync.py:102 | INFO | zzz_Apollo | https://github.com/cloudskytian/zzz_Apollo.git
-2026-10-29 10:26:10,983 | fork_sync.py:128 | INFO | zzz_Apollo | https://github.com/ClassicOldSong/Apollo.git
-2026-10-29 10:26:11,893 | fork_sync.py:102 | INFO | zzz_app | https://github.com/cloudskytian/zzz_app.git
-2026-10-29 10:26:12,600 | fork_sync.py:128 | INFO | zzz_app | https://github.com/ovrport/app.git
-2026-10-29 10:26:13,357 | fork_sync.py:102 | INFO | zzz_Artemis | https://github.com/cloudskytian/zzz_Artemis.git
-2026-10-29 10:26:14,011 | fork_sync.py:128 | INFO | zzz_Artemis | https://github.com/ClassicOldSong/moonlight-android.git
-2026-10-29 10:26:14,771 | fork_sync.py:102 | INFO | zzz_autoproxy | https://github.com/cloudskytian/zzz_autoproxy.git
-2026-10-29 10:26:15,435 | fork_sync.py:128 | INFO | zzz_autoproxy | https://github.com/aglent/autoproxy.git
-2026-10-29 10:26:16,373 | fork_sync.py:102 | INFO | zzz_build-your-own-x | https://github.com/cloudskytian/zzz_build-your-own-x.git
-2026-10-29 10:26:17,015 | fork_sync.py:128 | INFO | zzz_build-your-own-x | https://github.com/codecrafters-io/build-your-own-x.git
-2026-10-29 10:26:17,988 | fork_sync.py:102 | INFO | zzz_c001apk | https://github.com/cloudskytian/zzz_c001apk.git
-2026-10-29 10:26:18,592 | fork_sync.py:128 | INFO | zzz_c001apk | https://github.com/bggRGjQaUbCoE/c001apk.git
-2026-10-29 10:26:19,540 | fork_sync.py:102 | INFO | zzz_CapFrameX | https://github.com/cloudskytian/zzz_CapFrameX.git
-2026-10-29 10:26:20,194 | fork_sync.py:128 | INFO | zzz_CapFrameX | https://github.com/CXWorld/CapFrameX.git
-2026-10-29 10:26:20,969 | fork_sync.py:102 | INFO | zzz_cheat-engine | https://github.com/cloudskytian/zzz_cheat-engine.git
-2026-10-29 10:26:21,522 | fork_sync.py:128 | INFO | zzz_cheat-engine | https://github.com/cheat-engine/cheat-engine.git
-2026-10-29 10:26:22,290 | fork_sync.py:102 | INFO | zzz_chinese-copywriting-guidelines | https://github.com/cloudskytian/zzz_chinese-copywriting-guidelines.git
-2026-10-29 10:26:22,906 | fork_sync.py:128 | INFO | zzz_chinese-copywriting-guidelines | https://github.com/sparanoid/chinese-copywriting-guidelines.git
-2026-10-29 10:26:23,773 | fork_sync.py:102 | INFO | zzz_CJK-character-count | https://github.com/cloudskytian/zzz_CJK-character-count.git
-2026-10-29 10:26:24,382 | fork_sync.py:128 | INFO | zzz_CJK-character-count | https://github.com/NightFurySL2001/CJK-character-count.git
-2026-10-29 10:26:25,122 | fork_sync.py:102 | INFO | zzz_CreamInstaller | https://github.com/cloudskytian/zzz_CreamInstaller.git
-2026-10-29 10:26:25,765 | fork_sync.py:128 | INFO | zzz_CreamInstaller | https://github.com/CyberSys/CreamInstaller.git
-2026-10-29 10:26:25,765 | fork_sync.py:168 | INFO | zzz_CreamInstaller | sync description
-2026-10-29 10:26:27,329 | fork_sync.py:102 | INFO | zzz_DeDRM_tools | https://github.com/cloudskytian/zzz_DeDRM_tools.git
-2026-10-29 10:26:28,057 | fork_sync.py:128 | INFO | zzz_DeDRM_tools | https://github.com/noDRM/DeDRM_tools.git
-2026-10-29 10:26:29,032 | fork_sync.py:102 | INFO | zzz_Ditto | https://github.com/cloudskytian/zzz_Ditto.git
-2026-10-29 10:26:29,627 | fork_sync.py:128 | INFO | zzz_Ditto | https://github.com/sabrogden/Ditto.git
-2026-10-29 10:26:30,377 | fork_sync.py:102 | INFO | zzz_dl-librescore | https://github.com/cloudskytian/zzz_dl-librescore.git
-2026-10-29 10:26:31,114 | fork_sync.py:128 | INFO | zzz_dl-librescore | https://github.com/LibreScore/dl-librescore.git
-2026-10-29 10:26:31,908 | fork_sync.py:102 | INFO | zzz_Duck-Detector-Refactoring | https://github.com/cloudskytian/zzz_Duck-Detector-Refactoring.git
-2026-10-29 10:26:32,501 | fork_sync.py:128 | INFO | zzz_Duck-Detector-Refactoring | https://github.com/eltavine/Duck-Detector-Refactoring.git
-2026-10-29 10:26:32,501 | fork_sync.py:142 | INFO | zzz_Duck-Detector-Refactoring | fork_tags != upstream_tags, resync
-2026-10-29 10:26:32,501 | fork_sync.py:149 | INFO | zzz_Duck-Detector-Refactoring | disable github action
-2026-10-29 10:26:32,951 | fork_sync.py:151 | INFO | zzz_Duck-Detector-Refactoring | clone from https://github.com/eltavine/Duck-Detector-Refactoring.git
-2026-10-29 10:26:34,918 | fork_sync.py:158 | INFO | zzz_Duck-Detector-Refactoring | push to fork
-2026-10-29 10:27:52,403 | fork_sync.py:102 | INFO | zzz_DWMBlurGlass | https://github.com/cloudskytian/zzz_DWMBlurGlass.git
-2026-10-29 10:27:52,969 | fork_sync.py:128 | INFO | zzz_DWMBlurGlass | https://github.com/Maplespe/DWMBlurGlass.git
-2026-10-29 10:27:53,742 | fork_sync.py:102 | INFO | zzz_EcoPaste | https://github.com/cloudskytian/zzz_EcoPaste.git
-2026-10-29 10:27:54,408 | fork_sync.py:128 | INFO | zzz_EcoPaste | https://github.com/EcoPasteHub/EcoPaste.git
-2026-10-29 10:27:55,743 | fork_sync.py:102 | INFO | zzz_ecs | https://github.com/cloudskytian/zzz_ecs.git
-2026-10-29 10:27:56,397 | fork_sync.py:128 | INFO | zzz_ecs | https://github.com/oneclickvirt/ecs.git
-2026-10-29 10:27:57,194 | fork_sync.py:102 | INFO | zzz_EDR-Freeze | https://github.com/cloudskytian/zzz_EDR-Freeze.git
-2026-10-29 10:27:57,815 | fork_sync.py:128 | INFO | zzz_EDR-Freeze | https://github.com/TwoSevenOneT/EDR-Freeze.git
-2026-10-29 10:27:58,570 | fork_sync.py:102 | INFO | zzz_efivar-rs | https://github.com/cloudskytian/zzz_efivar-rs.git
-2026-10-29 10:27:59,166 | fork_sync.py:128 | INFO | zzz_efivar-rs | https://github.com/iTrooz/efivar-rs.git
-2026-10-29 10:27:59,916 | fork_sync.py:102 | INFO | zzz_Exif-Remove | https://github.com/cloudskytian/zzz_Exif-Remove.git
-2026-10-29 10:28:00,538 | fork_sync.py:128 | INFO | zzz_Exif-Remove | https://github.com/roothaxor/Exif-Remove.git
-2026-10-29 10:28:01,460 | fork_sync.py:102 | INFO | zzz_ExplorerPatcher | https://github.com/cloudskytian/zzz_ExplorerPatcher.git
-2026-10-29 10:28:02,174 | fork_sync.py:128 | INFO | zzz_ExplorerPatcher | https://github.com/valinet/ExplorerPatcher.git
-2026-10-29 10:28:02,175 | fork_sync.py:142 | INFO | zzz_ExplorerPatcher | fork_tags != upstream_tags, resync
-2026-10-29 10:28:02,175 | fork_sync.py:149 | INFO | zzz_ExplorerPatcher | disable github action
-2026-10-29 10:28:02,606 | fork_sync.py:151 | INFO | zzz_ExplorerPatcher | clone from https://github.com/valinet/ExplorerPatcher.git
-2026-10-29 10:28:03,701 | fork_sync.py:158 | INFO | zzz_ExplorerPatcher | push to fork
-2026-10-29 10:29:19,974 | fork_sync.py:102 | INFO | zzz_EzWindSLIC | https://github.com/cloudskytian/zzz_EzWindSLIC.git
-2026-10-29 10:29:20,577 | fork_sync.py:128 | INFO | zzz_EzWindSLIC | https://github.com/Dir3ctr1x/EzWindSLIC.git
-2026-10-29 10:29:21,603 | fork_sync.py:102 | INFO | zzz_FACS_Utilities | https://github.com/cloudskytian/zzz_FACS_Utilities.git
-2026-10-29 10:29:22,224 | fork_sync.py:128 | INFO | zzz_FACS_Utilities | https://github.com/FACS01-01/FACS_Utilities.git
-2026-10-29 10:29:23,024 | fork_sync.py:102 | INFO | zzz_FFmpegFreeUI | https://github.com/cloudskytian/zzz_FFmpegFreeUI.git
-2026-10-29 10:29:23,550 | fork_sync.py:128 | INFO | zzz_FFmpegFreeUI | https://github.com/Lake1059/FFmpegFreeUI.git
-2026-10-29 10:29:23,550 | fork_sync.py:142 | INFO | zzz_FFmpegFreeUI | fork_tags != upstream_tags, resync
-2026-10-29 10:29:23,550 | fork_sync.py:149 | INFO | zzz_FFmpegFreeUI | disable github action
-2026-10-29 10:29:23,946 | fork_sync.py:151 | INFO | zzz_FFmpegFreeUI | clone from https://github.com/Lake1059/FFmpegFreeUI.git
-2026-10-29 10:29:24,991 | fork_sync.py:158 | INFO | zzz_FFmpegFreeUI | push to fork
-2026-10-29 10:29:56,221 | fork_sync.py:198 | INFO | zzz_FFmpegFreeUI | latest_release.tag_name != upstream_latest_release.tag_name, resync_latest_release
-2026-10-29 10:29:59,038 | fork_sync.py:272 | INFO | zzz_FFmpegFreeUI | create release
-2026-10-29 10:29:59,819 | fork_sync.py:297 | INFO | zzz_FFmpegFreeUI | downloading FFmpegFreeUI.arm64.exe
-2026-10-29 10:30:00,018 | fork_sync.py:300 | INFO | zzz_FFmpegFreeUI | uploading FFmpegFreeUI.arm64.exe
-2026-10-29 10:30:02,417 | fork_sync.py:297 | INFO | zzz_FFmpegFreeUI | downloading FFmpegFreeUI.x64.exe
-2026-10-29 10:30:02,673 | fork_sync.py:300 | INFO | zzz_FFmpegFreeUI | uploading FFmpegFreeUI.x64.exe
-2026-10-29 10:30:04,428 | fork_sync.py:297 | INFO | zzz_FFmpegFreeUI | downloading Updater.exe
-2026-10-29 10:30:04,652 | fork_sync.py:300 | INFO | zzz_FFmpegFreeUI | uploading Updater.exe
-2026-10-29 10:30:06,414 | fork_sync.py:308 | INFO | zzz_FFmpegFreeUI | resync_latest_release finish
-2026-10-29 10:30:06,414 | fork_sync.py:102 | INFO | zzz_FlashPatch | https://github.com/cloudskytian/zzz_FlashPatch.git
-2026-10-29 10:30:06,978 | fork_sync.py:128 | INFO | zzz_FlashPatch | https://github.com/darktohka/FlashPatch.git
-2026-10-29 10:30:07,775 | fork_sync.py:102 | INFO | zzz_free-programming-books-zh_CN | https://github.com/cloudskytian/zzz_free-programming-books-zh_CN.git
-2026-10-29 10:30:08,311 | fork_sync.py:128 | INFO | zzz_free-programming-books-zh_CN | https://github.com/justjavac/free-programming-books-zh_CN.git
-2026-10-29 10:30:09,196 | fork_sync.py:102 | INFO | zzz_game-programmer | https://github.com/cloudskytian/zzz_game-programmer.git
-2026-10-29 10:30:09,785 | fork_sync.py:128 | INFO | zzz_game-programmer | https://github.com/miloyip/game-programmer.git
-2026-10-29 10:30:10,697 | fork_sync.py:102 | INFO | zzz_Games-on-GitHub | https://github.com/cloudskytian/zzz_Games-on-GitHub.git
-2026-10-29 10:30:11,277 | fork_sync.py:128 | INFO | zzz_Games-on-GitHub | https://github.com/leereilly/games.git
-2026-10-29 10:30:12,229 | fork_sync.py:102 | INFO | zzz_GaspHack_Mod | https://github.com/cloudskytian/zzz_GaspHack_Mod.git
-2026-10-29 10:30:12,784 | fork_sync.py:128 | INFO | zzz_GaspHack_Mod | https://github.com/ceetel/GaspHack_Mod.git
-2026-10-29 10:30:13,704 | fork_sync.py:102 | INFO | zzz_gfwlist | https://github.com/cloudskytian/zzz_gfwlist.git
-2026-10-29 10:30:14,310 | fork_sync.py:128 | INFO | zzz_gfwlist | https://github.com/gfwlist/gfwlist.git
-2026-10-29 10:30:15,273 | fork_sync.py:102 | INFO | zzz_gog-games.to_backup | https://github.com/cloudskytian/zzz_gog-games.to_backup.git
-2026-10-29 10:30:15,908 | fork_sync.py:128 | INFO | zzz_gog-games.to_backup | https://github.com/ezerear/gog-games.to_backup.git
-2026-10-29 10:30:16,851 | fork_sync.py:102 | INFO | zzz_gogdb | https://github.com/cloudskytian/zzz_gogdb.git
-2026-10-29 10:30:17,462 | fork_sync.py:128 | INFO | zzz_gogdb | https://github.com/Yepoleb/gogdb.git
-2026-10-29 10:30:18,412 | fork_sync.py:102 | INFO | zzz_guid_database | https://github.com/cloudskytian/zzz_guid_database.git
-2026-10-29 10:30:19,170 | fork_sync.py:128 | INFO | zzz_guid_database | https://github.com/lilxyzw/guid_database.git
-2026-10-29 10:30:20,096 | fork_sync.py:102 | INFO | zzz_Happys-VRC-tools | https://github.com/cloudskytian/zzz_Happys-VRC-tools.git
-2026-10-29 10:30:20,762 | fork_sync.py:128 | INFO | zzz_Happys-VRC-tools | https://github.com/Happyrobot33/Happys-VRC-tools.git
-2026-10-29 10:30:21,558 | fork_sync.py:102 | INFO | zzz_hime-display | https://github.com/cloudskytian/zzz_hime-display.git
-2026-10-29 10:30:22,221 | fork_sync.py:128 | INFO | zzz_hime-display | https://github.com/TSKI433/hime-display.git
-2026-10-29 10:30:22,954 | fork_sync.py:102 | INFO | zzz_How-To-Ask-Questions-The-Smart-Way | https://github.com/cloudskytian/zzz_How-To-Ask-Questions-The-Smart-Way.git
-2026-10-29 10:30:23,561 | fork_sync.py:128 | INFO | zzz_How-To-Ask-Questions-The-Smart-Way | https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way.git
-2026-10-29 10:30:24,460 | fork_sync.py:102 | INFO | zzz_HyperOS3EULocalization | https://github.com/cloudskytian/zzz_HyperOS3EULocalization.git
-2026-10-29 10:30:25,103 | fork_sync.py:128 | INFO | zzz_HyperOS3EULocalization | https://github.com/rhe91709-netizen/HyperOS3EULocalization.git
-2026-10-29 10:30:25,868 | fork_sync.py:102 | INFO | zzz_Identifier-Patcher | https://github.com/cloudskytian/zzz_Identifier-Patcher.git
-2026-10-29 10:30:26,475 | fork_sync.py:128 | INFO | zzz_Identifier-Patcher | https://github.com/StevenWin818/Identifier-Patcher.git
-2026-10-29 10:30:27,401 | fork_sync.py:102 | INFO | zzz_ihateborders | https://github.com/cloudskytian/zzz_ihateborders.git
-2026-10-29 10:30:27,984 | fork_sync.py:128 | INFO | zzz_ihateborders | https://github.com/Z1xus/ihateborders.git
-2026-10-29 10:30:28,779 | fork_sync.py:102 | INFO | zzz_input-overlay | https://github.com/cloudskytian/zzz_input-overlay.git
-2026-10-29 10:30:29,377 | fork_sync.py:128 | INFO | zzz_input-overlay | https://github.com/univrsal/input-overlay.git
-2026-10-29 10:30:29,377 | fork_sync.py:146 | INFO | zzz_input-overlay | fork_branches != upstream_branches, resync
-2026-10-29 10:30:29,378 | fork_sync.py:149 | INFO | zzz_input-overlay | disable github action
-2026-10-29 10:30:29,862 | fork_sync.py:151 | INFO | zzz_input-overlay | clone from https://github.com/univrsal/input-overlay.git
-2026-10-29 10:30:32,778 | fork_sync.py:158 | INFO | zzz_input-overlay | push to fork
-2026-10-29 10:30:45,778 | fork_sync.py:102 | INFO | zzz_Internet-Hosting-Tool | https://github.com/cloudskytian/zzz_Internet-Hosting-Tool.git
-2026-10-29 10:30:46,400 | fork_sync.py:128 | INFO | zzz_Internet-Hosting-Tool | https://github.com/moonlight-stream/Internet-Hosting-Tool.git
-2026-10-29 10:30:47,122 | fork_sync.py:102 | INFO | zzz_KsDumper-11 | https://github.com/cloudskytian/zzz_KsDumper-11.git
-2026-10-29 10:30:47,771 | fork_sync.py:128 | INFO | zzz_KsDumper-11 | https://github.com/mastercodeon314/KsDumper-11.git
-2026-10-29 10:30:48,558 | fork_sync.py:102 | INFO | zzz_LAVFilters | https://github.com/cloudskytian/zzz_LAVFilters.git
-2026-10-29 10:30:49,116 | fork_sync.py:128 | INFO | zzz_LAVFilters | https://github.com/Nevcairiel/LAVFilters.git
-2026-10-29 10:30:49,861 | fork_sync.py:102 | INFO | zzz_Learn-Vim_zh_cn | https://github.com/cloudskytian/zzz_Learn-Vim_zh_cn.git
-2026-10-29 10:30:50,448 | fork_sync.py:128 | INFO | zzz_Learn-Vim_zh_cn | https://github.com/wsdjeg/Learn-Vim_zh_cn.git
-2026-10-29 10:30:51,397 | fork_sync.py:102 | INFO | zzz_LiteLoaderQQNT | https://github.com/cloudskytian/zzz_LiteLoaderQQNT.git
-2026-10-29 10:30:52,040 | fork_sync.py:128 | INFO | zzz_LiteLoaderQQNT | https://github.com/LiteLoaderQQNT/LiteLoaderQQNT.git
-2026-10-29 10:30:52,795 | fork_sync.py:102 | INFO | zzz_LMArenaBridge | https://github.com/cloudskytian/zzz_LMArenaBridge.git
-2026-10-29 10:30:53,416 | fork_sync.py:128 | INFO | zzz_LMArenaBridge | https://github.com/mumuha565/LMArenaBridge.git
-2026-10-29 10:30:54,980 | fork_sync.py:102 | INFO | zzz_LTSC-Add-MicrosoftStore | https://github.com/cloudskytian/zzz_LTSC-Add-MicrosoftStore.git
-2026-10-29 10:30:55,541 | fork_sync.py:128 | INFO | zzz_LTSC-Add-MicrosoftStore | https://github.com/kkkgo/LTSC-Add-MicrosoftStore.git
-2026-10-29 10:30:56,464 | fork_sync.py:102 | INFO | zzz_MajorPrivacy | https://github.com/cloudskytian/zzz_MajorPrivacy.git
-2026-10-29 10:30:57,161 | fork_sync.py:128 | INFO | zzz_MajorPrivacy | https://github.com/xanasoft/MajorPrivacy.git
-2026-10-29 10:30:57,941 | fork_sync.py:102 | INFO | zzz_Microsoft-Activation-Scripts | https://github.com/cloudskytian/zzz_Microsoft-Activation-Scripts.git
-2026-10-29 10:30:58,761 | fork_sync.py:128 | INFO | zzz_Microsoft-Activation-Scripts | https://github.com/massgravel/Microsoft-Activation-Scripts.git
-2026-10-29 10:30:59,514 | fork_sync.py:102 | INFO | zzz_missing-web | https://github.com/cloudskytian/zzz_missing-web.git
-2026-10-29 10:31:00,134 | fork_sync.py:128 | INFO | zzz_missing-web | https://github.com/criwits/missing-web.git
-2026-10-29 10:31:01,089 | fork_sync.py:102 | INFO | zzz_mochi-player | https://github.com/cloudskytian/zzz_mochi-player.git
-2026-10-29 10:31:01,752 | fork_sync.py:128 | INFO | zzz_mochi-player | https://github.com/mochi-player/mochi-player.git
-2026-10-29 10:31:02,689 | fork_sync.py:102 | INFO | zzz_more-picohaxx-tool | https://github.com/cloudskytian/zzz_more-picohaxx-tool.git
-2026-10-29 10:31:03,334 | fork_sync.py:128 | INFO | zzz_more-picohaxx-tool | https://github.com/chaixshot/more-picohaxx-tool.git
-2026-10-29 10:31:03,335 | fork_sync.py:146 | INFO | zzz_more-picohaxx-tool | fork_branches != upstream_branches, resync
-2026-10-29 10:31:03,335 | fork_sync.py:149 | INFO | zzz_more-picohaxx-tool | disable github action
-2026-10-29 10:31:03,790 | fork_sync.py:151 | INFO | zzz_more-picohaxx-tool | clone from https://github.com/chaixshot/more-picohaxx-tool.git
-2026-10-29 10:31:05,207 | fork_sync.py:158 | INFO | zzz_more-picohaxx-tool | push to fork
-2026-10-29 10:31:10,094 | fork_sync.py:102 | INFO | zzz_ohook | https://github.com/cloudskytian/zzz_ohook.git
-2026-10-29 10:31:10,708 | fork_sync.py:128 | INFO | zzz_ohook | https://github.com/asdcorp/ohook.git
-2026-10-29 10:31:11,482 | fork_sync.py:102 | INFO | zzz_OnedriveHostsGenerator | https://github.com/cloudskytian/zzz_OnedriveHostsGenerator.git
-2026-10-29 10:31:12,063 | fork_sync.py:128 | INFO | zzz_OnedriveHostsGenerator | https://github.com/Zxilly/OnedriveHostsGenerator.git
-2026-10-29 10:31:13,047 | fork_sync.py:102 | INFO | zzz_open-fitter-core | https://github.com/cloudskytian/zzz_open-fitter-core.git
-2026-10-29 10:31:13,639 | fork_sync.py:128 | INFO | zzz_open-fitter-core | https://github.com/tallcat4/open-fitter-core.git
-2026-10-29 10:31:14,420 | fork_sync.py:102 | INFO | zzz_OpenCC | https://github.com/cloudskytian/zzz_OpenCC.git
-2026-10-29 10:31:14,938 | fork_sync.py:128 | INFO | zzz_OpenCC | https://github.com/BYVoid/OpenCC.git
-2026-10-29 10:31:14,938 | fork_sync.py:146 | INFO | zzz_OpenCC | fork_branches != upstream_branches, resync
-2026-10-29 10:31:14,938 | fork_sync.py:149 | INFO | zzz_OpenCC | disable github action
-2026-10-29 10:31:15,402 | fork_sync.py:151 | INFO | zzz_OpenCC | clone from https://github.com/BYVoid/OpenCC.git
-2026-10-29 10:31:17,365 | fork_sync.py:158 | INFO | zzz_OpenCC | push to fork
-2026-10-29 10:31:36,930 | fork_sync.py:102 | INFO | zzz_OpenHashTab | https://github.com/cloudskytian/zzz_OpenHashTab.git
-2026-10-29 10:31:37,567 | fork_sync.py:128 | INFO | zzz_OpenHashTab | https://github.com/namazso/OpenHashTab.git
-2026-10-29 10:31:38,347 | fork_sync.py:102 | INFO | zzz_pebakery | https://github.com/cloudskytian/zzz_pebakery.git
-2026-10-29 10:31:39,094 | fork_sync.py:128 | INFO | zzz_pebakery | https://github.com/pebakery/pebakery.git
-2026-10-29 10:31:40,161 | fork_sync.py:102 | INFO | zzz_PortProxyGUI | https://github.com/cloudskytian/zzz_PortProxyGUI.git
-2026-10-29 10:31:40,793 | fork_sync.py:128 | INFO | zzz_PortProxyGUI | https://github.com/zmjack/PortProxyGUI.git
-2026-10-29 10:31:41,592 | fork_sync.py:102 | INFO | zzz_preserve-cd | https://github.com/cloudskytian/zzz_preserve-cd.git
-2026-10-29 10:31:42,203 | fork_sync.py:128 | INFO | zzz_preserve-cd | https://github.com/skywind3000/preserve-cd.git
-2026-10-29 10:31:43,144 | fork_sync.py:102 | INFO | zzz_preserve-iso | https://github.com/cloudskytian/zzz_preserve-iso.git
-2026-10-29 10:31:43,766 | fork_sync.py:128 | INFO | zzz_preserve-iso | https://github.com/skywind3000/preserve-iso.git
-2026-10-29 10:31:44,723 | fork_sync.py:102 | INFO | zzz_ProxyBridge | https://github.com/cloudskytian/zzz_ProxyBridge.git
-2026-10-29 10:31:45,395 | fork_sync.py:128 | INFO | zzz_ProxyBridge | https://github.com/InterceptSuite/ProxyBridge.git
-2026-10-29 10:31:46,211 | fork_sync.py:102 | INFO | zzz_PumkinsAvatarTools | https://github.com/cloudskytian/zzz_PumkinsAvatarTools.git
-2026-10-29 10:31:46,835 | fork_sync.py:128 | INFO | zzz_PumkinsAvatarTools | https://github.com/rurre/PumkinsAvatarTools.git
-2026-10-29 10:31:47,637 | fork_sync.py:102 | INFO | zzz_pylingual | https://github.com/cloudskytian/zzz_pylingual.git
-2026-10-29 10:31:48,305 | fork_sync.py:128 | INFO | zzz_pylingual | https://github.com/syssec-utd/pylingual.git
-2026-10-29 10:31:49,031 | fork_sync.py:102 | INFO | zzz_pymobiledevice3 | https://github.com/cloudskytian/zzz_pymobiledevice3.git
-2026-10-29 10:31:49,660 | fork_sync.py:128 | INFO | zzz_pymobiledevice3 | https://github.com/doronz88/pymobiledevice3.git
-2026-10-29 10:31:49,660 | fork_sync.py:142 | INFO | zzz_pymobiledevice3 | fork_tags != upstream_tags, resync
-2026-10-29 10:31:49,660 | fork_sync.py:149 | INFO | zzz_pymobiledevice3 | disable github action
-2026-10-29 10:31:50,127 | fork_sync.py:151 | INFO | zzz_pymobiledevice3 | clone from https://github.com/doronz88/pymobiledevice3.git
-2026-10-29 10:31:53,062 | fork_sync.py:158 | INFO | zzz_pymobiledevice3 | push to fork
-2026-10-29 10:38:32,338 | fork_sync.py:198 | INFO | zzz_pymobiledevice3 | latest_release.tag_name != upstream_latest_release.tag_name, resync_latest_release
-2026-10-29 10:38:45,710 | fork_sync.py:272 | INFO | zzz_pymobiledevice3 | create release
-2026-10-29 10:38:46,629 | fork_sync.py:308 | INFO | zzz_pymobiledevice3 | resync_latest_release finish
-2026-10-29 10:38:46,629 | fork_sync.py:102 | INFO | zzz_read-frog | https://github.com/cloudskytian/zzz_read-frog.git
-2026-10-29 10:38:47,294 | fork_sync.py:128 | INFO | zzz_read-frog | https://github.com/mengxi-ream/read-frog.git
-2026-10-29 10:38:47,294 | fork_sync.py:142 | INFO | zzz_read-frog | fork_tags != upstream_tags, resync
-2026-10-29 10:38:47,295 | fork_sync.py:149 | INFO | zzz_read-frog | disable github action
-2026-10-29 10:38:47,803 | fork_sync.py:151 | INFO | zzz_read-frog | clone from https://github.com/mengxi-ream/read-frog.git
-2026-10-29 10:38:51,603 | fork_sync.py:158 | INFO | zzz_read-frog | push to fork
-2026-10-29 10:43:22,998 | fork_sync.py:198 | INFO | zzz_read-frog | latest_release.tag_name != upstream_latest_release.tag_name, resync_latest_release
-2026-10-29 10:43:28,034 | fork_sync.py:272 | INFO | zzz_read-frog | create release
-2026-10-29 10:43:28,955 | fork_sync.py:297 | INFO | zzz_read-frog | downloading read-frogextension-1.54.1-chrome.zip
-2026-10-29 10:43:29,166 | fork_sync.py:300 | INFO | zzz_read-frog | uploading read-frogextension-1.54.1-chrome.zip
-2026-10-29 10:43:30,943 | fork_sync.py:297 | INFO | zzz_read-frog | downloading read-frogextension-1.54.1-edge.zip
-2026-10-29 10:43:31,153 | fork_sync.py:300 | INFO | zzz_read-frog | uploading read-frogextension-1.54.1-edge.zip
-2026-10-29 10:43:33,111 | fork_sync.py:297 | INFO | zzz_read-frog | downloading read-frogextension-1.54.1-firefox.zip
-2026-10-29 10:43:33,336 | fork_sync.py:300 | INFO | zzz_read-frog | uploading read-frogextension-1.54.1-firefox.zip
-2026-10-29 10:43:35,046 | fork_sync.py:297 | INFO | zzz_read-frog | downloading read-frogextension-1.54.1-sources.zip
-2026-10-29 10:43:35,263 | fork_sync.py:300 | INFO | zzz_read-frog | uploading read-frogextension-1.54.1-sources.zip
-2026-10-29 10:43:36,763 | fork_sync.py:308 | INFO | zzz_read-frog | resync_latest_release finish
-2026-10-29 10:43:36,763 | fork_sync.py:102 | INFO | zzz_rustdesk | https://github.com/cloudskytian/zzz_rustdesk.git
-2026-10-29 10:43:37,328 | fork_sync.py:128 | INFO | zzz_rustdesk | https://github.com/rustdesk/rustdesk.git
-2026-10-29 10:43:37,328 | fork_sync.py:146 | INFO | zzz_rustdesk | fork_branches != upstream_branches, resync
-2026-10-29 10:43:37,328 | fork_sync.py:149 | INFO | zzz_rustdesk | disable github action
-2026-10-29 10:43:37,957 | fork_sync.py:151 | INFO | zzz_rustdesk | clone from https://github.com/rustdesk/rustdesk.git
-2026-10-29 10:43:44,658 | fork_sync.py:158 | INFO | zzz_rustdesk | push to fork
-2026-10-29 10:46:33,086 | fork_sync.py:102 | INFO | zzz_Sandboxie | https://github.com/cloudskytian/zzz_Sandboxie.git
-2026-10-29 10:46:33,751 | fork_sync.py:128 | INFO | zzz_Sandboxie | https://github.com/sandboxie-plus/Sandboxie.git
-2026-10-29 10:46:33,751 | fork_sync.py:146 | INFO | zzz_Sandboxie | fork_branches != upstream_branches, resync
-2026-10-29 10:46:33,751 | fork_sync.py:149 | INFO | zzz_Sandboxie | disable github action
-2026-10-29 10:46:34,180 | fork_sync.py:151 | INFO | zzz_Sandboxie | clone from https://github.com/sandboxie-plus/Sandboxie.git
-2026-10-29 10:46:48,298 | fork_sync.py:158 | INFO | zzz_Sandboxie | push to fork
-2026-10-29 10:50:34,756 | fork_sync.py:102 | INFO | zzz_Sarasa-Term-SC-Nerd | https://github.com/cloudskytian/zzz_Sarasa-Term-SC-Nerd.git
-2026-10-29 10:50:35,406 | fork_sync.py:128 | INFO | zzz_Sarasa-Term-SC-Nerd | https://github.com/laishulu/Sarasa-Term-SC-Nerd.git
-2026-10-29 10:50:36,134 | fork_sync.py:102 | INFO | zzz_SARS | https://github.com/cloudskytian/zzz_SARS.git
-2026-10-29 10:50:36,802 | fork_sync.py:128 | INFO | zzz_SARS | https://github.com/Dean2k/SARS.git
-2026-10-29 10:50:37,610 | fork_sync.py:102 | INFO | zzz_src.next | https://github.com/cloudskytian/zzz_src.next.git
-2026-10-29 10:50:38,206 | fork_sync.py:128 | INFO | zzz_src.next | https://github.com/kiwibrowser/src.next.git
-2026-10-29 10:50:39,050 | fork_sync.py:102 | INFO | zzz_StartXBack | https://github.com/cloudskytian/zzz_StartXBack.git
-2026-10-29 10:50:39,649 | fork_sync.py:128 | INFO | zzz_StartXBack | https://github.com/WitherOrNot/StartXBack.git
-2026-10-29 10:50:40,416 | fork_sync.py:102 | INFO | zzz_Steamless | https://github.com/cloudskytian/zzz_Steamless.git
-2026-10-29 10:50:41,057 | fork_sync.py:128 | INFO | zzz_Steamless | https://github.com/atom0s/Steamless.git
-2026-10-29 10:50:41,835 | fork_sync.py:102 | INFO | zzz_subconverter | https://github.com/cloudskytian/zzz_subconverter.git
-2026-10-29 10:50:42,641 | fork_sync.py:128 | INFO | zzz_subconverter | https://github.com/MetaCubeX/subconverter.git
-2026-10-29 10:50:43,567 | fork_sync.py:102 | INFO | zzz_SubConverter-Extended | https://github.com/cloudskytian/zzz_SubConverter-Extended.git
-2026-10-29 10:50:44,148 | fork_sync.py:128 | INFO | zzz_SubConverter-Extended | https://github.com/Aethersailor/SubConverter-Extended.git
-2026-10-29 10:50:44,939 | fork_sync.py:102 | INFO | zzz_sugoi-player-deprecated | https://github.com/cloudskytian/zzz_sugoi-player-deprecated.git
-2026-10-29 10:50:45,636 | fork_sync.py:128 | INFO | zzz_sugoi-player-deprecated | https://github.com/wangwenx190/sugoi-player-deprecated.git
-2026-10-29 10:50:47,214 | fork_sync.py:102 | INFO | zzz_SuperRDP | https://github.com/cloudskytian/zzz_SuperRDP.git
-2026-10-29 10:50:47,800 | fork_sync.py:128 | INFO | zzz_SuperRDP | https://github.com/anhkgg/SuperRDP.git
-2026-10-29 10:50:48,577 | fork_sync.py:102 | INFO | zzz_SwitchHosts | https://github.com/cloudskytian/zzz_SwitchHosts.git
-2026-10-29 10:50:49,156 | fork_sync.py:128 | INFO | zzz_SwitchHosts | https://github.com/oldj/SwitchHosts.git
-2026-10-29 10:50:49,987 | fork_sync.py:102 | INFO | zzz_TrinityEmulator | https://github.com/cloudskytian/zzz_TrinityEmulator.git
-2026-10-29 10:50:50,667 | fork_sync.py:128 | INFO | zzz_TrinityEmulator | https://github.com/TrinityEmulator/TrinityEmulator.git
-2026-10-29 10:50:51,446 | fork_sync.py:102 | INFO | zzz_TSforge | https://github.com/cloudskytian/zzz_TSforge.git
-2026-10-29 10:50:52,049 | fork_sync.py:128 | INFO | zzz_TSforge | https://github.com/massgravel/TSforge.git
-2026-10-29 10:50:52,839 | fork_sync.py:102 | INFO | zzz_UABEA | https://github.com/cloudskytian/zzz_UABEA.git
-2026-10-29 10:50:53,433 | fork_sync.py:128 | INFO | zzz_UABEA | https://github.com/nesrak1/UABEA.git
-2026-10-29 10:50:54,214 | fork_sync.py:102 | INFO | zzz_uhubctl | https://github.com/cloudskytian/zzz_uhubctl.git
-2026-10-29 10:50:54,779 | fork_sync.py:128 | INFO | zzz_uhubctl | https://github.com/mvp/uhubctl.git
-2026-10-29 10:50:55,588 | fork_sync.py:102 | INFO | zzz_ultimatevocalremovergui | https://github.com/cloudskytian/zzz_ultimatevocalremovergui.git
-2026-10-29 10:50:56,164 | fork_sync.py:128 | INFO | zzz_ultimatevocalremovergui | https://github.com/Anjok07/ultimatevocalremovergui.git
-2026-10-29 10:50:57,003 | fork_sync.py:102 | INFO | zzz_vgm-tools | https://github.com/cloudskytian/zzz_vgm-tools.git
-2026-10-29 10:50:57,617 | fork_sync.py:128 | INFO | zzz_vgm-tools | https://github.com/bnnm/vgm-tools.git
-2026-10-29 10:50:58,566 | fork_sync.py:102 | INFO | zzz_vgmstream | https://github.com/cloudskytian/zzz_vgmstream.git
-2026-10-29 10:50:59,304 | fork_sync.py:128 | INFO | zzz_vgmstream | https://github.com/bnnm/vgmstream.git
-2026-10-29 10:51:00,324 | fork_sync.py:102 | INFO | zzz_virtual-display-rs | https://github.com/cloudskytian/zzz_virtual-display-rs.git
-2026-10-29 10:51:00,961 | fork_sync.py:128 | INFO | zzz_virtual-display-rs | https://github.com/MolotovCherry/virtual-display-rs.git
-2026-10-29 10:51:01,935 | fork_sync.py:102 | INFO | zzz_VRCFTPicoModule | https://github.com/cloudskytian/zzz_VRCFTPicoModule.git
-2026-10-29 10:51:02,616 | fork_sync.py:128 | INFO | zzz_VRCFTPicoModule | https://github.com/lonelyicer/VRCFTPicoModule.git
-2026-10-29 10:51:03,479 | fork_sync.py:102 | INFO | zzz_VRCX-0 | https://github.com/cloudskytian/zzz_VRCX-0.git
-2026-10-29 10:51:04,083 | fork_sync.py:128 | INFO | zzz_VRCX-0 | https://github.com/Map1en/VRCX-0.git
-2026-10-29 10:51:04,083 | fork_sync.py:142 | INFO | zzz_VRCX-0 | fork_tags != upstream_tags, resync
-2026-10-29 10:51:04,083 | fork_sync.py:149 | INFO | zzz_VRCX-0 | disable github action
-2026-10-29 10:51:04,568 | fork_sync.py:151 | INFO | zzz_VRCX-0 | clone from https://github.com/Map1en/VRCX-0.git
-2026-10-29 10:51:17,799 | fork_sync.py:158 | INFO | zzz_VRCX-0 | push to fork
-2026-10-29 10:53:52,155 | fork_sync.py:102 | INFO | zzz_WmapperKeymapper | https://github.com/cloudskytian/zzz_WmapperKeymapper.git
-2026-10-29 10:53:52,761 | fork_sync.py:128 | INFO | zzz_WmapperKeymapper | https://github.com/akbartaimurr/WmapperKeymapper.git
-2026-10-29 10:53:53,529 | fork_sync.py:102 | INFO | zzz_WpfPdfUnlocker | https://github.com/cloudskytian/zzz_WpfPdfUnlocker.git
-2026-10-29 10:53:54,131 | fork_sync.py:128 | INFO | zzz_WpfPdfUnlocker | https://github.com/1357310795/WpfPdfUnlocker.git
-2026-10-29 10:53:55,125 | fork_sync.py:102 | INFO | zzz_WSABuilds | https://github.com/cloudskytian/zzz_WSABuilds.git
-2026-10-29 10:53:55,718 | fork_sync.py:128 | INFO | zzz_WSABuilds | https://github.com/MustardChef/WSABuilds.git
-2026-10-29 10:53:56,486 | fork_sync.py:102 | INFO | zzz_WSAPatch | https://github.com/cloudskytian/zzz_WSAPatch.git
-2026-10-29 10:53:57,045 | fork_sync.py:128 | INFO | zzz_WSAPatch | https://github.com/cinit/WSAPatch.git
-2026-10-29 10:53:57,784 | fork_sync.py:102 | INFO | zzz_wtg-assistant | https://github.com/cloudskytian/zzz_wtg-assistant.git
-2026-10-29 10:53:58,377 | fork_sync.py:128 | INFO | zzz_wtg-assistant | https://github.com/nkc3g4/wtg-assistant.git
-2026-10-29 10:53:59,186 | fork_sync.py:102 | INFO | zzz_XboxDownload | https://github.com/cloudskytian/zzz_XboxDownload.git
-2026-10-29 10:53:59,748 | fork_sync.py:128 | INFO | zzz_XboxDownload | https://github.com/skydevil88/XboxDownload.git
-2026-10-29 10:53:59,748 | fork_sync.py:146 | INFO | zzz_XboxDownload | fork_branches != upstream_branches, resync
-2026-10-29 10:53:59,748 | fork_sync.py:149 | INFO | zzz_XboxDownload | disable github action
-2026-10-29 10:54:00,169 | fork_sync.py:151 | INFO | zzz_XboxDownload | clone from https://github.com/skydevil88/XboxDownload.git
-2026-10-29 10:54:00,873 | fork_sync.py:158 | INFO | zzz_XboxDownload | push to fork
-2026-10-29 10:54:04,257 | fork_sync.py:102 | INFO | fosa-vpm | https://github.com/fosa-vrc/fosa-vpm.git
-2026-10-29 10:54:04,258 | fork_sync.py:104 | INFO | fosa-vpm | not starts with zzz_ , skip
-2026-10-29 10:54:04,258 | fork_sync.py:102 | INFO | FuryParameterCompressor | https://github.com/fosa-vrc/FuryParameterCompressor.git
-2026-10-29 10:54:04,258 | fork_sync.py:104 | INFO | FuryParameterCompressor | not starts with zzz_ , skip
-2026-10-29 10:54:04,268 | fork_sync.py:339 | INFO | All repos sync finished
+2026-10-30 10:28:36,366 | fork_sync.py:88 | INFO | loading fork_config.json
+2026-10-30 10:28:36,839 | fork_sync.py:102 | INFO | ABK | https://github.com/cloudskytian/ABK.git
+2026-10-30 10:28:36,839 | fork_sync.py:104 | INFO | ABK | not starts with zzz_ , skip
+2026-10-30 10:28:36,839 | fork_sync.py:102 | INFO | acl4ssr2autoproxy | https://github.com/cloudskytian/acl4ssr2autoproxy.git
+2026-10-30 10:28:36,839 | fork_sync.py:104 | INFO | acl4ssr2autoproxy | not starts with zzz_ , skip
+2026-10-30 10:28:36,839 | fork_sync.py:102 | INFO | ad-wars | https://github.com/cloudskytian/ad-wars.git
+2026-10-30 10:28:36,839 | fork_sync.py:104 | INFO | ad-wars | not starts with zzz_ , skip
+2026-10-30 10:28:36,839 | fork_sync.py:102 | INFO | AvatarTextureOptimizer | https://github.com/cloudskytian/AvatarTextureOptimizer.git
+2026-10-30 10:28:36,840 | fork_sync.py:104 | INFO | AvatarTextureOptimizer | not starts with zzz_ , skip
+2026-10-30 10:28:36,840 | fork_sync.py:102 | INFO | BiliGuard | https://github.com/cloudskytian/BiliGuard.git
+2026-10-30 10:28:36,840 | fork_sync.py:104 | INFO | BiliGuard | not starts with zzz_ , skip
+2026-10-30 10:28:36,840 | fork_sync.py:102 | INFO | BiliRoaming | https://github.com/cloudskytian/BiliRoaming.git
+2026-10-30 10:28:36,840 | fork_sync.py:104 | INFO | BiliRoaming | not starts with zzz_ , skip
+2026-10-30 10:28:36,840 | fork_sync.py:102 | INFO | Borderless-Gaming | https://github.com/cloudskytian/Borderless-Gaming.git
+2026-10-30 10:28:36,840 | fork_sync.py:104 | INFO | Borderless-Gaming | not starts with zzz_ , skip
+2026-10-30 10:28:36,840 | fork_sync.py:102 | INFO | Borderless-GamingPrivate | https://github.com/cloudskytian/Borderless-GamingPrivate.git
+2026-10-30 10:28:36,840 | fork_sync.py:104 | INFO | Borderless-GamingPrivate | not starts with zzz_ , skip
+2026-10-30 10:28:36,840 | fork_sync.py:102 | INFO | CleanFlashInstaller | https://github.com/cloudskytian/CleanFlashInstaller.git
+2026-10-30 10:28:36,840 | fork_sync.py:104 | INFO | CleanFlashInstaller | not starts with zzz_ , skip
+2026-10-30 10:28:36,840 | fork_sync.py:102 | INFO | Clunbes_VRC | https://github.com/cloudskytian/Clunbes_VRC.git
+2026-10-30 10:28:36,840 | fork_sync.py:104 | INFO | Clunbes_VRC | not starts with zzz_ , skip
+2026-10-30 10:28:36,840 | fork_sync.py:102 | INFO | CustomPinyinDictionaryForMSPinyinAndRime | https://github.com/cloudskytian/CustomPinyinDictionaryForMSPinyinAndRime.git
+2026-10-30 10:28:36,840 | fork_sync.py:104 | INFO | CustomPinyinDictionaryForMSPinyinAndRime | not starts with zzz_ , skip
+2026-10-30 10:28:36,840 | fork_sync.py:102 | INFO | digital-life | https://github.com/cloudskytian/digital-life.git
+2026-10-30 10:28:36,840 | fork_sync.py:104 | INFO | digital-life | not starts with zzz_ , skip
+2026-10-30 10:28:36,840 | fork_sync.py:102 | INFO | ExtensionsDownloader | https://github.com/cloudskytian/ExtensionsDownloader.git
+2026-10-30 10:28:36,840 | fork_sync.py:104 | INFO | ExtensionsDownloader | not starts with zzz_ , skip
+2026-10-30 10:28:36,840 | fork_sync.py:102 | INFO | GenP-Source-Code | https://github.com/cloudskytian/GenP-Source-Code.git
+2026-10-30 10:28:36,840 | fork_sync.py:104 | INFO | GenP-Source-Code | not starts with zzz_ , skip
+2026-10-30 10:28:36,840 | fork_sync.py:102 | INFO | GenshinDailyHelper | https://github.com/cloudskytian/GenshinDailyHelper.git
+2026-10-30 10:28:36,840 | fork_sync.py:104 | INFO | GenshinDailyHelper | not starts with zzz_ , skip
+2026-10-30 10:28:36,840 | fork_sync.py:102 | INFO | GenshinDirectDownloadLink | https://github.com/cloudskytian/GenshinDirectDownloadLink.git
+2026-10-30 10:28:36,840 | fork_sync.py:104 | INFO | GenshinDirectDownloadLink | not starts with zzz_ , skip
+2026-10-30 10:28:36,841 | fork_sync.py:102 | INFO | github_fork_repo_auto_sync | https://github.com/cloudskytian/github_fork_repo_auto_sync.git
+2026-10-30 10:28:36,841 | fork_sync.py:104 | INFO | github_fork_repo_auto_sync | not starts with zzz_ , skip
+2026-10-30 10:28:36,841 | fork_sync.py:102 | INFO | gog_games | https://github.com/cloudskytian/gog_games.git
+2026-10-30 10:28:36,841 | fork_sync.py:104 | INFO | gog_games | not starts with zzz_ , skip
+2026-10-30 10:28:36,841 | fork_sync.py:102 | INFO | Hotspot | https://github.com/cloudskytian/Hotspot.git
+2026-10-30 10:28:36,841 | fork_sync.py:104 | INFO | Hotspot | not starts with zzz_ , skip
+2026-10-30 10:28:36,841 | fork_sync.py:102 | INFO | IddSample | https://github.com/cloudskytian/IddSample.git
+2026-10-30 10:28:36,841 | fork_sync.py:104 | INFO | IddSample | not starts with zzz_ , skip
+2026-10-30 10:28:36,841 | fork_sync.py:102 | INFO | ImageCollage | https://github.com/cloudskytian/ImageCollage.git
+2026-10-30 10:28:36,841 | fork_sync.py:104 | INFO | ImageCollage | not starts with zzz_ , skip
+2026-10-30 10:28:36,841 | fork_sync.py:102 | INFO | lilAvatarUtils | https://github.com/cloudskytian/lilAvatarUtils.git
+2026-10-30 10:28:36,841 | fork_sync.py:104 | INFO | lilAvatarUtils | not starts with zzz_ , skip
+2026-10-30 10:28:36,841 | fork_sync.py:102 | INFO | MD5-for-GOG.com | https://github.com/cloudskytian/MD5-for-GOG.com.git
+2026-10-30 10:28:36,841 | fork_sync.py:104 | INFO | MD5-for-GOG.com | not starts with zzz_ , skip
+2026-10-30 10:28:36,841 | fork_sync.py:102 | INFO | MyAdGuardHomeFilter | https://github.com/cloudskytian/MyAdGuardHomeFilter.git
+2026-10-30 10:28:36,841 | fork_sync.py:104 | INFO | MyAdGuardHomeFilter | not starts with zzz_ , skip
+2026-10-30 10:28:36,841 | fork_sync.py:102 | INFO | MyResources | https://github.com/cloudskytian/MyResources.git
+2026-10-30 10:28:36,841 | fork_sync.py:104 | INFO | MyResources | not starts with zzz_ , skip
+2026-10-30 10:28:36,841 | fork_sync.py:102 | INFO | no-defender | https://github.com/cloudskytian/no-defender.git
+2026-10-30 10:28:36,841 | fork_sync.py:104 | INFO | no-defender | not starts with zzz_ , skip
+2026-10-30 10:28:36,841 | fork_sync.py:102 | INFO | OpenArk | https://github.com/cloudskytian/OpenArk.git
+2026-10-30 10:28:36,841 | fork_sync.py:104 | INFO | OpenArk | not starts with zzz_ , skip
+2026-10-30 10:28:36,841 | fork_sync.py:102 | INFO | OpenHashTab | https://github.com/cloudskytian/OpenHashTab.git
+2026-10-30 10:28:36,841 | fork_sync.py:104 | INFO | OpenHashTab | not starts with zzz_ , skip
+2026-10-30 10:28:36,841 | fork_sync.py:102 | INFO | RDPWrapCN | https://github.com/cloudskytian/RDPWrapCN.git
+2026-10-30 10:28:36,841 | fork_sync.py:104 | INFO | RDPWrapCN | not starts with zzz_ , skip
+2026-10-30 10:28:36,842 | fork_sync.py:102 | INFO | reqable-magisk-module | https://github.com/cloudskytian/reqable-magisk-module.git
+2026-10-30 10:28:36,842 | fork_sync.py:104 | INFO | reqable-magisk-module | not starts with zzz_ , skip
+2026-10-30 10:28:37,382 | fork_sync.py:102 | INFO | subconverterX | https://github.com/cloudskytian/subconverterX.git
+2026-10-30 10:28:37,382 | fork_sync.py:104 | INFO | subconverterX | not starts with zzz_ , skip
+2026-10-30 10:28:37,382 | fork_sync.py:102 | INFO | test | https://github.com/cloudskytian/test.git
+2026-10-30 10:28:37,382 | fork_sync.py:104 | INFO | test | not starts with zzz_ , skip
+2026-10-30 10:28:37,382 | fork_sync.py:102 | INFO | TWEditorEnhancedCN | https://github.com/cloudskytian/TWEditorEnhancedCN.git
+2026-10-30 10:28:37,382 | fork_sync.py:104 | INFO | TWEditorEnhancedCN | not starts with zzz_ , skip
+2026-10-30 10:28:37,382 | fork_sync.py:102 | INFO | Uni-HubHacker | https://github.com/cloudskytian/Uni-HubHacker.git
+2026-10-30 10:28:37,382 | fork_sync.py:104 | INFO | Uni-HubHacker | not starts with zzz_ , skip
+2026-10-30 10:28:37,382 | fork_sync.py:102 | INFO | VBSKiller | https://github.com/cloudskytian/VBSKiller.git
+2026-10-30 10:28:37,382 | fork_sync.py:104 | INFO | VBSKiller | not starts with zzz_ , skip
+2026-10-30 10:28:37,382 | fork_sync.py:102 | INFO | VRCFury | https://github.com/cloudskytian/VRCFury.git
+2026-10-30 10:28:37,382 | fork_sync.py:104 | INFO | VRCFury | not starts with zzz_ , skip
+2026-10-30 10:28:37,382 | fork_sync.py:102 | INFO | Win10-Power-Plan-Settings | https://github.com/cloudskytian/Win10-Power-Plan-Settings.git
+2026-10-30 10:28:37,382 | fork_sync.py:104 | INFO | Win10-Power-Plan-Settings | not starts with zzz_ , skip
+2026-10-30 10:28:37,383 | fork_sync.py:102 | INFO | WinEU | https://github.com/cloudskytian/WinEU.git
+2026-10-30 10:28:37,383 | fork_sync.py:104 | INFO | WinEU | not starts with zzz_ , skip
+2026-10-30 10:28:37,383 | fork_sync.py:102 | INFO | WMPKeysEasy | https://github.com/cloudskytian/WMPKeysEasy.git
+2026-10-30 10:28:37,383 | fork_sync.py:104 | INFO | WMPKeysEasy | not starts with zzz_ , skip
+2026-10-30 10:28:37,383 | fork_sync.py:102 | INFO | zzz_AdGuardHomeForRoot | https://github.com/cloudskytian/zzz_AdGuardHomeForRoot.git
+2026-10-30 10:28:38,265 | fork_sync.py:128 | INFO | zzz_AdGuardHomeForRoot | https://github.com/twoone-3/AdGuardHomeForRoot.git
+2026-10-30 10:28:39,132 | fork_sync.py:102 | INFO | zzz_adobe-packager-windows | https://github.com/cloudskytian/zzz_adobe-packager-windows.git
+2026-10-30 10:28:39,984 | fork_sync.py:128 | INFO | zzz_adobe-packager-windows | https://github.com/ckamte/adobe-packager-windows.git
+2026-10-30 10:28:41,025 | fork_sync.py:102 | INFO | zzz_ALVR | https://github.com/cloudskytian/zzz_ALVR.git
+2026-10-30 10:28:41,986 | fork_sync.py:128 | INFO | zzz_ALVR | https://github.com/alvr-org/ALVR.git
+2026-10-30 10:28:42,840 | fork_sync.py:102 | INFO | zzz_AnyCheck | https://github.com/cloudskytian/zzz_AnyCheck.git
+2026-10-30 10:28:43,693 | fork_sync.py:128 | INFO | zzz_AnyCheck | https://github.com/xingguangcuican6666/AnyCheck.git
+2026-10-30 10:28:44,502 | fork_sync.py:102 | INFO | zzz_Apollo | https://github.com/cloudskytian/zzz_Apollo.git
+2026-10-30 10:28:45,421 | fork_sync.py:128 | INFO | zzz_Apollo | https://github.com/ClassicOldSong/Apollo.git
+2026-10-30 10:28:46,318 | fork_sync.py:102 | INFO | zzz_app | https://github.com/cloudskytian/zzz_app.git
+2026-10-30 10:28:47,298 | fork_sync.py:128 | INFO | zzz_app | https://github.com/ovrport/app.git
+2026-10-30 10:28:48,166 | fork_sync.py:102 | INFO | zzz_Artemis | https://github.com/cloudskytian/zzz_Artemis.git
+2026-10-30 10:28:49,099 | fork_sync.py:128 | INFO | zzz_Artemis | https://github.com/ClassicOldSong/moonlight-android.git
+2026-10-30 10:28:50,155 | fork_sync.py:102 | INFO | zzz_autoproxy | https://github.com/cloudskytian/zzz_autoproxy.git
+2026-10-30 10:28:50,950 | fork_sync.py:128 | INFO | zzz_autoproxy | https://github.com/aglent/autoproxy.git
+2026-10-30 10:28:51,900 | fork_sync.py:102 | INFO | zzz_build-your-own-x | https://github.com/cloudskytian/zzz_build-your-own-x.git
+2026-10-30 10:28:52,757 | fork_sync.py:128 | INFO | zzz_build-your-own-x | https://github.com/codecrafters-io/build-your-own-x.git
+2026-10-30 10:28:53,776 | fork_sync.py:102 | INFO | zzz_c001apk | https://github.com/cloudskytian/zzz_c001apk.git
+2026-10-30 10:28:54,656 | fork_sync.py:128 | INFO | zzz_c001apk | https://github.com/bggRGjQaUbCoE/c001apk.git
+2026-10-30 10:28:55,558 | fork_sync.py:102 | INFO | zzz_CapFrameX | https://github.com/cloudskytian/zzz_CapFrameX.git
+2026-10-30 10:28:56,548 | fork_sync.py:128 | INFO | zzz_CapFrameX | https://github.com/CXWorld/CapFrameX.git
+2026-10-30 10:28:56,548 | fork_sync.py:146 | INFO | zzz_CapFrameX | fork_branches != upstream_branches, resync
+2026-10-30 10:28:56,548 | fork_sync.py:149 | INFO | zzz_CapFrameX | disable github action
+2026-10-30 10:28:56,978 | fork_sync.py:151 | INFO | zzz_CapFrameX | clone from https://github.com/CXWorld/CapFrameX.git
+2026-10-30 10:29:06,448 | fork_sync.py:158 | INFO | zzz_CapFrameX | push to fork
+2026-10-30 10:30:20,412 | fork_sync.py:102 | INFO | zzz_cheat-engine | https://github.com/cloudskytian/zzz_cheat-engine.git
+2026-10-30 10:30:21,213 | fork_sync.py:128 | INFO | zzz_cheat-engine | https://github.com/cheat-engine/cheat-engine.git
+2026-10-30 10:30:22,108 | fork_sync.py:102 | INFO | zzz_chinese-copywriting-guidelines | https://github.com/cloudskytian/zzz_chinese-copywriting-guidelines.git
+2026-10-30 10:30:22,965 | fork_sync.py:128 | INFO | zzz_chinese-copywriting-guidelines | https://github.com/sparanoid/chinese-copywriting-guidelines.git
+2026-10-30 10:30:24,113 | fork_sync.py:102 | INFO | zzz_CJK-character-count | https://github.com/cloudskytian/zzz_CJK-character-count.git
+2026-10-30 10:30:24,945 | fork_sync.py:128 | INFO | zzz_CJK-character-count | https://github.com/NightFurySL2001/CJK-character-count.git
+2026-10-30 10:30:25,775 | fork_sync.py:102 | INFO | zzz_CreamInstaller | https://github.com/cloudskytian/zzz_CreamInstaller.git
+2026-10-30 10:30:26,605 | fork_sync.py:128 | INFO | zzz_CreamInstaller | https://github.com/CyberSys/CreamInstaller.git
+2026-10-30 10:30:26,605 | fork_sync.py:168 | INFO | zzz_CreamInstaller | sync description
+2026-10-30 10:30:28,242 | fork_sync.py:102 | INFO | zzz_DeDRM_tools | https://github.com/cloudskytian/zzz_DeDRM_tools.git
+2026-10-30 10:30:29,212 | fork_sync.py:128 | INFO | zzz_DeDRM_tools | https://github.com/noDRM/DeDRM_tools.git
+2026-10-30 10:30:30,133 | fork_sync.py:102 | INFO | zzz_Ditto | https://github.com/cloudskytian/zzz_Ditto.git
+2026-10-30 10:30:31,015 | fork_sync.py:128 | INFO | zzz_Ditto | https://github.com/sabrogden/Ditto.git
+2026-10-30 10:30:31,850 | fork_sync.py:102 | INFO | zzz_dl-librescore | https://github.com/cloudskytian/zzz_dl-librescore.git
+2026-10-30 10:30:32,833 | fork_sync.py:128 | INFO | zzz_dl-librescore | https://github.com/LibreScore/dl-librescore.git
+2026-10-30 10:30:33,687 | fork_sync.py:102 | INFO | zzz_Duck-Detector-Refactoring | https://github.com/cloudskytian/zzz_Duck-Detector-Refactoring.git
+2026-10-30 10:30:34,548 | fork_sync.py:128 | INFO | zzz_Duck-Detector-Refactoring | https://github.com/eltavine/Duck-Detector-Refactoring.git
+2026-10-30 10:30:34,548 | fork_sync.py:142 | INFO | zzz_Duck-Detector-Refactoring | fork_tags != upstream_tags, resync
+2026-10-30 10:30:34,548 | fork_sync.py:149 | INFO | zzz_Duck-Detector-Refactoring | disable github action
+2026-10-30 10:30:34,993 | fork_sync.py:151 | INFO | zzz_Duck-Detector-Refactoring | clone from https://github.com/eltavine/Duck-Detector-Refactoring.git
+2026-10-30 10:30:37,266 | fork_sync.py:158 | INFO | zzz_Duck-Detector-Refactoring | push to fork
+2026-10-30 10:32:04,368 | fork_sync.py:102 | INFO | zzz_DWMBlurGlass | https://github.com/cloudskytian/zzz_DWMBlurGlass.git
+2026-10-30 10:32:05,234 | fork_sync.py:128 | INFO | zzz_DWMBlurGlass | https://github.com/Maplespe/DWMBlurGlass.git
+2026-10-30 10:32:06,181 | fork_sync.py:102 | INFO | zzz_EcoPaste | https://github.com/cloudskytian/zzz_EcoPaste.git
+2026-10-30 10:32:07,442 | fork_sync.py:128 | INFO | zzz_EcoPaste | https://github.com/EcoPasteHub/EcoPaste.git
+2026-10-30 10:32:09,119 | fork_sync.py:102 | INFO | zzz_ecs | https://github.com/cloudskytian/zzz_ecs.git
+2026-10-30 10:32:10,103 | fork_sync.py:128 | INFO | zzz_ecs | https://github.com/oneclickvirt/ecs.git
+2026-10-30 10:32:11,066 | fork_sync.py:102 | INFO | zzz_EDR-Freeze | https://github.com/cloudskytian/zzz_EDR-Freeze.git
+2026-10-30 10:32:12,057 | fork_sync.py:128 | INFO | zzz_EDR-Freeze | https://github.com/TwoSevenOneT/EDR-Freeze.git
+2026-10-30 10:32:12,905 | fork_sync.py:102 | INFO | zzz_efivar-rs | https://github.com/cloudskytian/zzz_efivar-rs.git
+2026-10-30 10:32:13,726 | fork_sync.py:128 | INFO | zzz_efivar-rs | https://github.com/iTrooz/efivar-rs.git
+2026-10-30 10:32:14,522 | fork_sync.py:102 | INFO | zzz_Exif-Remove | https://github.com/cloudskytian/zzz_Exif-Remove.git
+2026-10-30 10:32:15,395 | fork_sync.py:128 | INFO | zzz_Exif-Remove | https://github.com/roothaxor/Exif-Remove.git
+2026-10-30 10:32:16,349 | fork_sync.py:102 | INFO | zzz_ExplorerPatcher | https://github.com/cloudskytian/zzz_ExplorerPatcher.git
+2026-10-30 10:32:17,256 | fork_sync.py:128 | INFO | zzz_ExplorerPatcher | https://github.com/valinet/ExplorerPatcher.git
+2026-10-30 10:32:18,052 | fork_sync.py:102 | INFO | zzz_EzWindSLIC | https://github.com/cloudskytian/zzz_EzWindSLIC.git
+2026-10-30 10:32:18,877 | fork_sync.py:128 | INFO | zzz_EzWindSLIC | https://github.com/Dir3ctr1x/EzWindSLIC.git
+2026-10-30 10:32:19,861 | fork_sync.py:102 | INFO | zzz_FACS_Utilities | https://github.com/cloudskytian/zzz_FACS_Utilities.git
+2026-10-30 10:32:20,737 | fork_sync.py:128 | INFO | zzz_FACS_Utilities | https://github.com/FACS01-01/FACS_Utilities.git
+2026-10-30 10:32:21,585 | fork_sync.py:102 | INFO | zzz_FFmpegFreeUI | https://github.com/cloudskytian/zzz_FFmpegFreeUI.git
+2026-10-30 10:32:22,368 | fork_sync.py:128 | INFO | zzz_FFmpegFreeUI | https://github.com/Lake1059/FFmpegFreeUI.git
+2026-10-30 10:32:23,207 | fork_sync.py:102 | INFO | zzz_FlashPatch | https://github.com/cloudskytian/zzz_FlashPatch.git
+2026-10-30 10:32:24,078 | fork_sync.py:128 | INFO | zzz_FlashPatch | https://github.com/darktohka/FlashPatch.git
+2026-10-30 10:32:24,876 | fork_sync.py:102 | INFO | zzz_FramePicoTracker | https://github.com/cloudskytian/zzz_FramePicoTracker.git
+2026-10-30 10:32:24,876 | fork_sync.py:107 | INFO | zzz_FramePicoTracker | is a fork
+2026-10-30 10:32:25,448 | fork_sync.py:112 | INFO | zzz_FramePicoTracker | leave fork network from Rulez777/FramePicoTracker
+2026-10-30 10:32:25,448 | fork_sync.py:113 | INFO | zzz_FramePicoTracker | rename to old
+2026-10-30 10:32:27,342 | fork_sync.py:117 | INFO | zzz_FramePicoTracker_old | create new repo
+2026-10-30 10:32:33,817 | fork_sync.py:128 | INFO | zzz_FramePicoTracker | https://github.com/Rulez777/FramePicoTracker.git
+2026-10-30 10:32:33,817 | fork_sync.py:142 | INFO | zzz_FramePicoTracker | fork_tags != upstream_tags, resync
+2026-10-30 10:32:33,817 | fork_sync.py:149 | INFO | zzz_FramePicoTracker | disable github action
+2026-10-30 10:32:34,399 | fork_sync.py:151 | INFO | zzz_FramePicoTracker | clone from https://github.com/Rulez777/FramePicoTracker.git
+2026-10-30 10:32:36,140 | fork_sync.py:158 | INFO | zzz_FramePicoTracker | push to fork
+2026-10-30 10:32:39,968 | fork_sync.py:168 | INFO | zzz_FramePicoTracker | sync description
+2026-10-30 10:32:44,550 | fork_sync.py:310 | INFO | zzz_FramePicoTracker_old | del old
+2026-10-30 10:32:45,225 | fork_sync.py:102 | INFO | zzz_free-programming-books-zh_CN | https://github.com/cloudskytian/zzz_free-programming-books-zh_CN.git
+2026-10-30 10:32:46,029 | fork_sync.py:128 | INFO | zzz_free-programming-books-zh_CN | https://github.com/justjavac/free-programming-books-zh_CN.git
+2026-10-30 10:32:46,979 | fork_sync.py:102 | INFO | zzz_game-programmer | https://github.com/cloudskytian/zzz_game-programmer.git
+2026-10-30 10:32:47,732 | fork_sync.py:128 | INFO | zzz_game-programmer | https://github.com/miloyip/game-programmer.git
+2026-10-30 10:32:48,762 | fork_sync.py:102 | INFO | zzz_Games-on-GitHub | https://github.com/cloudskytian/zzz_Games-on-GitHub.git
+2026-10-30 10:32:49,538 | fork_sync.py:128 | INFO | zzz_Games-on-GitHub | https://github.com/leereilly/games.git
+2026-10-30 10:32:50,573 | fork_sync.py:102 | INFO | zzz_GaspHack_Mod | https://github.com/cloudskytian/zzz_GaspHack_Mod.git
+2026-10-30 10:32:51,551 | fork_sync.py:128 | INFO | zzz_GaspHack_Mod | https://github.com/ceetel/GaspHack_Mod.git
+2026-10-30 10:32:52,539 | fork_sync.py:102 | INFO | zzz_gfwlist | https://github.com/cloudskytian/zzz_gfwlist.git
+2026-10-30 10:32:53,477 | fork_sync.py:128 | INFO | zzz_gfwlist | https://github.com/gfwlist/gfwlist.git
+2026-10-30 10:32:53,477 | fork_sync.py:146 | INFO | zzz_gfwlist | fork_branches != upstream_branches, resync
+2026-10-30 10:32:53,478 | fork_sync.py:149 | INFO | zzz_gfwlist | disable github action
+2026-10-30 10:32:53,981 | fork_sync.py:151 | INFO | zzz_gfwlist | clone from https://github.com/gfwlist/gfwlist.git
+2026-10-30 10:32:57,455 | fork_sync.py:158 | INFO | zzz_gfwlist | push to fork
+2026-10-30 10:33:00,694 | fork_sync.py:102 | INFO | zzz_gog-games.to_backup | https://github.com/cloudskytian/zzz_gog-games.to_backup.git
+2026-10-30 10:33:01,526 | fork_sync.py:128 | INFO | zzz_gog-games.to_backup | https://github.com/ezerear/gog-games.to_backup.git
+2026-10-30 10:33:02,493 | fork_sync.py:102 | INFO | zzz_gogdb | https://github.com/cloudskytian/zzz_gogdb.git
+2026-10-30 10:33:03,365 | fork_sync.py:128 | INFO | zzz_gogdb | https://github.com/Yepoleb/gogdb.git
+2026-10-30 10:33:04,292 | fork_sync.py:102 | INFO | zzz_guid_database | https://github.com/cloudskytian/zzz_guid_database.git
+2026-10-30 10:33:05,105 | fork_sync.py:128 | INFO | zzz_guid_database | https://github.com/lilxyzw/guid_database.git
+2026-10-30 10:33:06,063 | fork_sync.py:102 | INFO | zzz_Happys-VRC-tools | https://github.com/cloudskytian/zzz_Happys-VRC-tools.git
+2026-10-30 10:33:07,067 | fork_sync.py:128 | INFO | zzz_Happys-VRC-tools | https://github.com/Happyrobot33/Happys-VRC-tools.git
+2026-10-30 10:33:07,897 | fork_sync.py:102 | INFO | zzz_hime-display | https://github.com/cloudskytian/zzz_hime-display.git
+2026-10-30 10:33:08,797 | fork_sync.py:128 | INFO | zzz_hime-display | https://github.com/TSKI433/hime-display.git
+2026-10-30 10:33:09,658 | fork_sync.py:102 | INFO | zzz_How-To-Ask-Questions-The-Smart-Way | https://github.com/cloudskytian/zzz_How-To-Ask-Questions-The-Smart-Way.git
+2026-10-30 10:33:10,658 | fork_sync.py:128 | INFO | zzz_How-To-Ask-Questions-The-Smart-Way | https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way.git
+2026-10-30 10:33:11,596 | fork_sync.py:102 | INFO | zzz_HyperOS3EULocalization | https://github.com/cloudskytian/zzz_HyperOS3EULocalization.git
+2026-10-30 10:33:12,477 | fork_sync.py:128 | INFO | zzz_HyperOS3EULocalization | https://github.com/rhe91709-netizen/HyperOS3EULocalization.git
+2026-10-30 10:33:13,339 | fork_sync.py:102 | INFO | zzz_Identifier-Patcher | https://github.com/cloudskytian/zzz_Identifier-Patcher.git
+2026-10-30 10:33:14,253 | fork_sync.py:128 | INFO | zzz_Identifier-Patcher | https://github.com/StevenWin818/Identifier-Patcher.git
+2026-10-30 10:33:15,223 | fork_sync.py:102 | INFO | zzz_ihateborders | https://github.com/cloudskytian/zzz_ihateborders.git
+2026-10-30 10:33:16,070 | fork_sync.py:128 | INFO | zzz_ihateborders | https://github.com/Z1xus/ihateborders.git
+2026-10-30 10:33:16,908 | fork_sync.py:102 | INFO | zzz_input-overlay | https://github.com/cloudskytian/zzz_input-overlay.git
+2026-10-30 10:33:17,755 | fork_sync.py:128 | INFO | zzz_input-overlay | https://github.com/univrsal/input-overlay.git
+2026-10-30 10:33:17,755 | fork_sync.py:142 | INFO | zzz_input-overlay | fork_tags != upstream_tags, resync
+2026-10-30 10:33:17,755 | fork_sync.py:149 | INFO | zzz_input-overlay | disable github action
+2026-10-30 10:33:18,210 | fork_sync.py:151 | INFO | zzz_input-overlay | clone from https://github.com/univrsal/input-overlay.git
+2026-10-30 10:33:21,045 | fork_sync.py:158 | INFO | zzz_input-overlay | push to fork
+2026-10-30 10:33:38,859 | fork_sync.py:198 | INFO | zzz_input-overlay | latest_release.tag_name != upstream_latest_release.tag_name, resync_latest_release
+2026-10-30 10:33:40,567 | fork_sync.py:272 | INFO | zzz_input-overlay | create release
+2026-10-30 10:33:41,395 | fork_sync.py:297 | INFO | zzz_input-overlay | downloading input-overlay-5.1.3-presets.zip
+2026-10-30 10:33:41,943 | fork_sync.py:300 | INFO | zzz_input-overlay | uploading input-overlay-5.1.3-presets.zip
+2026-10-30 10:33:44,897 | fork_sync.py:297 | INFO | zzz_input-overlay | downloading input-overlay-5.1.3-source.tar.xz
+2026-10-30 10:33:45,705 | fork_sync.py:300 | INFO | zzz_input-overlay | uploading input-overlay-5.1.3-source.tar.xz
+2026-10-30 10:33:49,116 | fork_sync.py:297 | INFO | zzz_input-overlay | downloading input-overlay-5.1.3-windows-x64-Installer.exe
+2026-10-30 10:33:49,478 | fork_sync.py:300 | INFO | zzz_input-overlay | uploading input-overlay-5.1.3-windows-x64-Installer.exe
+2026-10-30 10:33:51,224 | fork_sync.py:297 | INFO | zzz_input-overlay | downloading input-overlay-5.1.3-windows-x64.zip
+2026-10-30 10:33:51,551 | fork_sync.py:300 | INFO | zzz_input-overlay | uploading input-overlay-5.1.3-windows-x64.zip
+2026-10-30 10:33:54,137 | fork_sync.py:297 | INFO | zzz_input-overlay | downloading input-overlay-5.1.3-x86_64-linux-gnu-dbgsym.ddeb
+2026-10-30 10:33:54,429 | fork_sync.py:300 | INFO | zzz_input-overlay | uploading input-overlay-5.1.3-x86_64-linux-gnu-dbgsym.ddeb
+2026-10-30 10:33:56,063 | fork_sync.py:297 | INFO | zzz_input-overlay | downloading input-overlay-5.1.3-x86_64-linux-gnu.deb
+2026-10-30 10:33:56,436 | fork_sync.py:300 | INFO | zzz_input-overlay | uploading input-overlay-5.1.3-x86_64-linux-gnu.deb
+2026-10-30 10:33:58,239 | fork_sync.py:297 | INFO | zzz_input-overlay | downloading input-overlay-5.1.3-x86_64-linux-gnu.zip
+2026-10-30 10:33:58,620 | fork_sync.py:300 | INFO | zzz_input-overlay | uploading input-overlay-5.1.3-x86_64-linux-gnu.zip
+2026-10-30 10:33:59,928 | fork_sync.py:308 | INFO | zzz_input-overlay | resync_latest_release finish
+2026-10-30 10:33:59,928 | fork_sync.py:102 | INFO | zzz_Internet-Hosting-Tool | https://github.com/cloudskytian/zzz_Internet-Hosting-Tool.git
+2026-10-30 10:34:00,735 | fork_sync.py:128 | INFO | zzz_Internet-Hosting-Tool | https://github.com/moonlight-stream/Internet-Hosting-Tool.git
+2026-10-30 10:34:01,667 | fork_sync.py:102 | INFO | zzz_KsDumper-11 | https://github.com/cloudskytian/zzz_KsDumper-11.git
+2026-10-30 10:34:02,530 | fork_sync.py:128 | INFO | zzz_KsDumper-11 | https://github.com/mastercodeon314/KsDumper-11.git
+2026-10-30 10:34:03,387 | fork_sync.py:102 | INFO | zzz_LAVFilters | https://github.com/cloudskytian/zzz_LAVFilters.git
+2026-10-30 10:34:04,243 | fork_sync.py:128 | INFO | zzz_LAVFilters | https://github.com/Nevcairiel/LAVFilters.git
+2026-10-30 10:34:05,186 | fork_sync.py:102 | INFO | zzz_Learn-Vim_zh_cn | https://github.com/cloudskytian/zzz_Learn-Vim_zh_cn.git
+2026-10-30 10:34:06,082 | fork_sync.py:128 | INFO | zzz_Learn-Vim_zh_cn | https://github.com/wsdjeg/Learn-Vim_zh_cn.git
+2026-10-30 10:34:07,062 | fork_sync.py:102 | INFO | zzz_LiteLoaderQQNT | https://github.com/cloudskytian/zzz_LiteLoaderQQNT.git
+2026-10-30 10:34:07,912 | fork_sync.py:128 | INFO | zzz_LiteLoaderQQNT | https://github.com/LiteLoaderQQNT/LiteLoaderQQNT.git
+2026-10-30 10:34:09,510 | fork_sync.py:102 | INFO | zzz_LMArenaBridge | https://github.com/cloudskytian/zzz_LMArenaBridge.git
+2026-10-30 10:34:10,318 | fork_sync.py:128 | INFO | zzz_LMArenaBridge | https://github.com/mumuha565/LMArenaBridge.git
+2026-10-30 10:34:11,307 | fork_sync.py:102 | INFO | zzz_LTSC-Add-MicrosoftStore | https://github.com/cloudskytian/zzz_LTSC-Add-MicrosoftStore.git
+2026-10-30 10:34:12,197 | fork_sync.py:128 | INFO | zzz_LTSC-Add-MicrosoftStore | https://github.com/kkkgo/LTSC-Add-MicrosoftStore.git
+2026-10-30 10:34:13,217 | fork_sync.py:102 | INFO | zzz_MajorPrivacy | https://github.com/cloudskytian/zzz_MajorPrivacy.git
+2026-10-30 10:34:14,143 | fork_sync.py:128 | INFO | zzz_MajorPrivacy | https://github.com/xanasoft/MajorPrivacy.git
+2026-10-30 10:34:15,034 | fork_sync.py:102 | INFO | zzz_Microsoft-Activation-Scripts | https://github.com/cloudskytian/zzz_Microsoft-Activation-Scripts.git
+2026-10-30 10:34:15,922 | fork_sync.py:128 | INFO | zzz_Microsoft-Activation-Scripts | https://github.com/massgravel/Microsoft-Activation-Scripts.git
+2026-10-30 10:34:16,838 | fork_sync.py:102 | INFO | zzz_missing-web | https://github.com/cloudskytian/zzz_missing-web.git
+2026-10-30 10:34:17,674 | fork_sync.py:128 | INFO | zzz_missing-web | https://github.com/criwits/missing-web.git
+2026-10-30 10:34:18,590 | fork_sync.py:102 | INFO | zzz_mochi-player | https://github.com/cloudskytian/zzz_mochi-player.git
+2026-10-30 10:34:19,511 | fork_sync.py:128 | INFO | zzz_mochi-player | https://github.com/mochi-player/mochi-player.git
+2026-10-30 10:34:20,581 | fork_sync.py:102 | INFO | zzz_more-picohaxx-tool | https://github.com/cloudskytian/zzz_more-picohaxx-tool.git
+2026-10-30 10:34:21,495 | fork_sync.py:128 | INFO | zzz_more-picohaxx-tool | https://github.com/chaixshot/more-picohaxx-tool.git
+2026-10-30 10:34:22,320 | fork_sync.py:102 | INFO | zzz_ohook | https://github.com/cloudskytian/zzz_ohook.git
+2026-10-30 10:34:23,254 | fork_sync.py:128 | INFO | zzz_ohook | https://github.com/asdcorp/ohook.git
+2026-10-30 10:34:24,231 | fork_sync.py:102 | INFO | zzz_OnedriveHostsGenerator | https://github.com/cloudskytian/zzz_OnedriveHostsGenerator.git
+2026-10-30 10:34:25,020 | fork_sync.py:128 | INFO | zzz_OnedriveHostsGenerator | https://github.com/Zxilly/OnedriveHostsGenerator.git
+2026-10-30 10:34:25,020 | fork_sync.py:146 | INFO | zzz_OnedriveHostsGenerator | fork_branches != upstream_branches, resync
+2026-10-30 10:34:25,020 | fork_sync.py:149 | INFO | zzz_OnedriveHostsGenerator | disable github action
+2026-10-30 10:34:25,462 | fork_sync.py:151 | INFO | zzz_OnedriveHostsGenerator | clone from https://github.com/Zxilly/OnedriveHostsGenerator.git
+2026-10-30 10:34:26,004 | fork_sync.py:158 | INFO | zzz_OnedriveHostsGenerator | push to fork
+2026-10-30 10:34:28,962 | fork_sync.py:102 | INFO | zzz_open-fitter-core | https://github.com/cloudskytian/zzz_open-fitter-core.git
+2026-10-30 10:34:29,759 | fork_sync.py:128 | INFO | zzz_open-fitter-core | https://github.com/tallcat4/open-fitter-core.git
+2026-10-30 10:34:30,702 | fork_sync.py:102 | INFO | zzz_OpenCC | https://github.com/cloudskytian/zzz_OpenCC.git
+2026-10-30 10:34:31,601 | fork_sync.py:128 | INFO | zzz_OpenCC | https://github.com/BYVoid/OpenCC.git
+2026-10-30 10:34:31,601 | fork_sync.py:146 | INFO | zzz_OpenCC | fork_branches != upstream_branches, resync
+2026-10-30 10:34:31,602 | fork_sync.py:149 | INFO | zzz_OpenCC | disable github action
+2026-10-30 10:34:32,098 | fork_sync.py:151 | INFO | zzz_OpenCC | clone from https://github.com/BYVoid/OpenCC.git
+2026-10-30 10:34:34,370 | fork_sync.py:158 | INFO | zzz_OpenCC | push to fork
+2026-10-30 10:34:56,936 | fork_sync.py:102 | INFO | zzz_OpenHashTab | https://github.com/cloudskytian/zzz_OpenHashTab.git
+2026-10-30 10:34:57,976 | fork_sync.py:128 | INFO | zzz_OpenHashTab | https://github.com/namazso/OpenHashTab.git
+2026-10-30 10:34:58,744 | fork_sync.py:102 | INFO | zzz_pebakery | https://github.com/cloudskytian/zzz_pebakery.git
+2026-10-30 10:34:59,712 | fork_sync.py:128 | INFO | zzz_pebakery | https://github.com/pebakery/pebakery.git
+2026-10-30 10:35:00,516 | fork_sync.py:102 | INFO | zzz_PortProxyGUI | https://github.com/cloudskytian/zzz_PortProxyGUI.git
+2026-10-30 10:35:01,386 | fork_sync.py:128 | INFO | zzz_PortProxyGUI | https://github.com/zmjack/PortProxyGUI.git
+2026-10-30 10:35:02,259 | fork_sync.py:102 | INFO | zzz_preserve-cd | https://github.com/cloudskytian/zzz_preserve-cd.git
+2026-10-30 10:35:03,219 | fork_sync.py:128 | INFO | zzz_preserve-cd | https://github.com/skywind3000/preserve-cd.git
+2026-10-30 10:35:04,268 | fork_sync.py:102 | INFO | zzz_preserve-iso | https://github.com/cloudskytian/zzz_preserve-iso.git
+2026-10-30 10:35:05,165 | fork_sync.py:128 | INFO | zzz_preserve-iso | https://github.com/skywind3000/preserve-iso.git
+2026-10-30 10:35:06,236 | fork_sync.py:102 | INFO | zzz_ProxyBridge | https://github.com/cloudskytian/zzz_ProxyBridge.git
+2026-10-30 10:35:07,190 | fork_sync.py:128 | INFO | zzz_ProxyBridge | https://github.com/InterceptSuite/ProxyBridge.git
+2026-10-30 10:35:08,562 | fork_sync.py:102 | INFO | zzz_PumkinsAvatarTools | https://github.com/cloudskytian/zzz_PumkinsAvatarTools.git
+2026-10-30 10:35:09,469 | fork_sync.py:128 | INFO | zzz_PumkinsAvatarTools | https://github.com/rurre/PumkinsAvatarTools.git
+2026-10-30 10:35:10,323 | fork_sync.py:102 | INFO | zzz_pylingual | https://github.com/cloudskytian/zzz_pylingual.git
+2026-10-30 10:35:11,262 | fork_sync.py:128 | INFO | zzz_pylingual | https://github.com/syssec-utd/pylingual.git
+2026-10-30 10:35:12,089 | fork_sync.py:102 | INFO | zzz_pymobiledevice3 | https://github.com/cloudskytian/zzz_pymobiledevice3.git
+2026-10-30 10:35:13,096 | fork_sync.py:128 | INFO | zzz_pymobiledevice3 | https://github.com/doronz88/pymobiledevice3.git
+2026-10-30 10:35:13,096 | fork_sync.py:142 | INFO | zzz_pymobiledevice3 | fork_tags != upstream_tags, resync
+2026-10-30 10:35:13,096 | fork_sync.py:149 | INFO | zzz_pymobiledevice3 | disable github action
+2026-10-30 10:35:13,572 | fork_sync.py:151 | INFO | zzz_pymobiledevice3 | clone from https://github.com/doronz88/pymobiledevice3.git
+2026-10-30 10:35:16,946 | fork_sync.py:158 | INFO | zzz_pymobiledevice3 | push to fork
+2026-10-30 10:42:40,191 | fork_sync.py:198 | INFO | zzz_pymobiledevice3 | latest_release.tag_name != upstream_latest_release.tag_name, resync_latest_release
+2026-10-30 10:42:54,110 | fork_sync.py:272 | INFO | zzz_pymobiledevice3 | create release
+2026-10-30 10:42:54,971 | fork_sync.py:308 | INFO | zzz_pymobiledevice3 | resync_latest_release finish
+2026-10-30 10:42:54,971 | fork_sync.py:102 | INFO | zzz_read-frog | https://github.com/cloudskytian/zzz_read-frog.git
+2026-10-30 10:42:55,838 | fork_sync.py:128 | INFO | zzz_read-frog | https://github.com/mengxi-ream/read-frog.git
+2026-10-30 10:42:55,838 | fork_sync.py:146 | INFO | zzz_read-frog | fork_branches != upstream_branches, resync
+2026-10-30 10:42:55,838 | fork_sync.py:149 | INFO | zzz_read-frog | disable github action
+2026-10-30 10:42:56,260 | fork_sync.py:151 | INFO | zzz_read-frog | clone from https://github.com/mengxi-ream/read-frog.git
+2026-10-30 10:43:00,447 | fork_sync.py:158 | INFO | zzz_read-frog | push to fork
+2026-10-30 10:47:59,259 | fork_sync.py:102 | INFO | zzz_rustdesk | https://github.com/cloudskytian/zzz_rustdesk.git
+2026-10-30 10:48:00,035 | fork_sync.py:128 | INFO | zzz_rustdesk | https://github.com/rustdesk/rustdesk.git
+2026-10-30 10:48:00,035 | fork_sync.py:142 | INFO | zzz_rustdesk | fork_tags != upstream_tags, resync
+2026-10-30 10:48:00,035 | fork_sync.py:149 | INFO | zzz_rustdesk | disable github action
+2026-10-30 10:48:00,518 | fork_sync.py:151 | INFO | zzz_rustdesk | clone from https://github.com/rustdesk/rustdesk.git
+2026-10-30 10:48:08,091 | fork_sync.py:158 | INFO | zzz_rustdesk | push to fork
+2026-10-30 10:51:08,094 | fork_sync.py:102 | INFO | zzz_Sandboxie | https://github.com/cloudskytian/zzz_Sandboxie.git
+2026-10-30 10:51:09,007 | fork_sync.py:128 | INFO | zzz_Sandboxie | https://github.com/sandboxie-plus/Sandboxie.git
+2026-10-30 10:51:09,007 | fork_sync.py:146 | INFO | zzz_Sandboxie | fork_branches != upstream_branches, resync
+2026-10-30 10:51:09,007 | fork_sync.py:149 | INFO | zzz_Sandboxie | disable github action
+2026-10-30 10:51:09,450 | fork_sync.py:151 | INFO | zzz_Sandboxie | clone from https://github.com/sandboxie-plus/Sandboxie.git
+2026-10-30 10:51:23,351 | fork_sync.py:158 | INFO | zzz_Sandboxie | push to fork
+2026-10-30 10:55:18,322 | fork_sync.py:102 | INFO | zzz_Sarasa-Term-SC-Nerd | https://github.com/cloudskytian/zzz_Sarasa-Term-SC-Nerd.git
+2026-10-30 10:55:19,172 | fork_sync.py:128 | INFO | zzz_Sarasa-Term-SC-Nerd | https://github.com/laishulu/Sarasa-Term-SC-Nerd.git
+2026-10-30 10:55:19,995 | fork_sync.py:102 | INFO | zzz_SARS | https://github.com/cloudskytian/zzz_SARS.git
+2026-10-30 10:55:20,809 | fork_sync.py:128 | INFO | zzz_SARS | https://github.com/Dean2k/SARS.git
+2026-10-30 10:55:21,591 | fork_sync.py:102 | INFO | zzz_src.next | https://github.com/cloudskytian/zzz_src.next.git
+2026-10-30 10:55:22,394 | fork_sync.py:128 | INFO | zzz_src.next | https://github.com/kiwibrowser/src.next.git
+2026-10-30 10:55:23,260 | fork_sync.py:102 | INFO | zzz_StartXBack | https://github.com/cloudskytian/zzz_StartXBack.git
+2026-10-30 10:55:24,026 | fork_sync.py:128 | INFO | zzz_StartXBack | https://github.com/WitherOrNot/StartXBack.git
+2026-10-30 10:55:24,866 | fork_sync.py:102 | INFO | zzz_Steamless | https://github.com/cloudskytian/zzz_Steamless.git
+2026-10-30 10:55:25,635 | fork_sync.py:128 | INFO | zzz_Steamless | https://github.com/atom0s/Steamless.git
+2026-10-30 10:55:26,457 | fork_sync.py:102 | INFO | zzz_subconverter | https://github.com/cloudskytian/zzz_subconverter.git
+2026-10-30 10:55:27,333 | fork_sync.py:128 | INFO | zzz_subconverter | https://github.com/MetaCubeX/subconverter.git
+2026-10-30 10:55:28,109 | fork_sync.py:102 | INFO | zzz_SubConverter-Extended | https://github.com/cloudskytian/zzz_SubConverter-Extended.git
+2026-10-30 10:55:28,848 | fork_sync.py:128 | INFO | zzz_SubConverter-Extended | https://github.com/Aethersailor/SubConverter-Extended.git
+2026-10-30 10:55:28,849 | fork_sync.py:146 | INFO | zzz_SubConverter-Extended | fork_branches != upstream_branches, resync
+2026-10-30 10:55:28,849 | fork_sync.py:149 | INFO | zzz_SubConverter-Extended | disable github action
+2026-10-30 10:55:29,326 | fork_sync.py:151 | INFO | zzz_SubConverter-Extended | clone from https://github.com/Aethersailor/SubConverter-Extended.git
+2026-10-30 10:55:31,526 | fork_sync.py:158 | INFO | zzz_SubConverter-Extended | push to fork
+2026-10-30 10:56:08,354 | fork_sync.py:102 | INFO | zzz_sugoi-player-deprecated | https://github.com/cloudskytian/zzz_sugoi-player-deprecated.git
+2026-10-30 10:56:09,292 | fork_sync.py:128 | INFO | zzz_sugoi-player-deprecated | https://github.com/wangwenx190/sugoi-player-deprecated.git
+2026-10-30 10:56:10,240 | fork_sync.py:102 | INFO | zzz_SuperRDP | https://github.com/cloudskytian/zzz_SuperRDP.git
+2026-10-30 10:56:10,998 | fork_sync.py:128 | INFO | zzz_SuperRDP | https://github.com/anhkgg/SuperRDP.git
+2026-10-30 10:56:11,801 | fork_sync.py:102 | INFO | zzz_SwitchHosts | https://github.com/cloudskytian/zzz_SwitchHosts.git
+2026-10-30 10:56:12,533 | fork_sync.py:128 | INFO | zzz_SwitchHosts | https://github.com/oldj/SwitchHosts.git
+2026-10-30 10:56:12,533 | fork_sync.py:146 | INFO | zzz_SwitchHosts | fork_branches != upstream_branches, resync
+2026-10-30 10:56:12,533 | fork_sync.py:149 | INFO | zzz_SwitchHosts | disable github action
+2026-10-30 10:56:12,976 | fork_sync.py:151 | INFO | zzz_SwitchHosts | clone from https://github.com/oldj/SwitchHosts.git
+2026-10-30 10:56:15,859 | fork_sync.py:158 | INFO | zzz_SwitchHosts | push to fork
+2026-10-30 10:56:54,912 | fork_sync.py:102 | INFO | zzz_TrinityEmulator | https://github.com/cloudskytian/zzz_TrinityEmulator.git
+2026-10-30 10:56:55,856 | fork_sync.py:128 | INFO | zzz_TrinityEmulator | https://github.com/TrinityEmulator/TrinityEmulator.git
+2026-10-30 10:56:56,671 | fork_sync.py:102 | INFO | zzz_TSforge | https://github.com/cloudskytian/zzz_TSforge.git
+2026-10-30 10:56:57,564 | fork_sync.py:128 | INFO | zzz_TSforge | https://github.com/massgravel/TSforge.git
+2026-10-30 10:56:58,392 | fork_sync.py:102 | INFO | zzz_UABEA | https://github.com/cloudskytian/zzz_UABEA.git
+2026-10-30 10:56:59,225 | fork_sync.py:128 | INFO | zzz_UABEA | https://github.com/nesrak1/UABEA.git
+2026-10-30 10:57:00,020 | fork_sync.py:102 | INFO | zzz_uhubctl | https://github.com/cloudskytian/zzz_uhubctl.git
+2026-10-30 10:57:00,843 | fork_sync.py:128 | INFO | zzz_uhubctl | https://github.com/mvp/uhubctl.git
+2026-10-30 10:57:01,638 | fork_sync.py:102 | INFO | zzz_ultimatevocalremovergui | https://github.com/cloudskytian/zzz_ultimatevocalremovergui.git
+2026-10-30 10:57:02,424 | fork_sync.py:128 | INFO | zzz_ultimatevocalremovergui | https://github.com/Anjok07/ultimatevocalremovergui.git
+2026-10-30 10:57:03,283 | fork_sync.py:102 | INFO | zzz_vgm-tools | https://github.com/cloudskytian/zzz_vgm-tools.git
+2026-10-30 10:57:04,115 | fork_sync.py:128 | INFO | zzz_vgm-tools | https://github.com/bnnm/vgm-tools.git
+2026-10-30 10:57:05,070 | fork_sync.py:102 | INFO | zzz_vgmstream | https://github.com/cloudskytian/zzz_vgmstream.git
+2026-10-30 10:57:06,001 | fork_sync.py:128 | INFO | zzz_vgmstream | https://github.com/bnnm/vgmstream.git
+2026-10-30 10:57:06,945 | fork_sync.py:102 | INFO | zzz_virtual-display-rs | https://github.com/cloudskytian/zzz_virtual-display-rs.git
+2026-10-30 10:57:07,737 | fork_sync.py:128 | INFO | zzz_virtual-display-rs | https://github.com/MolotovCherry/virtual-display-rs.git
+2026-10-30 10:57:08,539 | fork_sync.py:102 | INFO | zzz_VRCFTPicoModule | https://github.com/cloudskytian/zzz_VRCFTPicoModule.git
+2026-10-30 10:57:09,389 | fork_sync.py:128 | INFO | zzz_VRCFTPicoModule | https://github.com/lonelyicer/VRCFTPicoModule.git
+2026-10-30 10:57:10,215 | fork_sync.py:102 | INFO | zzz_VRCX-0 | https://github.com/cloudskytian/zzz_VRCX-0.git
+2026-10-30 10:57:11,025 | fork_sync.py:128 | INFO | zzz_VRCX-0 | https://github.com/Map1en/VRCX-0.git
+2026-10-30 10:57:11,025 | fork_sync.py:146 | INFO | zzz_VRCX-0 | fork_branches != upstream_branches, resync
+2026-10-30 10:57:11,025 | fork_sync.py:149 | INFO | zzz_VRCX-0 | disable github action
+2026-10-30 10:57:11,488 | fork_sync.py:151 | INFO | zzz_VRCX-0 | clone from https://github.com/Map1en/VRCX-0.git
+2026-10-30 10:57:25,604 | fork_sync.py:158 | INFO | zzz_VRCX-0 | push to fork
+2026-10-30 11:00:09,371 | fork_sync.py:102 | INFO | zzz_WmapperKeymapper | https://github.com/cloudskytian/zzz_WmapperKeymapper.git
+2026-10-30 11:00:10,249 | fork_sync.py:128 | INFO | zzz_WmapperKeymapper | https://github.com/akbartaimurr/WmapperKeymapper.git
+2026-10-30 11:00:11,059 | fork_sync.py:102 | INFO | zzz_WpfPdfUnlocker | https://github.com/cloudskytian/zzz_WpfPdfUnlocker.git
+2026-10-30 11:00:11,989 | fork_sync.py:128 | INFO | zzz_WpfPdfUnlocker | https://github.com/1357310795/WpfPdfUnlocker.git
+2026-10-30 11:00:12,919 | fork_sync.py:102 | INFO | zzz_WSABuilds | https://github.com/cloudskytian/zzz_WSABuilds.git
+2026-10-30 11:00:13,842 | fork_sync.py:128 | INFO | zzz_WSABuilds | https://github.com/MustardChef/WSABuilds.git
+2026-10-30 11:00:14,679 | fork_sync.py:102 | INFO | zzz_WSAPatch | https://github.com/cloudskytian/zzz_WSAPatch.git
+2026-10-30 11:00:15,526 | fork_sync.py:128 | INFO | zzz_WSAPatch | https://github.com/cinit/WSAPatch.git
+2026-10-30 11:00:16,334 | fork_sync.py:102 | INFO | zzz_wtg-assistant | https://github.com/cloudskytian/zzz_wtg-assistant.git
+2026-10-30 11:00:17,196 | fork_sync.py:128 | INFO | zzz_wtg-assistant | https://github.com/nkc3g4/wtg-assistant.git
+2026-10-30 11:00:18,011 | fork_sync.py:102 | INFO | zzz_XboxDownload | https://github.com/cloudskytian/zzz_XboxDownload.git
+2026-10-30 11:00:18,778 | fork_sync.py:128 | INFO | zzz_XboxDownload | https://github.com/skydevil88/XboxDownload.git
+2026-10-30 11:00:18,779 | fork_sync.py:146 | INFO | zzz_XboxDownload | fork_branches != upstream_branches, resync
+2026-10-30 11:00:18,779 | fork_sync.py:149 | INFO | zzz_XboxDownload | disable github action
+2026-10-30 11:00:19,208 | fork_sync.py:151 | INFO | zzz_XboxDownload | clone from https://github.com/skydevil88/XboxDownload.git
+2026-10-30 11:00:20,254 | fork_sync.py:158 | INFO | zzz_XboxDownload | push to fork
+2026-10-30 11:00:25,970 | fork_sync.py:102 | INFO | fosa-vpm | https://github.com/fosa-vrc/fosa-vpm.git
+2026-10-30 11:00:25,970 | fork_sync.py:104 | INFO | fosa-vpm | not starts with zzz_ , skip
+2026-10-30 11:00:25,970 | fork_sync.py:102 | INFO | FuryParameterCompressor | https://github.com/fosa-vrc/FuryParameterCompressor.git
+2026-10-30 11:00:25,970 | fork_sync.py:104 | INFO | FuryParameterCompressor | not starts with zzz_ , skip
+2026-10-30 11:00:25,980 | fork_sync.py:339 | INFO | All repos sync finished

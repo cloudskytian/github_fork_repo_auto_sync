@@ -696,7 +696,7 @@
             "release/1.8.7": "50c167947b3fbdac559a1cfdd736f4c917242dc1",
             "release/1.9.0": "749d85e15d21c28322ac8b8ad308719639e5b80d",
             "release/1.9.1": "deb42c41dad3e9c811cb87d856b2fc601cead876",
-            "release/1.9.2": "f6c07017e6c1e3a88ad79246b1a0cf3d26f2ecc7",
+            "release/1.9.2": "4ff52f6946728db8f3fa25edc6950e772ddecf47",
             "release/2.0.0": "622d3da739e292fa535722ccbb4fd4e643e1af8f"
         }
     },
@@ -2330,7 +2330,7 @@
             "master": "f7e6b68ce94b8f5ffa633ec927520d91fce580e3"
         },
         "branches": {
-            "master": "986098e6890e34b5e14f04209714f741bbe6313d"
+            "master": "a1932f2aec3597e257ef974854f2b19f023e2cd0"
         }
     },
     "zzz_gog-games.to_backup": {
@@ -2479,6 +2479,7 @@
             "5.1.0": "a2d856e06bab71793eb902c77c1907d198cf25c0",
             "5.1.1": "3ebbbafeb2e9a8f8d114db8f48455e36a82e0ca4",
             "5.1.2": "b0ecb84e56e2c58c7d6a2a0d867888eb77fdfc74",
+            "5.1.3": "295a6f835b45133facde3773b36882963e0cbd64",
             "v1": "fd19f180e7e34bd1766853dce7f9b43745ff8bff",
             "v1.1": "673d5f86005b59f5630ce0e9fa49f4625da9a855",
             "v1.2": "6f601f21c8973382c0897684e5aa7a2410cdb6b5",
@@ -2524,7 +2525,7 @@
             "dev": "789e495c7dcee68ccfe9141a7243c00091b4827e",
             "evdev": "dabc65f0cdf6d1ae75a5491615cc3352f6dc21a8",
             "legacy": "94019421573978924d247e7b4a4a98c04441cd25",
-            "master": "b60de6c92eaf136015a1130b416adf1d97d8c09e",
+            "master": "295a6f835b45133facde3773b36882963e0cbd64",
             "update-ci": "dadc6683eb2b35a403bc932cd5843532f3d2b1a9",
             "update-uiokooh": "a847fb55d3950bbe8b1615111db60ac40532cc22"
         }
@@ -2935,8 +2936,7 @@
         },
         "branches": {
             "dependabot/cargo/tokio-1.53.3": "0c7596f8928c9c138c1a063162343d5b41e979cf",
-            "dependabot/cargo/tokio-1.54.1": "53605df9cd1e4c860a8e6d97bb9e40fd049471f7",
-            "master": "020dd6e376d4e7aad6f3826d293a6f62b81f88e6"
+            "master": "0a01906c0e71b1e4aef84d9d6ac0b38fa0712563"
         }
     },
     "zzz_open-fitter-core": {
@@ -3008,7 +3008,7 @@
             "claude/character-conversion-dictionary-vx2wod-2": "1c5e9f612a11bfab3c05c6dff516ac9d3dc0c89f",
             "claude/remove-gyp-dependencies-gn5vlc": "e7081c6096abd4b8095526e42875611b3a58600d",
             "gh-pages": "acdb8df711bbad6bce7952af1c312938b2333089",
-            "master": "9e9d730659fc7db366b43b4437b307444d87e23e",
+            "master": "fae2a0a911c30764e669a7d8b0591cd8e852934a",
             "release-1.2.0": "e38c96cde33813b405d8ee0da5ec9b3ac084b9f3",
             "release-1.3.0": "4ac5bd6b8ea84e107d83221ec1fea7e3209a8bb8",
             "release-1.4.0": "68a52365c8f2786629d2cca314691818e7280ac9",
@@ -3556,6 +3556,7 @@
             "v11.45.1": "19fc1f9f4e63d7de5f46e7b0a7449707b5249d6a",
             "v11.46.0": "2686236ed5458ad038f8c9abc4bfd281245b5eb6",
             "v11.47.0": "f7b034ec49696b1769c80257aadfa5387271dc6b",
+            "v11.48.0": "36193af87b86f18f6b3b0728fb7bc16aecaf8c9d",
             "v11.5.0": "c2112257c73ecbf6aa695506990879eb37649796",
             "v11.6.0": "8724e4afb63fc4e6b9955159e84d1665b06ca8db",
             "v11.7.0": "8fa6369e043c3947778ea2f28d06ee08fda003a3",
@@ -4085,6 +4086,7 @@
             "bugfix/side-effect-asserts": "d29611d8a3a3e1a3410b3bcb37b655e88ee9a342",
             "bugfix/userspace-relay-abandoned-leak": "453347f52c2e4942ba9321580a25895febf8385a",
             "build/pmd-pytcp-0.3.7-floor": "aa921d56f813a306027f119e39eb999534d91139",
+            "docs/userspace-default-first": "3a948c6b4c958038bc8dbed80dec895cdbb99c42",
             "docs/wifi-only-discovery": "802f6142a4cff6b1613aabe20b3ac94701a254c7",
             "feature/backup2-encryption-state-query": "910515fec4486e13c7edecb3189c88b09159b915",
             "feature/ci-device-free-tests": "d1f5f509e970ef253787a70cd9a946dfd5379d5f",
@@ -4100,7 +4102,7 @@
             "fix/cdp-listing-waits-for-replies": "4b59e72da475e2a11001f1f7bd4ba12147951817",
             "fix/coredevice-error-mic-camera-in-use": "5b52eb1c204fcfe4c995dea9a5cc3a2ad5cd5346",
             "hotfix/docs-syslog-label-help": "47e5c5ae66d44a1a3d85e9c364db192cc29a220f",
-            "master": "9537c0ac73d8916a03bf0fcba771b1ff6e37894b",
+            "master": "36193af87b86f18f6b3b0728fb7bc16aecaf8c9d",
             "research/videoprocessing-re-roadmap": "6157f672544305bc61046efb35d8733585898524",
             "userspace-unix-connect-probe": "500cbf07904877a8541810b9285b4039a03cd4a1"
         }
@@ -4663,7 +4665,7 @@
             "build/upgrade-many": "6a1864d90092f4048bc918aa72722f3adf4e2e49",
             "build/upgrade-packages-2026-06-28": "9ff4bf042ebaf587485971578eed1dba4b143cdd",
             "build/upgrade-wxt": "514f2b65f59aea6113f4c81c2c7774a0a0ee42b6",
-            "changeset-release/main": "564f8d7f19d24c2ad297016d66b6856e9a5323b9",
+            "changeset-release/main": "4347ce091ed2ee4996a25fb9bb65b4acb7b4203f",
             "chore/local-dev-ex": "d3fec2d0a3da1b0c53d999e10a223cb95d0448ce",
             "chore/sponsor-action": "24ab93ae2b7cb2a24f234196559f420a562802b2",
             "chore/update-hero-heading": "a51a23cd2f3bf8e8f688cf10d8079121af6b68e1",
@@ -4898,7 +4900,7 @@
             "kvnmqpqs": "a2b1a6ab40c8524279b9eb8febdd83df43242ac3",
             "lisongkun/main": "1ca7d4064375b44099b8a9fc9ae94072c62472aa",
             "locales/korean-extension": "00205027e9a87ed7fcc150484ae8f5df30376ab7",
-            "main": "878e18d488020aad5437a96041f577f89f98bd74",
+            "main": "15c0cc56cfeb476c527cd57abfbfe8f03f2d6110",
             "mengxi-ream-patch-1": "72eb0292f4d4870f86ad6d7a98ae89dac10c9016",
             "my-feature-branch": "f57c96ab0a1107a3b40adf9b452d88abb19b01d3",
             "perf/auth-cookie-change-issue": "3511ceb2a9f7e25c1dbeb6d4a5d65b6dfcb717a6",
@@ -4987,6 +4989,7 @@
             "1.4.8": "3c574a41821170f89f38141a493e127145dbf82d",
             "1.4.9": "6c578292e8ebbbec708b76986ba8c4bc7c509747",
             "1.5.0": "fada664df7a294d1d1a9ca3e7cd3637069122f17",
+            "1.5.1": "e1ca09766cc97eaaba5e350114431189b109be7d",
             "fdroid-version": "9827c7651442800f47428087903d52da8cb8c2c8",
             "nightly": "12b5cc7f725ad5510ccfaa8f28f15aece35c0d5a"
         },
@@ -5028,7 +5031,7 @@
             "ice-ipv6-per-prefix": "e001878f06abcad0f31e9eca15d0e3a340ca2d05",
             "keyboard-shortcuts": "8fa28e0201123e016ef70be01aa4532f99e63fe0",
             "kx-v1": "ddd99f90f7c87de121fdc30057fc1d9af5665944",
-            "master": "3cb027a372f6bc65f22d3a53e79f0d92f694e48d",
+            "master": "ef827fdb34aef13cb37826b9efc62e8b9a28f1b0",
             "sciterjs": "e86d0a0fc14f0bff4cb1ecd94a84eae42818da80",
             "svt-av1": "e17efa947477f9eaf0fcb9d1cb013732fb38811a",
             "temporary-password-rotates-at-authorization": "40da387b16e18272b8168faa03445c632c7ad3cd",
@@ -5277,7 +5280,7 @@
             "Test": "b91daec2a1ef45913abe00e5ec062535bd9b1b6e",
             "codespell": "1346eee09705f61119329ee1a7c962025cd77366",
             "experimental": "3c16b7826c2fde62b1e839c62a9be12bf96d9b2a",
-            "master": "41b742a089ae75e78847383d1ec20191f95721b0",
+            "master": "64767421421686e55161f13c83b28838c094047d",
             "out-of-date": "abd2d44cd6f305da956ad70c7481cb1256efff24",
             "remote-mgmt": "8194614afef2a01ace718dc58cb3777dbbe0d27b"
         }
@@ -5963,7 +5966,7 @@
         "branches": {
             "Go-dev": "250f77369164b8ef2eaffaa1cb17e980af563892",
             "codex/codeql-build-coverage": "7f1ba6a348669d9ef7c11e79e21a7b5437448d91",
-            "dev": "e3b43486540752706cda3a864daee48650218e28",
+            "dev": "c62a5e94643b8ada7dc90a807c0a745b2d66440c",
             "master": "9c95d23d9898ea66572a114826b27374a524ffdc"
         },
         "warning": true
@@ -6127,9 +6130,11 @@
             "master": "19b273ab24c3272d6cf1a6192a2c9c287ce75e14"
         },
         "branches": {
+            "dependabot/cargo/src-tauri/rustls-0.23.46": "d3912545f307711191bd171570cdc14fe54a8742",
+            "dependabot/npm_and_yarn/undici-8.12.3": "b5e609f423511c3cb9f7d107aec9a8814f01de68",
             "develop": "4c0a6434e050f8e81f29ba0fe1232ebf17fe9ec2",
             "gh-pages": "1a65b9c1c3046c53e21938da6c47644f34b0e5dc",
-            "master": "a43172f5579a01c4a3e785c6c6d4ef7c07aab1bd"
+            "master": "0b07abdcb9c2dd4048e2957aa9cde781f3f3f6ac"
         }
     },
     "zzz_TrinityEmulator": {
@@ -6769,7 +6774,7 @@
             "master": "342c1a85456e6d55480f7f7ad53e7f0116cbedb1"
         },
         "branches": {
-            "master": "84827793a7853effc683517b861776044c9921d7"
+            "master": "c774de7441173888f2c711ed08ae90e3171b426f"
         }
     },
     "zzz_SARS": {
@@ -6944,9 +6949,9 @@
             "master": "a8cb9397e18135cf6c3310bacb7ed78186c1c3b3"
         },
         "branches": {
-            "badge-data": "d5feddbd870686516d85e66d5fedea4909758deb",
+            "badge-data": "dbbf55bc4999d9f54d07a663464d00670fea5500",
             "beta": "833cdc7f4596844a1adf5b6956910b59b13b8298",
-            "master": "421fbd437f7669497b7e9fde61e47a0c73c99af0"
+            "master": "f0b642a759a60bd7e90ed20484a7856991a36350"
         }
     },
     "zzz_Identifier-Patcher": {
@@ -6997,6 +7002,8 @@
             "nightly-2026-10-25-bb78c17a": "bb78c17ad57320d22e23b92af37810f48e59617c",
             "nightly-2026-10-26-8b44188c": "8b44188c355e82c5ddc1c121735c36ec881e7703",
             "nightly-2026-10-28-0f14f8af": "0f14f8af9aa3307b147626e7e3b9c59a2b1e613c",
+            "nightly-2026-10-29-824591e6": "824591e6285ab18ac63d62ba0170ebaae5289eab",
+            "nightly-2026-10-29-d95f8b24": "d95f8b243baec7dd07248f26a3de2b0690cf9018",
             "update": "4a4967188b8088b73f8b171af0df490da2d5d652"
         },
         "branches": {
@@ -7034,7 +7041,7 @@
             "fix/systemproperties-oem-unlock-info-20261023": "58a94b667386c9e79d8f3508d303767ff529af3c",
             "fix/update-install-browser-clipboard-fallback-20261023": "4002bb816cd9cf539d260157cd78c0ece74c420f",
             "hardware-timer-for-kp-sidechannel": "b12e766400f4c86315d3471ee10411330381251b",
-            "main": "0f14f8af9aa3307b147626e7e3b9c59a2b1e613c",
+            "main": "824591e6285ab18ac63d62ba0170ebaae5289eab",
             "pr-123": "788eeb206ceb50644145cde45057793663194425",
             "pr-398": "986371a8fa15d4845ba817237e5b9e32338e87f7",
             "refactor/evidence-integrity-hardening": "2ce3296f4542d1bab057be46373f47474af3b27e",
@@ -7120,6 +7127,12 @@
         }
     },
     "zzz_FramePicoTracker": {
-        "parent": "Rulez777/FramePicoTracker"
+        "parent": "Rulez777/FramePicoTracker",
+        "tags": {
+            "handoff-2026-10-15": "e391c0fe43e3fd3f1b6ffaf861ea9010958d7186"
+        },
+        "branches": {
+            "main": "7dc28d34d1a76e757c44f272cc9bc2a86dec64e3"
+        }
     }
 }
