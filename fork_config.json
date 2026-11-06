@@ -390,7 +390,8 @@
             "improved-bitrate-alg": "2121a987534f4f05b078afa11bd80796c4ba1edb",
             "libp2p-socket": "17268debb71dbe0ece2f1b5d0dc885e5012fb969",
             "linux-direct-mode-upstream": "ebf667ec76f29bdeee5491b1123f6f16a8af261d",
-            "main": "e547c7e9936c299f32a42830f173453c5b3a286f",
+            "main": "d9f2b19d2b98b9d70411439fef83300c84ed171d",
+            "main-staging": "bc26bdb28d33e880ed507606af635c74317bdc1a",
             "make-current-c-api": "938ccba1186e957142a06687b2275b7c15ed9d9a",
             "master": "e8ca92b15d7c93765f828ca245f26de678c7f154",
             "mock-server": "da7cf11e32cf4e3facd3b1730a9f4d3b1ffef265",
@@ -2209,6 +2210,7 @@
             "6.2.42": "4ed7f193835024362c64955f9f803225f7f6c3cf",
             "6.2.43": "9cff6bf2d9f8b0162f2e6dc76e539d13a208acf3",
             "6.2.45": "ce4f644a9345610fcfb0bd6caa2397f2e0b18d32",
+            "6.2.46": "fc709fb3735cb3e89b029ed328b035bf469954f1",
             "6.2.5": "defd24cc3d452c945757ffcf1ad7dc5021eec2aa",
             "6.2.6": "dbd6532e4360b2416077153d48c2f3dd0418c213",
             "6.2.7": "5e28435c0058221f294e76ccdbd6926183f301f4",
@@ -2219,7 +2221,7 @@
             "main": "8d7410f81f838cc3097ccaa798d27c09242b5f61"
         },
         "branches": {
-            "main": "ce4f644a9345610fcfb0bd6caa2397f2e0b18d32"
+            "main": "fc709fb3735cb3e89b029ed328b035bf469954f1"
         }
     },
     "zzz_FlashPatch": {
@@ -2335,7 +2337,7 @@
             "master": "f7e6b68ce94b8f5ffa633ec927520d91fce580e3"
         },
         "branches": {
-            "master": "a7f6cae8e4b43c32b18decbbf7f152d56a2ef7c3"
+            "master": "6de6262bd1bdb6c272b29e44bdbe2ef657c80b14"
         }
     },
     "zzz_gog-games.to_backup": {
@@ -3184,8 +3186,8 @@
             "copilot/fix-github-actions-analyze-swift": "d5894837e8ec20db0801c795ac1d8e3da970b641",
             "copilot/fix-proxy-curl-exe-issue": "1c2b5cb5e6e39be2eab5fcd25ac0ac5f8764b36d",
             "copilot/fix-rules-window-resizing": "b554c1ef0042f6aca8fa3bfb106d45faae5a9b1a",
-            "dev": "aa7b9df0fe77bd3f778307ba323ebe0c8b2b0519",
-            "master": "809901be1370ff02ce746ba6b81d3543a3959181",
+            "dev": "a2855e26b222cff35ef56a5ad40542dcd5902244",
+            "master": "cb897b017a88a142ec803c3af138b0ad75c2ae12",
             "multiproxy": "fc386db30f1afdc525c0c73e32017154cec1296d"
         }
     },
@@ -4382,7 +4384,8 @@
             "v1.54.1": "aa6d54d1b9fde901fa7dbc00540a196fd28cd388",
             "v1.55.0": "9e271e74cb19d21c5ecb0dae25c382a6b2ee8483",
             "v1.56.0": "f8a2d6a68ab732cce9c877a2330771969fe6e7e1",
-            "v1.57.0": "e361e991b4127dd0d03473ed9329c24885fe420a"
+            "v1.57.0": "e361e991b4127dd0d03473ed9329c24885fe420a",
+            "v1.58.0": "48dccd04cfdf8432994608215ccad6db329f952b"
         },
         "branchs": {
             "116-feature-warn-user-that-the-source-language-is-the-same-as-the-target-language": "a9a40bc10bd95f53bde7aaef7efb007e5dfaa016",
@@ -4692,6 +4695,7 @@
             "claude/add-sidebar-user-component-7sjdu": "d9b8183f311c2b44d8f72c6a5a3f5c450b77bbc5",
             "claude/plan-badge-hover-animation-fd0adb": "86067e71b9aecebc74519143c0ac554f460d85b5",
             "claude/short-text-expansion-spacing-9db762": "70e1c759f833f64c8afc427e502584c32999c125",
+            "claude/sweet-lamarr-aa58a5": "e01425a3c2bf101fa3ecd772bea2528c2fd11782",
             "coderabbitai/docstrings/b6ce04e": "b67af1a2b4b88e01f91b937e58307109ca14a6ee",
             "coderabbitai/utg/b6ce04e": "4584f2fc35906bda2850704fd55c2b58d6d3ff64",
             "codex/default-page-translation-main": "23568657a0689b0d08839c2183fcfab73b57177c",
@@ -4761,7 +4765,6 @@
             "feat/only-translate": "52ca574e23f78b433377bb5d7c890fedea99571c",
             "feat/questionaire": "549b97f24e41a5f775a607dcae59bb6feadc881f",
             "feat/rate-us": "efc202b574e7c3eba2060679475e777ec5d6d772",
-            "feat/rfc-pre-site-rule": "aa0409ad0a454c3aba0162f4f595a4b8e32b52cd",
             "feat/save-word": "bea7dcf3d6bad9fe3b17a1a5fe55be23100190a5",
             "feat/selection": "216caddc06fe34f29221d54550278243ad8ff987",
             "feat/selection-floating": "d5081652b67d1511743fcc134f877cea71c97baf",
@@ -4772,13 +4775,9 @@
             "feat/subtitle-source-language": "2960ef94a6fae3e6d415f50dbeb39aa7072a7745",
             "feat/subtitle-warmup-integration": "870e07161f0d2210241c126c438d80e5e579ee79",
             "feat/subtitles-ai-segmentation-core": "0938aff5d073f23388bef69320e922114a1e8063",
-            "feat/subtitles-bilibili": "045bd635270388d7f9b7e46a7fef521d3ca84589",
             "feat/subtitles-dual-builders": "55a3e5c242ea91d5b9ea40e152af8aee001f4b1f",
-            "feat/subtitles-edx": "f60c41ac8ad98494bbce37ac1da7a490d29f8cc1",
-            "feat/subtitles-platforms-config": "20830273b51f6c2e2e5402c051336acba0c6e5b0",
             "feat/subtitles-runtime-loading-scheduler": "b13c99fa3337e2531b6550b82aeeffb4933b0202",
             "feat/subtitles-source-code": "79546b952978cb43057cce232611aae1a778cb45",
-            "feat/subtitles-udemy": "be36c20511601f91686ab00cebdd5c4fe202cb26",
             "feat/subtitles-ui-loading-display": "64119b2cfc8381cfcb5541645bfc8c8614fa204c",
             "feat/subtitles-word-drag": "6b33ca3f8ce0fbc6631da2239ac9dc6d3cff8b74",
             "feat/subtitles-word-lookup": "3a1a1bd9a331f4b02757c65bc66751836dbcf01e",
@@ -4798,6 +4797,7 @@
             "feature/ollama-docs": "7f33bf5ba45df3febfdaf08fb8963601950d25eb",
             "feature/openai-compatible": "1d69eb7c1f4d3344a38abb40484e2b6d7483a116",
             "feature/video-subtitles-style-panel": "d2c6a1ce16d2e83cd4152fe2eb68f55fd428e4a1",
+            "fix-translation-cache-mis-d589c51f": "00aeb9af9e5461c8be4eaacf97968ac7e6ba1bca",
             "fix-wikipedia-bilingual-float-layout": "08247867252a5891849009de5f78f171de6789ad",
             "fix/1281-tab-detected-code": "7cdd2eb7af3f48ba0ed868c76fb8974af0a1bc5d",
             "fix/1289-rate-limit-cooldown": "f6e6217af112ba1ff0bcf9646133aafe7be18717",
@@ -4883,7 +4883,6 @@
             "fix/subtitle-controls-positioning": "6fd53220fa8a2658f6d5766105c541e16afa228a",
             "fix/subtitles-settings-label-alignment": "2960ef94a6fae3e6d415f50dbeb39aa7072a7745",
             "fix/subtitles-xcom-quiet-auto-start": "ee6388fe4c5e3b58fea22f445818a55fe53d5773",
-            "fix/subtitles-xcom-quiet-toggle": "95ae18830b42b8cfa244f76a76681de785d9af83",
             "fix/translate-block-logic": "0f6b590cf3fbc0fb5bd7bb846671a928c3c3bc0e",
             "fix/translate-code-inside": "c9fad52be9514b46b06e69cfc23557eb40409eb7",
             "fix/translate-list-dom-translation-only": "a8afb6460bc4f767ed5b0a36c48a9e0cde61cd5e",
@@ -4895,7 +4894,6 @@
             "fix/twitter-translation-aria-hidden": "02e324b2eaba2232e2206df77159de8aa1bdb176",
             "fix/url-detect": "accd8dffe7a6a00ff52c66971e20f602c54f2622",
             "fix/version-notification": "cd3cf1dd42421032059f41279f3f91b428ed71a4",
-            "google-translate-zhtw-fix-689943e5": "ed11db3e8e6a8571f0ecaab4432f6c1cad760e2a",
             "hermes/ai-sdk-model-sync-20260617-035310": "274447c3c08da37ddd02cec2f4c2dacd59fafc83",
             "hermes/issue-1319-20260412-122313": "98db9811e684b1bac15a8f89ab1aa0535bb27189",
             "hermes/issue-1327-20260413-065900": "c88c9dbd7d8a1a364012f2d8b2e6c64466938aa8",
@@ -4920,7 +4918,7 @@
             "kvnmqpqs": "a2b1a6ab40c8524279b9eb8febdd83df43242ac3",
             "lisongkun/main": "1ca7d4064375b44099b8a9fc9ae94072c62472aa",
             "locales/korean-extension": "00205027e9a87ed7fcc150484ae8f5df30376ab7",
-            "main": "e361e991b4127dd0d03473ed9329c24885fe420a",
+            "main": "48dccd04cfdf8432994608215ccad6db329f952b",
             "mengxi-ream-patch-1": "72eb0292f4d4870f86ad6d7a98ae89dac10c9016",
             "my-feature-branch": "f57c96ab0a1107a3b40adf9b452d88abb19b01d3",
             "perf/auth-cookie-change-issue": "3511ceb2a9f7e25c1dbeb6d4a5d65b6dfcb717a6",
@@ -5030,12 +5028,14 @@
         "branches": {
             "clipboard-file-size": "aba7020834a417d01a0b0f1b65acabd2fbba0955",
             "dxgi-reuse-staging-texture": "9343affe0bf90110a494134a8076c4060d41bbd5",
-            "fix-port-forward-kcp-lifetime": "3e3a9af8e1be4e1d19bfb3e70e1f7d53f54512f1",
+            "fix-port-forward-kcp-lifetime": "5aa0a04eab802cff6f4ed094d7fa2f604c755216",
             "fix-texture-lifetime": "24a16d9a300e0e0384a4d4de27d36ede9b9a1f87",
             "fix-unzoomed-cursor-dpi": "f487aaed9990c71eb657406a2cbae4374c634ed6",
             "fix-wayland-inhibit-bundled-protocol": "daa68c81a86048d161f35be56cf726867e690dda",
+            "fix/greetd-login-screen": "24574d61a90da0ce0cc8b578df6b8efa01c4d26b",
+            "fix/installer-handoff-no-pipe": "8ea7251e3513e7761a7a6431865c8ad4a8846cad",
             "fix/macos-daemon-direct-exec": "d5414e226635d92687558461eb9c2a24a468e85c",
-            "master": "1d828eee7a471670cb144a452e5fa9bd125358a6",
+            "master": "cd2e41383b9a9d31801bc2c7df31bd63c33d36bd",
             "relay-server-check": "4d891902a68bfa84ef02c93794debc3c03ec21a6",
             "sciterjs": "e86d0a0fc14f0bff4cb1ecd94a84eae42818da80",
             "svt-av1": "e17efa947477f9eaf0fcb9d1cb013732fb38811a"
@@ -5971,7 +5971,8 @@
             "master": "85aff65a0b374622ef67173f599c39604ab73453"
         },
         "branches": {
-            "dev": "eadfcb085407c2a7a1b7c48e472154e60b7cd6ad",
+            "dependabot/github_actions/dev/actions-54bdb232ba": "7fd3118ea47da14205797758be4f308f129917e3",
+            "dev": "b8e4c632b9d641ae99a9046ce803765f1c7f37aa",
             "master": "620bb2e05a97ad11e7d6eae23e9d33d4845bd966"
         },
         "warning": true
@@ -6283,7 +6284,7 @@
             "master": "ff3f8a50fad10b6bc03d0b540ba986cb8dd581f8"
         },
         "branches": {
-            "master": "cfecc9c43b58bdb051176ec0052f929b3a06df84"
+            "master": "0952e175883747c64ca69faf3a7635d96ec243fa"
         }
     },
     "zzz_vgmstream": {
@@ -6777,7 +6778,7 @@
             "master": "342c1a85456e6d55480f7f7ad53e7f0116cbedb1"
         },
         "branches": {
-            "master": "8e21e6dc7db6590641aca96c3944452191823188"
+            "master": "e7ae569f58365ffa9eb7eb3728371e9173ce196e"
         }
     },
     "zzz_SARS": {
@@ -6955,9 +6956,9 @@
             "master": "a8cb9397e18135cf6c3310bacb7ed78186c1c3b3"
         },
         "branches": {
-            "badge-data": "b2cfac0df0607e808ce2f48a52a59cee339b27d2",
+            "badge-data": "27ac7a6a10786094a6bf549bd5922bc3e67845c6",
             "beta": "31f4da54be9d351b8127bea15849c3bb354cd7ac",
-            "master": "83f9930504f936f45ec530809b8561cc5b2c1787"
+            "master": "b8b8561cf73e82f335e5e3d4ba58ed80945931e2"
         }
     },
     "zzz_Identifier-Patcher": {
