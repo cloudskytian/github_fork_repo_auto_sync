@@ -698,8 +698,8 @@
             "release/1.8.7": "50c167947b3fbdac559a1cfdd736f4c917242dc1",
             "release/1.9.0": "749d85e15d21c28322ac8b8ad308719639e5b80d",
             "release/1.9.1": "deb42c41dad3e9c811cb87d856b2fc601cead876",
-            "release/1.9.2": "b6d2eb43d24f692106ad8a5457ff8de24b9e91b9",
-            "release/1.9.3": "6b3121fe4d1bf3f9e588b55dffc052d976c44bdc",
+            "release/1.9.2": "f120556eedc44ae939dfc254c3b38ec9d187a139",
+            "release/1.9.3": "38e1f93cba067295a2a17b3cde596a232ca7a037",
             "release/2.0.0": "622d3da739e292fa535722ccbb4fd4e643e1af8f"
         }
     },
@@ -2532,7 +2532,7 @@
             "dev": "789e495c7dcee68ccfe9141a7243c00091b4827e",
             "fix-gtav": "f0eb98df9527ea724ed35066d2607de5981870a6",
             "legacy": "94019421573978924d247e7b4a4a98c04441cd25",
-            "master": "0425faa996b5363ace85c2394be41d6ac4c1e455"
+            "master": "9ae37bf8565394de01e5d79b0cc237c99f5bb02f"
         }
     },
     "zzz_Internet-Hosting-Tool": {
@@ -4684,6 +4684,7 @@
             "build/upgrade-many": "6a1864d90092f4048bc918aa72722f3adf4e2e49",
             "build/upgrade-packages-2026-06-28": "9ff4bf042ebaf587485971578eed1dba4b143cdd",
             "build/upgrade-wxt": "514f2b65f59aea6113f4c81c2c7774a0a0ee42b6",
+            "changeset-release/main": "4f070adf6eaa894ef73b34c5656ebb5de0639bf6",
             "chore/local-dev-ex": "d3fec2d0a3da1b0c53d999e10a223cb95d0448ce",
             "chore/sponsor-action": "24ab93ae2b7cb2a24f234196559f420a562802b2",
             "chore/update-hero-heading": "a51a23cd2f3bf8e8f688cf10d8079121af6b68e1",
@@ -4695,7 +4696,7 @@
             "claude/add-sidebar-user-component-7sjdu": "d9b8183f311c2b44d8f72c6a5a3f5c450b77bbc5",
             "claude/plan-badge-hover-animation-fd0adb": "86067e71b9aecebc74519143c0ac554f460d85b5",
             "claude/short-text-expansion-spacing-9db762": "70e1c759f833f64c8afc427e502584c32999c125",
-            "claude/sweet-lamarr-aa58a5": "e01425a3c2bf101fa3ecd772bea2528c2fd11782",
+            "claude/sweet-lamarr-aa58a5": "394b23b88703a5151867890d29fa33c4b6bd48ce",
             "coderabbitai/docstrings/b6ce04e": "b67af1a2b4b88e01f91b937e58307109ca14a6ee",
             "coderabbitai/utg/b6ce04e": "4584f2fc35906bda2850704fd55c2b58d6d3ff64",
             "codex/default-page-translation-main": "23568657a0689b0d08839c2183fcfab73b57177c",
@@ -4918,7 +4919,7 @@
             "kvnmqpqs": "a2b1a6ab40c8524279b9eb8febdd83df43242ac3",
             "lisongkun/main": "1ca7d4064375b44099b8a9fc9ae94072c62472aa",
             "locales/korean-extension": "00205027e9a87ed7fcc150484ae8f5df30376ab7",
-            "main": "48dccd04cfdf8432994608215ccad6db329f952b",
+            "main": "174027d2bdfb6013dfc41d54c1cb87ee8c13274c",
             "mengxi-ream-patch-1": "72eb0292f4d4870f86ad6d7a98ae89dac10c9016",
             "my-feature-branch": "f57c96ab0a1107a3b40adf9b452d88abb19b01d3",
             "perf/auth-cookie-change-issue": "3511ceb2a9f7e25c1dbeb6d4a5d65b6dfcb717a6",
@@ -5033,12 +5034,14 @@
             "fix-unzoomed-cursor-dpi": "f487aaed9990c71eb657406a2cbae4374c634ed6",
             "fix-wayland-inhibit-bundled-protocol": "daa68c81a86048d161f35be56cf726867e690dda",
             "fix/greetd-login-screen": "24574d61a90da0ce0cc8b578df6b8efa01c4d26b",
-            "fix/installer-handoff-no-pipe": "8ea7251e3513e7761a7a6431865c8ad4a8846cad",
+            "fix/installer-handoff-no-pipe": "b2ae179a171395892c7f994824885b1cee67ca6c",
             "fix/macos-daemon-direct-exec": "d5414e226635d92687558461eb9c2a24a468e85c",
-            "master": "cd2e41383b9a9d31801bc2c7df31bd63c33d36bd",
+            "fix/windows-shortcut-16899": "cda0365cd7aad176062ce7d4fcd049d1327f1464",
+            "master": "3513c9751db598567b2d1ac7e0637f8ecc5a5fc0",
             "relay-server-check": "4d891902a68bfa84ef02c93794debc3c03ec21a6",
             "sciterjs": "e86d0a0fc14f0bff4cb1ecd94a84eae42818da80",
-            "svt-av1": "e17efa947477f9eaf0fcb9d1cb013732fb38811a"
+            "svt-av1": "e17efa947477f9eaf0fcb9d1cb013732fb38811a",
+            "udp-seal": "2267a9267d592ff3c45e4c7ead25ef532caa6fc4"
         }
     },
     "zzz_Sandboxie": {
@@ -6778,7 +6781,7 @@
             "master": "342c1a85456e6d55480f7f7ad53e7f0116cbedb1"
         },
         "branches": {
-            "master": "e7ae569f58365ffa9eb7eb3728371e9173ce196e"
+            "master": "5056b191bf62b99557043891245a58743f29e4fa"
         }
     },
     "zzz_SARS": {
@@ -6956,9 +6959,9 @@
             "master": "a8cb9397e18135cf6c3310bacb7ed78186c1c3b3"
         },
         "branches": {
-            "badge-data": "27ac7a6a10786094a6bf549bd5922bc3e67845c6",
+            "badge-data": "a06987554f91f58750e1df4a99bc12a1495af400",
             "beta": "31f4da54be9d351b8127bea15849c3bb354cd7ac",
-            "master": "b8b8561cf73e82f335e5e3d4ba58ed80945931e2"
+            "master": "2f0f1d05a43096bb156e27b4c6ca5677bc884819"
         }
     },
     "zzz_Identifier-Patcher": {
@@ -7018,6 +7021,7 @@
             "nightly-2026-10-31-cf54fa7e": "cf54fa7e6f265e71fee6963157574befd32627de",
             "nightly-2026-11-01-31d82eef": "31d82eef7fbbff21059d3be5cf8bb782fa166a65",
             "nightly-2026-11-04-8b365ba9": "8b365ba9ba2f0e434189c6b8c0d52dbddc161392",
+            "nightly-2026-11-07-d60597ca": "d60597cac452828506186da59f96e570772a2b04",
             "update": "4a4967188b8088b73f8b171af0df490da2d5d652"
         },
         "branches": {
@@ -7026,6 +7030,8 @@
             "chore/dependency-update-bot": "10172af0eab98dccb4cfe7b75df008b15cc35597",
             "codex/custom-kernel-detection-enhancement": "c286d0ae3bfebc70f6260353165659098f2dfecb",
             "codex/issue-363-nice-name-research": "2b9a2817bcaa4db4d3a0a4f19ce17f26a4d2e850",
+            "dependabot/github_actions/dot-github/actions/setup-android-build/github-actions-1c61709ebb": "c5d5c4930c0af3376fac109088759fbc41facad9",
+            "dependabot/gradle/kotlin-toolchain-0c5266c7ab": "d6b6bc36a94b367b4365096ef42cf4c06521ed1b",
             "dependabot/gradle/kotlin-toolchain-666fa758d6": "54371752cd960f414b595e125bbf771245293d15",
             "dependabot/gradle/kotlin-toolchain-a3f6d79eb9": "a1d1b346c01fa796a185b6e79c7a1f7478ac2f2c",
             "devpts-permission-check": "e001d74e6d2f1748814f36fdda1caa52f27a3f9a",
@@ -7057,7 +7063,7 @@
             "fix/systemproperties-oem-unlock-info-20261023": "58a94b667386c9e79d8f3508d303767ff529af3c",
             "fix/update-install-browser-clipboard-fallback-20261023": "4002bb816cd9cf539d260157cd78c0ece74c420f",
             "hardware-timer-for-kp-sidechannel": "b12e766400f4c86315d3471ee10411330381251b",
-            "main": "8b365ba9ba2f0e434189c6b8c0d52dbddc161392",
+            "main": "d60597cac452828506186da59f96e570772a2b04",
             "pr-123": "788eeb206ceb50644145cde45057793663194425",
             "pr-398": "986371a8fa15d4845ba817237e5b9e32338e87f7",
             "refactor/evidence-integrity-hardening": "2ce3296f4542d1bab057be46373f47474af3b27e",
